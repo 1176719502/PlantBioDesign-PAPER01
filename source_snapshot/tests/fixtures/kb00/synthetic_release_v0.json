@@ -1,0 +1,373 @@
+{
+  "schema_version": "kb00-import-v0",
+  "contract_version": "KB00-1.0-draft",
+  "dataset_version": "kb00-synthetic-v0.1.0",
+  "release": {
+    "release_id": "kb:release:synthetic-v0-1-0",
+    "release_status": "HUMAN_APPROVED",
+    "source_bundle_sha256": null,
+    "built_at_utc": "2026-07-30T00:00:00Z",
+    "approved_by": "kb00-synthetic-fixture-reviewer",
+    "approved_at_utc": "2026-07-30T00:00:00Z"
+  },
+  "template_notice": "Synthetic infrastructure fixture only. No real literature, accession, experiment, case, or sequence is present.",
+  "records": {
+    "paper": [
+      {
+        "paper_key": "kb:paper:synthetic-review-note",
+        "title": "Synthetic knowledge infrastructure review note",
+        "publication_year": null,
+        "journal_or_repository": "Internal synthetic fixture",
+        "doi_normalized": null,
+        "pmid": null,
+        "pmcid": null,
+        "publication_status": "UNKNOWN",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "source_reference": [
+      {
+        "source_reference_key": "kb:source-reference:synthetic-review-note",
+        "source_kind": "INTERNAL_REVIEW_NOTE",
+        "provider": "BioDesign Studio synthetic fixture",
+        "source_record_id": "synthetic-review-note",
+        "source_version": "1",
+        "source_uri": "",
+        "source_title": "Synthetic knowledge infrastructure review note",
+        "content_sha256": null,
+        "license_or_access_status": "INTERNAL_SYNTHETIC",
+        "acquired_at_utc": null,
+        "immutable_identity_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "paper_key": "kb:paper:synthetic-review-note",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "organism": [
+      {
+        "organism_key": "kb:organism:synthetic-plant-context",
+        "scientific_name": "Synthetic plant context",
+        "taxonomy_id": null,
+        "strain_cultivar_ecotype": "",
+        "common_name": "Synthetic plant fixture",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "tissue": [
+      {
+        "tissue_key": "kb:tissue:synthetic-plant-context",
+        "organism_key": "kb:organism:synthetic-plant-context",
+        "tissue_name": "Synthetic plant tissue context",
+        "ontology_id": null,
+        "developmental_stage": "",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "experiment": [
+      {
+        "experiment_key": "kb:experiment:synthetic-documentation-context",
+        "paper_key": "kb:paper:synthetic-review-note",
+        "experiment_label": "Synthetic documentation context",
+        "experiment_type": "SYNTHETIC_FIXTURE",
+        "organism_key": "kb:organism:synthetic-plant-context",
+        "tissue_key": "kb:tissue:synthetic-plant-context",
+        "developmental_stage": "",
+        "genotype_or_background": "",
+        "treatment_context": "",
+        "assay_context": "",
+        "condition": {"synthetic_fixture": true},
+        "context_completeness": "COMPLETE",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "design_case": [
+      {
+        "design_case_key": "kb:design-case:synthetic-documentation-case",
+        "case_label": "Synthetic documentation case",
+        "case_type": "INTERNAL_REVIEW_CASE",
+        "case_summary": "Synthetic fixture for read-only infrastructure verification.",
+        "review_boundary": "Documentation-only synthetic fixture; no biological or experimental conclusion.",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "construct": [
+      {
+        "construct_key": "kb:construct:synthetic-documentation-record",
+        "construct_label": "Synthetic construct documentation record",
+        "construct_type": "SYNTHETIC_FIXTURE",
+        "topology": "UNKNOWN",
+        "sequence_availability": "NOT_AVAILABLE",
+        "sequence_sha256": null,
+        "sequence_length": null,
+        "source_reference_key": "kb:source-reference:synthetic-review-note",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "transcription_unit": [
+      {
+        "transcription_unit_key": "kb:transcription-unit:synthetic-documentation-unit",
+        "construct_key": "kb:construct:synthetic-documentation-record",
+        "unit_label": "Synthetic documentation unit",
+        "unit_order": 1,
+        "orientation": "UNKNOWN",
+        "sequence_sha256": null,
+        "sequence_length": null,
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "component": [
+      {
+        "component_key": "kb:component:synthetic-documentation-part",
+        "component_name": "Synthetic documentation part",
+        "component_type": "UNKNOWN",
+        "source_organism_key": "kb:organism:synthetic-plant-context",
+        "sequence_availability": "NOT_AVAILABLE",
+        "sequence_sha256": null,
+        "sequence_length": null,
+        "source_reference_key": "kb:source-reference:synthetic-review-note",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "component_evidence": [
+      {
+        "component_evidence_key": "kb:component-evidence:synthetic-documentation-link",
+        "component_key": "kb:component:synthetic-documentation-part",
+        "evidence_claim_key": "kb:evidence-claim:synthetic-reviewed-fact",
+        "evidence_role": "IDENTITY",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "metabolite": [
+      {
+        "metabolite_key": "kb:metabolite:synthetic-measured-object",
+        "preferred_name": "Synthetic measured object",
+        "chebi_id": null,
+        "inchikey": null,
+        "formula": "",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "measurement": [
+      {
+        "measurement_key": "kb:measurement:synthetic-documentation-value",
+        "experiment_key": "kb:experiment:synthetic-documentation-context",
+        "metabolite_key": "kb:metabolite:synthetic-measured-object",
+        "measured_entity_key": null,
+        "measurement_type": "SYNTHETIC_DOCUMENTATION_VALUE",
+        "value_numeric": 1.0,
+        "value_text": null,
+        "unit": "synthetic unit",
+        "uncertainty_numeric": null,
+        "replicate_count": null,
+        "normalization_basis": "",
+        "timepoint": "",
+        "source_reference_key": "kb:source-reference:synthetic-review-note",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "accession": [
+      {
+        "accession_key": "kb:accession:synthetic-documentation-id",
+        "accession_system": "SYNTHETIC_FIXTURE",
+        "accession_value": "synthetic-documentation-id",
+        "accession_version": "1",
+        "record_type": "SYNTHETIC_FIXTURE",
+        "source_reference_key": "kb:source-reference:synthetic-review-note",
+        "referenced_entity_key": "kb:component:synthetic-documentation-part",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "evidence_level": [
+      {
+        "evidence_level_key": "kb:evidence-level:unreviewed",
+        "level_code": "UNREVIEWED",
+        "rank_ordinal": 0,
+        "definition": "Synthetic source pointer has not been human checked.",
+        "minimum_source_requirements": "At least one identifiable synthetic source location.",
+        "permits_runtime_use": false,
+        "permits_registry_consideration": false,
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-reviewer", "created_by_actor_type": "HUMAN", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial controlled vocabulary"}
+      },
+      {
+        "evidence_level_key": "kb:evidence-level:source-verified",
+        "level_code": "SOURCE_VERIFIED",
+        "rank_ordinal": 1,
+        "definition": "Synthetic source identity and location were human checked.",
+        "minimum_source_requirements": "Human-checked synthetic source identity and location.",
+        "permits_runtime_use": false,
+        "permits_registry_consideration": false,
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-reviewer", "created_by_actor_type": "HUMAN", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial controlled vocabulary"}
+      },
+      {
+        "evidence_level_key": "kb:evidence-level:fact-reviewed",
+        "level_code": "FACT_REVIEWED",
+        "rank_ordinal": 2,
+        "definition": "Synthetic fact and context were human checked.",
+        "minimum_source_requirements": "Human-checked synthetic fact, context, and source location.",
+        "permits_runtime_use": true,
+        "permits_registry_consideration": true,
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-reviewer", "created_by_actor_type": "HUMAN", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial controlled vocabulary"}
+      },
+      {
+        "evidence_level_key": "kb:evidence-level:conflicting",
+        "level_code": "CONFLICTING",
+        "rank_ordinal": 3,
+        "definition": "Synthetic reviewed claims disagree.",
+        "minimum_source_requirements": "At least two synthetic claim locations.",
+        "permits_runtime_use": false,
+        "permits_registry_consideration": false,
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-reviewer", "created_by_actor_type": "HUMAN", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial controlled vocabulary"}
+      }
+    ],
+    "evidence_claim": [
+      {
+        "evidence_claim_key": "kb:evidence-claim:synthetic-reviewed-fact",
+        "subject_entity_key": "kb:component:synthetic-documentation-part",
+        "predicate": "has synthetic documentation classification",
+        "object": {"entity_key": null, "value_text": "synthetic reviewed fact", "value_json": null, "unit": ""},
+        "fact_class": "FACT",
+        "unknown_reason": "",
+        "provenance_method": "synthetic fixture declaration v1",
+        "evidence_type": "SYNTHETIC_REVIEW_NOTE",
+        "evidence_level_key": "kb:evidence-level:fact-reviewed",
+        "context": {"organism_status": "KNOWN", "organism_key": "kb:organism:synthetic-plant-context", "tissue_status": "KNOWN", "tissue_key": "kb:tissue:synthetic-plant-context", "experiment_status": "KNOWN", "experiment_key": "kb:experiment:synthetic-documentation-context"},
+        "review": {"status": "HUMAN_APPROVED", "reviewed_by": "kb00-synthetic-fixture-reviewer", "reviewed_at_utc": "2026-07-30T00:00:00Z"},
+        "eligibility": {"runtime_eligible": true, "registry_eligible": false, "actor_type": "HUMAN", "decided_by": "kb00-synthetic-fixture-reviewer", "decided_at_utc": "2026-07-30T00:00:00Z", "registry_candidate_reason": ""},
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      },
+      {
+        "evidence_claim_key": "kb:evidence-claim:synthetic-derivation",
+        "subject_entity_key": "kb:component:synthetic-documentation-part",
+        "predicate": "has synthetic deterministic derivation",
+        "object": {"entity_key": null, "value_text": "synthetic derived value", "value_json": null, "unit": ""},
+        "fact_class": "DERIVATION",
+        "unknown_reason": "",
+        "provenance_method": "synthetic deterministic transform v1",
+        "evidence_type": "SYNTHETIC_DERIVATION",
+        "evidence_level_key": "kb:evidence-level:source-verified",
+        "context": {"organism_status": "UNKNOWN", "organism_key": null, "tissue_status": "UNKNOWN", "tissue_key": null, "experiment_status": "UNKNOWN", "experiment_key": null},
+        "review": {"status": "UNREVIEWED", "reviewed_by": null, "reviewed_at_utc": null},
+        "eligibility": {"runtime_eligible": false, "registry_eligible": false, "actor_type": "NONE", "decided_by": null, "decided_at_utc": null, "registry_candidate_reason": ""},
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      },
+      {
+        "evidence_claim_key": "kb:evidence-claim:synthetic-inference",
+        "subject_entity_key": "kb:component:synthetic-documentation-part",
+        "predicate": "has synthetic inference",
+        "object": {"entity_key": null, "value_text": "synthetic inference value", "value_json": null, "unit": ""},
+        "fact_class": "INFERENCE",
+        "unknown_reason": "",
+        "provenance_method": "synthetic inference v1",
+        "evidence_type": "SYNTHETIC_INFERENCE",
+        "evidence_level_key": "kb:evidence-level:unreviewed",
+        "context": {"organism_status": "UNKNOWN", "organism_key": null, "tissue_status": "UNKNOWN", "tissue_key": null, "experiment_status": "UNKNOWN", "experiment_key": null},
+        "review": {"status": "UNREVIEWED", "reviewed_by": null, "reviewed_at_utc": null},
+        "eligibility": {"runtime_eligible": false, "registry_eligible": false, "actor_type": "NONE", "decided_by": null, "decided_at_utc": null, "registry_candidate_reason": ""},
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "AI", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "synthetic AI-authored inference fixture"}
+      },
+      {
+        "evidence_claim_key": "kb:evidence-claim:synthetic-unknown",
+        "subject_entity_key": "kb:component:synthetic-documentation-part",
+        "predicate": "has unavailable synthetic detail",
+        "object": {"entity_key": null, "value_text": null, "value_json": null, "unit": ""},
+        "fact_class": "UNKNOWN",
+        "unknown_reason": "Synthetic fixture intentionally omits this detail.",
+        "provenance_method": "synthetic missing-data declaration v1",
+        "evidence_type": "SYNTHETIC_UNKNOWN",
+        "evidence_level_key": "kb:evidence-level:unreviewed",
+        "context": {"organism_status": "NOT_APPLICABLE", "organism_key": null, "tissue_status": "NOT_APPLICABLE", "tissue_key": null, "experiment_status": "NOT_APPLICABLE", "experiment_key": null},
+        "review": {"status": "UNREVIEWED", "reviewed_by": null, "reviewed_at_utc": null},
+        "eligibility": {"runtime_eligible": false, "registry_eligible": false, "actor_type": "NONE", "decided_by": null, "decided_at_utc": null, "registry_candidate_reason": ""},
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      },
+      {
+        "evidence_claim_key": "kb:evidence-claim:synthetic-conflict-a",
+        "subject_entity_key": "kb:component:synthetic-documentation-part",
+        "predicate": "has synthetic conflicting label",
+        "object": {"entity_key": null, "value_text": "synthetic label A", "value_json": null, "unit": ""},
+        "fact_class": "FACT",
+        "unknown_reason": "",
+        "provenance_method": "synthetic fixture declaration v1",
+        "evidence_type": "SYNTHETIC_REVIEW_NOTE",
+        "evidence_level_key": "kb:evidence-level:conflicting",
+        "context": {"organism_status": "UNKNOWN", "organism_key": null, "tissue_status": "UNKNOWN", "tissue_key": null, "experiment_status": "UNKNOWN", "experiment_key": null},
+        "review": {"status": "HUMAN_APPROVED", "reviewed_by": "kb00-synthetic-fixture-reviewer", "reviewed_at_utc": "2026-07-30T00:00:00Z"},
+        "eligibility": {"runtime_eligible": false, "registry_eligible": false, "actor_type": "NONE", "decided_by": null, "decided_at_utc": null, "registry_candidate_reason": ""},
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      },
+      {
+        "evidence_claim_key": "kb:evidence-claim:synthetic-conflict-b",
+        "subject_entity_key": "kb:component:synthetic-documentation-part",
+        "predicate": "has synthetic conflicting label",
+        "object": {"entity_key": null, "value_text": "synthetic label B", "value_json": null, "unit": ""},
+        "fact_class": "FACT",
+        "unknown_reason": "",
+        "provenance_method": "synthetic fixture declaration v1",
+        "evidence_type": "SYNTHETIC_REVIEW_NOTE",
+        "evidence_level_key": "kb:evidence-level:conflicting",
+        "context": {"organism_status": "UNKNOWN", "organism_key": null, "tissue_status": "UNKNOWN", "tissue_key": null, "experiment_status": "UNKNOWN", "experiment_key": null},
+        "review": {"status": "HUMAN_APPROVED", "reviewed_by": "kb00-synthetic-fixture-reviewer", "reviewed_at_utc": "2026-07-30T00:00:00Z"},
+        "eligibility": {"runtime_eligible": false, "registry_eligible": false, "actor_type": "NONE", "decided_by": null, "decided_at_utc": null, "registry_candidate_reason": ""},
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "applicability_scope": [
+      {
+        "applicability_scope_key": "kb:applicability-scope:synthetic-context",
+        "scope_mode": "INCLUDE",
+        "organism_key": "kb:organism:synthetic-plant-context",
+        "tissue_key": "kb:tissue:synthetic-plant-context",
+        "experiment_key": "kb:experiment:synthetic-documentation-context",
+        "developmental_stage": "",
+        "condition": {"synthetic_fixture": true},
+        "scope_note": "Applies only to the synthetic infrastructure fixture.",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ],
+    "limitation": [
+      {
+        "limitation_key": "kb:limitation:synthetic-no-biological-use",
+        "limitation_type": "GENERALIZABILITY",
+        "limitation_text": "Synthetic fixture content has no biological interpretation.",
+        "severity": "BLOCKING",
+        "resolution_status": "OPEN",
+        "metadata": {"revision": 1, "lifecycle_status": "ACTIVE", "created_by": "kb00-fixture-builder", "created_by_actor_type": "IMPORT", "created_at_utc": "2026-07-30T00:00:00Z", "change_reason": "initial synthetic fixture"}
+      }
+    ]
+  },
+  "relationships": {
+    "design_case_paper": [{"design_case_key": "kb:design-case:synthetic-documentation-case", "paper_key": "kb:paper:synthetic-review-note", "relationship_type": "PRIMARY_REPORT"}],
+    "design_case_experiment": [{"design_case_key": "kb:design-case:synthetic-documentation-case", "experiment_key": "kb:experiment:synthetic-documentation-context", "relationship_type": "PRIMARY"}],
+    "design_case_construct": [{"design_case_key": "kb:design-case:synthetic-documentation-case", "construct_key": "kb:construct:synthetic-documentation-record", "relationship_type": "REFERENCE"}],
+    "transcription_unit_component": [{"transcription_unit_key": "kb:transcription-unit:synthetic-documentation-unit", "component_key": "kb:component:synthetic-documentation-part", "component_order": 1, "biological_role": "SYNTHETIC_DOCUMENTATION_ROLE", "orientation": "UNKNOWN", "start_zero_based": null, "end_zero_based_exclusive": null}],
+    "claim_source": [
+      {"evidence_claim_key": "kb:evidence-claim:synthetic-reviewed-fact", "source_reference_key": "kb:source-reference:synthetic-review-note", "source_role": "PRIMARY", "location_type": "SECTION", "location_value": "synthetic-reviewed-fact", "source_excerpt_sha256": null},
+      {"evidence_claim_key": "kb:evidence-claim:synthetic-derivation", "source_reference_key": "kb:source-reference:synthetic-review-note", "source_role": "DERIVATION_INPUT", "location_type": "SECTION", "location_value": "synthetic-derivation", "source_excerpt_sha256": null},
+      {"evidence_claim_key": "kb:evidence-claim:synthetic-inference", "source_reference_key": "kb:source-reference:synthetic-review-note", "source_role": "SUPPORTING", "location_type": "SECTION", "location_value": "synthetic-inference", "source_excerpt_sha256": null},
+      {"evidence_claim_key": "kb:evidence-claim:synthetic-unknown", "source_reference_key": "kb:source-reference:synthetic-review-note", "source_role": "PRIMARY", "location_type": "SECTION", "location_value": "synthetic-unknown", "source_excerpt_sha256": null},
+      {"evidence_claim_key": "kb:evidence-claim:synthetic-conflict-a", "source_reference_key": "kb:source-reference:synthetic-review-note", "source_role": "CONFLICTING", "location_type": "SECTION", "location_value": "synthetic-conflict-a", "source_excerpt_sha256": null},
+      {"evidence_claim_key": "kb:evidence-claim:synthetic-conflict-b", "source_reference_key": "kb:source-reference:synthetic-review-note", "source_role": "CONFLICTING", "location_type": "SECTION", "location_value": "synthetic-conflict-b", "source_excerpt_sha256": null}
+    ],
+    "claim_applicability_scope": [{"evidence_claim_key": "kb:evidence-claim:synthetic-reviewed-fact", "applicability_scope_key": "kb:applicability-scope:synthetic-context"}],
+    "claim_limitation": [{"evidence_claim_key": "kb:evidence-claim:synthetic-inference", "limitation_key": "kb:limitation:synthetic-no-biological-use"}],
+    "claim_conflict": [
+      {"conflict_key": "kbc:synthetic-label-conflict", "evidence_claim_key": "kb:evidence-claim:synthetic-conflict-a", "conflict_role": "CLAIM_A", "conflict_type": "DIRECT_CONTRADICTION", "resolution_status": "OPEN", "resolution_note": ""},
+      {"conflict_key": "kbc:synthetic-label-conflict", "evidence_claim_key": "kb:evidence-claim:synthetic-conflict-b", "conflict_role": "CLAIM_B", "conflict_type": "DIRECT_CONTRADICTION", "resolution_status": "OPEN", "resolution_note": ""}
+    ]
+  },
+  "review_events": [
+    {"review_event_key": "kbr:synthetic-conflict-a-approved", "entity_key": "kb:evidence-claim:synthetic-conflict-a", "prior_status": "PENDING_HUMAN_REVIEW", "new_status": "HUMAN_APPROVED", "actor_id": "kb00-synthetic-fixture-reviewer", "actor_type": "HUMAN", "reason": "Approve the synthetic conflict fixture as review evidence.", "occurred_at_utc": "2026-07-30T00:00:00Z"},
+    {"review_event_key": "kbr:synthetic-conflict-b-approved", "entity_key": "kb:evidence-claim:synthetic-conflict-b", "prior_status": "PENDING_HUMAN_REVIEW", "new_status": "HUMAN_APPROVED", "actor_id": "kb00-synthetic-fixture-reviewer", "actor_type": "HUMAN", "reason": "Approve the synthetic conflict fixture as review evidence.", "occurred_at_utc": "2026-07-30T00:00:00Z"},
+    {"review_event_key": "kbr:synthetic-reviewed-fact-approved", "entity_key": "kb:evidence-claim:synthetic-reviewed-fact", "prior_status": "PENDING_HUMAN_REVIEW", "new_status": "HUMAN_APPROVED", "actor_id": "kb00-synthetic-fixture-reviewer", "actor_type": "HUMAN", "reason": "Approve the synthetic fact for infrastructure retrieval tests.", "occurred_at_utc": "2026-07-30T00:00:00Z"},
+    {"review_event_key": "kbr:synthetic-reviewed-fact-runtime", "entity_key": "kb:evidence-claim:synthetic-reviewed-fact", "prior_status": "HUMAN_APPROVED", "new_status": "RUNTIME_ELIGIBLE", "actor_id": "kb00-synthetic-fixture-reviewer", "actor_type": "HUMAN", "reason": "Allow the synthetic fact in default read-only query tests.", "occurred_at_utc": "2026-07-30T00:00:00Z"}
+  ],
+  "builder_requirements": {
+    "reject_unknown_fields": true,
+    "reject_dangling_keys": true,
+    "reject_semantic_duplicates": true,
+    "reject_ai_approval_or_eligibility": true,
+    "require_claim_source_location": true,
+    "require_utc_timestamps": true,
+    "atomic_build_staging_only": true,
+    "formal_runtime_import_allowed": false
+  }
+}

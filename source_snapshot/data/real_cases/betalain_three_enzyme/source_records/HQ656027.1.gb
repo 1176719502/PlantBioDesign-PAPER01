@@ -1,0 +1,68 @@
+LOCUS       HQ656027                1161 bp    mRNA    linear   PLN 03-JUN-2012
+DEFINITION  Beta vulgaris cultivar W357B 4,5-DOPA dioxygenase extradiol (DODA1)
+            mRNA, complete cds.
+ACCESSION   HQ656027
+VERSION     HQ656027.1
+KEYWORDS    .
+SOURCE      Beta vulgaris
+  ORGANISM  Beta vulgaris
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; Caryophyllales; Amaranthaceae; Betoideae; Beta.
+REFERENCE   1  (bases 1 to 1161)
+  AUTHORS   Hatlestad,G.J., Sunnadeniya,R.M., Akhavan,N.A., Gonzalez,A.,
+            Goldman,I.L., McGrath,J.M. and Lloyd,A.M.
+  TITLE     The beet R locus encodes a new cytochrome P450 required for red
+            betalain production
+  JOURNAL   Nat. Genet. 44 (7), 816-820 (2012)
+   PUBMED   22660548
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 1161)
+  AUTHORS   Hatlestad,G., Sunnadeniya,R., Gonzalez,A. and Lloyd,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2010) Molecular Cell and Developmental Biology,
+            The University of Texas at Austin, 2500 Speedway, Austin, TX 78712,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..1161
+                     /organism="Beta vulgaris"
+                     /mol_type="mRNA"
+                     /cultivar="W357B"
+                     /db_xref="taxon:161934"
+     gene            1..1161
+                     /gene="DODA1"
+     CDS             60..887
+                     /gene="DODA1"
+                     /function="converts L-DOPA to betalamic acid in the
+                     betalain pathway"
+                     /codon_start=1
+                     /product="4,5-DOPA dioxygenase extradiol"
+                     /protein_id="AET43293.1"
+                     /translation="MKMMNGEDANDQMIKESFFITHGNPILTVEDTHPLRPFFETWRE
+                     KIFSKKPKAILIISGHWETVKPTVNAVHINDTIHDFDDYPAAMYQFKYPAPGEPELAR
+                     KVEEILKKSGFETAETDQKRGLDHGAWVPLMLMYPEADIPVCQLSVQPHLDGTYHYNL
+                     GRALAPLKNDGVLIIGSGSATHPLDETPHYFDGVAPWAAAFDSWLRKALINGRFEEVN
+                     IYESKAPNWKLAHPFPEHFYPLHVVLGAAGEKWKAELIHSSWDHGTLCHGSYKFTSA"
+ORIGIN      
+        1 aaaacaagaa gaaaacaaaa caacctttta tataactaga aagcaacaaa aaaaaaagaa
+       61 tgaaaatgat gaatggtgaa gatgctaatg atcaaatgat caaagaaagc ttcttcataa
+      121 cacatggaaa cccaatatta acagtagaag acacacatcc attaagacct ttctttgaaa
+      181 cttggagaga gaaaatcttt tctaagaaac ctaaggcaat tcttattatt tctggtcatt
+      241 gggaaactgt taaacctact gttaatgctg tccatatcaa tgatactatc catgattttg
+      301 atgactatcc tgctgctatg taccagttca agtatccagc tcctggggaa ccagaattgg
+      361 caagaaaagt agaggaaatt ctgaaaaaat cgggtttcga aacggcggaa actgatcaaa
+      421 aacgtgggct tgatcatggt gcatgggtac ctctaatgct aatgtatcct gaggctgata
+      481 taccagtatg tcagctctca gttcagccgc atttagatgg aacataccat tacaacttag
+      541 gacgagcatt ggctcccttg aaaaacgacg gcgtattaat cattggttca ggaagtgcaa
+      601 ctcacccttt ggatgaaact cctcattatt ttgatggagt tgcaccttgg gcagctgcct
+      661 ttgattcatg gcttcgtaaa gctctcatta atggaaggtt tgaagaagtg aatatatatg
+      721 aaagcaaagc accaaattgg aaattagcac atcctttccc agaacatttt tatccattgc
+      781 atgttgttct tggcgctgct ggtgaaaaat ggaaggcaga gcttattcat agcagttggg
+      841 atcatggcac cttgtgtcat ggctcctaca agttcacttc agcctagttt tacttttaaa
+      901 cactatgtct acagtctatg ttattgtatt tggtaatttg gtatgtggtg ttgtttttgt
+      961 tttattcttt tgagttattg tacttggtat ttggtgttgt tttcatttgg tgcataattc
+     1021 ttttagtcta tatattgcta ttcttttgaa tgaggaataa atcgcgagct cgatgtaata
+     1081 gtttgtttta ttgtttcaaa tctatcatta tatatatata tatattatta aaaaaaaatt
+     1141 attgtgttac tcgcaaaaaa a
+//
+

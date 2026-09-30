@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Plant component registry V1",
+  "type": "object",
+  "required": ["registry_version", "records"],
+  "properties": {
+    "registry_version": {"type": "string", "minLength": 1},
+    "records": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/record"}
+    }
+  },
+  "$defs": {
+    "distribution_mode": {
+      "type": "string",
+      "enum": ["bundled", "reference_only", "deferred"]
+    },
+    "sequence_availability": {
+      "type": "string",
+      "enum": ["local_verified", "unavailable"]
+    },
+    "workflow_admission_status": {
+      "type": "string",
+      "enum": ["eligible", "requires_sequence", "blocked"]
+    },
+    "record_fields": {
+      "type": "object",
+      "required": ["component_id"],
+      "properties": {
+        "component_id": {"type": "string", "minLength": 1},
+        "sequence": {"type": ["string", "null"]},
+        "sequence_length": {"type": "integer", "minimum": 1},
+        "sequence_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "distribution_mode": {"$ref": "#/$defs/distribution_mode"},
+        "sequence_availability": {"$ref": "#/$defs/sequence_availability"},
+        "workflow_admission_status": {"$ref": "#/$defs/workflow_admission_status"}
+      }
+    },
+    "bundled_record": {
+      "allOf": [
+        {"$ref": "#/$defs/record_fields"},
+        {
+          "required": [
+            "distribution_mode",
+            "sequence_availability",
+            "workflow_admission_status",
+            "sequence",
+            "sequence_length",
+            "sequence_sha256"
+          ],
+          "properties": {
+            "distribution_mode": {"const": "bundled"},
+            "sequence_availability": {"const": "local_verified"},
+            "workflow_admission_status": {"const": "eligible"},
+            "sequence": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[ACGTacgt]+$"
+            }
+          }
+        }
+      ]
+    },
+    "reference_only_record": {
+      "allOf": [
+        {"$ref": "#/$defs/record_fields"},
+        {
+          "required": [
+            "distribution_mode",
+            "sequence_availability",
+            "workflow_admission_status"
+          ],
+          "properties": {
+            "distribution_mode": {"const": "reference_only"},
+            "sequence_availability": {"const": "unavailable"},
+            "workflow_admission_status": {"const": "requires_sequence"},
+            "sequence": {"type": "null"}
+          }
+        }
+      ]
+    },
+    "deferred_record": {
+      "allOf": [
+        {"$ref": "#/$defs/record_fields"},
+        {
+          "required": [
+            "distribution_mode",
+            "sequence_availability",
+            "workflow_admission_status"
+          ],
+          "properties": {
+            "distribution_mode": {"const": "deferred"},
+            "sequence_availability": {"const": "unavailable"},
+            "workflow_admission_status": {"const": "blocked"},
+            "sequence": {"type": "null"}
+          }
+        }
+      ]
+    },
+    "legacy_record": {
+      "allOf": [
+        {"$ref": "#/$defs/record_fields"},
+        {
+          "required": ["sequence", "sequence_length", "sequence_sha256"],
+          "properties": {
+            "sequence": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[ACGTacgt]+$"
+            }
+          },
+          "not": {
+            "anyOf": [
+              {"required": ["distribution_mode"]},
+              {"required": ["sequence_availability"]},
+              {"required": ["workflow_admission_status"]}
+            ]
+          }
+        }
+      ]
+    },
+    "record": {
+      "oneOf": [
+        {"$ref": "#/$defs/bundled_record"},
+        {"$ref": "#/$defs/reference_only_record"},
+        {"$ref": "#/$defs/deferred_record"},
+        {"$ref": "#/$defs/legacy_record"}
+      ]
+    }
+  },
+  "additionalProperties": false
+}

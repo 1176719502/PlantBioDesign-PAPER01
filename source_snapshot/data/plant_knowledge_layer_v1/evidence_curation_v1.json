@@ -1,0 +1,438 @@
+{
+  "schema_version": "plant-knowledge-layer-evidence-v1",
+  "dataset_version": "pkl-v1-publication-minimum-expansion-20260824-draft",
+  "registry_source": {
+    "registry_path": "data/plant_component_registry_v1/registry.batch1.json",
+    "registry_version": "v1-publication-minimum-expansion-20260824-draft",
+    "source_manifest_path": "data/plant_component_registry_v1/source_manifest.csv"
+  },
+  "records": [
+    {
+      "evidence_object_id": "PKL1-EV-PRO-35S-835",
+      "component_id": "PCLV1-PRO-35S-835",
+      "display_name": "CaMV 35S promoter evidence context",
+      "component_type": "promoter",
+      "registry_reference": {
+        "component_id": "PCLV1-PRO-35S-835",
+        "accession": "AF485783",
+        "accession_version": "AF485783.1",
+        "sequence_length": 835,
+        "sequence_sha256": "4f5069bdd68260bb7a243ec7f8b628e13d52f58242c6f7acf53e3cc55a8673e2",
+        "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb",
+        "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7"
+      },
+      "literature_references": [
+        {"reference_id": "LIT-PRO-35S-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "No reviewed literature citation is attached to this object; the Registry primary reference is a GenBank record.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}
+      ],
+      "biological_context": {
+        "source_organism": "Cauliflower mosaic virus",
+        "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana", "Solanum lycopersicum", "Glycine max"],
+        "host_group": ["dicot"],
+        "registry_component_role": "constitutive promoter",
+        "registry_evidence_level": "E1",
+        "context_status": "RECORDED_FROM_REGISTRY",
+        "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."},
+        "function_claim_status": "UNKNOWN"
+      },
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-35S-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as CaMV 35S promoter component PCLV1-PRO-35S-835.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-35S-835", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-35S-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the source feature as AF485783.1 regulatory CaMV 35S at 4974..5808 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-35S-835.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved for review; no independent re-interpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-35S-FUNCTION", "claim_type": "FUNCTION", "statement": "Functional performance, strength, and host-specific expression effects are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed literature evidence was attached for a performance or expression claim.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": [
+        "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.",
+        "This object stores a reference to the Registry sequence and does not duplicate sequence data.",
+        "Use in a construct remains subject to the existing Registry and formal workflow contracts."
+      ],
+      "limitations": [
+        "Literature citation is unknown and requires human curation.",
+        "No expression success, promoter strength, optimization, or wet-lab readiness conclusion is provided.",
+        "Public-record redistribution and rights status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."
+      ],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-PRO-UBQ10",
+      "component_id": "PCLV1-PRO-UBQ10",
+      "display_name": "AtUBQ10 promoter evidence context",
+      "component_type": "promoter",
+      "registry_reference": {
+        "component_id": "PCLV1-PRO-UBQ10",
+        "accession": "HQ693235",
+        "accession_version": "HQ693235.1",
+        "sequence_length": 636,
+        "sequence_sha256": "b24922506b7b3660d7ce5e58986994888077a013da1c123a0139a2e45419c5a4",
+        "source_record": "data/plant_component_registry_v1/source_records/HQ693235.1.gb",
+        "source_record_sha256": "5e20eb0c773738349f1a74b661d7282be2aeb057196e2953525f6ba885de0e84"
+      },
+      "literature_references": [
+        {"reference_id": "LIT-PRO-UBQ10-UNKNOWN", "status": "PENDING_HUMAN_REVIEW", "citation": null, "provenance_note": "The Registry notes a Hashimoto and Kudla direct submission (2010); a full literature citation has not been independently curated here.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}
+      ],
+      "biological_context": {
+        "source_organism": "Arabidopsis thaliana",
+        "target_host_species": ["Arabidopsis thaliana"],
+        "host_group": ["dicot"],
+        "registry_component_role": "ubiquitin promoter",
+        "registry_evidence_level": "E1",
+        "context_status": "RECORDED_FROM_REGISTRY",
+        "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."},
+        "function_claim_status": "UNKNOWN"
+      },
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-UBQ10-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as AtUBQ10 promoter component PCLV1-PRO-UBQ10.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-UBQ10", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-UBQ10-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the source feature as HQ693235.1 regulatory UBQ10 promoter at 1..636 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-UBQ10.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved for review; no independent re-interpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-UBQ10-FUNCTION", "claim_type": "FUNCTION", "statement": "Functional performance and host-specific expression effects are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The initial object contains no independently reviewed functional literature claim.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": [
+        "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.",
+        "This object stores a reference to the Registry sequence and does not duplicate sequence data.",
+        "The 636 bp fragment is retained as Registry metadata, not as a second component record."
+      ],
+      "limitations": [
+        "The full literature citation for the direct submission is pending human review.",
+        "No promoter strength, expression success, optimization, or wet-lab readiness conclusion is provided.",
+        "Public-record rights caveat remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."
+      ],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-VEC-PBIN19",
+      "component_id": "PCLV1-VEC-PBIN19",
+      "display_name": "pBIN19 vector evidence context",
+      "component_type": "vector_backbone",
+      "registry_reference": {
+        "component_id": "PCLV1-VEC-PBIN19",
+        "accession": "U09365",
+        "accession_version": "U09365.1",
+        "sequence_length": 11777,
+        "sequence_sha256": "9e8a6e62caaff3c4204ffd3a250e56e2486c7fb593304afa7403f06bd2a755ff",
+        "source_record": "data/plant_component_registry_v1/source_records/U09365.1.gb",
+        "source_record_sha256": "d0b13b3534d70e35c028f0bf3f0f22b5d3d638a5f0022e4b249a90201057e7ca"
+      },
+      "literature_references": [
+        {"reference_id": "PMID-7888628", "status": "RECORDED", "citation": "Frisch et al., Plant Molecular Biology 27:405-409 (1995), PMID 7888628", "provenance_note": "Citation string is preserved from the Registry primary_reference field; independent bibliographic review remains pending.", "source_database": "PubMed", "doi": null, "pmid": "7888628"}
+      ],
+      "biological_context": {
+        "source_organism": "Binary vector Bin19",
+        "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana", "Oryza sativa", "Zea mays", "Solanum lycopersicum", "Glycine max"],
+        "host_group": ["dicot", "monocot"],
+        "registry_component_role": "complete binary vector source for manual T-DNA replacement review",
+        "registry_evidence_level": "E1",
+        "context_status": "RECORDED_FROM_REGISTRY",
+        "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."},
+        "function_claim_status": "UNKNOWN"
+      },
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-PBIN19-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as the complete pBIN19 binary-vector source PCLV1-VEC-PBIN19.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-VEC-PBIN19", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-PBIN19-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records a complete U09365.1 source record with T-DNA region 6043..9421 and a non-T-DNA backbone crossing the origin.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-VEC-PBIN19.vector_context", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved for review; no independent vector operation is defined here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-PBIN19-FUNCTION", "claim_type": "FUNCTION", "statement": "Vector performance, compatibility, and any biological outcome are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No independently reviewed engineering or biological performance claim is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": [
+        "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.",
+        "This object stores a reference to the complete Registry source and does not duplicate sequence data.",
+        "The Registry marks pBIN19 for manual T-DNA replacement review; this evidence object does not authorize a construct operation."
+      ],
+      "limitations": [
+        "T-DNA and replacement boundaries require human review before any future use.",
+        "No vector compatibility, performance, optimization, or wet-lab readiness conclusion is provided.",
+        "Public-record rights caveat remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."
+      ],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-PRO-UBI1",
+      "component_id": "PCLV1-PRO-UBI1",
+      "display_name": "ZmUbi1 promoter evidence context",
+      "component_type": "promoter",
+      "registry_reference": {"component_id": "PCLV1-PRO-UBI1", "accession": "JX947345", "accession_version": "JX947345.1", "sequence_length": 2015, "sequence_sha256": "821e00405808f6e0d1a84390121792189e3e4fe90715e5c6b7403eaa21bb4450", "source_record": "data/plant_component_registry_v1/source_records/JX947345.1.gb", "source_record_sha256": "0655627210b173aa0c321300f40baf1f78770f0615825c6d8f8b5e85234e25fb"},
+      "literature_references": [{"reference_id": "LIT-PRO-UBI1-UNKNOWN", "status": "PENDING_HUMAN_REVIEW", "citation": null, "provenance_note": "The Registry cites a Nguyen and Le direct submission (2012); no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Zea mays", "target_host_species": ["Zea mays"], "host_group": ["monocot"], "registry_component_role": "ubiquitin promoter", "registry_evidence_level": "E2", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-UBI1-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as the ZmUbi1 promoter-region component PCLV1-PRO-UBI1.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-UBI1", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E2"},
+        {"claim_id": "PKL1-CLM-UBI1-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the complete deposited JX947345.1 promoter-region fragment at <1..2015; the left bound is fuzzy.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-UBI1.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The deposited fragment boundary is preserved; a complete biological promoter boundary is not established.", "evidence_level": "E2"},
+        {"claim_id": "PKL1-CLM-UBI1-FUNCTION", "claim_type": "FUNCTION", "statement": "Promoter activity, strength, tissue specificity, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional evidence is attached to the deposited fragment.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records a ZmUbi1 ubiquitin promoter-region role for this deposited fragment; this is metadata, not an independent performance claim.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or authorize construct operations."],
+      "limitations": ["The fuzzy <1 left boundary means this record is not asserted to be the full biological promoter.", "Tissue context, promoter strength, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-PRO-FMVT",
+      "component_id": "PCLV1-PRO-FMVT",
+      "display_name": "FMV 34S promoter evidence context",
+      "component_type": "promoter",
+      "registry_reference": {"component_id": "PCLV1-PRO-FMVT", "accession": "X16673", "accession_version": "X16673.1", "sequence_length": 554, "sequence_sha256": "47521eeaa73884edf67f1edee24494d71222904411502bfeb8047fde0cf5518d", "source_record": "data/plant_component_registry_v1/source_records/X16673.1.gb", "source_record_sha256": "4f6c9cdb3eab9b13e324645c922880fb6f7713b3d9e59303cade00275a00425e"},
+      "literature_references": [{"reference_id": "PMID-2102823", "status": "RECORDED", "citation": "Sanger et al., Plant Molecular Biology 14:433-443 (1990), PMID 2102823", "provenance_note": "Citation is preserved from the Registry primary_reference field; independent claim review remains pending.", "source_database": "PubMed", "doi": null, "pmid": "2102823"}],
+      "biological_context": {"source_organism": "Figwort mosaic virus", "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana"], "host_group": ["dicot"], "registry_component_role": "viral promoter", "registry_evidence_level": "E2", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-FMVT-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as the FMV 34S promoter-region component PCLV1-PRO-FMVT.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-FMVT", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E2"},
+        {"claim_id": "PKL1-CLM-FMVT-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the complete deposited X16673.1 FMV 34S promoter-region fragment at 1..554 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-FMVT.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The deposited-fragment boundary is preserved; no alternative biological boundary is inferred.", "evidence_level": "E2"},
+        {"claim_id": "PKL1-CLM-FMVT-FUNCTION", "claim_type": "FUNCTION", "statement": "Promoter activity, strength, tissue specificity, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The attached citation identifies the source paper but has not been curated here into a functional claim.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records a viral promoter role and preserves the Sanger et al. citation; no independent engineering performance claim is made.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or authorize construct operations."],
+      "limitations": ["The record represents the deposited 554 bp promoter-region fragment, including separately annotated internal features; it is not reinterpreted here.", "Tissue context, promoter strength, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-CDS-NPTII",
+      "component_id": "PCLV1-CDS-NPTII",
+      "display_name": "nptII selectable marker CDS evidence context",
+      "component_type": "cds",
+      "registry_reference": {"component_id": "PCLV1-CDS-NPTII", "accession": "AF485783", "accession_version": "AF485783.1", "sequence_length": 795, "sequence_sha256": "c68f606e8613525d068cd48c8bc9916ee8250d179e089cb9adf669187e67a7b4", "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb", "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7"},
+      "literature_references": [{"reference_id": "LIT-CDS-NPTII-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Escherichia coli", "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana", "Solanum lycopersicum", "Glycine max"], "host_group": ["dicot"], "registry_component_role": "selectable marker CDS", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-NPTII-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as nptII selectable marker CDS component PCLV1-CDS-NPTII.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-NPTII", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-NPTII-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the AF485783.1 nptII CDS feature at 2838..3632 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-NPTII.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no independent feature reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-NPTII-FUNCTION", "claim_type": "FUNCTION", "statement": "Selectable-marker performance, resistance phenotype, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records a selectable marker CDS role in the pBI121 source record; this is metadata only.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or authorize selection use."],
+      "limitations": ["The source is a Registry feature record and does not establish experimental performance or resistance outcomes.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-CDS-GUSA",
+      "component_id": "PCLV1-CDS-GUSA",
+      "display_name": "gusA reporter CDS evidence context",
+      "component_type": "cds",
+      "registry_reference": {"component_id": "PCLV1-CDS-GUSA", "accession": "AF485783", "accession_version": "AF485783.1", "sequence_length": 1812, "sequence_sha256": "cf625a11ece85bb2217ae60754042a71accf12790be1543c1987a43b1f7e7291", "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb", "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7"},
+      "literature_references": [{"reference_id": "LIT-CDS-GUSA-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Escherichia coli", "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana", "Oryza sativa", "Zea mays", "Solanum lycopersicum", "Glycine max"], "host_group": ["dicot", "monocot"], "registry_component_role": "reporter CDS", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-GUSA-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as gusA reporter CDS component PCLV1-CDS-GUSA.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-GUSA", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-GUSA-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the AF485783.1 gusA CDS feature at 5845..7656 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-GUSA.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no independent feature reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-GUSA-FUNCTION", "claim_type": "FUNCTION", "statement": "Reporter activity, signal strength, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records a reporter CDS role in the pBI121 source record; this is metadata only.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or certify reporter behavior."],
+      "limitations": ["The source feature does not establish reporter performance, assay behavior, or expression outcomes.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-CDS-CYP76AD1",
+      "component_id": "PCLV1-CDS-CYP76AD1",
+      "display_name": "CYP76AD1 CDS evidence context",
+      "component_type": "cds",
+      "registry_reference": {"component_id": "PCLV1-CDS-CYP76AD1", "accession": "HQ656023", "accession_version": "HQ656023.1", "sequence_length": 1494, "sequence_sha256": "79c7ffaaa7ad20dbfc1903619d14208160be9b0af48851a85b89a19eeb43a27c", "source_record": "data/plant_component_registry_v1/source_records/HQ656023.1.gb", "source_record_sha256": "b541b6b132fba98ba7b9ee6ed56f37aafd1565c44e138a87116b7198efe16590"},
+      "literature_references": [{"reference_id": "LIT-CDS-CYP76AD1-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Beta vulgaris", "target_host_species": ["Nicotiana benthamiana", "Solanum lycopersicum"], "host_group": ["dicot"], "registry_component_role": "enzyme CDS", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-CYP76AD1-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as CYP76AD1 enzyme CDS component PCLV1-CDS-CYP76AD1.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-CYP76AD1", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-CYP76AD1-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the HQ656023.1 CYP76AD1 CDS feature at 259..1752 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-CYP76AD1.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no independent feature reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-CYP76AD1-FUNCTION", "claim_type": "FUNCTION", "statement": "Enzyme activity, pathway effect, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records an enzyme CDS role for this deposited Beta vulgaris sequence; this is metadata only.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not infer pathway behavior or recommend use."],
+      "limitations": ["No independent evidence is attached for enzyme activity, pathway effect, expression, or construct performance.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-CDS-DODA1",
+      "component_id": "PCLV1-CDS-DODA1",
+      "display_name": "DODA1 CDS evidence context",
+      "component_type": "cds",
+      "registry_reference": {"component_id": "PCLV1-CDS-DODA1", "accession": "HQ656027", "accession_version": "HQ656027.1", "sequence_length": 828, "sequence_sha256": "cbdd9b4070de50ff2a863c361a1e6791adde5707b55abe8227dcb47b607654f7", "source_record": "data/plant_component_registry_v1/source_records/HQ656027.1.gb", "source_record_sha256": "7be76a1ec62db527aacd9d3719b57cee46d8eabe84dfc871c579e9f1bb04fecc"},
+      "literature_references": [{"reference_id": "LIT-CDS-DODA1-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Beta vulgaris", "target_host_species": ["Nicotiana benthamiana", "Solanum lycopersicum"], "host_group": ["dicot"], "registry_component_role": "enzyme CDS", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-DODA1-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as DODA1 enzyme CDS component PCLV1-CDS-DODA1.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-DODA1", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-DODA1-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the HQ656027.1 DODA1 CDS feature at 60..887 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-DODA1.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no independent feature reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-DODA1-FUNCTION", "claim_type": "FUNCTION", "statement": "Enzyme activity, pathway effect, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records an enzyme CDS role for this deposited Beta vulgaris sequence; this is metadata only.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not infer pathway behavior or recommend use."],
+      "limitations": ["No independent evidence is attached for enzyme activity, pathway effect, expression, or construct performance.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-CDS-CDOPA5GT",
+      "component_id": "PCLV1-CDS-CDOPA5GT",
+      "display_name": "cDOPA5GT CDS evidence context",
+      "component_type": "cds",
+      "registry_reference": {"component_id": "PCLV1-CDS-CDOPA5GT", "accession": "AB182643", "accession_version": "AB182643.1", "sequence_length": 1503, "sequence_sha256": "47cdcd7083868df23861ad31837b674b0a7390ad72e4a7649807715b7f85e522", "source_record": "data/plant_component_registry_v1/source_records/AB182643.1.gb", "source_record_sha256": "00181b8cb48e2f9d19cedd7f3fe9055425f7e930a39ae7e62ee617531014b927"},
+      "literature_references": [{"reference_id": "LIT-CDS-CDOPA5GT-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Mirabilis jalapa", "target_host_species": ["Nicotiana benthamiana", "Solanum lycopersicum"], "host_group": ["dicot"], "registry_component_role": "enzyme CDS", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-CDOPA5GT-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as cDOPA5GT enzyme CDS component PCLV1-CDS-CDOPA5GT.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-CDOPA5GT", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-CDOPA5GT-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the AB182643.1 cDOPA5GT CDS feature at 22..1524 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-CDOPA5GT.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no independent feature reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-CDOPA5GT-FUNCTION", "claim_type": "FUNCTION", "statement": "Enzyme activity, pathway effect, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records an enzyme CDS role for this deposited Mirabilis jalapa sequence; this is metadata only.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not infer pathway behavior or recommend use."],
+      "limitations": ["No independent evidence is attached for enzyme activity, pathway effect, expression, or construct performance.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-REG-NOS-256",
+      "component_id": "PCLV1-3REG-NOS-256",
+      "display_name": "NOS 3-prime regulatory region (256 bp) evidence context",
+      "component_type": "three_prime_regulatory_region",
+      "registry_reference": {"component_id": "PCLV1-3REG-NOS-256", "accession": "AF485783", "accession_version": "AF485783.1", "sequence_length": 256, "sequence_sha256": "6c8916397c8f95a894a870ce5620837d41d776e57c64d415d76f3f0d02eb35c4", "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb", "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7"},
+      "literature_references": [{"reference_id": "LIT-REG-NOS-256-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Agrobacterium tumefaciens", "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana", "Solanum lycopersicum", "Glycine max"], "host_group": ["dicot"], "registry_component_role": "3-prime regulatory region", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-NOS-256-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as NOS 3-prime regulatory region component PCLV1-3REG-NOS-256.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-3REG-NOS-256", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-NOS-256-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the AF485783.1 NOS regulatory feature at 4022..4277 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-3REG-NOS-256.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no terminator reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-NOS-256-FUNCTION", "claim_type": "FUNCTION", "statement": "3-prime regulatory activity, termination behavior, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records this as a 3-prime regulatory region; it is not globally relabeled as a terminator.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or authorize construct operations."],
+      "limitations": ["No independent evidence is attached for 3-prime regulatory activity, termination behavior, or construct performance.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-REG-NOS-253",
+      "component_id": "PCLV1-3REG-NOS-253",
+      "display_name": "NOS 3-prime regulatory region (253 bp) evidence context",
+      "component_type": "three_prime_regulatory_region",
+      "registry_reference": {"component_id": "PCLV1-3REG-NOS-253", "accession": "AF485783", "accession_version": "AF485783.1", "sequence_length": 253, "sequence_sha256": "07296665a19dbedd665dc2f350869a1474a72811f54688cbef8835e24372ab3f", "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb", "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7"},
+      "literature_references": [{"reference_id": "LIT-REG-NOS-253-UNKNOWN", "status": "UNKNOWN", "citation": null, "provenance_note": "The Registry primary reference is a GenBank record; no independently reviewed literature citation is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Agrobacterium tumefaciens", "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana", "Solanum lycopersicum", "Glycine max"], "host_group": ["dicot"], "registry_component_role": "3-prime regulatory region", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-NOS-253-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as NOS 3-prime regulatory region component PCLV1-3REG-NOS-253.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-3REG-NOS-253", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-NOS-253-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the AF485783.1 NOS regulatory feature at 7727..7979 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-3REG-NOS-253.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no terminator reinterpretation is made here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-NOS-253-FUNCTION", "claim_type": "FUNCTION", "statement": "3-prime regulatory activity, termination behavior, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "No reviewed functional literature evidence is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry records this as a 3-prime regulatory region; it is not globally relabeled as a terminator.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or authorize construct operations."],
+      "limitations": ["No independent evidence is attached for 3-prime regulatory activity, termination behavior, or construct performance.", "Tissue context, broad host compatibility, expression success, optimization, and wet-lab readiness are unknown.", "Public-record redistribution status remains the Registry value PUBLIC_NCBI_RECORD_NEEDS_REVIEW."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-TER-OCS",
+      "component_id": "PCLV1-TER-OCS",
+      "display_name": "OCS terminator evidence context",
+      "component_type": "terminator",
+      "registry_reference": {"component_id": "PCLV1-TER-OCS", "accession": "MP385296", "accession_version": "MP385296.1", "sequence_length": 723, "sequence_sha256": "a59c971aea1ae0f1aafddce600b157c2aa2aaf6cbd2d914455757714cb9c8f7c", "source_record": "data/plant_component_registry_v1/source_records/MP385296.1.gb", "source_record_sha256": "fc1a0e08e2f0d85c47ad3ba1bc5c5414d2e841ebb46f34b72068859d77996d2a"},
+      "literature_references": [{"reference_id": "LIT-TER-OCS-UNKNOWN", "status": "PENDING_HUMAN_REVIEW", "citation": null, "provenance_note": "The Registry cites NCBI GenBank MP385296.1 and WO 2019211296-A1 sequence 60; no peer-reviewed citation or DOI/PMID is attached.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "synthetic construct", "target_host_species": ["Arabidopsis thaliana", "Nicotiana benthamiana"], "host_group": ["dicot"], "registry_component_role": "octopine synthase terminator", "registry_evidence_level": "E2", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-OCS-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as OCS terminator component PCLV1-TER-OCS.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-TER-OCS", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this claim remains pending human review.", "evidence_level": "E2"},
+        {"claim_id": "PKL1-CLM-OCS-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the complete MP385296.1 deposited sequence at 1..723 with an octopine synthase terminator source note.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-TER-OCS.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The deposited sequence boundary is preserved; no independent terminator boundary or activity claim is made here.", "evidence_level": "E2"},
+        {"claim_id": "PKL1-CLM-OCS-FUNCTION", "claim_type": "FUNCTION", "statement": "Termination activity, transcript effects, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The patent/GenBank source note identifies the component label but does not provide a reviewed functional claim here.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The Registry labels this deposited sequence as an octopine synthase terminator; this is source metadata, not a performance conclusion.", "The Plant Component Registry remains authoritative for sequence, identity, accession, and hash.", "This object stores references only and does not duplicate sequence data or authorize construct operations."],
+      "limitations": ["The source is a patent-associated deposited sequence; rights and scope require human review.", "Tissue context, broad host compatibility, termination performance, expression success, optimization, and wet-lab readiness are unknown.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-PRO-35S2-758",
+      "component_id": "PCLV1-PRO-35S2-758",
+      "display_name": "Duplicated CaMV 35S promoter evidence context",
+      "component_type": "promoter",
+      "registry_reference": {"component_id": "PCLV1-PRO-35S2-758", "accession": "DQ370426", "accession_version": "DQ370426.1", "sequence_length": 758, "sequence_sha256": "2a8d4fc6a4e4b431437be578e741db3c9db105d88ae235c5cf900d22834a7f3d", "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb", "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133"},
+      "literature_references": [{"reference_id": "LIT-DQ370426-DIRECT-SUBMISSION", "status": "RECORDED", "citation": "Zhang C, Galbraith DW. A Gateway adapted Agrobacterium binary vector series for plant biological studies. Unpublished; GenBank DQ370426.1 direct submission (2006).", "provenance_note": "The versioned GenBank record is the identity and boundary source; no PMID or DOI is available for the unpublished submission.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Cauliflower mosaic virus", "target_host_species": [], "host_group": ["plant expression context"], "registry_component_role": "duplicated constitutive viral promoter", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-35S2-758-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as duplicated CaMV 35S promoter component PCLV1-PRO-35S2-758.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-35S2-758", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-35S2-758-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the DQ370426.1 duplicated CaMV 35S promoter feature at 1..758 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-PRO-35S2-758.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no alternative promoter boundary is inferred.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-35S2-758-FUNCTION", "claim_type": "FUNCTION", "statement": "Promoter strength, expression effects, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The versioned record identifies the feature but does not establish performance in a new construct.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["This object is one member of the coherent DQ370426.1/pCsGFPBT read-only demonstration group.", "The Plant Component Registry remains authoritative for sequence, identity, accession, boundary, and hash.", "The group supports provenance review only and does not grant formal selection or construct authority."],
+      "limitations": ["The source is an unpublished GenBank direct submission with no structured PMID or DOI.", "No promoter strength, broad host coverage, expression success, optimization, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-5UTR-TEV-136",
+      "component_id": "PCLV1-5UTR-TEV-136",
+      "display_name": "TEV translation leader evidence context",
+      "component_type": "five_prime_utr",
+      "registry_reference": {"component_id": "PCLV1-5UTR-TEV-136", "accession": "DQ370426", "accession_version": "DQ370426.1", "sequence_length": 136, "sequence_sha256": "d96f66c7b2a750624450405b4bd37a7d8816029870979d503c8376cfb52544b7", "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb", "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133"},
+      "literature_references": [{"reference_id": "LIT-DQ370426-DIRECT-SUBMISSION", "status": "RECORDED", "citation": "Zhang C, Galbraith DW. A Gateway adapted Agrobacterium binary vector series for plant biological studies. Unpublished; GenBank DQ370426.1 direct submission (2006).", "provenance_note": "The versioned GenBank record is the identity and boundary source; no PMID or DOI is available for the unpublished submission.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Tobacco etch virus", "target_host_species": [], "host_group": ["plant translation context"], "registry_component_role": "viral translation leader used in a plant binary vector", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-TEV-136-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as TEV translation leader component PCLV1-5UTR-TEV-136.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-5UTR-TEV-136", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-TEV-136-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the DQ370426.1 TEV-derived 5' UTR feature at 759..894 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-5UTR-TEV-136.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; the feature is not reinterpreted as a Kozak/start-context record.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-TEV-136-FUNCTION", "claim_type": "FUNCTION", "statement": "Translation effects, expression effects, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The versioned record identifies the leader but does not establish performance with a new coding sequence.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["This object is one member of the coherent DQ370426.1/pCsGFPBT read-only demonstration group.", "The Plant Component Registry remains authoritative for sequence, identity, accession, boundary, and hash.", "This 5' UTR object is not a start-context/Kozak contract and does not authorize sequence optimization."],
+      "limitations": ["The source is an unpublished GenBank direct submission with no structured PMID or DOI.", "No translation enhancement, broad host coverage, expression success, optimization, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-CDS-SGFP",
+      "component_id": "PCLV1-CDS-SGFP",
+      "display_name": "Synthetic GFP reporter CDS evidence context",
+      "component_type": "cds",
+      "registry_reference": {"component_id": "PCLV1-CDS-SGFP", "accession": "DQ370426", "accession_version": "DQ370426.1", "sequence_length": 729, "sequence_sha256": "3751bac5ca134864ca50325f60ebfc5ffa2222b9f68975d63174231364dd0de5", "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb", "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133"},
+      "literature_references": [{"reference_id": "LIT-DQ370426-DIRECT-SUBMISSION", "status": "RECORDED", "citation": "Zhang C, Galbraith DW. A Gateway adapted Agrobacterium binary vector series for plant biological studies. Unpublished; GenBank DQ370426.1 direct submission (2006).", "provenance_note": "The versioned GenBank record is the identity and boundary source; no PMID or DOI is available for the unpublished submission.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Synthetic construct", "target_host_species": [], "host_group": ["plant expression context"], "registry_component_role": "reporter CDS", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-SGFP-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as synthetic GFP reporter CDS component PCLV1-CDS-SGFP.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-SGFP", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-SGFP-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the DQ370426.1 sGFP CDS feature at 895..1623 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-CDS-SGFP.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; no alternative coding boundary is inferred.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-SGFP-FUNCTION", "claim_type": "FUNCTION", "statement": "Fluorescence, localization, expression level, and host performance are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The source annotation identifies a reporter CDS but does not provide a reviewed assay result here.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["This object is one member of the coherent DQ370426.1/pCsGFPBT read-only demonstration group.", "The Plant Component Registry remains authoritative for sequence, identity, accession, boundary, and hash.", "Reporter identity is recorded for review and is not an experimental result or performance guarantee."],
+      "limitations": ["The source is an unpublished GenBank direct submission with no structured PMID or DOI.", "No fluorescence result, expression success, broad host coverage, optimization, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-3REG-CAMV35S-212",
+      "component_id": "PCLV1-3REG-CAMV35S-212",
+      "display_name": "CaMV 35S 3-prime regulatory region evidence context",
+      "component_type": "three_prime_regulatory_region",
+      "registry_reference": {"component_id": "PCLV1-3REG-CAMV35S-212", "accession": "DQ370426", "accession_version": "DQ370426.1", "sequence_length": 212, "sequence_sha256": "9dcb1ca38d17df734b63b759d44b35fee363e9a7ffae7c289e8b83e86f13d705", "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb", "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133"},
+      "literature_references": [{"reference_id": "LIT-DQ370426-DIRECT-SUBMISSION", "status": "RECORDED", "citation": "Zhang C, Galbraith DW. A Gateway adapted Agrobacterium binary vector series for plant biological studies. Unpublished; GenBank DQ370426.1 direct submission (2006).", "provenance_note": "The versioned GenBank record is the identity and boundary source; no PMID or DOI is available for the unpublished submission.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Cauliflower mosaic virus", "target_host_species": [], "host_group": ["plant expression context"], "registry_component_role": "viral 3' regulatory region", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "No tissue-specific context is recorded in this object."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-CAMV35S-212-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as CaMV 35S 3-prime regulatory region component PCLV1-3REG-CAMV35S-212.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-3REG-CAMV35S-212", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-CAMV35S-212-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the DQ370426.1 CaMV 35S poly(A) signal feature at 1624..1835 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-3REG-CAMV35S-212.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Boundary provenance is preserved; the Registry does not globally relabel this feature as a terminator.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-CAMV35S-212-FUNCTION", "claim_type": "FUNCTION", "statement": "Transcript processing effects, termination behavior, expression, and host compatibility are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The source feature label does not establish biological performance or a broader terminator equivalence.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["This object is one member of the coherent DQ370426.1/pCsGFPBT read-only demonstration group.", "The Plant Component Registry remains authoritative for sequence, identity, accession, boundary, and hash.", "The feature remains a three-prime regulatory region and is not globally renamed as a terminator."],
+      "limitations": ["The source is an unpublished GenBank direct submission with no structured PMID or DOI.", "No processing efficiency, broad host coverage, expression success, optimization, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-VEC-PCSGFPBT",
+      "component_id": "PCLV1-VEC-PCSGFPBT",
+      "display_name": "pCsGFPBT complete vector-source evidence context",
+      "component_type": "vector_backbone",
+      "registry_reference": {"component_id": "PCLV1-VEC-PCSGFPBT", "accession": "DQ370426", "accession_version": "DQ370426.1", "sequence_length": 11437, "sequence_sha256": "7b597a337f8ceee2a010bc5bc0a5da92c33a3253bc2c67540b6e15d8e719e08b", "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb", "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133"},
+      "literature_references": [{"reference_id": "LIT-DQ370426-DIRECT-SUBMISSION", "status": "RECORDED", "citation": "Zhang C, Galbraith DW. A Gateway adapted Agrobacterium binary vector series for plant biological studies. Unpublished; GenBank DQ370426.1 direct submission (2006).", "provenance_note": "The versioned GenBank record is the complete-vector identity and boundary source; no PMID or DOI is available for the unpublished submission.", "source_database": "NCBI GenBank", "doi": null, "pmid": null}],
+      "biological_context": {"source_organism": "Binary vector pCsGFPBT", "target_host_species": [], "host_group": ["plant transformation vector"], "registry_component_role": "complete reporter plant binary-vector source", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "A complete vector source does not define a tissue-specific context."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-PCSGFPBT-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as complete pCsGFPBT vector-source component PCLV1-VEC-PCSGFPBT.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-VEC-PCSGFPBT", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-PCSGFPBT-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the complete circular DQ370426.1 source at 1..11437 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-VEC-PCSGFPBT.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Whole-record provenance is preserved; no replacement or insertion boundary is authorized here.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-PCSGFPBT-FUNCTION", "claim_type": "FUNCTION", "statement": "Workflow compatibility, construct performance, and experimental suitability are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "This is a populated source vector and no formal admission decision is attached.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["This object anchors the coherent DQ370426.1/pCsGFPBT read-only demonstration group to one complete vector source.", "The four linked feature objects retain their own exact Registry boundaries and hashes.", "The group supports provenance review only; it does not define an empty backbone, replacement operation, or formal selection set."],
+      "limitations": ["The source is an unpublished GenBank direct submission with no structured PMID or DOI.", "The populated vector is not admitted as an empty backbone and no assembly, expression, optimization, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-TER-HSP18-2-250",
+      "component_id": "PCLV1-TER-HSP18-2-250",
+      "display_name": "Arabidopsis HSP18.2 terminator evidence context",
+      "component_type": "terminator",
+      "registry_reference": {"component_id": "PCLV1-TER-HSP18-2-250", "accession": "PP558908", "accession_version": "PP558908.1", "sequence_length": 250, "sequence_sha256": "f64cc0a9ffd000d281dc8d75163b072d42ec8184ad216470461941a4e61dfd1d", "source_record": "data/plant_component_registry_v1/source_records/PP558908.1.gb", "source_record_sha256": "521467bde8978a3e02115b2e5ef6e205700e016b7ee31c44da92ffb39d00dfc9"},
+      "literature_references": [
+        {"reference_id": "LIT-TER-HSP18-2-GENBANK", "status": "RECORDED", "citation": "NCBI GenBank PP558908.1, synthetic construct L0_hspt, complete sequence (2024).", "provenance_note": "The versioned GenBank regulatory feature is the exact sequence and boundary authority.", "source_database": "NCBI GenBank", "doi": null, "pmid": null},
+        {"reference_id": "LIT-TER-HSP18-2-NAGAYA-2010", "status": "RECORDED", "citation": "Nagaya S, Kawamura K, Shinmyo A, Kato K. The HSP terminator of Arabidopsis thaliana increases gene expression in plant cells. Plant Cell Physiol. 2010;51:328-332.", "provenance_note": "The paper supports the HSP18.2 terminator research context; the Registry does not extrapolate its measured effects to other constructs or conditions.", "source_database": "PubMed", "doi": "10.1093/pcp/pcp188", "pmid": "20040586"}
+      ],
+      "biological_context": {"source_organism": "Arabidopsis thaliana", "target_host_species": ["Arabidopsis thaliana", "Solanum lycopersicum"], "host_group": ["dicot"], "registry_component_role": "Arabidopsis HSP18.2 transcription terminator", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "This object does not establish a tissue-specific terminator context."}, "function_claim_status": "PENDING_HUMAN_REVIEW"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-HSP18-2-250-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as Arabidopsis HSP18.2 terminator component PCLV1-TER-HSP18-2-250.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-TER-HSP18-2-250", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-HSP18-2-250-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the PP558908.1 HSP18.2 terminator regulatory feature at 852..1101 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-TER-HSP18-2-250.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The exact deposited feature boundary is preserved; no alternative native-locus boundary is inferred.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-HSP18-2-250-FUNCTION", "claim_type": "FUNCTION", "statement": "Nagaya et al. studied an Arabidopsis HSP18.2 terminator in plant cells; equivalence of every experimental context to this deposited feature and transferability to new constructs remain pending human review.", "fact_status": "PENDING_HUMAN_REVIEW", "provenance": "PMID:20040586; DOI:10.1093/pcp/pcp188", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The literature supports component-level terminator context, but this object does not generalize measured expression effects or certify performance.", "evidence_level": "E1"}
+      ],
+      "engineering_context_notes": ["The versioned GenBank record, not the performance literature, is authoritative for the 250 bp sequence and boundary.", "The Plant Component Registry remains authoritative for sequence, identity, accession, boundary, and hash.", "This draft evidence object does not grant formal selection or imply performance in a new construct."],
+      "limitations": ["Literature and deposited-feature identity remain separated: the paper supplies research context and PP558908.1 supplies the exact sequence boundary.", "No expression magnitude, broad host coverage, optimization, experimental validation, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    },
+    {
+      "evidence_object_id": "PKL1-EV-TER-RBCS-E9-295",
+      "component_id": "PCLV1-TER-RBCS-E9-295",
+      "display_name": "Pea rbcS E9 terminator evidence context",
+      "component_type": "terminator",
+      "registry_reference": {"component_id": "PCLV1-TER-RBCS-E9-295", "accession": "AF309825", "accession_version": "AF309825.2", "sequence_length": 295, "sequence_sha256": "e4d09d94a70cfcf400736631bf58668e64f5016671b8a949a5cc92269ed35721", "source_record": "data/plant_component_registry_v1/source_records/AF309825.2.gb", "source_record_sha256": "53d3c9d6a8ac1604fd245a25257d8b77bfd685fc8d20bdc7947bcafc897a79f4"},
+      "literature_references": [
+        {"reference_id": "LIT-TER-RBCS-E9-GENBANK", "status": "RECORDED", "citation": "NCBI GenBank AF309825.2, plant expression vector pER8, complete plasmid sequence (2000).", "provenance_note": "The versioned GenBank regulatory feature is the exact sequence and boundary authority.", "source_database": "NCBI GenBank", "doi": null, "pmid": null},
+        {"reference_id": "LIT-TER-RBCS-E9-ZUO-2000", "status": "RECORDED", "citation": "Zuo J, Niu QW, Chua NH. Technical advance: an estrogen receptor-based transactivator XVE mediates highly inducible gene expression in transgenic plants. Plant J. 2000;24:265-273.", "provenance_note": "The paper is linked by AF309825.2 and supports the published pER8 plant-vector context; it is not used as a standalone terminator-performance comparison.", "source_database": "PubMed", "doi": "10.1046/j.1365-313x.2000.00868.x", "pmid": "11069700"}
+      ],
+      "biological_context": {"source_organism": "Pisum sativum", "target_host_species": ["Arabidopsis thaliana", "Nicotiana tabacum"], "host_group": ["dicot"], "registry_component_role": "pea rbcS E9 transcription terminator", "registry_evidence_level": "E1", "context_status": "RECORDED_FROM_REGISTRY", "tissue_context": {"status": "UNKNOWN", "reason": "This object does not establish a tissue-specific terminator context."}, "function_claim_status": "UNKNOWN"},
+      "evidence_claims": [
+        {"claim_id": "PKL1-CLM-RBCS-E9-295-IDENTITY", "claim_type": "IDENTITY", "statement": "The Registry identifies this object as pea rbcS E9 terminator component PCLV1-TER-RBCS-E9-295.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-TER-RBCS-E9-295", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "Registry linkage is recorded, but this knowledge-layer claim remains pending human review.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-RBCS-E9-295-BOUNDARY", "claim_type": "BOUNDARY", "statement": "The Registry records the AF309825.2 pea rbcS E9 terminator regulatory feature at 1882..2176 on the plus strand.", "fact_status": "RECORDED_FROM_REGISTRY", "provenance": "registry.batch1.json:PCLV1-TER-RBCS-E9-295.feature_boundary_method", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The exact deposited feature boundary is preserved; no alternative native-locus boundary is inferred.", "evidence_level": "E1"},
+        {"claim_id": "PKL1-CLM-RBCS-E9-295-FUNCTION", "claim_type": "FUNCTION", "statement": "Termination efficiency, transcript effects, expression effects, and portability are not established by this object.", "fact_status": "UNKNOWN", "provenance": "knowledge-layer curation boundary", "review_status": "PENDING_HUMAN_REVIEW", "unknown_reason": "The linked paper supports the pER8 system context but does not establish a general performance claim for this terminator feature.", "evidence_level": "UNKNOWN"}
+      ],
+      "engineering_context_notes": ["The versioned GenBank record is authoritative for the 295 bp sequence and boundary.", "The Plant Component Registry remains authoritative for sequence, identity, accession, boundary, and hash.", "This crop-derived terminator record remains a read-only draft evidence object and is not formally selectable."],
+      "limitations": ["The published pER8 context does not establish broad host transferability or terminator performance outside that system.", "No expression magnitude, optimization, experimental validation, or wet-lab readiness conclusion is provided.", "Public-record rights status remains the Registry value PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED."],
+      "review": {"record_status": "DRAFT", "human_review_status": "PENDING_HUMAN_REVIEW", "reviewer": null, "reviewed_at_utc": null, "review_notes": "Initial evidence context only; human source and claim review is required."}
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "redistribution_contract",
+  "case_id": "MT-02",
+  "redistribution_status": "ACCESSION_AND_REPRODUCIBLE_EXTRACTION_ONLY",
+  "repository_policy": {
+    "complete_source_record_allowed": false,
+    "complete_source_sequence_allowed": false,
+    "complete_extracted_region_allowed": false,
+    "split_reconstructable_sequence_allowed": false,
+    "reverse_complement_equivalent_allowed": false,
+    "encoded_or_compressed_equivalent_allowed": false,
+    "raw_genbank_or_fasta_allowed": false,
+    "provider_download_cache_allowed": false,
+    "paper_full_text_allowed": false,
+    "credentials_allowed": false,
+    "allowed_material": ["accession/version", "coordinates", "lengths", "hashes", "feature metadata", "TU metadata", "atomic interval metadata", "extraction and orientation rules", "source identifiers", "evidence summaries"]
+  },
+  "runtime_distribution": {
+    "bundle_source_record": false,
+    "bundle_extracted_region": false,
+    "packaging_resource_manifest_change_authorized": false,
+    "current_runtime_integration": false
+  },
+  "legal_limitations": [
+    "This engineering classification is not a legal guarantee of redistribution rights.",
+    "The public accession and reproducible extraction method do not authorize bundling source or derived bytes in this repository."
+  ],
+  "reproduction": {
+    "source_method": "Retrieve exact KM507054.1 from NCBI E-utilities efetch and optionally cross-check ENA and DDBJ.",
+    "expected_source_sequence_sha256": "92e57f49a0986ad749dd2ccdca3051f6101be1bf917bff6e8492135e3ea2d6cc",
+    "source_internal_interval": "[110,6719)",
+    "expected_region_sequence_sha256": "ec86af6644082317a79dd938d6e70a0011b5d0f784f21da61fac55df4f43f8d2",
+    "source_unavailable_behavior": "fail; do not substitute an unversioned or secondary identifier",
+    "source_version_mismatch_behavior": "reject before extraction",
+    "cache_use_behavior": "accept only a repository-external file that passes raw-file, identity, length, topology, sequence, and feature checks"
+  }
+}

@@ -1,0 +1,85 @@
+LOCUS       HQ656023                2200 bp    mRNA    linear   PLN 03-JUN-2012
+DEFINITION  Beta vulgaris cultivar W357B CYP76AD1 mRNA, complete cds.
+ACCESSION   HQ656023
+VERSION     HQ656023.1
+KEYWORDS    .
+SOURCE      Beta vulgaris
+  ORGANISM  Beta vulgaris
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; Caryophyllales; Amaranthaceae; Betoideae; Beta.
+REFERENCE   1  (bases 1 to 2200)
+  AUTHORS   Hatlestad,G.J., Sunnadeniya,R.M., Akhavan,N.A., Gonzalez,A.,
+            Goldman,I.L., McGrath,J.M. and Lloyd,A.M.
+  TITLE     The beet R locus encodes a new cytochrome P450 required for red
+            betalain production
+  JOURNAL   Nat. Genet. 44 (7), 816-820 (2012)
+   PUBMED   22660548
+  REMARK    Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2200)
+  AUTHORS   Hatlestad,G., Sunnadeniya,R., Gonzalez,A. and Lloyd,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-NOV-2010) Molecular Cell and Developmental Biology,
+            The University of Texas at Austin, 2500 Speedway, Austin, TX 78712,
+            USA
+FEATURES             Location/Qualifiers
+     source          1..2200
+                     /organism="Beta vulgaris"
+                     /mol_type="mRNA"
+                     /cultivar="W357B"
+                     /db_xref="taxon:161934"
+     CDS             259..1752
+                     /function="converts L-DOPA to cyclo-DOPA in the betalain
+                     pathway"
+                     /codon_start=1
+                     /product="CYP76AD1"
+                     /protein_id="AET43289.1"
+                     /translation="MDHATLAMILAIWFISFHFIKLLFSQQTTKLLPPGPKPLPIIGN
+                     ILEVGKKPHRSFANLAKIHGPLISLRLGSVTTIVVSSADVAKEMFLKKDHPLSNRTIP
+                     NSVTAGDHHKLTMSWLPVSPKWRNFRKITAVHLLSPQRLDACQTFRHAKVQQLYEYVQ
+                     ECAQKGQAVDIGKAAFTTSLNLLSKLFFSVELAHHKSHTSQEFKELIWNIMEDIGKPN
+                     YADYFPILGCVDPSGIRRRLACSFDKLIAVFQGIICERLAPDSSTTTTTTTDDVLDVL
+                     LQLFKQNELTMGEINHLLVDIFDAGTDTTSSTFEWVMTELIRNPEMMEKAQEEIKQVL
+                     GKDKQIQESDIINLPYLQAIIKETLRLHPPTVFLLPRKADTDVELYGYIVPKDAQILV
+                     NLWAIGRDPNAWQNADIFSPERFIGCEIDVKGRDFGLLPFGAGRRICPGMNLAIRMLT
+                     LMLATLLQFFNWKLEGDISPKDLDMDEKFGIALQKTKPLKLIPIPRY"
+ORIGIN      
+        1 tactaatgtg caaatgcata aatttaattt cagatactct tttttataaa tattattata
+       61 ctgtgcattc ttttaaccca aaaaaaaaac tgtcttaata caccatttaa ttcctttctc
+      121 taggatccac tatcacatgt agtatataaa tataatccta tacagttcac gttatcaaac
+      181 accaaagcat caaaagcctt ccacacttgt attattttgg ggtagttgat ttgttagcgt
+      241 gttatttgtg agatcatcat ggatcatgca acattagcaa tgatactagc catttggttc
+      301 atttcttttc atttcataaa attacttttt agccaacaaa ctaccaaact tcttcctcct
+      361 ggtccaaaac cattgccaat aattggtaac atcttagaag ttggtaaaaa accccatcgt
+      421 tcatttgcta atcttgctaa aattcacggc cctttaatat cgttacgtct aggaagtgta
+      481 acaactattg ttgtatcatc agcagatgta gctaaagaaa tgttcttaaa aaaagaccac
+      541 cctctttcta accgtactat tcctaattct gtcacggccg gtgaccacca taaactcacc
+      601 atgtcgtggt tgcccgtttc gccgaaatgg cggaattttc gtaagattac agccgtccat
+      661 ttgctttctc ctcaaagact tgatgcttgc caaacctttc gccatgccaa ggtgcaacag
+      721 ctttatgaat atgtacaaga atgtgcacaa aaaggccaag ctgttgatat tggcaaagct
+      781 gcatttacta cctcccttaa tttgttatct aaactattct tttcagtgga attagcccac
+      841 cataaatcac acacttctca agagtttaag gaactaatat ggaacattat ggaagatatt
+      901 gggaaaccta attatgctga ttattttcct attttaggct gtgttgatcc atcaggtatt
+      961 cgtcgaagat tagcatgtag ttttgacaag ttgattgcag tttttcaggg tataatatgt
+     1021 gaaaggcttg cgcctgattc ttcaactaca acaacaacga cgactgatga tgtgctagac
+     1081 gttcttcttc agctcttcaa acaaaatgag ctcactatgg gcgagattaa ccatttgctc
+     1141 gtcgacattt ttgatgctgg aacagacact acatcaagta cttttgagtg ggtcatgaca
+     1201 gagttaatta ggaatcctga aatgatggaa aaggctcaag aagaaattaa gcaagtattg
+     1261 ggcaaagata aacaaattca ggaatcagac attattaacc taccttactt acaagccatt
+     1321 atcaaagaaa ctttgcgact acatccacca actgtatttc ttttgcctcg taaagccgac
+     1381 actgatgttg aactatatgg ttatattgtg cctaaagatg cacaaatact tgttaactta
+     1441 tgggctattg gaagagatcc taatgcatgg caaaatgctg atattttttc gcccgaaaga
+     1501 tttatagggt gtgaaattga tgtcaaagga agagattttg gactcttacc ttttggagcc
+     1561 ggaagaagga tatgtcctgg gatgaatttg gccattagaa tgttaacttt gatgctagct
+     1621 actttacttc aattcttcaa ttggaagctt gaaggagaca taagtccaaa agacttagac
+     1681 atggatgaga aatttgggat tgcgttacaa aagacaaagc ctttaaaact tattccaata
+     1741 cctaggtatt gaaatttgtt agacttacgt acaacaatta ttattgtttg tggttggttt
+     1801 tgggttagct tcctgttcat gtttgtttga tgtgctcgat tgaatttact acaaatcaac
+     1861 gaactccaat tatatcttgt caacttggag taatggcttg ggtttctcat ctgtcatctc
+     1921 ttttggttgg ctgtgcaagg gagtgagctt gcagcttagc atccttcaag aagatttaat
+     1981 taataatatg tgtatgtgta tgtgtatgtg tggattgtat ctcgtcattc attttgcttg
+     2041 ttgtaatgat tttagttaat tattgtaatt ataaaggatt tgatcctcct ttgtgttgaa
+     2101 attatatata taatgtgtag cacgacaata aagtgacaga taacttatat aatcttattt
+     2161 tctatgaaat gttacagact tgctttgtgt tttaaaaaaa
+//
+

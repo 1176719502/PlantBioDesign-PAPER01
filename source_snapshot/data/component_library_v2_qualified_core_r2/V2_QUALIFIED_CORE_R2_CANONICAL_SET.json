@@ -1,0 +1,1765 @@
+{
+  "schema_version": "component-library-v2-qualified-core-r2-canonical-set",
+  "review_date": "2026-09-13",
+  "authoritative_independent_review": "docs/qa/component_library_v2_qualified_core_r1_independent_review/V2_QUALIFIED_CORE_R1_INDEPENDENT_MATRIX.json",
+  "derivation_source": "docs/qa/component_library_v2_qualified_core_r1/V2_QUALIFIED_CORE_CANONICAL_SET.json",
+  "product_usable": 41,
+  "direct_use": 17,
+  "user_sequence_assisted": 24,
+  "reference": 95,
+  "retired": 35,
+  "canonical_total": 171,
+  "blocked_ids_excluded": [
+    "V2-CMP-003",
+    "V2-CMP-126"
+  ],
+  "category_model": "CORE, REFERENCE, and RETIRED are mutually exclusive canonical categories; UNRESOLVED is a subset of RETIRED and is not added again.",
+  "product_contract_compatible": true,
+  "core_admission_modes": [
+    "DIRECT_USE",
+    "USER_SEQUENCE_ASSISTED"
+  ],
+  "broad_acquisition_status": "STOP",
+  "adoption_status": "NOT_ADOPTED_IN_CURRENT_PRODUCT",
+  "records": [
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-002",
+      "canonical_name": "Arabidopsis RPS5A promoter fragment (pJOG603)",
+      "aliases": [
+        "pRPS5A",
+        "At3g11940 promoter"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "pJOG603; TAIR:AT3G11940",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B9_pJOG603_[Pro+5U] RPS5a AT3G11940.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B9_pJOG603_[Pro+5U] RPS5a AT3G11940.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-002",
+        "sequence_sha256": "d9df1bcccc837686f108be223966350aa2d85e945b5a4460860878ae760db5e1",
+        "length": 1659,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_FEATURE [538:2197](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-003",
+      "canonical_name": "Arabidopsis DD45 promoter fragment (pJOG301)",
+      "aliases": [
+        "pDD45",
+        "At2g21740 promoter"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "pJOG301; TAIR:AT2G21740",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B11_pJOG301_[Pro+5U] DD45 AT2G21740.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B11_pJOG301_[Pro+5U] DD45 AT2G21740.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-003",
+        "sequence_sha256": "525b62aa18a877ca684ad6b58c4dd7fd33ba5d0605600df56f24a6fdd89023fc",
+        "length": 969,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_FEATURE [2235:3204](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-004",
+      "canonical_name": "EC1.1/EC1.2 egg-cell promoter fusion module (pAGM28521)",
+      "aliases": [
+        "EC1.1.2",
+        "egg cell fusion promoter"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana-derived synthetic regulatory module",
+      "accession_or_source_record": "pAGM28521",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B12_pAGM28521_[Pro+5U]_egg cell fusion promoter.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B12_pAGM28521_[Pro+5U]_egg cell fusion promoter.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-004",
+        "sequence_sha256": "b6d85864742b9d5f42a2508a075201834b6e3aea27b5c330b4a26f0ac4418b0c",
+        "length": 1350,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_FEATURE [2137:3487](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-005",
+      "canonical_name": "Arabidopsis AP1 promoter fragment (pJOG299)",
+      "aliases": [
+        "pAP1",
+        "At1g69120 promoter"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "pJOG299; TAIR:AT1G69120",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; C1_pJOG299_[Pro+5U] AP1 At1g69120.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; C1_pJOG299_[Pro+5U] AP1 At1g69120.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-005",
+        "sequence_sha256": "f2147dacc7123beba505c78658751519e60ff5c22cb174d9462a14f7596cb073",
+        "length": 1375,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_FEATURE [2235:3610](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-006",
+      "canonical_name": "Arabidopsis PR1 promoter fragment (pJOG010)",
+      "aliases": [
+        "pAtPR1",
+        "At2g14610 promoter"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "pJOG010; TAIR:AT2G14610",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; C11_pJOG010_[Pro+5U] AtPR1 At2g14610.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; C11_pJOG010_[Pro+5U] AtPR1 At2g14610.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-006",
+        "sequence_sha256": "262f650c2117b73eb04f5dc6669ae50ab34a9eafb6ee7c1a86bc153187e3de29",
+        "length": 1177,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_FEATURE [2235:3412](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-022",
+      "canonical_name": "LexA operator/35S minimal promoter response module (pTEI036)",
+      "aliases": [
+        "LexA-35Smin",
+        "XVE response module"
+      ],
+      "role": "enhancer_regulatory_element",
+      "source_organism": "synthetic regulatory module with CaMV 35S minimal promoter",
+      "accession_or_source_record": "pTEI036",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B3_pTEI036_[Pro+5U]_LexA-35min (XVE-inducible).gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B3_pTEI036_[Pro+5U]_LexA-35min (XVE-inducible).gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-022",
+        "sequence_sha256": "f752a242c811e3dd9b611c5ec5f3bf284ba451f89e5ccfc2d2d18ace609adca6",
+        "length": 351,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_COMPOSITE_BOUNDARY [538:889](+); LexA operator and -46/+12 35S regulatory features annotated; zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-023",
+      "canonical_name": "6xGAL4 UAS/35S minimal promoter response module (pTEI042)",
+      "aliases": [
+        "6xUASgal4-35Smin",
+        "GVG response module"
+      ],
+      "role": "enhancer_regulatory_element",
+      "source_organism": "synthetic regulatory module with CaMV 35S minimal promoter",
+      "accession_or_source_record": "pTEI042",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B4_pTEI042_[Pro+5U]_pGal4UAS-35Smin_(GVG-inducible).gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B4_pTEI042_[Pro+5U]_pGal4UAS-35Smin_(GVG-inducible).gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-023",
+        "sequence_sha256": "6a548052c19c71008506ddf48a728494173663cc5ad55cb09dac1aeeb3924b9a",
+        "length": 240,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_COMPOSITE_BOUNDARY [565:805](+); six UAS features and minimal promoter annotated; zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-025",
+      "canonical_name": "Capsicum annuum Bs3 response promoter module (pJOG535)",
+      "aliases": [
+        "pBs3",
+        "CaBs3 promoter"
+      ],
+      "role": "enhancer_regulatory_element",
+      "source_organism": "Capsicum annuum",
+      "accession_or_source_record": "pJOG535",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; E4_pJOG535_[Pro+5U]_CaBs3.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; E4_pJOG535_[Pro+5U]_CaBs3.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-025",
+        "sequence_sha256": "b96f141836336bd18f9533c43f3be4188967cd4896ecb5a6f9454597ce8c7c15",
+        "length": 1012,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_PROMOTER_FEATURE [538:1550](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-144",
+      "canonical_name": "Arabidopsis HSP18.2 terminator (250 bp feature)",
+      "aliases": [
+        "HSP18.2 terminator",
+        "tHSP18.2"
+      ],
+      "role": "terminator_3prime_regulatory_region",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "PP558908.1",
+      "source_record": "data/plant_component_registry_v1/source_records/PP558908.1.gb",
+      "primary_citation": "NCBI GenBank PP558908.1; Nagaya et al., Plant Cell Physiol. 51, 328-332 (2010), PMID:20040586, DOI:10.1093/pcp/pcp188",
+      "doi": "10.1093/pcp/pcp188",
+      "pmid": "20040586",
+      "legacy_component_ids": [
+        "PCLV1-TER-HSP18-2-250"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "EXACT_SEQUENCE_BOUNDARY_SOURCE_HASH_RIGHTS_AND_PRODUCT_CONTRACT_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "maintain provenance and lifecycle checks",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-TER-HSP18-2-250"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/PP558908.1.gb",
+        "primary_citation": "NCBI GenBank PP558908.1; Nagaya et al., Plant Cell Physiol. 51, 328-332 (2010), PMID:20040586, DOI:10.1093/pcp/pcp188",
+        "doi": "10.1093/pcp/pcp188",
+        "pmid": "20040586"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-CMP-144",
+        "sequence_sha256": "f64cc0a9ffd000d281dc8d75163b072d42ec8184ad216470461941a4e61dfd1d",
+        "length": 250,
+        "source_artifact_sha256": "521467bde8978a3e02115b2e5ef6e205700e016b7ee31c44da92ffb39d00dfc9",
+        "exact_boundary": {
+          "method": "GenBank regulatory terminator feature coordinates",
+          "feature_type": "regulatory",
+          "feature_label": "HSP18.2 terminator",
+          "strand": "+",
+          "start_one_based": 852,
+          "end_one_based_inclusive": 1101,
+          "crosses_origin": false,
+          "reverse_complemented": false,
+          "extraction": "zero-based half-open slice from parsed GenBank record"
+        }
+      },
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-029",
+      "canonical_name": "GVG glucocorticoid-responsive transactivator CDS1 module (pJOG641)",
+      "aliases": [
+        "GVG",
+        "pJOG641"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "synthetic fusion with GAL4, VP16, and Rattus norvegicus GR-derived regions",
+      "accession_or_source_record": "pJOG641",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H8_pJOG641_[CDS1] GVG (DEX).gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H8_pJOG641_[CDS1] GVG (DEX).gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-029",
+        "sequence_sha256": "10b8665c07092c1aedaf6b4430a374ddca2cde134ea8a0d4eb8130a52f90f45a",
+        "length": 1314,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_CDS [324:1638](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-031",
+      "canonical_name": "NTF INTACT nuclear-tagging fusion CDS1 module (pJOG536)",
+      "aliases": [
+        "NTF-INTACT",
+        "pJOG536"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "engineered plant nuclear-tagging fusion",
+      "accession_or_source_record": "pJOG536",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H4_pJOG536_[CDS1] NTF-INTACT.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H4_pJOG536_[CDS1] NTF-INTACT.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-031",
+        "sequence_sha256": "70a26856835b599e7000a64c50f68e86478fcbc33c908fdd9c4478ae616a895d",
+        "length": 1148,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_LEVEL0_COMPOSITE_INSERT [324:1472](+); RanGAP1, mEGFP, and BLRP subfeatures annotated; zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-036",
+      "canonical_name": "C-terminal 6xHA/Twin-Strep composite tag module (pJOG331)",
+      "aliases": [
+        "6xHA-TwinStrep",
+        "pJOG331"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "engineered epitope and affinity-tag module",
+      "accession_or_source_record": "pJOG331",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; G1_pJOG331_[CT] 6XHA-TwinStrep.gbk",
+      "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+      "doi": "10.1371/journal.pone.0197185",
+      "pmid": "29847550",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; G1_pJOG331_[CT] 6XHA-TwinStrep.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-036",
+        "sequence_sha256": "6c7c8e57323b581aeb41f807a0773009ca18321c327728bba2d211f244bdede3",
+        "length": 287,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_COMPOSITE_TAG_BOUNDARY [354:641](+); 6xHA and Twin-Strep subfeatures annotated; zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-001",
+      "canonical_name": "Arabidopsis UBQ10 3-prime regulatory region (T_AtUbq10 published string)",
+      "aliases": [
+        "T_AtUbq10",
+        "AtUBQ10 3' regulatory region"
+      ],
+      "role": "terminator_3prime_regulatory_region",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": null,
+      "source_record": "Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_AtUbq10",
+      "primary_citation": "Tian et al. Benchmarking Intrinsic Promoters and Terminators for Plant Synthetic Biology Research. Plant Phenomics (2022).",
+      "doi": "10.34133/2022/9834989",
+      "pmid": "37850139",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "Independent review must reconfirm candidate-specific CC BY coverage, attribution, third-party-content status, and formal 3-prime role semantics.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_AtUbq10",
+        "primary_citation": "Tian et al. Benchmarking Intrinsic Promoters and Terminators for Plant Synthetic Biology Research. Plant Phenomics (2022).",
+        "doi": "10.34133/2022/9834989",
+        "pmid": "37850139"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R2-001",
+        "sequence_sha256": "12720e02e56c3a2306bb5db3c8b7c6b178c65d52c79d6f9913dbe8b7e9ef9e79",
+        "length": 636,
+        "source_artifact_sha256": "96c57f1c89dab4a08bf2af71adadcc7eb42a579f62861f03d456e72eb57ad9c7",
+        "exact_boundary": "EXACT_PUBLISHED_STRING_BOUNDARY"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-007",
+      "canonical_name": "Agrobacterium agropine synthase 3-prime regulatory region (T_ags published string)",
+      "aliases": [
+        "T_ags",
+        "ags 3' regulatory region"
+      ],
+      "role": "terminator_3prime_regulatory_region",
+      "source_organism": "Agrobacterium-derived plant expression element",
+      "accession_or_source_record": null,
+      "source_record": "Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_ags",
+      "primary_citation": "Tian et al. Plant Phenomics (2022); row cites Farhi et al., Nature Biotechnology 29:1072-1074 (2011).",
+      "doi": "10.34133/2022/9834989",
+      "pmid": "37850139",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "Independent review must confirm the exact source-defined identity, candidate-specific rights checkpoint, and 3-prime role semantics.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_ags",
+        "primary_citation": "Tian et al. Plant Phenomics (2022); row cites Farhi et al., Nature Biotechnology 29:1072-1074 (2011).",
+        "doi": "10.34133/2022/9834989",
+        "pmid": "37850139"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R2-007",
+        "sequence_sha256": "bd0c2ad2d6e718c71da078e161676d7b412d1269c64feebce6f2fb81e15508ca",
+        "length": 406,
+        "source_artifact_sha256": "96c57f1c89dab4a08bf2af71adadcc7eb42a579f62861f03d456e72eb57ad9c7",
+        "exact_boundary": "EXACT_PUBLISHED_STRING_BOUNDARY"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-012",
+      "canonical_name": "GR-LhG4 transactivator Level 0 CDS module (pGGC018 boundary in pTT135)",
+      "aliases": [
+        "GR-LhG4",
+        "pGGC018 transactivator module"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Synthetic glucocorticoid receptor/GAL4-derived transactivator",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1371/journal.pone.0290097; S1 Dataset; pTT135 - ID 00338.gb; definition pUBQ10::GR-LhG4::tHSP18.2M",
+      "primary_citation": "Piepers et al. GreenGate 2.0: Backwards compatible addons for assembly of complex transcriptional units and their stacking with GreenGate. PLOS ONE 18:e0290097 (2023).",
+      "doi": "10.1371/journal.pone.0290097",
+      "pmid": "37682951",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "Independent review must verify the inferred Level 0 boundary and composite GR-LhG4 identity; the file contains no pOp6 response element.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0290097; S1 Dataset; pTT135 - ID 00338.gb; definition pUBQ10::GR-LhG4::tHSP18.2M",
+        "primary_citation": "Piepers et al. GreenGate 2.0: Backwards compatible addons for assembly of complex transcriptional units and their stacking with GreenGate. PLOS ONE 18:e0290097 (2023).",
+        "doi": "10.1371/journal.pone.0290097",
+        "pmid": "37682951"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R2-012",
+        "sequence_sha256": "91d8ee9df4cace9dc1dbfa81fab2b9943a1d1224e71e3410bd9ff3fe5eea06dc",
+        "length": 2225,
+        "source_artifact_sha256": "9039523f0913d362b6b992a8a4a15db54b44c52b4f5c134376870803342c957d",
+        "exact_boundary": "EXACT_SOURCE_BOUNDARY_REPRODUCED_BETWEEN_D_AND_C_OVERHANGS"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-013",
+      "canonical_name": "CPMV-HT 5-prime untranslated leader",
+      "aliases": [
+        "CPMV-HT leader",
+        "pEAQ-HT 5' UTR"
+      ],
+      "role": "5_utr_regulatory",
+      "source_organism": "Cowpea mosaic virus-derived synthetic leader",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1111/j.1467-7652.2009.00434.x; PMID 19627561",
+      "primary_citation": "Sainsbury, Thuenemann and Lomonossoff. pEAQ: versatile expression vectors for easy and quick transient expression of heterologous proteins in plants. Plant Biotechnology Journal (2009).",
+      "doi": "10.1111/j.1467-7652.2009.00434.x",
+      "pmid": "19627561",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "INDEPENDENT_USER_SEQUENCE_ASSISTED_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "A user-supplied sequence-bearing source must fix exact bytes, boundary, orientation, and user authority before qualification.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1111/j.1467-7652.2009.00434.x; PMID 19627561",
+        "primary_citation": "Sainsbury, Thuenemann and Lomonossoff. pEAQ: versatile expression vectors for easy and quick transient expression of heterologous proteins in plants. Plant Biotechnology Journal (2009).",
+        "doi": "10.1111/j.1467-7652.2009.00434.x",
+        "pmid": "19627561"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-014",
+      "canonical_name": "Alfalfa mosaic virus RNA4 5-prime untranslated leader",
+      "aliases": [
+        "AMV RNA4 leader",
+        "AMV 5' UTR"
+      ],
+      "role": "5_utr_regulatory",
+      "source_organism": "Alfalfa mosaic virus",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1038/325622a0; PMID 3492677",
+      "primary_citation": "Jobling and Gehrke. Enhanced translation of chimaeric messenger RNAs containing a plant viral untranslated leader sequence. Nature 325:622-625 (1987).",
+      "doi": "10.1038/325622a0",
+      "pmid": "3492677",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "INDEPENDENT_USER_SEQUENCE_ASSISTED_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "A user-supplied sequence-bearing source must fix exact bytes, boundary, orientation, and user authority before qualification.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1038/325622a0; PMID 3492677",
+        "primary_citation": "Jobling and Gehrke. Enhanced translation of chimaeric messenger RNAs containing a plant viral untranslated leader sequence. Nature 325:622-625 (1987).",
+        "doi": "10.1038/325622a0",
+        "pmid": "3492677"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-015",
+      "canonical_name": "Escherichia coli manA phosphomannose isomerase selectable-marker CDS",
+      "aliases": [
+        "manA",
+        "PMI selectable marker",
+        "phosphomannose isomerase"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Escherichia coli",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1023/A:1009633809610",
+      "primary_citation": "Joersbo et al. Analysis of mannose selection used for transformation of sugar beet. Molecular Breeding 4 (1998).",
+      "doi": "10.1023/A:1009633809610",
+      "pmid": null,
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "INDEPENDENT_USER_SEQUENCE_ASSISTED_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "A user-supplied sequence-bearing source must identify the exact manA allele, CDS bytes, boundary, and user authority.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1023/A:1009633809610",
+        "primary_citation": "Joersbo et al. Analysis of mannose selection used for transformation of sugar beet. Molecular Breeding 4 (1998).",
+        "doi": "10.1023/A:1009633809610",
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-030",
+      "canonical_name": "XVE estrogen-responsive transactivator CDS1 module (pTEI039)",
+      "aliases": [
+        "XVE",
+        "pTEI039"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "synthetic fusion with bacterial LexA, VP16, and human estrogen-receptor-derived regions",
+      "accession_or_source_record": "pTEI039; protein AAG36984.1",
+      "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H9_pTEI039_[CDS1]_XVE (Estradiol).gbk",
+      "primary_citation": "Zuo, Niu and Chua. Plant J. 24:265-273 (2000); exact module archived by Gantner et al. (2018).",
+      "doi": "10.1046/j.1365-313x.2000.00868.x",
+      "pmid": "11069700",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R1_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "INDEPENDENT_DIRECT_USE_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_ACQUISITION_R1_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+        "docs/qa/component_library_v2_acquisition_r1/V2_EXTERNAL_CANDIDATE_POOL_R1.json"
+      ],
+      "evidence_caveat": "Controlled later adoption only; preserve attribution and candidate-specific third-party-content checkpoint.",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H9_pTEI039_[CDS1]_XVE (Estradiol).gbk",
+        "primary_citation": "Zuo, Niu and Chua. Plant J. 24:265-273 (2000); exact module archived by Gantner et al. (2018).",
+        "doi": "10.1046/j.1365-313x.2000.00868.x",
+        "pmid": "11069700"
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-EXT-R1-030",
+        "sequence_sha256": "b3adaf07bcaebce7735adf4bd24431c151abdcf9be98a4f3cb1a709f7a78da57",
+        "length": 1452,
+        "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+        "exact_boundary": "EXACT_ANNOTATED_XVE_CDS [324:1776](+); zero ambiguous bases"
+      },
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-016",
+      "canonical_name": "Arabidopsis csr1-1 mutant acetolactate synthase selectable-marker allele",
+      "aliases": [
+        "csr1-1 ALS",
+        "mutant AtALS",
+        "mutant acetolactate synthase"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1007/BF00330603",
+      "primary_citation": "Haughn et al. Transformation with a mutant Arabidopsis acetolactate synthase gene renders tobacco resistant to sulfonylurea herbicides. Molecular and General Genetics 211:266-271 (1988).",
+      "doi": "10.1007/BF00330603",
+      "pmid": null,
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "INDEPENDENT_USER_SEQUENCE_ASSISTED_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "A user-supplied authoritative sequence must fix the exact csr1-1 allele, CDS boundary, bytes, and user authority; do not collapse other ALS resistance alleles into this identity.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1007/BF00330603",
+        "primary_citation": "Haughn et al. Transformation with a mutant Arabidopsis acetolactate synthase gene renders tobacco resistant to sulfonylurea herbicides. Molecular and General Genetics 211:266-271 (1988).",
+        "doi": "10.1007/BF00330603",
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-143",
+      "canonical_name": "AtUBQ10 promoter (636 bp minimal fragment)",
+      "aliases": [
+        "AtUBQ10",
+        "UBQ10"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "HQ693235.1",
+      "source_record": "data/plant_component_registry_v1/source_records/HQ693235.1.gb",
+      "primary_citation": "NCBI GenBank HQ693235.1; Hashimoto and Kudla direct submission (2010)",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "PCLV1-PRO-UBQ10"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-PRO-UBQ10"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/HQ693235.1.gb",
+        "primary_citation": "NCBI GenBank HQ693235.1; Hashimoto and Kudla direct submission (2010)",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-131",
+      "canonical_name": "DODA1 CDS",
+      "aliases": [
+        "DODA1"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Beta vulgaris",
+      "accession_or_source_record": "HQ656027.1",
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656027.1.gb",
+      "primary_citation": "NCBI GenBank HQ656027.1",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "PCLV1-CDS-DODA1"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-CDS-DODA1"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/HQ656027.1.gb",
+        "primary_citation": "NCBI GenBank HQ656027.1",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-004",
+      "canonical_name": "ACT7; promoter",
+      "aliases": [],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "AF308778.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AF308778.1",
+      "primary_citation": "Direct Submission; Submitted (26-SEP-2000) LTI-CNRS UMR 6037, Universite de Rouen, Mont Saint Aignan 76821, France",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-ACTIN-FAMILY-5D605D80266B"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-ACTIN-FAMILY-5D605D80266B"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AF308778.1",
+        "primary_citation": "Direct Submission; Submitted (26-SEP-2000) LTI-CNRS UMR 6037, Universite de Rouen, Mont Saint Aignan 76821, France",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-006",
+      "canonical_name": "Oryza sativa (japonica cultivar-group) actin 2 (Act2) gene, promoter region",
+      "aliases": [],
+      "role": "promoter",
+      "source_organism": "Oryza sativa Japonica Group",
+      "accession_or_source_record": "EU098000.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/EU098000.1",
+      "primary_citation": "Identification of a rice actin2 gene regulatory region for high-level expression of transgenes in monocots; Plant Biotechnol. J. 7 (3), 227-239 (2009); 19215594",
+      "doi": null,
+      "pmid": "19215594",
+      "legacy_component_ids": [
+        "INTAKE-ACTIN-FAMILY-B81D7A810410"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-ACTIN-FAMILY-B81D7A810410"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/EU098000.1",
+        "primary_citation": "Identification of a rice actin2 gene regulatory region for high-level expression of transgenes in monocots; Plant Biotechnol. J. 7 (3), 227-239 (2009); 19215594",
+        "doi": null,
+        "pmid": "19215594"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-025",
+      "canonical_name": "Synthetic construct photo-switchable cyan fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AY533824.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY533824.1",
+      "primary_citation": "Photoswitchable cyan fluorescent protein for protein tracking; Nat. Biotechnol. 22 (11), 1435-1439 (2004); 15502815",
+      "doi": null,
+      "pmid": "15502815",
+      "legacy_component_ids": [
+        "INTAKE-CFP-FAMILY-1370DCB7DCF6"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-CFP-FAMILY-1370DCB7DCF6"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY533824.1",
+        "primary_citation": "Photoswitchable cyan fluorescent protein for protein tracking; Nat. Biotechnol. 22 (11), 1435-1439 (2004); 15502815",
+        "doi": null,
+        "pmid": "15502815"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-027",
+      "canonical_name": "Synthetic construct cyan fluorescent protein ares gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "DQ525024.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/DQ525024.1",
+      "primary_citation": "Rapid metabolism of glucose detected with FRET glucose nanosensors in epidermal cells and intact roots of Arabidopsis RNA-silencing mutants; Plant Cell 18 (9), 2314-2325 (2006); 16935985",
+      "doi": null,
+      "pmid": "16935985",
+      "legacy_component_ids": [
+        "INTAKE-CFP-FAMILY-A13DBCF8925D"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-CFP-FAMILY-A13DBCF8925D"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/DQ525024.1",
+        "primary_citation": "Rapid metabolism of glucose detected with FRET glucose nanosensors in epidermal cells and intact roots of Arabidopsis RNA-silencing mutants; Plant Cell 18 (9), 2314-2325 (2006); 16935985",
+        "doi": null,
+        "pmid": "16935985"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-034",
+      "canonical_name": "egfp; enhanced green fluorescent protein",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "Cloning vector pEGFP-C1",
+      "accession_or_source_record": "U55763.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/U55763.1",
+      "primary_citation": "FACS-optimized mutants of the green fluorescent protein (GFP); Gene 173 (1 SPEC NO), 33-38 (1996); 8707053",
+      "doi": null,
+      "pmid": "8707053",
+      "legacy_component_ids": [
+        "INTAKE-EGFP-578CBF335A0F"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-EGFP-578CBF335A0F"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/U55763.1",
+        "primary_citation": "FACS-optimized mutants of the green fluorescent protein (GFP); Gene 173 (1 SPEC NO), 33-38 (1996); 8707053",
+        "doi": null,
+        "pmid": "8707053"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-035",
+      "canonical_name": "egfp; enhanced green fluorescent protein",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "Cloning vector pEGFP-N1",
+      "accession_or_source_record": "U55762.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/U55762.1",
+      "primary_citation": "FACS-optimized mutants of the green fluorescent protein (GFP); Gene 173 (1 SPEC NO), 33-38 (1996); 8707053",
+      "doi": null,
+      "pmid": "8707053",
+      "legacy_component_ids": [
+        "INTAKE-EGFP-E8D734949C2B"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-EGFP-E8D734949C2B"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/U55762.1",
+        "primary_citation": "FACS-optimized mutants of the green fluorescent protein (GFP); Gene 173 (1 SPEC NO), 33-38 (1996); 8707053",
+        "doi": null,
+        "pmid": "8707053"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-045",
+      "canonical_name": "Synthetic construct GUSPlus gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AF354047.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AF354047.1",
+      "primary_citation": "Microbial genes for secreted beta-glucuronidases, gene products and uses thereof; Patent: PCT (PCT/US98/19217)-A 09-SEP-1998; CAMBIA; Molecular Technologies; Canberra; Australia;; Beta glucuronidase, Staphylococcal, codon-optimized for expression in plants",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-GUSPLUS-E4ACEAEECA92"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-GUSPLUS-E4ACEAEECA92"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AF354047.1",
+        "primary_citation": "Microbial genes for secreted beta-glucuronidases, gene products and uses thereof; Patent: PCT (PCT/US98/19217)-A 09-SEP-1998; CAMBIA; Molecular Technologies; Canberra; Australia;; Beta glucuronidase, Staphylococcal, codon-optimized for expression in plants",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-052",
+      "canonical_name": "Synthetic construct hygromycin B phosphotransferase (hpt-2) gene, complete cds",
+      "aliases": [],
+      "role": "selectable_marker",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "JF412803.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/JF412803.1",
+      "primary_citation": "An enhanced hygromycin-resistance gene overcomes high incidence false-positives and low transformation efficiency in Sporisorium scitamineum; Unpublished Ji,L.H.; Direct Submission",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-HPT-HPTII-EE9321015881"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-HPT-HPTII-EE9321015881"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/JF412803.1",
+        "primary_citation": "An enhanced hygromycin-resistance gene overcomes high incidence false-positives and low transformation efficiency in Sporisorium scitamineum; Unpublished Ji,L.H.; Direct Submission",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-138",
+      "canonical_name": "Tomato E8 promoter (2164 bp feature)",
+      "aliases": [
+        "E8",
+        "SlE8"
+      ],
+      "role": "promoter",
+      "source_organism": "Solanum lycopersicum",
+      "accession_or_source_record": "KJ561284.1",
+      "source_record": "data/plant_component_registry_v1/source_records/KJ561284.1.gb",
+      "primary_citation": "NCBI GenBank KJ561284.1; Hong et al. direct submission (2014); Deikman and Fischer, EMBO J. 7, 3315-3320 (1988)",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "PCLV1-PRO-E8-2164"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "DIRECT_USE",
+      "evidence_maturity": "EXACT_SEQUENCE_BOUNDARY_SOURCE_HASH_RIGHTS_AND_PRODUCT_CONTRACT_QUALIFIED",
+      "exact_sequence_bundled": true,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "maintain provenance and lifecycle checks",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-PRO-E8-2164"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/KJ561284.1.gb",
+        "primary_citation": "NCBI GenBank KJ561284.1; Hong et al. direct submission (2014); Deikman and Fischer, EMBO J. 7, 3315-3320 (1988)",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": {
+        "asset_table": "V2_QUALIFIED_DIRECT_USE_R2.json",
+        "canonical_v2_component_id": "V2-CMP-138",
+        "sequence_sha256": "ee18d306f8a4cddfe4cb0f7822500127641a188b4b475e3890a4a62e72add427",
+        "length": 2164,
+        "source_artifact_sha256": "010afc851758dfbde711ac156102cfd22993bb4a47df870d4040c1cce50e5089",
+        "exact_boundary": {
+          "method": "GenBank regulatory feature coordinates",
+          "feature_type": "regulatory",
+          "feature_label": "E8 tomato fruit specific promoter",
+          "strand": "+",
+          "start_one_based": 1,
+          "end_one_based_inclusive": 2164,
+          "crosses_origin": false,
+          "reverse_complemented": false,
+          "extraction": "zero-based half-open slice from parsed GenBank record"
+        }
+      },
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "DIRECT_USE_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-054",
+      "canonical_name": "Synthetic construct mCherry gene for enhanced red fluorescent protein, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "LC716766.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/LC716766.1",
+      "primary_citation": "Fluorescent protein genes with optimized codon for expression in tobacco; Unpublished; Direct Submission",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-MCHERRY-898CB5EC36C2"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-MCHERRY-898CB5EC36C2"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/LC716766.1",
+        "primary_citation": "Fluorescent protein genes with optimized codon for expression in tobacco; Unpublished; Direct Submission",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-099",
+      "canonical_name": "rbcS; promoter",
+      "aliases": [],
+      "role": "promoter",
+      "source_organism": "Nicotiana benthamiana",
+      "accession_or_source_record": "KU162868.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/KU162868.1",
+      "primary_citation": "Photosynthetic Trichomes Contain a Specific Rubisco with a Modified pH-Dependent Activity; Plant Physiol. 173 (4), 2110-2120 (2017); 28250069",
+      "doi": null,
+      "pmid": "28250069",
+      "legacy_component_ids": [
+        "INTAKE-RBCS-FAMILY-B71C26CFADA5"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-RBCS-FAMILY-B71C26CFADA5"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/KU162868.1",
+        "primary_citation": "Photosynthetic Trichomes Contain a Specific Rubisco with a Modified pH-Dependent Activity; Plant Physiol. 173 (4), 2110-2120 (2017); 28250069",
+        "doi": null,
+        "pmid": "28250069"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-112",
+      "canonical_name": "Synthetic construct yellow fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "OR681994.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/OR681994.1",
+      "primary_citation": "Direct Submission; Submitted (13-OCT-2023) Faculty of Life Science and Technology, Kunming University of Science and Technology, Wujiaying Street, Kunming, Yunnan 650500, China",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-YFP-FAMILY-6A6209FF675E"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-YFP-FAMILY-6A6209FF675E"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/OR681994.1",
+        "primary_citation": "Direct Submission; Submitted (13-OCT-2023) Faculty of Life Science and Technology, Kunming University of Science and Technology, Wujiaying Street, Kunming, Yunnan 650500, China",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-113",
+      "canonical_name": "Synthetic construct mVenus gene for enhanced yellow fluorescent protein, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "LC716765.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/LC716765.1",
+      "primary_citation": "Fluorescent protein genes with optimized codon for expression in tobacco; Unpublished; Direct Submission",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-YFP-FAMILY-7ED976729C01"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-YFP-FAMILY-7ED976729C01"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/LC716765.1",
+        "primary_citation": "Fluorescent protein genes with optimized codon for expression in tobacco; Unpublished; Direct Submission",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-115",
+      "canonical_name": "Synthetic construct monomeric yellow fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AY678271.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY678271.1",
+      "primary_citation": "Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein; Nat. Biotechnol. 22 (12), 1567-1572 (2004); 15558047 Tsien,R.Y.",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-YFP-FAMILY-D5108FB3F28E"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-YFP-FAMILY-D5108FB3F28E"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY678271.1",
+        "primary_citation": "Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein; Nat. Biotechnol. 22 (12), 1567-1572 (2004); 15558047 Tsien,R.Y.",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-128",
+      "canonical_name": "bar phosphinothricin acetyltransferase CDS",
+      "aliases": [
+        "bar",
+        "PAT"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Streptomyces hygroscopicus",
+      "accession_or_source_record": "X17220.1",
+      "source_record": "data/plant_component_registry_v1/source_records/X17220.1.gb",
+      "primary_citation": "NCBI GenBank X17220.1; White et al., Nucleic Acids Res. 18, 1062 (1990), PMID:2315036",
+      "doi": null,
+      "pmid": "2315036",
+      "legacy_component_ids": [
+        "PCLV1-CDS-BAR"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-CDS-BAR"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/X17220.1.gb",
+        "primary_citation": "NCBI GenBank X17220.1; White et al., Nucleic Acids Res. 18, 1062 (1990), PMID:2315036",
+        "doi": null,
+        "pmid": "2315036"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-129",
+      "canonical_name": "cDOPA5GT CDS",
+      "aliases": [
+        "cDOPA5GT"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Mirabilis jalapa",
+      "accession_or_source_record": "AB182643.1",
+      "source_record": "data/plant_component_registry_v1/source_records/AB182643.1.gb",
+      "primary_citation": "NCBI GenBank AB182643.1",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "PCLV1-CDS-CDOPA5GT"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-CDS-CDOPA5GT"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/AB182643.1.gb",
+        "primary_citation": "NCBI GenBank AB182643.1",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-130",
+      "canonical_name": "CYP76AD1 CDS",
+      "aliases": [
+        "CYP76AD1"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Beta vulgaris",
+      "accession_or_source_record": "HQ656023.1",
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656023.1.gb",
+      "primary_citation": "NCBI GenBank HQ656023.1",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "PCLV1-CDS-CYP76AD1"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "PCLV1-CDS-CYP76AD1"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/HQ656023.1.gb",
+        "primary_citation": "NCBI GenBank HQ656023.1",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-055",
+      "canonical_name": "Synthetic construct monomeric red fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AY678264.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY678264.1",
+      "primary_citation": "Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein; Nat. Biotechnol. 22 (12), 1567-1572 (2004); 15558047 Tsien,R.Y.",
+      "doi": null,
+      "pmid": null,
+      "legacy_component_ids": [
+        "INTAKE-MCHERRY-8AF4208438CE"
+      ],
+      "origin_class": "LEGACY_V1",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "IDENTITY_ROLE_SOURCE_AND_USER_SEQUENCE_PATH_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "evidence_caveat": "raw artifact or user-sequence confirmation, exact boundary, rights/redistribution, and plant-scope review",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_ids": [
+        "INTAKE-MCHERRY-8AF4208438CE"
+      ],
+      "source_citation": {
+        "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY678264.1",
+        "primary_citation": "Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein; Nat. Biotechnol. 22 (12), 1567-1572 (2004); 15558047 Tsien,R.Y.",
+        "doi": null,
+        "pmid": null
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "LEGACY_TRACEABILITY_PRESERVED_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-017",
+      "canonical_name": "Rhodotorula gracilis DAO1 D-amino acid oxidase conditional selectable-marker CDS",
+      "aliases": [
+        "RgDAO1",
+        "DAO1 conditional marker",
+        "D-amino acid oxidase marker"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Rhodotorula gracilis",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1038/nbt946; PMID 15085802",
+      "primary_citation": "Erikson, Hertzberg and Nasholm. A conditional marker gene allowing both positive and negative selection in plants. Nature Biotechnology 22:455-458 (2004).",
+      "doi": "10.1038/nbt946",
+      "pmid": "15085802",
+      "legacy_component_ids": [],
+      "origin_class": "ACQUISITION_R2_NEW",
+      "library_tier": "CORE",
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_maturity": "INDEPENDENT_USER_SEQUENCE_ASSISTED_QUALIFIED",
+      "exact_sequence_bundled": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "evidence_caveat": "A user-supplied sequence-bearing source must fix exact RgDAO1 CDS bytes, boundary, orientation, and user authority.",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1038/nbt946; PMID 15085802",
+        "primary_citation": "Erikson, Hertzberg and Nasholm. A conditional marker gene allowing both positive and negative selection in plants. Nature Biotechnology 22:455-458 (2004).",
+        "doi": "10.1038/nbt946",
+        "pmid": "15085802"
+      },
+      "sequence_asset_reference": null,
+      "migration_state": "NEW_CANONICAL_ID_PENDING_CONTROLLED_ADOPTION",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+case_inputs/rice_hsa/raw/*.gb binary
+case_inputs/rice_hsa/raw/*.fasta binary
+data/real_cases/**/source_records/*.gb -text -whitespace
+data/real_assets/pbi121/source_records/*.gb -text -whitespace
+data/plant_component_registry_v1/source_records/*.gb -text -whitespace
+data/knowledge_base_v0/manifest.json text eol=lf
+services/knowledge_base/schema_v1.sql text eol=lf

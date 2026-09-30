@@ -1,0 +1,69 @@
+{
+  "schema_version": "component-library-v2-blocked-records-r2",
+  "review_date": "2026-09-13",
+  "blocked_count": 2,
+  "records": [
+    {
+      "canonical_v2_component_id": "V2-CMP-003",
+      "canonical_name": "put. AAD (3)(9) precursor",
+      "aliases": [],
+      "role": "selectable_marker",
+      "legacy_component_ids": [
+        "INTAKE-AADA-A790605C9D31"
+      ],
+      "reason_code": "ROLE_EVIDENCE_INSUFFICIENT",
+      "independent_review_reason": "role evidence insufficient",
+      "exact_independent_review_reason": "The more specific existing legacy qualification matrix retains INTAKE-AADA-A790605C9D31 as REFERENCE_ONLY because the available evidence does not bind the record to a plant selectable-marker role. The later rebuild supplies no new evidence that closes this gap, yet the consolidation changes the role from generic coding-role to selectable_marker.",
+      "claimed_admission_mode": "USER_SEQUENCE_ASSISTED",
+      "independent_review_status": "BLOCKED_REFERENCE_ONLY",
+      "non_adoption_disposition": "REFERENCE_ONLY_PRESERVE_PROVENANCE_AND_LEGACY_TRACEABILITY",
+      "excluded_from": [
+        "product-usable Core",
+        "USER_SEQUENCE_ASSISTED adoption target",
+        "adoption delta",
+        "usable role counts",
+        "usable total",
+        "UI Core count expectations"
+      ],
+      "evidence_origin": "LEGACY_REBUILD_R1",
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "migration_mapping_valid": true
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-126",
+      "canonical_name": "Tomato E8 native 5' UTR (39 bp feature)",
+      "aliases": [
+        "E8 5'UTR"
+      ],
+      "role": "5_utr_regulatory",
+      "legacy_component_ids": [
+        "PCLV1-5UTR-E8-39"
+      ],
+      "reason_code": "OPEN_BOUNDARY_CONFLICT",
+      "independent_review_reason": "open-boundary conflict",
+      "exact_independent_review_reason": "The source feature is 2165..>2203 with an open right endpoint. The more specific existing boundary audits classify the fixed 39 bp interpretation as EVIDENCE_CONFLICT, and the later rebuild supplies no new evidence that closes the identity-defining boundary for USER_SEQUENCE_ASSISTED admission.",
+      "claimed_admission_mode": "USER_SEQUENCE_ASSISTED",
+      "independent_review_status": "BLOCKED_REFERENCE_ONLY",
+      "non_adoption_disposition": "REFERENCE_ONLY_PRESERVE_PROVENANCE_AND_LEGACY_TRACEABILITY",
+      "excluded_from": [
+        "product-usable Core",
+        "USER_SEQUENCE_ASSISTED adoption target",
+        "adoption delta",
+        "usable role counts",
+        "usable total",
+        "UI Core count expectations"
+      ],
+      "evidence_origin": "LEGACY_REBUILD_R1",
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "migration_mapping_valid": true
+    }
+  ]
+}

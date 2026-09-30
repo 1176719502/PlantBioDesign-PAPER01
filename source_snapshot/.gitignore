@@ -1,0 +1,55 @@
+﻿__pycache__/
+.pytest_cache*/
+.pytest_tmp*/
+.ruff_cache/
+*.pyc
+*.pyo
+*.sqlite
+*.db
+*.db-wal
+*.db-shm
+*.log
+.env
+.streamlit/secrets.toml
+.venv/
+.venv312/
+.venv_primer3_test/
+venv/
+dist/
+build/
+.DS_Store
+logs/
+outputs/
+temp_*/
+.tmp/
+.tmp_*.log
+.runtime/
+/artifacts/mvp4_acceptance/
+
+.pytest_tmp_batch_e/
+
+.tmp_pytest*/
+.tmppytest/
+
+# Local generated output
+output/
+
+# R225 local plant expression candidate corpus roots
+plant_expression_knowledge/
+.plant_expression_knowledge/
+
+# Pytest temp run directories
+.pytest-tmp-*/
+
+# Pytest temp directories with alternate naming
+.pytest-tmp*/
+..pytest-tmp*/
+
+# Pytest temp cache file directories created during Windows runs
+pytest-cache-files-*/
+
+# M1 acceptance keeps only the small review evidence; rounds, downloads, and logs are temporary.
+/artifacts/mvp_acceptance/*
+!/artifacts/mvp_acceptance/acceptance_result.json
+!/artifacts/mvp_acceptance/after_real_case.png
+!/artifacts/mvp_acceptance/after_complete_vector.png

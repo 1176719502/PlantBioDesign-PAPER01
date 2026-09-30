@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biodesign-studio.local/schemas/vector-asset-contracts-v1.json",
+  "title": "BioDesign Studio plant vector asset contracts V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "contracts"],
+  "properties": {
+    "schema_version": {"const": "vector-asset-contracts-v1"},
+    "contracts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/contract"}
+    }
+  },
+  "$defs": {
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "schema_version",
+        "contract_version",
+        "asset_id",
+        "display_name",
+        "aliases",
+        "accession_version",
+        "record_id",
+        "asset_kind",
+        "operation_kind",
+        "circular",
+        "full_sequence_length",
+        "full_sequence_sha256",
+        "external_coordinate_contract",
+        "internal_coordinate_contract",
+        "operation_region_sha256",
+        "supported_workflows",
+        "blocked_workflows",
+        "direct_design_allowed",
+        "arbitrary_coordinate_allowed",
+        "reference_view_allowed",
+        "canonical_modification_allowed",
+        "formal_selection_allowed",
+        "retained_features",
+        "protected_features",
+        "warning_text",
+        "source_evidence",
+        "review_status"
+      ],
+      "properties": {
+        "schema_version": {"const": "vector-asset-contracts-v1"},
+        "contract_version": {"type": "string", "minLength": 1},
+        "asset_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+        "display_name": {"type": "string", "minLength": 1},
+        "aliases": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "accession_version": {"type": ["string", "null"]},
+        "record_id": {"type": ["string", "null"]},
+        "asset_kind": {
+          "enum": [
+            "exact_insertion_source",
+            "tDNA_replacement_source",
+            "reference_vector",
+            "hold_unverified_asset"
+          ]
+        },
+        "operation_kind": {"enum": ["exact_insertion", "exact_replacement", "none"]},
+        "circular": {"type": "boolean"},
+        "full_sequence_length": {"type": "integer", "minimum": 1},
+        "full_sequence_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "external_coordinate_contract": {"type": ["object", "null"]},
+        "internal_coordinate_contract": {"type": ["object", "null"]},
+        "operation_region_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+        "supported_workflows": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "blocked_workflows": {"type": "array", "items": {"type": "string"}, "uniqueItems": true},
+        "direct_design_allowed": {"type": "boolean"},
+        "arbitrary_coordinate_allowed": {"const": false},
+        "reference_view_allowed": {"type": "boolean"},
+        "canonical_modification_allowed": {"type": "boolean"},
+        "formal_selection_allowed": {"type": "boolean"},
+        "retained_features": {"type": "array", "items": {"type": "string"}},
+        "protected_features": {"type": "array", "items": {"type": "string"}},
+        "warning_text": {"type": "string", "minLength": 1},
+        "source_evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": ["evidence_type", "local_record_path"],
+            "properties": {
+              "evidence_type": {"type": "string"},
+              "local_record_path": {"type": "string"},
+              "note": {"type": "string"}
+            },
+            "additionalProperties": false
+          }
+        },
+        "review_status": {"enum": ["approved", "reference_only", "hold"]},
+        "reference_status": {"type": ["string", "null"]}
+      }
+    }
+  }
+}

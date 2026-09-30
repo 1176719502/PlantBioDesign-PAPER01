@@ -1,0 +1,28 @@
+{
+  "fixture_id": "standard-genbank-origin-wraps-v1",
+  "description": "Deterministic GenBank location-shape fixtures for coordinate semantics only; they do not claim biological validation.",
+  "sequence_length": 100,
+  "topology": "circular",
+  "cases": [
+    {
+      "case_id": "forward-origin-crossing",
+      "genbank_location": "join(91..100,1..8)",
+      "strand": 1,
+      "location_parts": [
+        {"start": 90, "end": 100, "strand": 1},
+        {"start": 0, "end": 8, "strand": 1}
+      ],
+      "expected_wraps_origin": true
+    },
+    {
+      "case_id": "reverse-origin-crossing",
+      "genbank_location": "complement(join(91..100,1..8))",
+      "strand": -1,
+      "location_parts": [
+        {"start": 0, "end": 8, "strand": -1},
+        {"start": 90, "end": 100, "strand": -1}
+      ],
+      "expected_wraps_origin": true
+    }
+  ]
+}

@@ -1,0 +1,1040 @@
+{
+  "schema_version": "component-library-v2-qualified-user-assisted-r2",
+  "review_date": "2026-09-13",
+  "record_count": 24,
+  "admission_mode": "USER_SEQUENCE_ASSISTED",
+  "blocked_ids_excluded": [
+    "V2-CMP-003",
+    "V2-CMP-126"
+  ],
+  "product_closure_resolution_compatible": true,
+  "boundary": "No catalog-authoritative sequence is bundled. Each future use requires user-supplied exact sequence-bearing input and the existing Product Closure resolution checks.",
+  "records": [
+    {
+      "canonical_v2_component_id": "V2-CMP-130",
+      "canonical_name": "CYP76AD1 CDS",
+      "aliases": [
+        "CYP76AD1"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Beta vulgaris",
+      "accession_or_source_record": "HQ656023.1",
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656023.1.gb",
+      "citation": "NCBI GenBank HQ656023.1",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "CYP76AD1 CDS; role=cds_enzyme_functional; source context=Beta vulgaris.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "CURRENT_GOVERNANCE_NOT_FORMALLY_ADMITTED",
+        "RIGHTS_REVIEW_REQUIRED",
+        "SOURCE_LENGTH_EVIDENCE_REQUIRED_FOR_DIRECT_USE"
+      ],
+      "recorded_boundary_context": {
+        "crosses_origin": false,
+        "end_one_based_inclusive": 1752,
+        "extraction": "zero-based half-open slice from parsed GenBank record",
+        "feature_label": "CYP76AD1",
+        "feature_type": "CDS",
+        "method": "GenBank feature coordinates",
+        "reverse_complemented": false,
+        "start_one_based": 259,
+        "strand": "+"
+      },
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "PCLV1-CDS-CYP76AD1"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-129",
+      "canonical_name": "cDOPA5GT CDS",
+      "aliases": [
+        "cDOPA5GT"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Mirabilis jalapa",
+      "accession_or_source_record": "AB182643.1",
+      "source_record": "data/plant_component_registry_v1/source_records/AB182643.1.gb",
+      "citation": "NCBI GenBank AB182643.1",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "cDOPA5GT CDS; role=cds_enzyme_functional; source context=Mirabilis jalapa.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "CURRENT_GOVERNANCE_NOT_FORMALLY_ADMITTED",
+        "RIGHTS_REVIEW_REQUIRED",
+        "SOURCE_LENGTH_EVIDENCE_REQUIRED_FOR_DIRECT_USE"
+      ],
+      "recorded_boundary_context": {
+        "crosses_origin": false,
+        "end_one_based_inclusive": 1524,
+        "extraction": "zero-based half-open slice from parsed GenBank record",
+        "feature_label": "cDOPA5GT",
+        "feature_type": "CDS",
+        "method": "GenBank feature coordinates",
+        "reverse_complemented": false,
+        "start_one_based": 22,
+        "strand": "+"
+      },
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "PCLV1-CDS-CDOPA5GT"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-128",
+      "canonical_name": "bar phosphinothricin acetyltransferase CDS",
+      "aliases": [
+        "bar",
+        "PAT"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Streptomyces hygroscopicus",
+      "accession_or_source_record": "X17220.1",
+      "source_record": "data/plant_component_registry_v1/source_records/X17220.1.gb",
+      "citation": "NCBI GenBank X17220.1; White et al., Nucleic Acids Res. 18, 1062 (1990), PMID:2315036",
+      "doi": null,
+      "pmid": "2315036",
+      "user_facing_identity_definition": "bar phosphinothricin acetyltransferase CDS; role=selectable_marker; source context=Streptomyces hygroscopicus.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": {
+        "crosses_origin": false,
+        "end_one_based_inclusive": 582,
+        "extraction": "zero-based half-open slice from parsed GenBank record",
+        "feature_label": "phosphinothricin acetyltransferase",
+        "feature_type": "CDS",
+        "method": "GenBank CDS feature coordinates",
+        "reverse_complemented": false,
+        "start_one_based": 31,
+        "strand": "+"
+      },
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "PCLV1-CDS-BAR"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-115",
+      "canonical_name": "Synthetic construct monomeric yellow fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AY678271.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY678271.1",
+      "citation": "Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein; Nat. Biotechnol. 22 (12), 1567-1572 (2004); 15558047 Tsien,R.Y.",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct monomeric yellow fluorescent protein gene, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..678 (+); CDS: monomeric yellow fluorescent protein; mHoneydew; engineered variant of monomeric red fluorescent protein mRFP1 in GenBank Accession Number AF506027 | 1..678 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-YFP-FAMILY-D5108FB3F28E"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-113",
+      "canonical_name": "Synthetic construct mVenus gene for enhanced yellow fluorescent protein, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "LC716765.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/LC716765.1",
+      "citation": "Fluorescent protein genes with optimized codon for expression in tobacco; Unpublished; Direct Submission",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct mVenus gene for enhanced yellow fluorescent protein, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..720 (+); CDS: mVenus; enhanced yellow fluorescent protein; codon-optimized for expression in tobacco | 1..720 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-YFP-FAMILY-7ED976729C01"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-112",
+      "canonical_name": "Synthetic construct yellow fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "OR681994.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/OR681994.1",
+      "citation": "Direct Submission; Submitted (13-OCT-2023) Faculty of Life Science and Technology, Kunming University of Science and Technology, Wujiaying Street, Kunming, Yunnan 650500, China",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct yellow fluorescent protein gene, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..756 (+); CDS: yellow fluorescent protein | 1..756 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-YFP-FAMILY-6A6209FF675E"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-099",
+      "canonical_name": "rbcS; promoter",
+      "aliases": [],
+      "role": "promoter",
+      "source_organism": "Nicotiana benthamiana",
+      "accession_or_source_record": "KU162868.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/KU162868.1",
+      "citation": "Photosynthetic Trichomes Contain a Specific Rubisco with a Modified pH-Dependent Activity; Plant Physiol. 173 (4), 2110-2120 (2017); 28250069",
+      "doi": null,
+      "pmid": "28250069",
+      "user_facing_identity_definition": "rbcS; promoter; role=promoter; source context=Nicotiana benthamiana.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..1243 (+); regulatory: rbcS; promoter",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-RBCS-FAMILY-B71C26CFADA5"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-054",
+      "canonical_name": "Synthetic construct mCherry gene for enhanced red fluorescent protein, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "LC716766.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/LC716766.1",
+      "citation": "Fluorescent protein genes with optimized codon for expression in tobacco; Unpublished; Direct Submission",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct mCherry gene for enhanced red fluorescent protein, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..711 (+); CDS: mCherry; enhanced red fluorescent protein; codon-optimized for expression in tobacco | 1..711 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-MCHERRY-898CB5EC36C2"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-052",
+      "canonical_name": "Synthetic construct hygromycin B phosphotransferase (hpt-2) gene, complete cds",
+      "aliases": [],
+      "role": "selectable_marker",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "JF412803.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/JF412803.1",
+      "citation": "An enhanced hygromycin-resistance gene overcomes high incidence false-positives and low transformation efficiency in Sporisorium scitamineum; Unpublished Ji,L.H.; Direct Submission",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct hygromycin B phosphotransferase (hpt-2) gene, complete cds; role=selectable_marker; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..1026 (+); CDS: hpt-2; hygromycin B phosphotransferase; codon-optimized for expression in plant | 1..1026 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-HPT-HPTII-EE9321015881"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-045",
+      "canonical_name": "Synthetic construct GUSPlus gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AF354047.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AF354047.1",
+      "citation": "Microbial genes for secreted beta-glucuronidases, gene products and uses thereof; Patent: PCT (PCT/US98/19217)-A 09-SEP-1998; CAMBIA; Molecular Technologies; Canberra; Australia;; Beta glucuronidase, Staphylococcal, codon-optimized for expression in plants",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct GUSPlus gene, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..1809 (+); CDS: GUSPlus; codon-optimized beta-glucuronidase from Staphylococcus sp | 1..1809 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-GUSPLUS-E4ACEAEECA92"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-035",
+      "canonical_name": "egfp; enhanced green fluorescent protein",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "Cloning vector pEGFP-N1",
+      "accession_or_source_record": "U55762.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/U55762.1",
+      "citation": "FACS-optimized mutants of the green fluorescent protein (GFP); Gene 173 (1 SPEC NO), 33-38 (1996); 8707053",
+      "doi": null,
+      "pmid": "8707053",
+      "user_facing_identity_definition": "egfp; enhanced green fluorescent protein; role=reporter; source context=Cloning vector pEGFP-N1.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "679..1398 (+); CDS: egfp; enhanced green fluorescent protein",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-EGFP-E8D734949C2B"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-034",
+      "canonical_name": "egfp; enhanced green fluorescent protein",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "Cloning vector pEGFP-C1",
+      "accession_or_source_record": "U55763.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/U55763.1",
+      "citation": "FACS-optimized mutants of the green fluorescent protein (GFP); Gene 173 (1 SPEC NO), 33-38 (1996); 8707053",
+      "doi": null,
+      "pmid": "8707053",
+      "user_facing_identity_definition": "egfp; enhanced green fluorescent protein; role=reporter; source context=Cloning vector pEGFP-C1.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "613..1410 (+); CDS: egfp; enhanced green fluorescent protein",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-EGFP-578CBF335A0F"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-027",
+      "canonical_name": "Synthetic construct cyan fluorescent protein ares gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "DQ525024.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/DQ525024.1",
+      "citation": "Rapid metabolism of glucose detected with FRET glucose nanosensors in epidermal cells and intact roots of Arabidopsis RNA-silencing mutants; Plant Cell 18 (9), 2314-2325 (2006); 16935985",
+      "doi": null,
+      "pmid": "16935985",
+      "user_facing_identity_definition": "Synthetic construct cyan fluorescent protein ares gene, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..678 (+); CDS: cyan fluorescent protein ares; codon diversified version of eCFP; coding region maximally diversified from venus to avoid potential interference by RNA silencing | 1..678 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-CFP-FAMILY-A13DBCF8925D"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-025",
+      "canonical_name": "Synthetic construct photo-switchable cyan fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AY533824.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY533824.1",
+      "citation": "Photoswitchable cyan fluorescent protein for protein tracking; Nat. Biotechnol. 22 (11), 1435-1439 (2004); 15502815",
+      "doi": null,
+      "pmid": "15502815",
+      "user_facing_identity_definition": "Synthetic construct photo-switchable cyan fluorescent protein gene, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..729 (+); CDS: photo-switchable cyan fluorescent protein; PS-CFP; photoconversion from cyan to green fluorescence; both excitation and emission spectra change in response to 400 nm light irradiation | 1..729 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-CFP-FAMILY-1370DCB7DCF6"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-006",
+      "canonical_name": "Oryza sativa (japonica cultivar-group) actin 2 (Act2) gene, promoter region",
+      "aliases": [],
+      "role": "promoter",
+      "source_organism": "Oryza sativa Japonica Group",
+      "accession_or_source_record": "EU098000.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/EU098000.1",
+      "citation": "Identification of a rice actin2 gene regulatory region for high-level expression of transgenes in monocots; Plant Biotechnol. J. 7 (3), 227-239 (2009); 19215594",
+      "doi": null,
+      "pmid": "19215594",
+      "user_facing_identity_definition": "Oryza sativa (japonica cultivar-group) actin 2 (Act2) gene, promoter region; role=promoter; source context=Oryza sativa Japonica Group.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..2595 (+); host_promoter_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-ACTIN-FAMILY-B81D7A810410"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-004",
+      "canonical_name": "ACT7; promoter",
+      "aliases": [],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "AF308778.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AF308778.1",
+      "citation": "Direct Submission; Submitted (26-SEP-2000) LTI-CNRS UMR 6037, Universite de Rouen, Mont Saint Aignan 76821, France",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "ACT7; promoter; role=promoter; source context=Arabidopsis thaliana.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..1202 (+); regulatory: ACT7; promoter",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-ACTIN-FAMILY-5D605D80266B"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-131",
+      "canonical_name": "DODA1 CDS",
+      "aliases": [
+        "DODA1"
+      ],
+      "role": "cds_enzyme_functional",
+      "source_organism": "Beta vulgaris",
+      "accession_or_source_record": "HQ656027.1",
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656027.1.gb",
+      "citation": "NCBI GenBank HQ656027.1",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "DODA1 CDS; role=cds_enzyme_functional; source context=Beta vulgaris.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "CURRENT_GOVERNANCE_NOT_FORMALLY_ADMITTED",
+        "RIGHTS_REVIEW_REQUIRED",
+        "SOURCE_LENGTH_EVIDENCE_REQUIRED_FOR_DIRECT_USE"
+      ],
+      "recorded_boundary_context": {
+        "crosses_origin": false,
+        "end_one_based_inclusive": 887,
+        "extraction": "zero-based half-open slice from parsed GenBank record",
+        "feature_label": "DODA1",
+        "feature_type": "CDS",
+        "method": "GenBank feature coordinates",
+        "reverse_complemented": false,
+        "start_one_based": 60,
+        "strand": "+"
+      },
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "PCLV1-CDS-DODA1"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-143",
+      "canonical_name": "AtUBQ10 promoter (636 bp minimal fragment)",
+      "aliases": [
+        "AtUBQ10",
+        "UBQ10"
+      ],
+      "role": "promoter",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": "HQ693235.1",
+      "source_record": "data/plant_component_registry_v1/source_records/HQ693235.1.gb",
+      "citation": "NCBI GenBank HQ693235.1; Hashimoto and Kudla direct submission (2010)",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "AtUBQ10 promoter (636 bp minimal fragment); role=promoter; source context=Arabidopsis thaliana.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": {
+        "crosses_origin": false,
+        "end_one_based_inclusive": 636,
+        "extraction": "zero-based half-open slice from parsed GenBank record",
+        "feature_label": "UBQ10 promoter",
+        "feature_type": "regulatory",
+        "method": "GenBank feature coordinates",
+        "reverse_complemented": false,
+        "start_one_based": 1,
+        "strand": "+"
+      },
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "PCLV1-PRO-UBQ10"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-016",
+      "canonical_name": "Arabidopsis csr1-1 mutant acetolactate synthase selectable-marker allele",
+      "aliases": [
+        "csr1-1 ALS",
+        "mutant AtALS",
+        "mutant acetolactate synthase"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Arabidopsis thaliana",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1007/BF00330603",
+      "citation": "Haughn et al. Transformation with a mutant Arabidopsis acetolactate synthase gene renders tobacco resistant to sulfonylurea herbicides. Molecular and General Genetics 211:266-271 (1988).",
+      "doi": "10.1007/BF00330603",
+      "pmid": null,
+      "user_facing_identity_definition": "Arabidopsis csr1-1 mutant acetolactate synthase selectable-marker allele; role=selectable_marker; source context=Arabidopsis thaliana.",
+      "expected_user_supplied_input": "User-supplied sequence-bearing source that fixes exact bytes, exact component boundary, orientation, provenance, and user authority for this named identity.",
+      "required_validation_contract": [
+        "strict_dna_alphabet",
+        "exact_boundary_confirmation",
+        "orientation_confirmation",
+        "sequence_length_and_sha256_freeze",
+        "identity_and_role_match",
+        "source_provenance_capture",
+        "user_authority_confirmation"
+      ],
+      "recorded_boundary_context": "SOURCE_DEFINED_MUTANT_ARABIDOPSIS_ALS_MARKER_IDENTITY; exact csr1-1 allele bytes and CDS boundary required",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "legacy_component_ids": [],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-015",
+      "canonical_name": "Escherichia coli manA phosphomannose isomerase selectable-marker CDS",
+      "aliases": [
+        "manA",
+        "PMI selectable marker",
+        "phosphomannose isomerase"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Escherichia coli",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1023/A:1009633809610",
+      "citation": "Joersbo et al. Analysis of mannose selection used for transformation of sugar beet. Molecular Breeding 4 (1998).",
+      "doi": "10.1023/A:1009633809610",
+      "pmid": null,
+      "user_facing_identity_definition": "Escherichia coli manA phosphomannose isomerase selectable-marker CDS; role=selectable_marker; source context=Escherichia coli.",
+      "expected_user_supplied_input": "User-supplied sequence-bearing source that fixes exact bytes, exact component boundary, orientation, provenance, and user authority for this named identity.",
+      "required_validation_contract": [
+        "strict_dna_alphabet",
+        "exact_boundary_confirmation",
+        "orientation_confirmation",
+        "sequence_length_and_sha256_freeze",
+        "identity_and_role_match",
+        "source_provenance_capture",
+        "user_authority_confirmation"
+      ],
+      "recorded_boundary_context": "UNAMBIGUOUS manA/PMI CDS IDENTITY; exact allele and user-supplied CDS boundary required",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "legacy_component_ids": [],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-014",
+      "canonical_name": "Alfalfa mosaic virus RNA4 5-prime untranslated leader",
+      "aliases": [
+        "AMV RNA4 leader",
+        "AMV 5' UTR"
+      ],
+      "role": "5_utr_regulatory",
+      "source_organism": "Alfalfa mosaic virus",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1038/325622a0; PMID 3492677",
+      "citation": "Jobling and Gehrke. Enhanced translation of chimaeric messenger RNAs containing a plant viral untranslated leader sequence. Nature 325:622-625 (1987).",
+      "doi": "10.1038/325622a0",
+      "pmid": "3492677",
+      "user_facing_identity_definition": "Alfalfa mosaic virus RNA4 5-prime untranslated leader; role=5_utr_regulatory; source context=Alfalfa mosaic virus.",
+      "expected_user_supplied_input": "User-supplied sequence-bearing source that fixes exact bytes, exact component boundary, orientation, provenance, and user authority for this named identity.",
+      "required_validation_contract": [
+        "strict_dna_alphabet",
+        "exact_boundary_confirmation",
+        "orientation_confirmation",
+        "sequence_length_and_sha256_freeze",
+        "identity_and_role_match",
+        "source_provenance_capture",
+        "user_authority_confirmation"
+      ],
+      "recorded_boundary_context": "UNAMBIGUOUS_AMV_RNA4_5_PRIME_LEADER_IDENTITY; exact user-supplied module boundary required",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "legacy_component_ids": [],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-013",
+      "canonical_name": "CPMV-HT 5-prime untranslated leader",
+      "aliases": [
+        "CPMV-HT leader",
+        "pEAQ-HT 5' UTR"
+      ],
+      "role": "5_utr_regulatory",
+      "source_organism": "Cowpea mosaic virus-derived synthetic leader",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1111/j.1467-7652.2009.00434.x; PMID 19627561",
+      "citation": "Sainsbury, Thuenemann and Lomonossoff. pEAQ: versatile expression vectors for easy and quick transient expression of heterologous proteins in plants. Plant Biotechnology Journal (2009).",
+      "doi": "10.1111/j.1467-7652.2009.00434.x",
+      "pmid": "19627561",
+      "user_facing_identity_definition": "CPMV-HT 5-prime untranslated leader; role=5_utr_regulatory; source context=Cowpea mosaic virus-derived synthetic leader.",
+      "expected_user_supplied_input": "User-supplied sequence-bearing source that fixes exact bytes, exact component boundary, orientation, provenance, and user authority for this named identity.",
+      "required_validation_contract": [
+        "strict_dna_alphabet",
+        "exact_boundary_confirmation",
+        "orientation_confirmation",
+        "sequence_length_and_sha256_freeze",
+        "identity_and_role_match",
+        "source_provenance_capture",
+        "user_authority_confirmation"
+      ],
+      "recorded_boundary_context": "SOURCE_DEFINED_CPMV_HT_5_PRIME_LEADER_IDENTITY; exact user-supplied module boundary required",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "legacy_component_ids": [],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-055",
+      "canonical_name": "Synthetic construct monomeric red fluorescent protein gene, complete cds",
+      "aliases": [],
+      "role": "reporter",
+      "source_organism": "synthetic construct",
+      "accession_or_source_record": "AY678264.1",
+      "source_record": "https://www.ncbi.nlm.nih.gov/nuccore/AY678264.1",
+      "citation": "Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein; Nat. Biotechnol. 22 (12), 1567-1572 (2004); 15558047 Tsien,R.Y.",
+      "doi": null,
+      "pmid": null,
+      "user_facing_identity_definition": "Synthetic construct monomeric red fluorescent protein gene, complete cds; role=reporter; source context=synthetic construct.",
+      "expected_user_supplied_input": "User-supplied DNA sequence or sequence-bearing FASTA/GenBank source matching the recorded identity, accession/context, role, exact boundary, and orientation.",
+      "required_validation_contract": [
+        "user_exact_sequence",
+        "strict_dna_alphabet",
+        "expected_length_match",
+        "expected_sha256_match",
+        "identity_and_boundary_confirmation",
+        "explicit_user_confirmation"
+      ],
+      "recorded_boundary_context": "1..711 (+); CDS: monomeric red fluorescent protein; mCherry; engineered variant of monomeric red fluorescent protein mRFP1 in GenBank Accession Number AF506027; N- and C-termini replaced with equivalent residues from EGFP | 1..711 (+); isolated_complete_component_record",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_rebuild_r1/V2_CORE_CANDIDATE_SET.json",
+        "docs/qa/component_library_v2_rebuild_r1/V2_LEGACY_156_CANONICALIZATION_MATRIX.json",
+        "docs/qa/COMPONENT_LIBRARY_V1_USABILITY_MATRIX_20260905.json"
+      ],
+      "legacy_component_ids": [
+        "INTAKE-MCHERRY-8AF4208438CE"
+      ],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "LEGACY_V1",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-017",
+      "canonical_name": "Rhodotorula gracilis DAO1 D-amino acid oxidase conditional selectable-marker CDS",
+      "aliases": [
+        "RgDAO1",
+        "DAO1 conditional marker",
+        "D-amino acid oxidase marker"
+      ],
+      "role": "selectable_marker",
+      "source_organism": "Rhodotorula gracilis",
+      "accession_or_source_record": null,
+      "source_record": "DOI 10.1038/nbt946; PMID 15085802",
+      "citation": "Erikson, Hertzberg and Nasholm. A conditional marker gene allowing both positive and negative selection in plants. Nature Biotechnology 22:455-458 (2004).",
+      "doi": "10.1038/nbt946",
+      "pmid": "15085802",
+      "user_facing_identity_definition": "Rhodotorula gracilis DAO1 D-amino acid oxidase conditional selectable-marker CDS; role=selectable_marker; source context=Rhodotorula gracilis.",
+      "expected_user_supplied_input": "User-supplied sequence-bearing source that fixes exact bytes, exact component boundary, orientation, provenance, and user authority for this named identity.",
+      "required_validation_contract": [
+        "strict_dna_alphabet",
+        "exact_boundary_confirmation",
+        "orientation_confirmation",
+        "sequence_length_and_sha256_freeze",
+        "identity_and_role_match",
+        "source_provenance_capture",
+        "user_authority_confirmation"
+      ],
+      "recorded_boundary_context": "UNAMBIGUOUS Rhodotorula gracilis DAO1 CDS IDENTITY; exact user-supplied CDS boundary required",
+      "bundled_authoritative_sequence": false,
+      "evidence_paths": [
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+        "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_QUALIFIED_SHORTLIST.json",
+        "docs/qa/component_library_v2_acquisition_r2/V2_ACQUISITION_R2_CANDIDATE_MATRIX.json"
+      ],
+      "legacy_component_ids": [],
+      "admission_mode": "USER_SEQUENCE_ASSISTED",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "independent_review_status": "USER_SEQUENCE_ASSISTED_CONFIRMED",
+      "product_closure_resolution_compatibility": {
+        "compatible": true,
+        "mechanism": "USER_SEQUENCE_ASSISTED",
+        "condition": "Product must use the existing user-sequence resolution contract and preserve source, identity, exact user bytes, boundary, orientation, and user authority checks."
+      }
+    }
+  ]
+}

@@ -1,0 +1,504 @@
+{
+  "seed_name": "V2.6 R34 Plant Promoter Catalog curated sample records",
+  "seed_version": "v2.6-r58",
+  "seed_scope": "local curated sample records for documentation-level catalog context",
+  "documentation_boundary_note": "Local curated sample records provide documentation-level catalog context only; they do not provide selection advice, source verification, biological forecasts, or wet-lab use guidance.",
+  "records": [
+    {
+      "promoter_id": "plant-promoter-seed-004",
+      "promoter_name": "CaMV 35S promoter context",
+      "aliases": [
+        "CaMV 35S context note",
+        "plant expression promoter context"
+      ],
+      "species": {
+        "scientific_name": "Cauliflower mosaic virus",
+        "common_name": "CaMV",
+        "taxonomy_id": "10641",
+        "cultivar_or_ecotype": "source-recorded regulatory context"
+      },
+      "clade": "other / not specified",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is retained as a documentation note for source review.",
+      "tss_reference_note": "TSS context is recorded only when provided by the source label.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "broad plant expression context",
+          "plant_ontology_id": "",
+          "development_stage": "source-recorded plant context",
+          "expression_context_label": "broadly used plant expression promoter context",
+          "evidence_label": "source-recorded regulatory context",
+          "evidence_summary": "Catalog note preserves source-recorded regulatory context only.",
+          "source_label": "Literature source placeholder: CAMV35S-CONTEXT",
+          "source_database": "Literature source placeholder",
+          "source_accession": "CAMV35S-CONTEXT",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "source_review_required; promoter_not_recommended; export_documentation_only."
+        }
+      ],
+      "evidence_labels": [
+        "source-recorded regulatory context"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "Regulatory context note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-CAMV35S-CONTEXT",
+          "motif_sequence_or_consensus": "source notation only",
+          "motif_position_note": "Position context is source-recorded documentation only.",
+          "associated_function_note": "Function note is retained as catalog context without recommendation.",
+          "evidence_note": "source_review_required; promoter_not_recommended."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: CAMV35S-CONTEXT"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is documentation-level context only.",
+        "Not a promoter recommendation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-005",
+      "promoter_name": "Double / enhanced 35S context",
+      "aliases": [
+        "double 35S context note",
+        "enhanced 35S context note"
+      ],
+      "species": {
+        "scientific_name": "Cauliflower mosaic virus",
+        "common_name": "CaMV",
+        "taxonomy_id": "10641",
+        "cultivar_or_ecotype": "vector or literature context only"
+      },
+      "clade": "other / not specified",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is retained as a documentation note for source review.",
+      "tss_reference_note": "TSS context is recorded only when provided by the source label.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "vector or literature context",
+          "plant_ontology_id": "",
+          "development_stage": "source-recorded context",
+          "expression_context_label": "vector or literature context only",
+          "evidence_label": "source-recorded regulatory context",
+          "evidence_summary": "Catalog note preserves vector or literature context only.",
+          "source_label": "Literature source placeholder: DOUBLE35S-CONTEXT",
+          "source_database": "Literature source placeholder",
+          "source_accession": "DOUBLE35S-CONTEXT",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "source_review_required; promoter_not_recommended; export_documentation_only."
+        }
+      ],
+      "evidence_labels": [
+        "source-recorded regulatory context"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "Vector context note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-DOUBLE35S-CONTEXT",
+          "motif_sequence_or_consensus": "source notation only",
+          "motif_position_note": "Position context is source-recorded documentation only.",
+          "associated_function_note": "Function note is retained as catalog context without recommendation.",
+          "evidence_note": "source_review_required; promoter_not_recommended."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: DOUBLE35S-CONTEXT"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is documentation-level context only.",
+        "Not a promoter recommendation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-006",
+      "promoter_name": "RBCS promoter context",
+      "aliases": [
+        "Rubisco small subunit promoter context",
+        "RBCS context note"
+      ],
+      "species": {
+        "scientific_name": "Nicotiana benthamiana",
+        "common_name": "N. benthamiana",
+        "taxonomy_id": "4100",
+        "cultivar_or_ecotype": "candidate regulatory context"
+      },
+      "clade": "dicot",
+      "promoter_type": "candidate regulatory context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is retained as a documentation note for source review.",
+      "tss_reference_note": "TSS context is recorded only when provided by the source label.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "green tissue",
+          "plant_ontology_id": "PO:0009006",
+          "development_stage": "source-recorded plant stage",
+          "expression_context_label": "green tissue or photosynthetic tissue context",
+          "evidence_label": "candidate regulatory context",
+          "evidence_summary": "Catalog note preserves candidate tissue-context metadata without recommendation.",
+          "source_label": "Literature source placeholder: RBCS-GREEN-CONTEXT",
+          "source_database": "Literature source placeholder",
+          "source_accession": "RBCS-GREEN-CONTEXT",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "source_review_required; promoter_not_recommended; export_documentation_only."
+        }
+      ],
+      "evidence_labels": [
+        "candidate regulatory context"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "Photosynthetic tissue context note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-RBCS-GREEN-CONTEXT",
+          "motif_sequence_or_consensus": "source notation only",
+          "motif_position_note": "Position context is source-recorded documentation only.",
+          "associated_function_note": "Function note is retained as catalog context without recommendation.",
+          "evidence_note": "source_review_required; promoter_not_recommended."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: RBCS-GREEN-CONTEXT"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is documentation-level context only.",
+        "Not a promoter recommendation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-007",
+      "promoter_name": "Ubiquitin promoter family context",
+      "aliases": [
+        "ubiquitin promoter family note",
+        "constitutive promoter family context"
+      ],
+      "species": {
+        "scientific_name": "Viridiplantae",
+        "common_name": "plant lineage",
+        "taxonomy_id": "33090",
+        "cultivar_or_ecotype": "catalog record only"
+      },
+      "clade": "other / not specified",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is retained as a documentation note for source review.",
+      "tss_reference_note": "TSS context is recorded only when provided by the source label.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "constitutive promoter family context",
+          "plant_ontology_id": "",
+          "development_stage": "source-recorded context",
+          "expression_context_label": "catalog record only",
+          "evidence_label": "source-recorded regulatory context",
+          "evidence_summary": "Catalog note preserves promoter-family context metadata only.",
+          "source_label": "Literature source placeholder: UBIQUITIN-FAMILY-CONTEXT",
+          "source_database": "Literature source placeholder",
+          "source_accession": "UBIQUITIN-FAMILY-CONTEXT",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "source_review_required; promoter_not_recommended; export_documentation_only."
+        }
+      ],
+      "evidence_labels": [
+        "source-recorded regulatory context"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "Promoter family context note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-UBIQUITIN-FAMILY-CONTEXT",
+          "motif_sequence_or_consensus": "source notation only",
+          "motif_position_note": "Position context is source-recorded documentation only.",
+          "associated_function_note": "Function note is retained as catalog context without recommendation.",
+          "evidence_note": "source_review_required; promoter_not_recommended."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: UBIQUITIN-FAMILY-CONTEXT"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is documentation-level context only.",
+        "Not a promoter recommendation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-008",
+      "promoter_name": "Actin promoter family context",
+      "aliases": [
+        "actin promoter family note",
+        "constitutive promoter family context"
+      ],
+      "species": {
+        "scientific_name": "Viridiplantae",
+        "common_name": "plant lineage",
+        "taxonomy_id": "33090",
+        "cultivar_or_ecotype": "catalog record only"
+      },
+      "clade": "other / not specified",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is retained as a documentation note for source review.",
+      "tss_reference_note": "TSS context is recorded only when provided by the source label.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "constitutive promoter family context",
+          "plant_ontology_id": "",
+          "development_stage": "source-recorded context",
+          "expression_context_label": "catalog record only",
+          "evidence_label": "source-recorded regulatory context",
+          "evidence_summary": "Catalog note preserves promoter-family context metadata only.",
+          "source_label": "Literature source placeholder: ACTIN-FAMILY-CONTEXT",
+          "source_database": "Literature source placeholder",
+          "source_accession": "ACTIN-FAMILY-CONTEXT",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "source_review_required; promoter_not_recommended; export_documentation_only."
+        }
+      ],
+      "evidence_labels": [
+        "source-recorded regulatory context"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "Promoter family context note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-ACTIN-FAMILY-CONTEXT",
+          "motif_sequence_or_consensus": "source notation only",
+          "motif_position_note": "Position context is source-recorded documentation only.",
+          "associated_function_note": "Function note is retained as catalog context without recommendation.",
+          "evidence_note": "source_review_required; promoter_not_recommended."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: ACTIN-FAMILY-CONTEXT"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is documentation-level context only.",
+        "Not a promoter recommendation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-001",
+      "promoter_name": "Maize ubiquitin promoter source context",
+      "aliases": [
+        "ZmUbi context note",
+        "maize ubiquitin promoter note"
+      ],
+      "species": {
+        "scientific_name": "Zea mays",
+        "common_name": "maize",
+        "taxonomy_id": "4577",
+        "cultivar_or_ecotype": "B73 documentation context"
+      },
+      "clade": "monocot",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is retained as a documentation note for source review.",
+      "tss_reference_note": "TSS context is recorded only when provided by the source label.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "root",
+          "plant_ontology_id": "PO:0009005",
+          "development_stage": "source-recorded plant stage",
+          "expression_context_label": "root documentation context",
+          "evidence_label": "literature-described tissue context",
+          "evidence_summary": "Source material describes root-context documentation for this promoter profile.",
+          "source_label": "Literature source placeholder: ZMU-ROOT",
+          "source_database": "Literature source placeholder",
+          "source_accession": "ZMU-ROOT",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "Human source review needed before citing this context in project documentation."
+        },
+        {
+          "tissue_context": "seedling",
+          "plant_ontology_id": "PO:0008037",
+          "development_stage": "source-recorded seedling stage",
+          "expression_context_label": "seedling documentation context",
+          "evidence_label": "curated catalog note",
+          "evidence_summary": "Catalog note preserves seedling-context metadata without downstream-use guidance.",
+          "source_label": "Local source note: ZMU-SEEDLING",
+          "source_database": "Local source note",
+          "source_accession": "ZMU-SEEDLING",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "Review source naming and citation context before project use."
+        }
+      ],
+      "evidence_labels": [
+        "literature-described tissue context",
+        "curated catalog note"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "TATA-box source note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-ZMU-TATA",
+          "motif_sequence_or_consensus": "TATA-box notation",
+          "motif_position_note": "Position context is source-recorded documentation only.",
+          "associated_function_note": "Function note is retained as catalog context without use guidance.",
+          "evidence_note": "Motif note requires source review before citation."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: ZMU-ROOT",
+        "Local source note: ZMU-SEEDLING"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is documentation-level context only.",
+        "Source labels require human review before citation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-002",
+      "promoter_name": "Arabidopsis ACT2 promoter source context",
+      "aliases": [
+        "AtACT2 context note",
+        "Arabidopsis actin promoter note"
+      ],
+      "species": {
+        "scientific_name": "Arabidopsis thaliana",
+        "common_name": "thale cress",
+        "taxonomy_id": "3702",
+        "cultivar_or_ecotype": "Col-0 documentation context"
+      },
+      "clade": "dicot",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is a local catalog note and not a downstream-use instruction.",
+      "tss_reference_note": "TSS reference details require source review.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "leaf",
+          "plant_ontology_id": "PO:0025034",
+          "development_stage": "source-recorded vegetative stage",
+          "expression_context_label": "leaf documentation context",
+          "evidence_label": "literature-described tissue context",
+          "evidence_summary": "Source material describes leaf-context documentation for this promoter profile.",
+          "source_label": "Literature source placeholder: ATACT2-LEAF",
+          "source_database": "Literature source placeholder",
+          "source_accession": "ATACT2-LEAF",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "Review source metadata before using this label in project documentation."
+        },
+        {
+          "tissue_context": "flower",
+          "plant_ontology_id": "PO:0009046",
+          "development_stage": "source-recorded reproductive stage",
+          "expression_context_label": "flower documentation context",
+          "evidence_label": "curated catalog note",
+          "evidence_summary": "Catalog note records flower-context metadata for source review.",
+          "source_label": "Local source note: ATACT2-FLOWER",
+          "source_database": "Local source note",
+          "source_accession": "ATACT2-FLOWER",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "Review publication and accession context before citation."
+        }
+      ],
+      "evidence_labels": [
+        "literature-described tissue context",
+        "curated catalog note"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "CAAT-box source note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-ATACT2-CAAT",
+          "motif_sequence_or_consensus": "CAAT-box notation",
+          "motif_position_note": "Position context is retained for documentation review.",
+          "associated_function_note": "Function note is catalog context only.",
+          "evidence_note": "Motif note needs source review before citation."
+        }
+      ],
+      "source_labels": [
+        "Literature source placeholder: ATACT2-LEAF",
+        "Local source note: ATACT2-FLOWER"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record does not provide biological suitability guidance.",
+        "Motif and tissue notes require source review before citation."
+      ]
+    },
+    {
+      "promoter_id": "plant-promoter-seed-003",
+      "promoter_name": "Rice actin promoter source context",
+      "aliases": [
+        "OsActin context note",
+        "rice actin promoter note"
+      ],
+      "species": {
+        "scientific_name": "Oryza sativa",
+        "common_name": "rice",
+        "taxonomy_id": "4530",
+        "cultivar_or_ecotype": "japonica documentation context"
+      },
+      "clade": "monocot",
+      "promoter_type": "source-recorded promoter context",
+      "sequence_availability": "metadata-only sequence context",
+      "sequence_scope_note": "Sequence scope is not expanded by this seed record.",
+      "tss_reference_note": "TSS reference is a source-review field.",
+      "tissue_contexts": [
+        {
+          "tissue_context": "callus",
+          "plant_ontology_id": "PO:0005052",
+          "development_stage": "source-recorded callus context",
+          "expression_context_label": "callus documentation context",
+          "evidence_label": "curated catalog note",
+          "evidence_summary": "Catalog note records callus-context metadata for documentation review.",
+          "source_label": "Local source note: OSACT-CALLUS",
+          "source_database": "Local source note",
+          "source_accession": "OSACT-CALLUS",
+          "publication_reference": "Reviewer-selected citation needed",
+          "review_status": "source review needed",
+          "review_note": "Review source and naming context before citation."
+        }
+      ],
+      "evidence_labels": [
+        "curated catalog note"
+      ],
+      "motif_annotations": [
+        {
+          "motif_name": "5 prime UTR context note",
+          "motif_source": "Motif source placeholder",
+          "motif_accession": "MOTIF-OSACT-UTR",
+          "motif_sequence_or_consensus": "source notation only",
+          "motif_position_note": "Position note is local catalog context.",
+          "associated_function_note": "Associated-function text is preserved as documentation context.",
+          "evidence_note": "Source review needed before citation."
+        }
+      ],
+      "source_labels": [
+        "Local source note: OSACT-CALLUS"
+      ],
+      "review_status": "source review needed",
+      "documentation_status": "local curated sample context",
+      "limitation_notes": [
+        "Seed record is not an external database sync.",
+        "No source verification is performed by the loader."
+      ]
+    }
+  ]
+}

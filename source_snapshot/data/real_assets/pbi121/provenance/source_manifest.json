@@ -1,0 +1,12 @@
+{
+  "asset_family": "pBI121_real_genbank_asset",
+  "source": {
+    "provider": "NCBI Nucleotide",
+    "accession": "AF485783.1",
+    "record_name": "pBI121",
+    "file": "source_records/AF485783.1.gb",
+    "sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7"
+  },
+  "preservation": "source_records/AF485783.1.gb is preserved byte-for-byte as downloaded.",
+  "generated_at": "source-version AF485783.1"
+}

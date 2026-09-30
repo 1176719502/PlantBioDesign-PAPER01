@@ -1,0 +1,53 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "case_manifest",
+  "case_id": "MT-01",
+  "route": "generic_multi_tu",
+  "result_kind": "MULTI_TU_EXPRESSION_ASSEMBLY",
+  "construct_name": "pGrDL_SP",
+  "paper": {
+    "doi": "10.3389/fpls.2017.01631",
+    "pmid": "28979287"
+  },
+  "source": {
+    "provider": "NCBI Nucleotide",
+    "accession_version": "KX758647.1",
+    "record_id": "KX758647.1"
+  },
+  "product_result": {
+    "topology": "linear",
+    "contains_vector": false,
+    "tu_count": 2,
+    "tu_identities": ["Renilla luciferase TU", "firefly luciferase TU"],
+    "orientations": ["reverse", "forward"]
+  },
+  "classification": "QUALIFIED_DETERMINISTIC_REGION_STANDARD",
+  "facts": [
+    "KX758647.1 is a complete 7086 bp circular source record named pGrDL_SP.",
+    "The source-forward interval 571..4649 is 4079 bp and contains two contiguous transcription-unit spans.",
+    "The selected region excludes the source record's T-DNA borders, bacterial replication background, and nptI selectable marker."
+  ],
+  "deterministic_derivations": [
+    "The product sequence is source_record[570:4649] in source-forward coordinate order.",
+    "TU1 is reconstructed from three reverse-complemented UI inputs followed by one whole-unit reverse orientation operation.",
+    "TU2 is reconstructed by concatenating the three source-forward UI inputs.",
+    "Five source-unannotated intervals are retained byte-for-byte inside the six composite UI input spans."
+  ],
+  "inferences": [
+    "The six composite spans are the lossless inputs for the current generic Multi-TU model; they are not claims that every base has one regulatory identity."
+  ],
+  "unknowns": [
+    "The biological functions of the five source-unannotated intervals are not established by the source record.",
+    "Offline redistribution rights beyond accession-based reproducible extraction are not established by this contract.",
+    "Experimental performance equivalence is not assessed."
+  ],
+  "formal_limitations": [
+    "MT-01 reproduces only a deterministic two-TU region from the public complete construct.",
+    "MT-01 does not reproduce the complete pGrDL_SP vector or claim to generate the complete circular KX758647.1 plasmid.",
+    "The result contains no vector background, backbone, origin, T-DNA border, or selectable marker.",
+    "The contract does not establish expression success, experimental validation, or wet-lab readiness."
+  ],
+  "status": "DATA_CONTRACT_READY_FOR_RUNTIME_INTEGRATION"
+}

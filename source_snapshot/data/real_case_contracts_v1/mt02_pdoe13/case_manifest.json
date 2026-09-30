@@ -1,0 +1,64 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "case_manifest",
+  "case_id": "MT-02",
+  "route": "generic_multi_tu",
+  "result_kind": "MULTI_TU_EXPRESSION_ASSEMBLY",
+  "construct_name": "pDOE-13",
+  "paper": {
+    "doi": "10.1111/tpj.12639",
+    "pmid": "25187041",
+    "accession_relationship": "PAPER_ACCESSION_VERSION_MATCH_WITH_EXPLANATION"
+  },
+  "source": {
+    "provider": "NCBI Nucleotide",
+    "accession_version": "KM507054.1",
+    "record_id": "KM507054.1"
+  },
+  "product_result": {
+    "topology": "linear",
+    "contains_vector": false,
+    "tu_count": 3,
+    "accessory_tu_count": 1,
+    "target_reporter_tu_count": 2,
+    "tu_identities": [
+      "p19 RNA silencing suppressor",
+      "X-mTq2 / mTurquoise2",
+      "X-mVenus / mVenus"
+    ],
+    "roles": ["accessory", "target/reporter", "target/reporter"],
+    "orientations": ["reverse", "forward", "forward"]
+  },
+  "qualification_classification": "CONFIRMED_3_TU",
+  "classification": "QUALIFIED_DETERMINISTIC_REGION_STANDARD",
+  "facts": [
+    "KM507054.1 is a 13268 bp circular record named Binary vector pDOE-13, complete sequence.",
+    "The source record and paper identify one accessory p19 cassette and two target/reporter cassettes.",
+    "The source record contains overlapping annotations inside the selected interval."
+  ],
+  "deterministic_derivations": [
+    "The canonical sequence is source_record[110:6719] in source-forward coordinate order.",
+    "Nine non-overlapping composite component spans reconstruct three contiguous physical transcription units.",
+    "Four retained source intervals totaling 24 bp remain conservatively classified as unannotated component sequence.",
+    "Thirty-three source feature assertions yield 30 pairwise annotation overlaps and 40 non-overlapping atomic intervals."
+  ],
+  "inferences": [
+    "The current generic Multi-TU model is expected in principle to carry this three-TU structure; this contract does not perform runtime integration.",
+    "Save and cold-reopen are expected in principle to carry the contract metadata; neither behavior is accepted by this task.",
+    "The conservative redistribution policy avoids bundling source or derived sequence bytes."
+  ],
+  "unknowns": [
+    "The exact legal redistribution scope for complete sequence derivatives is not established.",
+    "Experimental performance is not assessed."
+  ],
+  "formal_limitations": [
+    "MT-02 specifies only a deterministic 6609 bp linear expression assembly from the public complete construct.",
+    "The canonical result does not contain the complete pDOE-13 vector, backbone, origin, selectable marker, or T-DNA borders.",
+    "This task does not integrate app.py, runtime services, SQLite persistence, cold reopen, browser export, or UI entry.",
+    "The contract does not establish expression success, experimental validation, or wet-lab readiness."
+  ],
+  "next_stage_status": "BLOCKED_PENDING_CLEAN_TREE_GUARD_RESOLUTION",
+  "status": "MT02_DATA_CONTRACT_PENDING_FULL_PYTEST_GATE"
+}

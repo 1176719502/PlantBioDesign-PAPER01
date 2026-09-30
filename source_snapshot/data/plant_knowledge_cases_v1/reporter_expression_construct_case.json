@@ -1,0 +1,68 @@
+{
+  "schema_version": "plant-knowledge-case-walkthrough-v1",
+  "case_id": "PKC1-REPORTER-EXPRESSION-PBIN19",
+  "case_title": "Plant reporter expression construct review case",
+  "design_goal": "Document a traceable plant reporter expression construct case using the selected Registry components.",
+  "scope": "documentation_only_read_only_case",
+  "registry_source": "data/plant_component_registry_v1/registry.batch1.json",
+  "knowledge_layer_source": "data/plant_knowledge_layer_v1/evidence_curation_v1.json",
+  "selected_components": [
+    {
+      "slot": "promoter",
+      "registry_component_id": "PCLV1-PRO-35S-835",
+      "knowledge_layer_evidence_object_id": "PKL1-EV-PRO-35S-835",
+      "evidence_claim_ids": [
+        "PKL1-CLM-35S-IDENTITY",
+        "PKL1-CLM-35S-BOUNDARY",
+        "PKL1-CLM-35S-FUNCTION"
+      ],
+      "selection_rationale": "Used as the promoter slot because the Registry labels this record as a promoter and preserves a GenBank-derived boundary and source identity for review.",
+      "engineering_context_reference": "knowledge_layer.engineering_context_notes"
+    },
+    {
+      "slot": "reporter_cds",
+      "registry_component_id": "PCLV1-CDS-GUSA",
+      "knowledge_layer_evidence_object_id": "PKL1-EV-CDS-GUSA",
+      "evidence_claim_ids": [
+        "PKL1-CLM-GUSA-IDENTITY",
+        "PKL1-CLM-GUSA-BOUNDARY",
+        "PKL1-CLM-GUSA-FUNCTION"
+      ],
+      "selection_rationale": "Used as the reporter CDS slot because the Registry labels this record as a reporter CDS and preserves the AF485783.1 feature provenance for review.",
+      "engineering_context_reference": "knowledge_layer.engineering_context_notes"
+    },
+    {
+      "slot": "vector_source",
+      "registry_component_id": "PCLV1-VEC-PBIN19",
+      "knowledge_layer_evidence_object_id": "PKL1-EV-VEC-PBIN19",
+      "evidence_claim_ids": [
+        "PKL1-CLM-PBIN19-IDENTITY",
+        "PKL1-CLM-PBIN19-BOUNDARY",
+        "PKL1-CLM-PBIN19-FUNCTION"
+      ],
+      "selection_rationale": "Used as the vector-source context because the Registry identifies a complete pBIN19 binary-vector source and records its T-DNA/backbone context; any T-DNA replacement remains a manual review item.",
+      "engineering_context_reference": "knowledge_layer.engineering_context_notes"
+    }
+  ],
+  "case_review_requirements": [
+    "Confirm Registry identity, accession/version, sequence length, sequence hash, and source-record hash for every linked component.",
+    "Review the linked Knowledge Layer evidence objects and their claim-level provenance.",
+    "Review pBIN19 T-DNA and replacement boundaries before any future construct operation.",
+    "Keep all records in draft/pending-human-review status; this case does not certify function, performance, or experimental use."
+  ],
+  "known_limitations": [
+    "The selected Knowledge Layer objects are DRAFT and PENDING_HUMAN_REVIEW.",
+    "The promoter and reporter CDS have no independently reviewed literature citation in their linked objects.",
+    "The Knowledge Layer does not establish promoter strength, reporter activity, expression outcome, or host compatibility.",
+    "The pBIN19 record is a complete vector source with a recorded T-DNA replacement review requirement and rights caveat.",
+    "The Registry records these components as draft records and the current formal workflow cannot consume Knowledge Layer evidence as a native case input."
+  ],
+  "blocked_claims": [
+    "improved expression",
+    "biological performance",
+    "experimental validation",
+    "expression success",
+    "wet-lab readiness",
+    "automatic recommendation"
+  ]
+}

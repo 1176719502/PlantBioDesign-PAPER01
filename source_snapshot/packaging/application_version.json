@@ -1,0 +1,7 @@
+{
+  "product": "BioDesign Studio",
+  "contract_version": "p0b2a",
+  "target": "windows-x64-cpython312",
+  "formal_entry": "app.py",
+  "formal_port": 8528
+}

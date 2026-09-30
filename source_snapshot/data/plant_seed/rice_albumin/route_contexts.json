@@ -1,0 +1,67 @@
+{
+  "schema_version": "plant_seed.rice_albumin.v2.7.r131",
+  "batch": "v2.7-r131",
+  "description": "Minimal local rice albumin-like plant seed records for documentation-only review.",
+  "source_basis": [
+    "docs/qa/V2_7_R130_EXISTING_PLANT_DATA_INVENTORY_AND_SEED_GAP_MAP.md",
+    "services/plant_design_domain_schema.py:build_rice_albumin_like_domain_seed",
+    "data/plant_synbio_knowledge/route_templates_v1.jsonl"
+  ],
+  "records": [
+    {
+      "record_id": "r131-rice-albumin-project-intent",
+      "record_type": "ProjectIntent",
+      "target_or_route": "rice_albumin_like_plant_design_review",
+      "target_name": "albumin-like protein",
+      "target_type": "protein expression review target",
+      "plant_host": "Oryza sativa rice",
+      "tissue_or_context": "seed",
+      "source_species": "Oryza sativa rice",
+      "source_type": "local_repository_seed_builder",
+      "source_id": "services/plant_design_domain_schema.py:build_rice_albumin_like_domain_seed/design_intent",
+      "evidence_type": "intent_context_placeholder",
+      "review_status": "needs_manual_review",
+      "provenance_status": "candidate",
+      "manual_review_note": "Converted from the R98 local deterministic seed builder as a candidate intent/context record; source references and component provenance remain review gaps."
+    },
+    {
+      "record_id": "r131-rice-seed-design-context",
+      "record_type": "PlantDesignContext",
+      "target_or_route": "rice_albumin_like_plant_design_review",
+      "plant_species": "Oryza sativa rice",
+      "tissue_or_organ": "seed",
+      "expression_context": "rice seed expression context",
+      "target_product_type": "albumin-like protein",
+      "source_species": "Oryza sativa rice",
+      "source_type": "local_repository_seed_builder",
+      "source_id": "services/plant_design_domain_schema.py:build_rice_albumin_like_domain_seed/plant_design_context",
+      "evidence_type": "plant_context_placeholder",
+      "review_status": "needs_manual_review",
+      "provenance_status": "candidate",
+      "manual_review_note": "Converted from R98 as a rice seed context candidate; exact developmental context and localization remain missing."
+    },
+    {
+      "record_id": "r131-route-plant-protein-expression-evidence-first",
+      "record_type": "RouteContext",
+      "target_or_route": "plant_protein_expression_evidence_first_route_template",
+      "route_template_id": "plant_protein_expression_evidence_first_route_template",
+      "goal_type_id": "plant_molecular_farming_protein_expression",
+      "label": "Plant protein expression evidence-first route template",
+      "required_inputs": [
+        "target_product",
+        "gene_or_cds_source",
+        "plant_context",
+        "expression_compartment",
+        "component_evidence_context",
+        "case_evidence_context"
+      ],
+      "source_species": "missing",
+      "source_type": "local_route_template",
+      "source_id": "data/plant_synbio_knowledge/route_templates_v1.jsonl:plant_protein_expression_evidence_first_route_template",
+      "evidence_type": "route_context_template",
+      "review_status": "needs_manual_review",
+      "provenance_status": "partial",
+      "manual_review_note": "Local route vocabulary only; future intake must supply source-backed evidence before using this as a route review context."
+    }
+  ]
+}

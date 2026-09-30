@@ -1,0 +1,19 @@
+{
+  "contract_version": 1,
+  "target": "windows-x64-cpython312",
+  "entries": [
+    {"package": "streamlit", "classification": "formal_required", "items": ["static/**", "hello/**"], "collection": "audited Streamlit hook data", "validation": "P0-B2B onedir inventory and four-page smoke"},
+    {"package": "matplotlib", "classification": "formal_required", "items": ["mpl-data/**"], "collection": "audited Matplotlib hook data", "validation": "P0-B2B render smoke"},
+    {"package": "certifi", "classification": "formal_required", "items": ["cacert.pem"], "collection": "explicit package data", "validation": "package-data inventory"},
+    {"package": "pytz", "classification": "formal_required", "items": ["zoneinfo/**"], "collection": "explicit package data", "validation": "timezone import smoke"},
+    {"package": "tzdata", "classification": "formal_required", "items": ["zoneinfo/**"], "collection": "explicit package data", "validation": "Windows timezone smoke"},
+    {"package": "numpy", "classification": "formal_required", "items": ["numpy.libs/**", "native extension modules"], "collection": "audited NumPy hook binaries and data", "validation": "P0-B2B import and DLL inventory"},
+    {"package": "pandas", "classification": "formal_required", "items": ["native extension modules", "package data"], "collection": "audited pandas hook binaries and data", "validation": "P0-B2B dataframe smoke"},
+    {"package": "pyarrow", "classification": "formal_required", "items": ["native extension modules", "DLLs"], "collection": "audited PyArrow hook binaries", "validation": "P0-B2B Streamlit dataframe smoke"},
+    {"package": "pillow", "classification": "formal_required", "items": ["native extension modules", "plugins"], "collection": "audited Pillow hook binaries", "validation": "P0-B2B import inventory"},
+    {"package": "biopython", "classification": "formal_required", "items": ["Bio/Data/**", "Bio/Restriction/Restriction_Dictionary.py", "native extension modules"], "collection": "explicit package data plus discovered extensions", "validation": "FASTA and GenBank round trip"},
+    {"package": "fonttools", "classification": "verify_in_p0b2b", "items": ["package data used by Matplotlib"], "collection": "only hook-discovered data", "validation": "P0-B2B Matplotlib analysis"},
+    {"package": "pydna", "classification": "conditional_excluded", "items": [], "collection": "none", "validation": "denylist"},
+    {"package": "primer3", "classification": "conditional_excluded", "items": [], "collection": "none", "validation": "denylist"}
+  ]
+}

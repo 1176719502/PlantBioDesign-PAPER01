@@ -1,0 +1,81 @@
+{
+  "approved_at_utc": "2026-07-30T00:00:00Z",
+  "approved_by": "kb00-synthetic-fixture-reviewer",
+  "build_manifest_sha256": "6e8bbb1ea772b62186561097c9bf6d451473b54b6c385b025f6cc2bbeb034d46",
+  "build_tool_version": "kb00-builder-v1",
+  "built_at_utc": "2026-07-30T00:00:00Z",
+  "contract_version": "KB00-1.0-draft",
+  "copy_inventory": [
+    {
+      "classification": "synthetic_infrastructure_fixture",
+      "contains_real_accessions": false,
+      "contains_real_literature": false,
+      "contains_real_sequences": false,
+      "license_or_access_status": "INTERNAL_SYNTHETIC",
+      "runtime_boundary": "documentation and review retrieval only"
+    }
+  ],
+  "database": {
+    "application_id": 1262634032,
+    "filename": "kb_v0.sqlite3",
+    "logical_dump_sha256": "c8db701b2c92b37c88c7ecc5524132102763589ebf79f01d57c5392279535be8",
+    "relative_path": "data/knowledge_base_v0/kb_v0.sqlite3",
+    "sha256": "65082388903ca3349e5b078d60eae3183c63cbd3d7ab0f93605a0a5f6375ba93",
+    "size_bytes": 376832,
+    "user_version": 1
+  },
+  "dataset_version": "kb00-synthetic-v0.1.0",
+  "manifest_version": 1,
+  "record_counts": {
+    "by_entity_type": {
+      "accession": 1,
+      "applicability_scope": 1,
+      "component": 1,
+      "component_evidence": 1,
+      "construct": 1,
+      "design_case": 1,
+      "evidence_claim": 6,
+      "evidence_level": 4,
+      "experiment": 1,
+      "limitation": 1,
+      "measurement": 1,
+      "metabolite": 1,
+      "organism": 1,
+      "paper": 1,
+      "source_reference": 1,
+      "tissue": 1,
+      "transcription_unit": 1
+    },
+    "by_fact_class": {
+      "DERIVATION": 1,
+      "FACT": 3,
+      "INFERENCE": 1,
+      "UNKNOWN": 1
+    },
+    "by_review_status": {
+      "HUMAN_APPROVED": 3,
+      "UNREVIEWED": 3
+    },
+    "claims": 6,
+    "conflict_rows": 2,
+    "entities": 25,
+    "limitations": 1,
+    "registry_eligible": 0,
+    "runtime_eligible": 1,
+    "unknown_claims": 1
+  },
+  "release_id": "kb:release:synthetic-v0-1-0",
+  "release_status": "HUMAN_APPROVED",
+  "schema_sha256": "4cdcc24adad8ef687ac2926fe3a0a87347257c58dca8da42cd0fde82d0d01b6d",
+  "schema_version": 1,
+  "source_bundle_sha256": "9600f667dbdbb4e780c3d182ab4a333e02d6575c25baa77e4ddef1818d5483ab",
+  "validation": {
+    "application_id": 1262634032,
+    "claim_rows": 6,
+    "entity_rows": 25,
+    "foreign_key_violations": 0,
+    "integrity_check": "ok",
+    "release_rows": 1,
+    "user_version": 1
+  }
+}

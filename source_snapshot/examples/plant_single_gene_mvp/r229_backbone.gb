@@ -1,0 +1,94 @@
+LOCUS       R229BONE                4200 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  R229 synthetic circular backbone.
+ACCESSION   R229BONE
+VERSION     R229BONE
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     rep_origin      120..380
+                     /label="ORI_ALPHA"
+                     /note="upstream origin"
+     misc_feature    1850..1940
+                     /label="UPSTREAM_SITE"
+                     /note="before insertion"
+     misc_feature    complement(2600..2750)
+                     /label="SELECT_MARK"
+                     /gene="selA"
+                     /note="downstream marker"
+     misc_feature    3500..3660
+                     /label="TAIL_AUDIT"
+                     /note="tail audit region"
+ORIGIN
+        1 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+       61 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      121 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      181 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      241 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      301 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      361 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      421 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      481 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      541 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      601 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      661 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      721 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      781 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      841 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+      901 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+      961 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1021 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1081 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1141 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1201 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1261 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1321 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1381 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1441 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1501 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1561 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1621 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1681 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1741 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1801 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1861 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     1921 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     1981 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2041 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2101 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2161 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2221 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2281 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2341 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2401 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2461 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2521 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2581 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2641 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2701 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2761 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2821 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     2881 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     2941 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3001 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3061 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3121 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3181 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3241 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3301 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3361 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3421 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3481 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3541 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3601 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3661 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3721 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3781 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3841 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     3901 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     3961 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     4021 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+     4081 aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc
+     4141 ggttaaccgg ttaaccggtt aaccggttaa ccggttaacc ggttaaccgg ttaaccggtt
+//

@@ -1,0 +1,44 @@
+LOCUS       HQ693235                 636 bp    DNA     linear   PLN 28-JUN-2011
+DEFINITION  Arabidopsis thaliana UBQ10 gene, promoter region.
+ACCESSION   HQ693235
+VERSION     HQ693235.1
+KEYWORDS    .
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 636)
+  AUTHORS   Hashimoto,K. and Kudla,J.
+  TITLE     Arabidopsis thaliana UBQ10 promoter, an active minimal fragment
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 636)
+  AUTHORS   Hashimoto,K. and Kudla,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (08-DEC-2010) University Muenster, Molecular Genetics and
+            Cell Biology of Plants, Schlossplatz 4, Muenster 48149, Germany
+FEATURES             Location/Qualifiers
+     source          1..636
+                     /organism="Arabidopsis thaliana"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:3702"
+     gene            1..>636
+                     /gene="UBQ10"
+     regulatory      1..636
+                     /regulatory_class="promoter"
+                     /gene="UBQ10"
+ORIGIN      
+        1 gtcgacgagt cagtaataaa cggcgtcaaa gtggttgcag ccggcacaca cgagtcgtgt
+       61 ttatcaactc aaagcacaaa tacttttcct caacctaaaa ataaggcaat tagccaaaaa
+      121 caactttgcg tgtaaacaac gctcaataca cgtgtcattt tattattagc tattgcttca
+      181 ccgccttagc tttctcgtga cctagtcgtc ctcgtctttt cttcttcttc ttctataaaa
+      241 caatacccaa agagctcttc ttcttcacaa ttcagatttc aatttctcaa aatcttaaaa
+      301 actttctctc aattctctct accgtgatca aggtaaattt ctgtgttcct tattctctca
+      361 aaatcttcga ttttgttttc gttcgatccc aatttcgtat atgttctttg gtttagattc
+      421 tgttaatctt agatcgaaga cgattttctg ggtttgatcg ttagatatca tcttaattct
+      481 cgattagggt ttcatagata tcatccgatt tgttcaaata atttgagttt tgtcgaataa
+      541 ttactcttcg atttgtgatt tctatctaga tctggtgtta gtttctagtt tgtgcgatcg
+      601 aatttgtaga ttaatctgag tttttctgat taacag
+//
+

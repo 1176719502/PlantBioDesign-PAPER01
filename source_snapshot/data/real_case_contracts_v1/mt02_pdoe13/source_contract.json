@@ -1,0 +1,55 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "source_contract",
+  "case_id": "MT-02",
+  "source_provider": "NCBI Nucleotide",
+  "accession_version": "KM507054.1",
+  "record_id": "KM507054.1",
+  "retrieval": {
+    "primary_method": "NCBI E-utilities efetch anonymous HTTPS",
+    "primary_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KM507054.1&rettype=gbwithparts&retmode=text",
+    "cross_checks": [
+      {"provider": "ENA Browser API", "identifier": "KM507054.1", "sequence_identity_required": true},
+      {"provider": "DDBJ GetEntry", "identifier": "KM507054.1", "sequence_identity_required": true}
+    ],
+    "request_accession_must_equal": "KM507054.1",
+    "unversioned_accession_allowed": false,
+    "repository_write_allowed": false,
+    "cache_requirement": "repository-external explicit directory",
+    "login_required": false
+  },
+  "expected_response": {
+    "content_type": "text/plain",
+    "file_name": "NCBI_KM507054.1.gb",
+    "raw_file_size_bytes": 25186,
+    "raw_file_sha256": "703b7b2646f3ef5e507c926bf2e0a3c6a7422c9917affc3335c84496b75f74ac"
+  },
+  "parsed_record": {
+    "id": "KM507054.1",
+    "locus_name": "KM507054",
+    "description": "Binary vector pDOE-13, complete sequence",
+    "topology": "circular",
+    "length_bp": 13268,
+    "sequence_sha256": "92e57f49a0986ad749dd2ccdca3051f6101be1bf917bff6e8492135e3ea2d6cc",
+    "feature_count": 43,
+    "sequence_version": 1,
+    "parser": "Biopython SeqIO GenBank",
+    "verified_parser_version": "1.87"
+  },
+  "version_evidence": {
+    "versions_found": ["KM507054.1"],
+    "later_version_found": false,
+    "unversioned_input_equivalence": "FORBIDDEN"
+  },
+  "failure_behavior": {
+    "source_unavailable": "fail with an actionable message and non-zero exit status",
+    "version_mismatch": "reject before extraction",
+    "topology_mismatch": "reject before extraction",
+    "source_length_mismatch": "report MT02_UPSTREAM_EVIDENCE_MISMATCH and reject",
+    "source_sequence_mismatch": "report MT02_UPSTREAM_EVIDENCE_MISMATCH and reject",
+    "feature_mismatch": "report MT02_UPSTREAM_EVIDENCE_MISMATCH and reject",
+    "raw_file_mismatch": "reject even if the file name matches"
+  }
+}

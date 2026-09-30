@@ -1,0 +1,1666 @@
+{
+  "record_audit": {
+    "accession": "AF485783.1",
+    "record_name": "pBI121",
+    "description": "Binary vector pBI121, complete sequence",
+    "topology": "circular",
+    "length": 14758,
+    "sequence": "TGAGCGTCGCAAAGGCGCTCGGTCTTGCCTTGCTCGTCGGTGATGTACTTCACCAGCTCCGCGAAGTCGCTCTTCTTGATGGAGCGCATGGGGACGTGCTTGGCAATCACGCGCACCCCCCGGCCGTTTTAGCGGCTAAAAAAGTCATGGCTCTGCCCTCGGGCGGACCACGCCCATCATGACCTTGCCAAGCTCGTCCTGCTTCTCTTCGATCTTCGCCAGCAGGGCGAGGATCGTGGCATCACCGAACCGCGCCGTGCGCGGGTCGTCGGTGAGCCAGAGTTTCAGCAGGCCGCCCAGGCGGCCCAGGTCGCCATTGATGCGGGCCAGCTCGCGGACGTGCTCATAGTCCACGACGCCCGTGATTTTGTAGCCCTGGCCGACGGCCAGCAGGTAGGCCGACAGGCTCATGCCGGCCGCCGCCGCCTTTTCCTCAATCGCTCTTCGTTCGTCTGGAAGGCAGTACACCTTGATAGGTGGGCTGCCCTTCCTGGTTGGCTTGGTTTCATCAGCCATCCGCTTGCCCTCATCTGTTACGCCGGCGGTAGCCGGCCAGCCTCGCAGAGCAGGATTCCCGTTGAGCACCGCCAGGTGCGAATAAGGGACAGTGAAGAAGGAACACCCGCTCGCGGGTGGGCCTACTTCACCTATCCTGCCCGGCTGACGCCGTTGGATACACCAAGGAAAGTCTACACGAACCCTTTGGCAAAATCCTGTATATCGTGCGAAAAAGGATGGATATACCGAAAAAATCGCTATAATGACCCCGAAGCAGGGTTATGCAGCGGAAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCAGAAGGCCGCCAGAGAGGCCGAGCGCGGCCGTGAGGCTTGGACGCTAGGGCAGGGCATGAAAAAGCCCGTAGCGGGCTGCTACGGGCGTCTGACGCGGTGGAAAGGGGGAGGGGATGTTGTCTACATGGCTCTGCTGTAGTGAGTGGGTTGCGCTCCGGCAGCGGTCCTGATCAATCGTCACCCTTTCTCGGTCCTTCAACGTTCCTGACAACGAGCCTCCTTTTCGCCAATCCATCGACAATCACCGCGAGTCCCTGCTCGAACGCTGCGTCCGGACCGGCTTCGTCGAAGGCGTCTATCGCGGCCCGCAACAGCGGCGAGAGCGGAGCCTGTTCAACGGTGCCGCCGCGCTCGCCGGCATCGCTGTCGCCGGCCTGCTCCTCAAGCACGGCCCCAACAGTGAAGTAGCTGATTGTCATCAGCGCATTGACGGCGTCCCCGGCCGAAAAACCCGCCTCGCAGAGGAAGCGAAGCTGCGCGTCGGCCGTTTCCATCTGCGGTGCGCCCGGTCGCGTGCCGGCATGGATGCGCGCGCCATCGCGGTAGGCGAGCAGCGCCTGCCTGAAGCTGCGGGCATTCCCGATCAGAAATGAGCGCCAGTCGTCGTCGGCTCTCGGCACCGAATGCGTATGATTCTCCGCCAGCATGGCTTCGGCCAGTGCGTCGAGCAGCGCCCGCTTGTTCCTGAAGTGCCAGTAAAGCGCCGGCTGCTGAACCCCCAACCGTTCCGCCAGTTTGCGTGTCGTCAGACCGTCTACGCCGACCTCGTTCAACAGGTCCAGGGCGGCACGGATCACTGTATTCGGCTGCAACTTTGTCATGCTTGACACTTTATCACTGATAAACATAATATGTCCACCAACTTATCAGTGATAAAGAATCCGCGCGTTCAATCGGACCAGCGGAGGCTGGTCCGGAGGCCAGACGTGAAACCCAACATACCCCTGATCGTAATTCTGAGCACTGTCGCGCTCGACGCTGTCGGCATCGGCCTGATTATGCCGGTGCTGCCGGGCCTCCTGCGCGATCTGGTTCACTCGAACGACGTCACCGCCCACTATGGCATTCTGCTGGCGCTGTATGCGTTGGTGCAATTTGCCTGCGCACCTGTGCTGGGCGCGCTGTCGGATCGTTTCGGGCGGCGGCCAATCTTGCTCGTCTCGCTGGCCGGCGCCAGATCTGGGGAACCCTGTGGTTGGCATGCACATACAAATGGACGAACGGATAAACCTTTTCACGCCCTTTTAAATATCCGATTATTCTAATAAACGCTCTTTTCTCTTAGGTTTACCCGCCAATATATCCTGTCAAACACTGATAGTTTAAACTGAAGGCGGGAAACGACAATCTGATCATGAGCGGAGAATTAAGGGAGTCACGTTATGACCCCCGCCGATGACGCGGGACAAGCCGTTTTACGTTTGGAACTGACAGAACCGCAACGTTGAAGGAGCCACTCAGCCGCGGGTTTCTGGAGTTTAATGAGCTAAGCACATACGTCAGAAACCATTATTGCGCGTTCAAAAGTCGCCTAAGGTCACTATCAGCTAGCAAATATTTCTTGTCAAAAATGCTCCACTGACGTTCCATAAATTCCCCTCGGTATCCAATTAGAGTCTCATATTCACTCTCAATCCAAATAATCTGCACCGGATCTGGATCGTTTCGCATGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTCGGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCAGCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTGCAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTGCTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAGGATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATGCGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGCATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAAGAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGACGGCGATGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAATGGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGACATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTCCTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTTGACGAGTTCTTCTGAGCGGGACTCTGGGGTTCGAAATGACCGACCAAGCGACGCCCAACCTGCCATCACGAGATTTCGATTCCACCGCCGCCTTCTATGAAAGGTTGGGCTTCGGAATCGTTTTCCGGGACGCCGGCTGGATGATCCTCCAGCGCGGGGATCTCATGCTGGAGTTCTTCGCCCACGGGATCTCTGCGGAACAGGCGGTCGAAGGTGCCGATATCATTACGACAGCAACGGCCGACAAGCACAACGCCACGATCCTGAGCGACAATATGATCGGGCCCGGCGTCCACATCAACGGCGTCGGCGGCGACTGCCCAGGCAAGACCGAGATGCACCGCGATATCTTGCTGCGTTCGGATATTTTCGTGGAGTTCCCGCCACAGACCCGGATGATCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGCCTCCTGTCAATGCTGGCGGCGGCTCTGGTGGTGGTTCTGGTGGCGGCTCTGAGGGTGGTGGCTCTGAGGGTGGCGGTTCTGAGGGTGGCGGCTCTGAGGGAGGCGGTTCCGGTGGTGGCTCTGGTTCCGGTGATTTTGATTATGAAAAGATGGCAAACGCTAATAAGGGGGCTATGACCGAAAATGCCGATGAAAACGCGCTACAGTCTGACGCTAAAGGCAAACTTGATTCTGTCGCTACTGATTACGGTGCTGCTATCGATGGTTTCATTGGTGACGTTTCCGGCCTTGCTAATGGTAATGGTGCTACTGGTGATTTTGCTGGCTCTAATTCCCAAATGGCTCAAGTCGGTGACGGTGATAATTCACCTTTAATGAATAATTTCCGTCAATATTTACCTTCCCTCCCTCAATCGGTTGAATGTCGCCCTTTTGTCTTTGGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGCATGCCTGCAGGTCCCCAGATTAGCCTTTTCAATTTCAGAAAGAATGCTAACCCACAGATGGTTAGAGAGGCTTACGCAGCAGGTCTCATCAAGACGATCTACCCGAGCAATAATCTCCAGGAAATCAAATACCTTCCCAAGAAGGTTAAAGATGCAGTCAAAAGATTCAGGACTAACTGCATCAAGAACACAGAGAAAGATATATTTCTCAAGATCAGAAGTACTATTCCAGTATGGACGATTCAAGGCTTGCTTCACAAACCAAGGCAAGTAATAGAGATTGGAGTCTCTAAAAAGGTAGTTCCCACTGAATCAAAGGCCATGGAGTCAAAGATTCAAATAGAGGACCTAACAGAACTCGCCGTAAAGACTGGCGAACAGTTCATACAGAGTCTCTTACGACTCAATGACAAGAAGAAAATCTTCGTCAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGAACACGGGGGACTCTAGAGGATCCCCGGGTGGTCAGTCCCTTATGTTACGTCCTGTAGAAACCCCAACCCGTGAAATCAAAAAACTCGACGGCCTGTGGGCATTCAGTCTGGATCGCGAAAACTGTGGAATTGATCAGCGTTGGTGGGAAAGCGCGTTACAAGAAAGCCGGGCAATTGCTGTGCCAGGCAGTTTTAACGATCAGTTCGCCGATGCAGATATTCGTAATTATGCGGGCAACGTCTGGTATCAGCGCGAAGTCTTTATACCGAAAGGTTGGGCAGGCCAGCGTATCGTGCTGCGTTTCGATGCGGTCACTCATTACGGCAAAGTGTGGGTCAATAATCAGGAAGTGATGGAGCATCAGGGCGGCTATACGCCATTTGAAGCCGATGTCACGCCGTATGTTATTGCCGGGAAAAGTGTACGTATCACCGTTTGTGTGAACAACGAACTGAACTGGCAGACTATCCCGCCGGGAATGGTGATTACCGACGAAAACGGCAAGAAAAAGCAGTCTTACTTCCATGATTTCTTTAACTATGCCGGAATCCATCGCAGCGTAATGCTCTACACCACGCCGAACACCTGGGTGGACGATATCACCGTGGTGACGCATGTCGCGCAAGACTGTAACCACGCGTCTGTTGACTGGCAGGTGGTGGCCAATGGTGATGTCAGCGTTGAACTGCGTGATGCGGATCAACAGGTGGTTGCAACTGGACAAGGCACTAGCGGGACTTTGCAAGTGGTGAATCCGCACCTCTGGCAACCGGGTGAAGGTTATCTCTATGAACTGTGCGTCACAGCCAAAAGCCAGACAGAGTGTGATATCTACCCGCTTCGCGTCGGCATCCGGTCAGTGGCAGTGAAGGGCGAACAGTTCCTGATTAACCACAAACCGTTCTACTTTACTGGCTTTGGTCGTCATGAAGATGCGGACTTGCGTGGCAAAGGATTCGATAACGTGCTGATGGTGCACGACCACGCATTAATGGACTGGATTGGGGCCAACTCCTACCGTACCTCGCATTACCCTTACGCTGAAGAGATGCTCGACTGGGCAGATGAACATGGCATCGTGGTGATTGATGAAACTGCTGCTGTCGGCTTTAACCTCTCTTTAGGCATTGGTTTCGAAGCGGGCAACAAGCCGAAAGAACTGTACAGCGAAGAGGCAGTCAACGGGGAAACTCAGCAAGCGCACTTACAGGCGATTAAAGAGCTGATAGCGCGTGACAAAAACCACCCAAGCGTGGTGATGTGGAGTATTGCCAACGAACCGGATACCCGTCCGCAAGGTGCACGGGAATATTTCGCGCCACTGGCGGAAGCAACGCGTAAACTCGACCCGACGCGTCCGATCACCTGCGTCAATGTAATGTTCTGCGACGCTCACACCGATACCATCAGCGATCTCTTTGATGTGCTGTGCCTGAACCGTTATTACGGATGGTATGTCCAAAGCGGCGATTTGGAAACGGCAGAGAAGGTACTGGAAAAAGAACTTCTGGCCTGGCAGGAGAAACTGCATCAGCCGATTATCATCACCGAATACGGCGTGGATACGTTAGCCGGGCTGCACTCAATGTACACCGACATGTGGAGTGAAGAGTATCAGTGTGCATGGCTGGATATGTATCACCGCGTCTTTGATCGCGTCAGCGCCGTCGTCGGTGAACAGGTATGGAATTTCGCCGATTTTGCGACCTCGCAAGGCATATTGCGCGTTGGCGGTAACAAGAAAGGGATCTTCACTCGCGACCGCAAACCGAAGTCGGCGGCTTTTCTGCTGCAAAAACGCTGGACTGGCATGAACTTCGGTGAAAAACCGCAGCAGGGAGGCAAACAATGAATCAACAACTCTCCTGGCGCACCATCGTCGGCTACAGCCTCGGGAATTGCTACCGAGCTCGAATTTCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACCCCAGTACATTAAAAACGTCCGCAATGTGTTATTAAGTTGTCTAAGCGTCAATTTGTTTACACCACAATATATCCTGCCACCAGCCAGCCAACAGCTCCCCGACCGGCAGCTCGGCACAAAATCACCACTCGATACAGGCAGCCCATCAGTCCGGGACGGCGTCAGCGGGAGAGCCGTTGTAAGGCGGCAGACTTTGCTCATGTTACCGATGCTATTCGGAAGAACGGCAACTAAGCTGCCGGGTTTGAAACACGGATGATCTCGCGGAGGGTAGCATGTTGATTGTAACGATGACAGAGCGTTGCTGCCTGTGATCAAATATCATCTCCCTCGCAGAGATCCGAATTATCAGCCTTCTTATTCATTTCTCGCTTAACCGTGACAGGCTGTCGATCTTGAGAACTATGCCGACATAATAGGAAATCGCTGGATAAAGCCGCTGAGGAAGCTGAGTGGCGCTATTTCTTTAGAAGTGAACGTTGACGATATCAACTCCCCTATCCATTGCTCACCGAATGGTACAGGTCGGGGACCCGAAGTTCCGACTGTCGGCCTGATGCATCCCCGGCTGATCGACCCCAGATCTGGGGCTGAGAAAGCCCAGTAAGGAAACAACTGTAGGTTCGAGTCGCGAGATCCCCCGGAACCAAAGGAAGTAGGTTAAACCCGCTCCGATCAGGCCGAGCCACGCCAGGCCGAGAACATTGGTTCCTGTAGGCATCGGGATTGGCGGATCAAACACTAAAGCTACTGGAACGAGCAGAAGTCCTCCGGCCGCCAGTTGCCAGGCGGTAAAGGTGAGCAGAGGCACGGGAGGTTGCCACTTGCGGGTCAGCACGGTTCCGAACGCCATGGAAACCGCCCCCGCCAGGCCCGCTGCGACGCCGACAGGATCTAGCGCTGCGTTTGGTGTCAACACCAACAGCGCCACGCCCGCAGTTCCGCAAATAGCCCCCAGGACCGCCATCAATCGTATCGGGCTACCTAGCAGAGCGGCAGAGATGAACACGACCATCAGCGGCTGCACAGCGCCTACCGTCGCCGCGACCCCGCCCGGCAGGCGGTAGACCGAAATAAACAACAAGCTCCAGAATAGCGAAATATTAAGTGCGCCGAGGATGAAGATGCGCATCCACCAGATTCCCGTTGGAATCTGTCGGACGATCATCACGAGCAATAAACCCGCCGGCAACGCCCGCAGCAGCATACCGGCGACCCCTCGGCCTCGCTGTTCGGGCTCCACGAAAACGCCGGACAGATGCGCCTTGTGAGCGTCCTTGGGGCCGTCCTCCTGTTTGAAGACCGACAGCCCAATGATCTCGCCGTCGATGTAGGCGCCGAATGCCACGGCATCTCGCAACCGTTCAGCGAACGCCTCCATGGGCTTTTTCTCCTCGTGCTCGTAAACGGACCCGAACATCTCTGGAGCTTTCTTCAGGGCCGACAATCGGATCTCGCGGAAATCCTGCACGTCGGCCGCTCCAAGCCGTCGAATCTGAGCCTTAATCACAATTGTCAATTTTAATCCTCTGTTTATCGGCAGTTCGTAGAGCGCGCCGTGCGTCCCGAGCGATACTGAGCGAAGCAAGTGCGTCGAGCAGTGCCCGCTTGTTCCTGAAATGCCAGTAAAGCGCTGGCTGCTGAACCCCCAGCCGGAACTGACCCCACAAGGCCCTAGCGTTTGCAATGCACCAGGTCATCATTGACCCAGGCGTGTTCCACCAGGCCGCTGCCTCGCAACTCTTCGCAGGCTTCGCCGACCTGCTCGCGCCACTTCTTCACGCGGGTGGAATCCGATCCGCACATGAGGCGGAAGGTTTCCAGCTTGAGCGGGTACGGCTCCCGGTGCGAGCTGAAATAGTCGAACATCCGTCGGGCCGTCGGCGACAGCTTGCGGTACTTCTCCCATATGAATTTCGTGTAGTGGTCGCCAGCAAACAGCACGACGATTTCCTCGTCGATCAGGACCTGGCAACGGGACGTTTTCTTGCCACGGTCCAGGACGCGGAAGCGGTGCAGCAGCGACACCGATTCCAGGTGCCCAACGCGGTCGGACGTGAAGCCCATCGCCGTCGCCTGTAGGCGCGACAGGCATTCCTCGGCCTTCGTGTAATACCGGCCATTGATCGACCAGCCCAGGTCCTGGCAAAGCTCGTAGAACGTGAAGGTGATCGGCTCGCCGATAGGGGTGCGCTTCGCGTACTCCAACACCTGCTGCCACACCAGTTCGTCATCGTCGGCCCGCAGCTCGACGCCGGTGTAGGTGATCTTCACGTCCTTGTTGACGTGGAAAATGACCTTGTTTTGCAGCGCCTCGCGCGGGATTTTCTTGTTGCGCGTGGTGAACAGGGCAGAGCGGGCCGTGTCGTTTGGCATCGCTCGCATCGTGTCCGGCCACGGCGCAATATCGAACAAGGAAAGCTGCATTTCCTTGATCTGCTGCTTCGTGTGTTTCAGCAACGCGGCCTGCTTGGCCTCGCTGACCTGTTTTGCCAGGTCCTCGCCGGCGGTTTTTCGCTTCTTGGTCGTCATAGTTCCTCGCGTGTCGATGGTCATCGACTTCGCCAAACCTGCCGCCTCCTGTTCGAGACGACGCGAACGCTCCACGGCGGCCGATGGCGCGGGCAGGGCAGGGGGAGCCAGTTGCACGCTGTCGCGCTCGATCTTGGCCGTAGCTTGCTGGACCATCGAGCCGACGGACTGGAAGGTTTCGCGGGGCGCACGCATGACGGTGCGGCTTGCGATGGTTTCGGCATCCTCGGCGGAAAACCCCGCGTCGATCAGTTCTTGCCTGTATGCCTTCCGGTCAAACGTCCGATTCATTCACCCTCCTTGCGGGATTGCCCCGACTCACGCCGGGGCAATGTGCCCTTATTCCTGATTTGACCCGCCTGGTGCCTTGGTGTCCAGATAATCCACCTTATCGGCAATGAAGTCGGTCCCGTAGACCGTCTGGCCGTCCTTCTCGTACTTGGTATTCCGAATCTTGCCCTGCACGAATACCAGCGACCCCTTGCCCAAATACTTGCCGTGGGCCTCGGCCTGAGAGCCAAAACACTTGATGCGGAAGAAGTCGGTGCGCTCCTGCTTGTCGCCGGCATCGTTGCGCCACATCTAGGTACTAAAACAATTCATCCAGTAAAATATAATATTTTATTTTCTCCCAATCAGGCTTGATCCCCAGTAAGTCAAAAAATAGCTCGACATACTGTTCTTCCCCGATATCCTCCCTGATCGACCGGACGCAGAAGGCAATGTCATACCACTTGTCCGCCCTGCCGCTTCTCCCAAGATCAATAAAGCCACTTACTTTGCCATCTTTCACAAAGATGTTGCTGTCTCCCAGGTCGCCGTGGGAAAAGACAAGTTCCTCTTCGGGCTTTTCCGTCTTTAAAAAATCATACAGCTCGCGCGGATCTTTAAATGGAGTGTCTTCTTCCCAGTTTTCGCAATCCACATCGGCCAGATCGTTATTCAGTAAGTAATCCAATTCGGCTAAGCGGCTGTCTAAGCTATTCGTATAGGGACAATCCGATATGTCGATGGAGTGAAAGAGCCTGATGCACTCCGCATACAGCTCGATAATCTTTTCAGGGCTTTGTTCATCTTCATACTCTTCCGAGCAAAGGACGCCATCGGCCTCACTCATGAGCAGATTGCTCCAGCCATCATGCCGTTCAAAGTGCAGGACCTTTGGAACAGGCAGCTTTCCTTCCAGCCATAGCATCATGTCCTTTTCCCGTTCCACATCATAGGTGGTCCCTTTATACCGGCTGTCCGTCATTTTTAAATATAGGTTTTCATTTTCTCCCACCAGCTTATATACCTTAGCAGGAGACATTCCTTCCGTATCTTTTACGCAGCGGTATTTTTCGATCAGTTTTTTCAATTCCGGTGATATTCTCATTTTAGCCATTTATTATTTCCTTCCTCTTTTCTACAGTATTTAAAGATACCCCAAGAAGCTAATTATAACAAGACGAACTCCAATTCACTGTTCCTTGCATTCTAAAACCTTAAATACCAGAAAACAGCTTTTTCAAAGTTGTTTTCAAAGTTGGCGTATAACATAGTATCGACGGAGCCGATTTTGAAACCACAATTATGGGTGATGCTGCCAACTTACTGATTTAGTGTATGATGGTGTTTTTGAGGTGCTCCAGTGGCTTCTGTGTCTATCAGCTGTCCCTCCTGTTCAGCTACTGACGGGGTGGTGCGTAACGGCAAAAGCACCGCCGGACATCAGCGCTATCTCTGCTCTCACTGCCGTAAAACATGGCAACTGCAGTTCACTTACACCGCTTCTCAACCCGGTACGCACCAGAAAATCATTGATATGGCCATGAATGGCGTTGGATGCCGGGCAACAGCCCGCATTATGGGCGTTGGCCTCAACACGATTTTACGTCACTTAAAAAACTCAGGCCGCAGTCGGTAACCTCGCGCATACAGCCGGGCAGTGACGTCATCGTCTGCGCGGAAATGGACGAACAGTGGGGCTATGTCGGGGCTAAATCGCGCCAGCGCTGGCTGTTTTACGCGTATGACAGTCTCCGGAAGACGGTTGTTGCGCACGTATTCGGTGAACGCACTATGGCGACGCTGGGGCGTCTTATGAGCCTGCTGTCACCCTTTGACGTGGTGATATGGATGACGGATGGCTGGCCGCTGTATGAATCCCGCCTGAAGGGAAAGCTGCACGTAATCAGCAAGCGATATACGCAGCGAATTGAGCGGCATAACCTGAATCTGAGGCAGCACCTGGCACGGCTGGGACGGAAGTCGCTGTCGTTCTCAAAATCGGTGGAGCTGCATGACAAAGTCATCGGGCATTATCTGAACATAAAACACTATCAATAAGTTGGAGTCATTACCCAATTATGATAGAATTTACAAGCTATAAGGTTATTGTCCTGGGTTTCAAGCATTAGTCCATGCAAGTTTTTATGCTTTGCCCATTCTATAGATATATTGATAAGCGCGCTGCCTATGCCTTGCCCCCTGAAATCCTTACATACGGCGATATCTTCTATATAAAAGATATATTATCTTATCAGTATTGTCAATATATTCAAGGCAATCTGCCTCCTCATCCTCTTCATCCTCTTCGTCTTGGTAGCTTTTTAAATATGGCGCTTCATAGAGTAATTCTGTAAAGGTCCAATTCTCGTTTTCATACCTCGGTATAATCTTACCTATCACCTCAAATGGTTCGCTGGGTTTATCGCACCCCCGAACACGAGCACGGCACCCGCGACCACTATGCCAAGAATGCCCAAGGTAAAAATTGCCGGCCCCGCCATGAAGTCCGTGAATGCCCCGACGGCCGAAGTGAAGGGCAGGCCGCCACCCAGGCCGCCGCCCTCACTGCCCGGCACCTGGTCGCTGAATGTCGATGCCAGCACCTGCGGCACGTCAATGCTTCCGGGCGTCGCGCTCGGGCTGATCGCCCATCCCGTTACTGCCCCGATCCCGGCAATGGCAAGGACTGCCAGCGCTGCCATTTTTGGGGTGAGGCCGTTCGCGGCCGAGGGGCGCAGCCCCTGGGGGGATGGGAGGCCCGCGTTAGCGGGCCGGGAGGGTTCGAGAAGGGGGGGCACCCCCCTTCGGCGTGCGCGGTCACGCGCACAGGGCGCAGCCCTGGTTAAAAACAAGGTTTATAAATATTGGTTTAAAAGCAGGTTAAAAGACAGGTTAGCGGTGGCCGAAAAACGGGCGGAAACCCTTGCAAATGCTGGATTTTCTGCCTGTGGACAGCCCCTCAAATGTCAATAGGTGCGCCCCTCATCTGTCAGCACTCTGCCCCTCAAGTGTCAAGGATCGCGCCCCTCATCTGTCAGTAGTCGCGCCCCTCAAGTGTCAATACCGCAGGGCACTTATCCCCAGGCTTGTCCACATCATCTGTGGGAAACTCGCGTAAAATCAGGCGTTTTCGCCGATTTGCGAGGCTGGCCAGCTCCACGTCGCCGGCCGAAATCGAGCCTGCCCCTCATCTGTCAACGCCGCGCCGGGTGAGTCGGCCCCTCAAGTGTCAACGTCCGCCCCTCATCTGTCAGTGAGGGCCAAGTTTTCCGCGAGGTATCCACAACGCCGGCGGCCGCGGTGTCTCGCACACGGCTTCGACGGCGTTTCTGGCGCGTTTGCAGGGCCATAGACGGCCGCCAGCCCAGCGGCGAGGGCAACCAGCCCGG",
+    "sequence_sha256": "e497e664f6d6baba1bd1cafce38bceedf88c0108101bc57adf29513246497539",
+    "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+    "features": [
+      {
+        "feature_id": "AF485783.1:feature:001",
+        "ordinal": 1,
+        "type": "source",
+        "name": "constructed using pB221 from Clontech Laboratories and Bin19 described in GenBank Accession Number U09365",
+        "location_expression": "[0:14758](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 0,
+            "end_zero_based_exclusive": 14758,
+            "start_one_based": 1,
+            "end_one_based_inclusive": 14758,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 0,
+        "end_zero_based_exclusive": 14758,
+        "start_one_based": 1,
+        "end_one_based_inclusive": 14758,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "organism": [
+            "Binary vector pBI121"
+          ],
+          "mol_type": [
+            "genomic DNA"
+          ],
+          "db_xref": [
+            "taxon:189807"
+          ],
+          "note": [
+            "constructed using pB221 from Clontech Laboratories and Bin19 described in GenBank Accession Number U09365"
+          ]
+        },
+        "sequence_sha256": "e497e664f6d6baba1bd1cafce38bceedf88c0108101bc57adf29513246497539",
+        "length": 14758,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:002",
+        "ordinal": 2,
+        "type": "misc_feature",
+        "name": "similar to traF in GenBank Accession Number X54459",
+        "location_expression": "[12:796](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 12,
+            "end_zero_based_exclusive": 796,
+            "start_one_based": 13,
+            "end_one_based_inclusive": 796,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 12,
+        "end_zero_based_exclusive": 796,
+        "start_one_based": 13,
+        "end_one_based_inclusive": 796,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to traF in GenBank Accession Number X54459"
+          ]
+        },
+        "sequence_sha256": "501bc5c4b136f3dac51574b5984aff35f3ba3cc73435d259a406461c93e8947c",
+        "length": 784,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:003",
+        "ordinal": 3,
+        "type": "rep_origin",
+        "name": "ColE1 ori; similar to sequence in GenBank Accession Number V00268",
+        "location_expression": "[789:1168](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 789,
+            "end_zero_based_exclusive": 1168,
+            "start_one_based": 790,
+            "end_one_based_inclusive": 1168,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 789,
+        "end_zero_based_exclusive": 1168,
+        "start_one_based": 790,
+        "end_one_based_inclusive": 1168,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "ColE1 ori; similar to sequence in GenBank Accession Number V00268"
+          ]
+        },
+        "sequence_sha256": "6badc7b72ec8224f3c8563247909e974c1bdacb7f9af3b5022d9dbdd55ec0858",
+        "length": 379,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:004",
+        "ordinal": 4,
+        "type": "misc_feature",
+        "name": "similar to tetA in GenBank Accession Number X75761",
+        "location_expression": "[1160:2344](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 1160,
+            "end_zero_based_exclusive": 2344,
+            "start_one_based": 1161,
+            "end_one_based_inclusive": 2344,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 1160,
+        "end_zero_based_exclusive": 2344,
+        "start_one_based": 1161,
+        "end_one_based_inclusive": 2344,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to tetA in GenBank Accession Number X75761"
+          ]
+        },
+        "sequence_sha256": "2ef4455e99a50c14853903630f957c862391482c1bcf4112ee1bcb5cf9ee0367",
+        "length": 1184,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:005",
+        "ordinal": 5,
+        "type": "misc_feature",
+        "name": "T-DNA right border",
+        "location_expression": "[2453:2478](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 2453,
+            "end_zero_based_exclusive": 2478,
+            "start_one_based": 2454,
+            "end_one_based_inclusive": 2478,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 2453,
+        "end_zero_based_exclusive": 2478,
+        "start_one_based": 2454,
+        "end_one_based_inclusive": 2478,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "T-DNA right border"
+          ]
+        },
+        "sequence_sha256": "e7bd4ef3039ac803df9949cb6e8eab644e5870977307824a3baace1f78706fd9",
+        "length": 25,
+        "asset_type": "right_border",
+        "biological_role": "T-DNA right border",
+        "registerable_component": true,
+        "extraction_method": "explicit_feature_note",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:006",
+        "ordinal": 6,
+        "type": "regulatory",
+        "name": "NOS",
+        "location_expression": "[2518:2825](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 2518,
+            "end_zero_based_exclusive": 2825,
+            "start_one_based": 2519,
+            "end_one_based_inclusive": 2825,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 2518,
+        "end_zero_based_exclusive": 2825,
+        "start_one_based": 2519,
+        "end_one_based_inclusive": 2825,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "regulatory_class": [
+            "promoter"
+          ],
+          "note": [
+            "NOS"
+          ]
+        },
+        "sequence_sha256": "e6d7e7a42fa52593622bfcbdd0610e52b8272216e6f6d662c1c884f8c29018aa",
+        "length": 307,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:007",
+        "ordinal": 7,
+        "type": "gene",
+        "name": "nptII",
+        "location_expression": "[2837:3632](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 2837,
+            "end_zero_based_exclusive": 3632,
+            "start_one_based": 2838,
+            "end_one_based_inclusive": 3632,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 2837,
+        "end_zero_based_exclusive": 3632,
+        "start_one_based": 2838,
+        "end_one_based_inclusive": 3632,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "gene": [
+            "nptII"
+          ]
+        },
+        "sequence_sha256": "c68f606e8613525d068cd48c8bc9916ee8250d179e089cb9adf669187e67a7b4",
+        "length": 795,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:008",
+        "ordinal": 8,
+        "type": "CDS",
+        "name": "nptII",
+        "location_expression": "[2837:3632](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 2837,
+            "end_zero_based_exclusive": 3632,
+            "start_one_based": 2838,
+            "end_one_based_inclusive": 3632,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 2837,
+        "end_zero_based_exclusive": 3632,
+        "start_one_based": 2838,
+        "end_one_based_inclusive": 3632,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "gene": [
+            "nptII"
+          ],
+          "codon_start": [
+            "1"
+          ],
+          "product": [
+            "neomycin phosphotransferase II"
+          ],
+          "protein_id": [
+            "AAL92039.1"
+          ],
+          "translation": [
+            "MIEQDGLHAGSPAAWVERLFGYDWAQQTIGCSDAAVFRLSAQGRPVLFVKTDLSGALNELQDEAARLSWLATTGVPCAAVLDVVTEAGRDWLLLGEVPGQDLLSSHLAPAEKVSIMADAMRRLHTLDPATCPFDHQAKHRIERARTRMEAGLVDQDDLDEEHQGLAPAELFARLKARMPDGDDLVVTHGDACLPNIMVENGRFSGFIDCGRLGVADRYQDIALATRDIAEELGGEWADRFLVLYGIAAPDSQRIAFYRLLDEFF"
+          ]
+        },
+        "sequence_sha256": "c68f606e8613525d068cd48c8bc9916ee8250d179e089cb9adf669187e67a7b4",
+        "length": 795,
+        "asset_type": "selectable_marker_cassette",
+        "biological_role": "nptII selectable marker CDS",
+        "registerable_component": true,
+        "extraction_method": "feature_table_gene",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:009",
+        "ordinal": 9,
+        "type": "regulatory",
+        "name": "NOS",
+        "location_expression": "[4021:4277](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 4021,
+            "end_zero_based_exclusive": 4277,
+            "start_one_based": 4022,
+            "end_one_based_inclusive": 4277,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 4021,
+        "end_zero_based_exclusive": 4277,
+        "start_one_based": 4022,
+        "end_one_based_inclusive": 4277,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "regulatory_class": [
+            "terminator"
+          ],
+          "note": [
+            "NOS"
+          ]
+        },
+        "sequence_sha256": "6c8916397c8f95a894a870ce5620837d41d776e57c64d415d76f3f0d02eb35c4",
+        "length": 256,
+        "asset_type": "three_prime_regulatory_region",
+        "biological_role": "NOS 3' regulatory region",
+        "registerable_component": true,
+        "extraction_method": "feature_table_regulatory_class_and_note",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:010",
+        "ordinal": 10,
+        "type": "regulatory",
+        "name": "CaMV 35S",
+        "location_expression": "[4973:5808](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 4973,
+            "end_zero_based_exclusive": 5808,
+            "start_one_based": 4974,
+            "end_one_based_inclusive": 5808,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 4973,
+        "end_zero_based_exclusive": 5808,
+        "start_one_based": 4974,
+        "end_one_based_inclusive": 5808,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "regulatory_class": [
+            "promoter"
+          ],
+          "note": [
+            "CaMV 35S"
+          ]
+        },
+        "sequence_sha256": "4f5069bdd68260bb7a243ec7f8b628e13d52f58242c6f7acf53e3cc55a8673e2",
+        "length": 835,
+        "asset_type": "promoter",
+        "biological_role": "CaMV 35S promoter",
+        "registerable_component": true,
+        "extraction_method": "feature_table_regulatory_class_and_note",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:011",
+        "ordinal": 11,
+        "type": "gene",
+        "name": "gusA",
+        "location_expression": "[5844:7656](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 5844,
+            "end_zero_based_exclusive": 7656,
+            "start_one_based": 5845,
+            "end_one_based_inclusive": 7656,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 5844,
+        "end_zero_based_exclusive": 7656,
+        "start_one_based": 5845,
+        "end_one_based_inclusive": 7656,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "gene": [
+            "gusA"
+          ]
+        },
+        "sequence_sha256": "cf625a11ece85bb2217ae60754042a71accf12790be1543c1987a43b1f7e7291",
+        "length": 1812,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:012",
+        "ordinal": 12,
+        "type": "CDS",
+        "name": "gusA",
+        "location_expression": "[5844:7656](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 5844,
+            "end_zero_based_exclusive": 7656,
+            "start_one_based": 5845,
+            "end_one_based_inclusive": 7656,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 5844,
+        "end_zero_based_exclusive": 7656,
+        "start_one_based": 5845,
+        "end_one_based_inclusive": 7656,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "gene": [
+            "gusA"
+          ],
+          "note": [
+            "GUS"
+          ],
+          "codon_start": [
+            "1"
+          ],
+          "product": [
+            "beta-glucuronidase"
+          ],
+          "protein_id": [
+            "AAL92040.1"
+          ],
+          "translation": [
+            "MLRPVETPTREIKKLDGLWAFSLDRENCGIDQRWWESALQESRAIAVPGSFNDQFADADIRNYAGNVWYQREVFIPKGWAGQRIVLRFDAVTHYGKVWVNNQEVMEHQGGYTPFEADVTPYVIAGKSVRITVCVNNELNWQTIPPGMVITDENGKKKQSYFHDFFNYAGIHRSVMLYTTPNTWVDDITVVTHVAQDCNHASVDWQVVANGDVSVELRDADQQVVATGQGTSGTLQVVNPHLWQPGEGYLYELCVTAKSQTECDIYPLRVGIRSVAVKGEQFLINHKPFYFTGFGRHEDADLRGKGFDNVLMVHDHALMDWIGANSYRTSHYPYAEEMLDWADEHGIVVIDETAAVGFNLSLGIGFEAGNKPKELYSEEAVNGETQQAHLQAIKELIARDKNHPSVVMWSIANEPDTRPQGAREYFAPLAEATRKLDPTRPITCVNVMFCDAHTDTISDLFDVLCLNRYYGWYVQSGDLETAEKVLEKELLAWQEKLHQPIIITEYGVDTLAGLHSMYTDMWSEEYQCAWLDMYHRVFDRVSAVVGEQVWNFADFATSQGILRVGGNKKGIFTRDRKPKSAAFLLQKRWTGMNFGEKPQQGGKQ"
+          ]
+        },
+        "sequence_sha256": "cf625a11ece85bb2217ae60754042a71accf12790be1543c1987a43b1f7e7291",
+        "length": 1812,
+        "asset_type": "reporter_cassette",
+        "biological_role": "gusA reporter CDS",
+        "registerable_component": true,
+        "extraction_method": "feature_table_gene",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:013",
+        "ordinal": 13,
+        "type": "regulatory",
+        "name": "NOS",
+        "location_expression": "[7726:7979](+)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 7726,
+            "end_zero_based_exclusive": 7979,
+            "start_one_based": 7727,
+            "end_one_based_inclusive": 7979,
+            "strand": 1
+          }
+        ],
+        "start_zero_based": 7726,
+        "end_zero_based_exclusive": 7979,
+        "start_one_based": 7727,
+        "end_one_based_inclusive": 7979,
+        "strand": 1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "regulatory_class": [
+            "terminator"
+          ],
+          "note": [
+            "NOS"
+          ]
+        },
+        "sequence_sha256": "07296665a19dbedd665dc2f350869a1474a72811f54688cbef8835e24372ab3f",
+        "length": 253,
+        "asset_type": "three_prime_regulatory_region",
+        "biological_role": "NOS 3' regulatory region",
+        "registerable_component": true,
+        "extraction_method": "feature_table_regulatory_class_and_note",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:014",
+        "ordinal": 14,
+        "type": "misc_feature",
+        "name": "T-DNA left border",
+        "location_expression": "[8620:8646](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 8620,
+            "end_zero_based_exclusive": 8646,
+            "start_one_based": 8621,
+            "end_one_based_inclusive": 8646,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 8620,
+        "end_zero_based_exclusive": 8646,
+        "start_one_based": 8621,
+        "end_one_based_inclusive": 8646,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "T-DNA left border"
+          ]
+        },
+        "sequence_sha256": "867cca27b42ecbf82c45691d04357ac82fc018352146e9643422e087b98d1624",
+        "length": 26,
+        "asset_type": "left_border",
+        "biological_role": "T-DNA left border",
+        "registerable_component": true,
+        "extraction_method": "explicit_feature_note",
+        "provenance_status": "verified_source",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": ""
+      },
+      {
+        "feature_id": "AF485783.1:feature:015",
+        "ordinal": 15,
+        "type": "misc_feature",
+        "name": "similar to tetA in GenBank Accession Number L13842",
+        "location_expression": "[9155:10198](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 9155,
+            "end_zero_based_exclusive": 10198,
+            "start_one_based": 9156,
+            "end_one_based_inclusive": 10198,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 9155,
+        "end_zero_based_exclusive": 10198,
+        "start_one_based": 9156,
+        "end_one_based_inclusive": 10198,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to tetA in GenBank Accession Number L13842"
+          ]
+        },
+        "sequence_sha256": "ffac70598ed942d3f5a6fc6f39f231f279f3cff05180a433b85db0221e5e9353",
+        "length": 1043,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:016",
+        "ordinal": 16,
+        "type": "misc_feature",
+        "name": "similar to trfA in GenBank Accession Number X00713",
+        "location_expression": "[10198:11680](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 10198,
+            "end_zero_based_exclusive": 11680,
+            "start_one_based": 10199,
+            "end_one_based_inclusive": 11680,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 10198,
+        "end_zero_based_exclusive": 11680,
+        "start_one_based": 10199,
+        "end_one_based_inclusive": 11680,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to trfA in GenBank Accession Number X00713"
+          ]
+        },
+        "sequence_sha256": "2411d335f186954c46055ae85c43f0081ae851fa86d8e8ba190a861390bde762",
+        "length": 1482,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:017",
+        "ordinal": 17,
+        "type": "misc_feature",
+        "name": "similar to NPTIII gene in GenBank Accession Number V01547",
+        "location_expression": "[11680:12673](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 11680,
+            "end_zero_based_exclusive": 12673,
+            "start_one_based": 11681,
+            "end_one_based_inclusive": 12673,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 11680,
+        "end_zero_based_exclusive": 12673,
+        "start_one_based": 11681,
+        "end_one_based_inclusive": 12673,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to NPTIII gene in GenBank Accession Number V01547"
+          ]
+        },
+        "sequence_sha256": "6d7435abcc1e3855732de6ae85d5813f05cc22e161cabac60bb0fd971c77222f",
+        "length": 993,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:018",
+        "ordinal": 18,
+        "type": "misc_feature",
+        "name": "similar to transposable element IS1 in GenBank Accession Number X58999",
+        "location_expression": "[12673:13443](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 12673,
+            "end_zero_based_exclusive": 13443,
+            "start_one_based": 12674,
+            "end_one_based_inclusive": 13443,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 12673,
+        "end_zero_based_exclusive": 13443,
+        "start_one_based": 12674,
+        "end_one_based_inclusive": 13443,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to transposable element IS1 in GenBank Accession Number X58999"
+          ]
+        },
+        "sequence_sha256": "c8a3f9a6fefef5e566022688ed82d6470b7b02b3446e3b977ba3f88fe69f2e28",
+        "length": 770,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:019",
+        "ordinal": 19,
+        "type": "misc_feature",
+        "name": "similarity to NPT III gene in GenBank Accession Number V01547",
+        "location_expression": "[13443:13794](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 13443,
+            "end_zero_based_exclusive": 13794,
+            "start_one_based": 13444,
+            "end_one_based_inclusive": 13794,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 13443,
+        "end_zero_based_exclusive": 13794,
+        "start_one_based": 13444,
+        "end_one_based_inclusive": 13794,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similarity to NPT III gene in GenBank Accession Number V01547"
+          ]
+        },
+        "sequence_sha256": "b5b7bc2faba3b0cae0471188c1f896a230cbe75d699546b2fcc9b8b1db4db693",
+        "length": 351,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:020",
+        "ordinal": 20,
+        "type": "misc_feature",
+        "name": "similar to kilA in GenBank Accession Number M62846",
+        "location_expression": "[13794:14066](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 13794,
+            "end_zero_based_exclusive": 14066,
+            "start_one_based": 13795,
+            "end_one_based_inclusive": 14066,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 13794,
+        "end_zero_based_exclusive": 14066,
+        "start_one_based": 13795,
+        "end_one_based_inclusive": 14066,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "similar to kilA in GenBank Accession Number M62846"
+          ]
+        },
+        "sequence_sha256": "eb934c5d61a8f5fe666def59f8405b02f3af80a0902aecdd3ad08d49ca85625d",
+        "length": 272,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      },
+      {
+        "feature_id": "AF485783.1:feature:021",
+        "ordinal": 21,
+        "type": "rep_origin",
+        "name": "ori V; similar to sequence in GenBank Accession Number M20134",
+        "location_expression": "[14140:14758](-)",
+        "location_operator": "single",
+        "location_parts": [
+          {
+            "start_zero_based": 14140,
+            "end_zero_based_exclusive": 14758,
+            "start_one_based": 14141,
+            "end_one_based_inclusive": 14758,
+            "strand": -1
+          }
+        ],
+        "start_zero_based": 14140,
+        "end_zero_based_exclusive": 14758,
+        "start_one_based": 14141,
+        "end_one_based_inclusive": 14758,
+        "strand": -1,
+        "mixed_strand": false,
+        "crosses_origin": false,
+        "qualifiers": {
+          "note": [
+            "ori V; similar to sequence in GenBank Accession Number M20134"
+          ]
+        },
+        "sequence_sha256": "f8a52862a0219972d06df65a2ff73bd640bb819dc1a6bc5c77bd2f96ea43b964",
+        "length": 618,
+        "asset_type": "other_feature",
+        "biological_role": "",
+        "registerable_component": false,
+        "extraction_method": "not_reliably_classified",
+        "provenance_status": "needs_feature_review",
+        "verification_status": "source_feature_parsed",
+        "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+      }
+    ]
+  },
+  "complete_binary_vector": {
+    "asset_id": "pbi121::complete_binary_vector",
+    "name": "pBI121",
+    "biological_role": "complete binary vector source record",
+    "asset_type": "complete_binary_vector",
+    "exact_sequence": "TGAGCGTCGCAAAGGCGCTCGGTCTTGCCTTGCTCGTCGGTGATGTACTTCACCAGCTCCGCGAAGTCGCTCTTCTTGATGGAGCGCATGGGGACGTGCTTGGCAATCACGCGCACCCCCCGGCCGTTTTAGCGGCTAAAAAAGTCATGGCTCTGCCCTCGGGCGGACCACGCCCATCATGACCTTGCCAAGCTCGTCCTGCTTCTCTTCGATCTTCGCCAGCAGGGCGAGGATCGTGGCATCACCGAACCGCGCCGTGCGCGGGTCGTCGGTGAGCCAGAGTTTCAGCAGGCCGCCCAGGCGGCCCAGGTCGCCATTGATGCGGGCCAGCTCGCGGACGTGCTCATAGTCCACGACGCCCGTGATTTTGTAGCCCTGGCCGACGGCCAGCAGGTAGGCCGACAGGCTCATGCCGGCCGCCGCCGCCTTTTCCTCAATCGCTCTTCGTTCGTCTGGAAGGCAGTACACCTTGATAGGTGGGCTGCCCTTCCTGGTTGGCTTGGTTTCATCAGCCATCCGCTTGCCCTCATCTGTTACGCCGGCGGTAGCCGGCCAGCCTCGCAGAGCAGGATTCCCGTTGAGCACCGCCAGGTGCGAATAAGGGACAGTGAAGAAGGAACACCCGCTCGCGGGTGGGCCTACTTCACCTATCCTGCCCGGCTGACGCCGTTGGATACACCAAGGAAAGTCTACACGAACCCTTTGGCAAAATCCTGTATATCGTGCGAAAAAGGATGGATATACCGAAAAAATCGCTATAATGACCCCGAAGCAGGGTTATGCAGCGGAAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCAGAAGGCCGCCAGAGAGGCCGAGCGCGGCCGTGAGGCTTGGACGCTAGGGCAGGGCATGAAAAAGCCCGTAGCGGGCTGCTACGGGCGTCTGACGCGGTGGAAAGGGGGAGGGGATGTTGTCTACATGGCTCTGCTGTAGTGAGTGGGTTGCGCTCCGGCAGCGGTCCTGATCAATCGTCACCCTTTCTCGGTCCTTCAACGTTCCTGACAACGAGCCTCCTTTTCGCCAATCCATCGACAATCACCGCGAGTCCCTGCTCGAACGCTGCGTCCGGACCGGCTTCGTCGAAGGCGTCTATCGCGGCCCGCAACAGCGGCGAGAGCGGAGCCTGTTCAACGGTGCCGCCGCGCTCGCCGGCATCGCTGTCGCCGGCCTGCTCCTCAAGCACGGCCCCAACAGTGAAGTAGCTGATTGTCATCAGCGCATTGACGGCGTCCCCGGCCGAAAAACCCGCCTCGCAGAGGAAGCGAAGCTGCGCGTCGGCCGTTTCCATCTGCGGTGCGCCCGGTCGCGTGCCGGCATGGATGCGCGCGCCATCGCGGTAGGCGAGCAGCGCCTGCCTGAAGCTGCGGGCATTCCCGATCAGAAATGAGCGCCAGTCGTCGTCGGCTCTCGGCACCGAATGCGTATGATTCTCCGCCAGCATGGCTTCGGCCAGTGCGTCGAGCAGCGCCCGCTTGTTCCTGAAGTGCCAGTAAAGCGCCGGCTGCTGAACCCCCAACCGTTCCGCCAGTTTGCGTGTCGTCAGACCGTCTACGCCGACCTCGTTCAACAGGTCCAGGGCGGCACGGATCACTGTATTCGGCTGCAACTTTGTCATGCTTGACACTTTATCACTGATAAACATAATATGTCCACCAACTTATCAGTGATAAAGAATCCGCGCGTTCAATCGGACCAGCGGAGGCTGGTCCGGAGGCCAGACGTGAAACCCAACATACCCCTGATCGTAATTCTGAGCACTGTCGCGCTCGACGCTGTCGGCATCGGCCTGATTATGCCGGTGCTGCCGGGCCTCCTGCGCGATCTGGTTCACTCGAACGACGTCACCGCCCACTATGGCATTCTGCTGGCGCTGTATGCGTTGGTGCAATTTGCCTGCGCACCTGTGCTGGGCGCGCTGTCGGATCGTTTCGGGCGGCGGCCAATCTTGCTCGTCTCGCTGGCCGGCGCCAGATCTGGGGAACCCTGTGGTTGGCATGCACATACAAATGGACGAACGGATAAACCTTTTCACGCCCTTTTAAATATCCGATTATTCTAATAAACGCTCTTTTCTCTTAGGTTTACCCGCCAATATATCCTGTCAAACACTGATAGTTTAAACTGAAGGCGGGAAACGACAATCTGATCATGAGCGGAGAATTAAGGGAGTCACGTTATGACCCCCGCCGATGACGCGGGACAAGCCGTTTTACGTTTGGAACTGACAGAACCGCAACGTTGAAGGAGCCACTCAGCCGCGGGTTTCTGGAGTTTAATGAGCTAAGCACATACGTCAGAAACCATTATTGCGCGTTCAAAAGTCGCCTAAGGTCACTATCAGCTAGCAAATATTTCTTGTCAAAAATGCTCCACTGACGTTCCATAAATTCCCCTCGGTATCCAATTAGAGTCTCATATTCACTCTCAATCCAAATAATCTGCACCGGATCTGGATCGTTTCGCATGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTCGGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCAGCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTGCAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTGCTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAGGATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATGCGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGCATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAAGAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGACGGCGATGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAATGGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGACATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTCCTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTTGACGAGTTCTTCTGAGCGGGACTCTGGGGTTCGAAATGACCGACCAAGCGACGCCCAACCTGCCATCACGAGATTTCGATTCCACCGCCGCCTTCTATGAAAGGTTGGGCTTCGGAATCGTTTTCCGGGACGCCGGCTGGATGATCCTCCAGCGCGGGGATCTCATGCTGGAGTTCTTCGCCCACGGGATCTCTGCGGAACAGGCGGTCGAAGGTGCCGATATCATTACGACAGCAACGGCCGACAAGCACAACGCCACGATCCTGAGCGACAATATGATCGGGCCCGGCGTCCACATCAACGGCGTCGGCGGCGACTGCCCAGGCAAGACCGAGATGCACCGCGATATCTTGCTGCGTTCGGATATTTTCGTGGAGTTCCCGCCACAGACCCGGATGATCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGCCTCCTGTCAATGCTGGCGGCGGCTCTGGTGGTGGTTCTGGTGGCGGCTCTGAGGGTGGTGGCTCTGAGGGTGGCGGTTCTGAGGGTGGCGGCTCTGAGGGAGGCGGTTCCGGTGGTGGCTCTGGTTCCGGTGATTTTGATTATGAAAAGATGGCAAACGCTAATAAGGGGGCTATGACCGAAAATGCCGATGAAAACGCGCTACAGTCTGACGCTAAAGGCAAACTTGATTCTGTCGCTACTGATTACGGTGCTGCTATCGATGGTTTCATTGGTGACGTTTCCGGCCTTGCTAATGGTAATGGTGCTACTGGTGATTTTGCTGGCTCTAATTCCCAAATGGCTCAAGTCGGTGACGGTGATAATTCACCTTTAATGAATAATTTCCGTCAATATTTACCTTCCCTCCCTCAATCGGTTGAATGTCGCCCTTTTGTCTTTGGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGCATGCCTGCAGGTCCCCAGATTAGCCTTTTCAATTTCAGAAAGAATGCTAACCCACAGATGGTTAGAGAGGCTTACGCAGCAGGTCTCATCAAGACGATCTACCCGAGCAATAATCTCCAGGAAATCAAATACCTTCCCAAGAAGGTTAAAGATGCAGTCAAAAGATTCAGGACTAACTGCATCAAGAACACAGAGAAAGATATATTTCTCAAGATCAGAAGTACTATTCCAGTATGGACGATTCAAGGCTTGCTTCACAAACCAAGGCAAGTAATAGAGATTGGAGTCTCTAAAAAGGTAGTTCCCACTGAATCAAAGGCCATGGAGTCAAAGATTCAAATAGAGGACCTAACAGAACTCGCCGTAAAGACTGGCGAACAGTTCATACAGAGTCTCTTACGACTCAATGACAAGAAGAAAATCTTCGTCAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGAACACGGGGGACTCTAGAGGATCCCCGGGTGGTCAGTCCCTTATGTTACGTCCTGTAGAAACCCCAACCCGTGAAATCAAAAAACTCGACGGCCTGTGGGCATTCAGTCTGGATCGCGAAAACTGTGGAATTGATCAGCGTTGGTGGGAAAGCGCGTTACAAGAAAGCCGGGCAATTGCTGTGCCAGGCAGTTTTAACGATCAGTTCGCCGATGCAGATATTCGTAATTATGCGGGCAACGTCTGGTATCAGCGCGAAGTCTTTATACCGAAAGGTTGGGCAGGCCAGCGTATCGTGCTGCGTTTCGATGCGGTCACTCATTACGGCAAAGTGTGGGTCAATAATCAGGAAGTGATGGAGCATCAGGGCGGCTATACGCCATTTGAAGCCGATGTCACGCCGTATGTTATTGCCGGGAAAAGTGTACGTATCACCGTTTGTGTGAACAACGAACTGAACTGGCAGACTATCCCGCCGGGAATGGTGATTACCGACGAAAACGGCAAGAAAAAGCAGTCTTACTTCCATGATTTCTTTAACTATGCCGGAATCCATCGCAGCGTAATGCTCTACACCACGCCGAACACCTGGGTGGACGATATCACCGTGGTGACGCATGTCGCGCAAGACTGTAACCACGCGTCTGTTGACTGGCAGGTGGTGGCCAATGGTGATGTCAGCGTTGAACTGCGTGATGCGGATCAACAGGTGGTTGCAACTGGACAAGGCACTAGCGGGACTTTGCAAGTGGTGAATCCGCACCTCTGGCAACCGGGTGAAGGTTATCTCTATGAACTGTGCGTCACAGCCAAAAGCCAGACAGAGTGTGATATCTACCCGCTTCGCGTCGGCATCCGGTCAGTGGCAGTGAAGGGCGAACAGTTCCTGATTAACCACAAACCGTTCTACTTTACTGGCTTTGGTCGTCATGAAGATGCGGACTTGCGTGGCAAAGGATTCGATAACGTGCTGATGGTGCACGACCACGCATTAATGGACTGGATTGGGGCCAACTCCTACCGTACCTCGCATTACCCTTACGCTGAAGAGATGCTCGACTGGGCAGATGAACATGGCATCGTGGTGATTGATGAAACTGCTGCTGTCGGCTTTAACCTCTCTTTAGGCATTGGTTTCGAAGCGGGCAACAAGCCGAAAGAACTGTACAGCGAAGAGGCAGTCAACGGGGAAACTCAGCAAGCGCACTTACAGGCGATTAAAGAGCTGATAGCGCGTGACAAAAACCACCCAAGCGTGGTGATGTGGAGTATTGCCAACGAACCGGATACCCGTCCGCAAGGTGCACGGGAATATTTCGCGCCACTGGCGGAAGCAACGCGTAAACTCGACCCGACGCGTCCGATCACCTGCGTCAATGTAATGTTCTGCGACGCTCACACCGATACCATCAGCGATCTCTTTGATGTGCTGTGCCTGAACCGTTATTACGGATGGTATGTCCAAAGCGGCGATTTGGAAACGGCAGAGAAGGTACTGGAAAAAGAACTTCTGGCCTGGCAGGAGAAACTGCATCAGCCGATTATCATCACCGAATACGGCGTGGATACGTTAGCCGGGCTGCACTCAATGTACACCGACATGTGGAGTGAAGAGTATCAGTGTGCATGGCTGGATATGTATCACCGCGTCTTTGATCGCGTCAGCGCCGTCGTCGGTGAACAGGTATGGAATTTCGCCGATTTTGCGACCTCGCAAGGCATATTGCGCGTTGGCGGTAACAAGAAAGGGATCTTCACTCGCGACCGCAAACCGAAGTCGGCGGCTTTTCTGCTGCAAAAACGCTGGACTGGCATGAACTTCGGTGAAAAACCGCAGCAGGGAGGCAAACAATGAATCAACAACTCTCCTGGCGCACCATCGTCGGCTACAGCCTCGGGAATTGCTACCGAGCTCGAATTTCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACCCCAGTACATTAAAAACGTCCGCAATGTGTTATTAAGTTGTCTAAGCGTCAATTTGTTTACACCACAATATATCCTGCCACCAGCCAGCCAACAGCTCCCCGACCGGCAGCTCGGCACAAAATCACCACTCGATACAGGCAGCCCATCAGTCCGGGACGGCGTCAGCGGGAGAGCCGTTGTAAGGCGGCAGACTTTGCTCATGTTACCGATGCTATTCGGAAGAACGGCAACTAAGCTGCCGGGTTTGAAACACGGATGATCTCGCGGAGGGTAGCATGTTGATTGTAACGATGACAGAGCGTTGCTGCCTGTGATCAAATATCATCTCCCTCGCAGAGATCCGAATTATCAGCCTTCTTATTCATTTCTCGCTTAACCGTGACAGGCTGTCGATCTTGAGAACTATGCCGACATAATAGGAAATCGCTGGATAAAGCCGCTGAGGAAGCTGAGTGGCGCTATTTCTTTAGAAGTGAACGTTGACGATATCAACTCCCCTATCCATTGCTCACCGAATGGTACAGGTCGGGGACCCGAAGTTCCGACTGTCGGCCTGATGCATCCCCGGCTGATCGACCCCAGATCTGGGGCTGAGAAAGCCCAGTAAGGAAACAACTGTAGGTTCGAGTCGCGAGATCCCCCGGAACCAAAGGAAGTAGGTTAAACCCGCTCCGATCAGGCCGAGCCACGCCAGGCCGAGAACATTGGTTCCTGTAGGCATCGGGATTGGCGGATCAAACACTAAAGCTACTGGAACGAGCAGAAGTCCTCCGGCCGCCAGTTGCCAGGCGGTAAAGGTGAGCAGAGGCACGGGAGGTTGCCACTTGCGGGTCAGCACGGTTCCGAACGCCATGGAAACCGCCCCCGCCAGGCCCGCTGCGACGCCGACAGGATCTAGCGCTGCGTTTGGTGTCAACACCAACAGCGCCACGCCCGCAGTTCCGCAAATAGCCCCCAGGACCGCCATCAATCGTATCGGGCTACCTAGCAGAGCGGCAGAGATGAACACGACCATCAGCGGCTGCACAGCGCCTACCGTCGCCGCGACCCCGCCCGGCAGGCGGTAGACCGAAATAAACAACAAGCTCCAGAATAGCGAAATATTAAGTGCGCCGAGGATGAAGATGCGCATCCACCAGATTCCCGTTGGAATCTGTCGGACGATCATCACGAGCAATAAACCCGCCGGCAACGCCCGCAGCAGCATACCGGCGACCCCTCGGCCTCGCTGTTCGGGCTCCACGAAAACGCCGGACAGATGCGCCTTGTGAGCGTCCTTGGGGCCGTCCTCCTGTTTGAAGACCGACAGCCCAATGATCTCGCCGTCGATGTAGGCGCCGAATGCCACGGCATCTCGCAACCGTTCAGCGAACGCCTCCATGGGCTTTTTCTCCTCGTGCTCGTAAACGGACCCGAACATCTCTGGAGCTTTCTTCAGGGCCGACAATCGGATCTCGCGGAAATCCTGCACGTCGGCCGCTCCAAGCCGTCGAATCTGAGCCTTAATCACAATTGTCAATTTTAATCCTCTGTTTATCGGCAGTTCGTAGAGCGCGCCGTGCGTCCCGAGCGATACTGAGCGAAGCAAGTGCGTCGAGCAGTGCCCGCTTGTTCCTGAAATGCCAGTAAAGCGCTGGCTGCTGAACCCCCAGCCGGAACTGACCCCACAAGGCCCTAGCGTTTGCAATGCACCAGGTCATCATTGACCCAGGCGTGTTCCACCAGGCCGCTGCCTCGCAACTCTTCGCAGGCTTCGCCGACCTGCTCGCGCCACTTCTTCACGCGGGTGGAATCCGATCCGCACATGAGGCGGAAGGTTTCCAGCTTGAGCGGGTACGGCTCCCGGTGCGAGCTGAAATAGTCGAACATCCGTCGGGCCGTCGGCGACAGCTTGCGGTACTTCTCCCATATGAATTTCGTGTAGTGGTCGCCAGCAAACAGCACGACGATTTCCTCGTCGATCAGGACCTGGCAACGGGACGTTTTCTTGCCACGGTCCAGGACGCGGAAGCGGTGCAGCAGCGACACCGATTCCAGGTGCCCAACGCGGTCGGACGTGAAGCCCATCGCCGTCGCCTGTAGGCGCGACAGGCATTCCTCGGCCTTCGTGTAATACCGGCCATTGATCGACCAGCCCAGGTCCTGGCAAAGCTCGTAGAACGTGAAGGTGATCGGCTCGCCGATAGGGGTGCGCTTCGCGTACTCCAACACCTGCTGCCACACCAGTTCGTCATCGTCGGCCCGCAGCTCGACGCCGGTGTAGGTGATCTTCACGTCCTTGTTGACGTGGAAAATGACCTTGTTTTGCAGCGCCTCGCGCGGGATTTTCTTGTTGCGCGTGGTGAACAGGGCAGAGCGGGCCGTGTCGTTTGGCATCGCTCGCATCGTGTCCGGCCACGGCGCAATATCGAACAAGGAAAGCTGCATTTCCTTGATCTGCTGCTTCGTGTGTTTCAGCAACGCGGCCTGCTTGGCCTCGCTGACCTGTTTTGCCAGGTCCTCGCCGGCGGTTTTTCGCTTCTTGGTCGTCATAGTTCCTCGCGTGTCGATGGTCATCGACTTCGCCAAACCTGCCGCCTCCTGTTCGAGACGACGCGAACGCTCCACGGCGGCCGATGGCGCGGGCAGGGCAGGGGGAGCCAGTTGCACGCTGTCGCGCTCGATCTTGGCCGTAGCTTGCTGGACCATCGAGCCGACGGACTGGAAGGTTTCGCGGGGCGCACGCATGACGGTGCGGCTTGCGATGGTTTCGGCATCCTCGGCGGAAAACCCCGCGTCGATCAGTTCTTGCCTGTATGCCTTCCGGTCAAACGTCCGATTCATTCACCCTCCTTGCGGGATTGCCCCGACTCACGCCGGGGCAATGTGCCCTTATTCCTGATTTGACCCGCCTGGTGCCTTGGTGTCCAGATAATCCACCTTATCGGCAATGAAGTCGGTCCCGTAGACCGTCTGGCCGTCCTTCTCGTACTTGGTATTCCGAATCTTGCCCTGCACGAATACCAGCGACCCCTTGCCCAAATACTTGCCGTGGGCCTCGGCCTGAGAGCCAAAACACTTGATGCGGAAGAAGTCGGTGCGCTCCTGCTTGTCGCCGGCATCGTTGCGCCACATCTAGGTACTAAAACAATTCATCCAGTAAAATATAATATTTTATTTTCTCCCAATCAGGCTTGATCCCCAGTAAGTCAAAAAATAGCTCGACATACTGTTCTTCCCCGATATCCTCCCTGATCGACCGGACGCAGAAGGCAATGTCATACCACTTGTCCGCCCTGCCGCTTCTCCCAAGATCAATAAAGCCACTTACTTTGCCATCTTTCACAAAGATGTTGCTGTCTCCCAGGTCGCCGTGGGAAAAGACAAGTTCCTCTTCGGGCTTTTCCGTCTTTAAAAAATCATACAGCTCGCGCGGATCTTTAAATGGAGTGTCTTCTTCCCAGTTTTCGCAATCCACATCGGCCAGATCGTTATTCAGTAAGTAATCCAATTCGGCTAAGCGGCTGTCTAAGCTATTCGTATAGGGACAATCCGATATGTCGATGGAGTGAAAGAGCCTGATGCACTCCGCATACAGCTCGATAATCTTTTCAGGGCTTTGTTCATCTTCATACTCTTCCGAGCAAAGGACGCCATCGGCCTCACTCATGAGCAGATTGCTCCAGCCATCATGCCGTTCAAAGTGCAGGACCTTTGGAACAGGCAGCTTTCCTTCCAGCCATAGCATCATGTCCTTTTCCCGTTCCACATCATAGGTGGTCCCTTTATACCGGCTGTCCGTCATTTTTAAATATAGGTTTTCATTTTCTCCCACCAGCTTATATACCTTAGCAGGAGACATTCCTTCCGTATCTTTTACGCAGCGGTATTTTTCGATCAGTTTTTTCAATTCCGGTGATATTCTCATTTTAGCCATTTATTATTTCCTTCCTCTTTTCTACAGTATTTAAAGATACCCCAAGAAGCTAATTATAACAAGACGAACTCCAATTCACTGTTCCTTGCATTCTAAAACCTTAAATACCAGAAAACAGCTTTTTCAAAGTTGTTTTCAAAGTTGGCGTATAACATAGTATCGACGGAGCCGATTTTGAAACCACAATTATGGGTGATGCTGCCAACTTACTGATTTAGTGTATGATGGTGTTTTTGAGGTGCTCCAGTGGCTTCTGTGTCTATCAGCTGTCCCTCCTGTTCAGCTACTGACGGGGTGGTGCGTAACGGCAAAAGCACCGCCGGACATCAGCGCTATCTCTGCTCTCACTGCCGTAAAACATGGCAACTGCAGTTCACTTACACCGCTTCTCAACCCGGTACGCACCAGAAAATCATTGATATGGCCATGAATGGCGTTGGATGCCGGGCAACAGCCCGCATTATGGGCGTTGGCCTCAACACGATTTTACGTCACTTAAAAAACTCAGGCCGCAGTCGGTAACCTCGCGCATACAGCCGGGCAGTGACGTCATCGTCTGCGCGGAAATGGACGAACAGTGGGGCTATGTCGGGGCTAAATCGCGCCAGCGCTGGCTGTTTTACGCGTATGACAGTCTCCGGAAGACGGTTGTTGCGCACGTATTCGGTGAACGCACTATGGCGACGCTGGGGCGTCTTATGAGCCTGCTGTCACCCTTTGACGTGGTGATATGGATGACGGATGGCTGGCCGCTGTATGAATCCCGCCTGAAGGGAAAGCTGCACGTAATCAGCAAGCGATATACGCAGCGAATTGAGCGGCATAACCTGAATCTGAGGCAGCACCTGGCACGGCTGGGACGGAAGTCGCTGTCGTTCTCAAAATCGGTGGAGCTGCATGACAAAGTCATCGGGCATTATCTGAACATAAAACACTATCAATAAGTTGGAGTCATTACCCAATTATGATAGAATTTACAAGCTATAAGGTTATTGTCCTGGGTTTCAAGCATTAGTCCATGCAAGTTTTTATGCTTTGCCCATTCTATAGATATATTGATAAGCGCGCTGCCTATGCCTTGCCCCCTGAAATCCTTACATACGGCGATATCTTCTATATAAAAGATATATTATCTTATCAGTATTGTCAATATATTCAAGGCAATCTGCCTCCTCATCCTCTTCATCCTCTTCGTCTTGGTAGCTTTTTAAATATGGCGCTTCATAGAGTAATTCTGTAAAGGTCCAATTCTCGTTTTCATACCTCGGTATAATCTTACCTATCACCTCAAATGGTTCGCTGGGTTTATCGCACCCCCGAACACGAGCACGGCACCCGCGACCACTATGCCAAGAATGCCCAAGGTAAAAATTGCCGGCCCCGCCATGAAGTCCGTGAATGCCCCGACGGCCGAAGTGAAGGGCAGGCCGCCACCCAGGCCGCCGCCCTCACTGCCCGGCACCTGGTCGCTGAATGTCGATGCCAGCACCTGCGGCACGTCAATGCTTCCGGGCGTCGCGCTCGGGCTGATCGCCCATCCCGTTACTGCCCCGATCCCGGCAATGGCAAGGACTGCCAGCGCTGCCATTTTTGGGGTGAGGCCGTTCGCGGCCGAGGGGCGCAGCCCCTGGGGGGATGGGAGGCCCGCGTTAGCGGGCCGGGAGGGTTCGAGAAGGGGGGGCACCCCCCTTCGGCGTGCGCGGTCACGCGCACAGGGCGCAGCCCTGGTTAAAAACAAGGTTTATAAATATTGGTTTAAAAGCAGGTTAAAAGACAGGTTAGCGGTGGCCGAAAAACGGGCGGAAACCCTTGCAAATGCTGGATTTTCTGCCTGTGGACAGCCCCTCAAATGTCAATAGGTGCGCCCCTCATCTGTCAGCACTCTGCCCCTCAAGTGTCAAGGATCGCGCCCCTCATCTGTCAGTAGTCGCGCCCCTCAAGTGTCAATACCGCAGGGCACTTATCCCCAGGCTTGTCCACATCATCTGTGGGAAACTCGCGTAAAATCAGGCGTTTTCGCCGATTTGCGAGGCTGGCCAGCTCCACGTCGCCGGCCGAAATCGAGCCTGCCCCTCATCTGTCAACGCCGCGCCGGGTGAGTCGGCCCCTCAAGTGTCAACGTCCGCCCCTCATCTGTCAGTGAGGGCCAAGTTTTCCGCGAGGTATCCACAACGCCGGCGGCCGCGGTGTCTCGCACACGGCTTCGACGGCGTTTCTGGCGCGTTTGCAGGGCCATAGACGGCCGCCAGCCCAGCGGCGAGGGCAACCAGCCCGG",
+    "length": 14758,
+    "topology": "circular",
+    "strand": null,
+    "source_type": "official_ncbi_genbank",
+    "source_accession": "AF485783.1",
+    "source_record_name": "pBI121",
+    "source_feature_type": "source_record",
+    "source_feature_location": "1..14758",
+    "source_feature_qualifiers": {},
+    "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+    "sequence_sha256": "e497e664f6d6baba1bd1cafce38bceedf88c0108101bc57adf29513246497539",
+    "extraction_method": "complete_record_sequence",
+    "user_edit_status": "source_immutable",
+    "provenance_status": "verified_source",
+    "verification_status": "needs_replacement_strategy",
+    "manual_review_notes": "Non-empty T-DNA includes selectable-marker and reporter expression cassettes. No replacement region is selected.",
+    "source_version": "AF485783.1",
+    "non_empty_t_dna": true,
+    "eligible_for_construct_use": false
+  },
+  "registered_components": [
+    {
+      "asset_id": "pbi121::005",
+      "name": "T-DNA right border",
+      "biological_role": "T-DNA right border",
+      "asset_type": "right_border",
+      "exact_sequence": "TGACAGGATATATTGGCGGGTAAAC",
+      "length": 25,
+      "topology": "linear_feature",
+      "strand": -1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "misc_feature",
+      "source_feature_location": "[2453:2478](-)",
+      "source_feature_qualifiers": {
+        "note": [
+          "T-DNA right border"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "e7bd4ef3039ac803df9949cb6e8eab644e5870977307824a3baace1f78706fd9",
+      "extraction_method": "explicit_feature_note",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    },
+    {
+      "asset_id": "pbi121::008",
+      "name": "nptII selectable marker CDS",
+      "biological_role": "nptII selectable marker CDS",
+      "asset_type": "selectable_marker_cassette",
+      "exact_sequence": "ATGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTCGGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCAGCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTGCAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTGCTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAGGATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATGCGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGCATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAAGAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGACGGCGATGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAATGGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGACATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTCCTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTTGACGAGTTCTTCTGA",
+      "length": 795,
+      "topology": "linear_feature",
+      "strand": 1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "CDS",
+      "source_feature_location": "[2837:3632](+)",
+      "source_feature_qualifiers": {
+        "gene": [
+          "nptII"
+        ],
+        "codon_start": [
+          "1"
+        ],
+        "product": [
+          "neomycin phosphotransferase II"
+        ],
+        "protein_id": [
+          "AAL92039.1"
+        ],
+        "translation": [
+          "MIEQDGLHAGSPAAWVERLFGYDWAQQTIGCSDAAVFRLSAQGRPVLFVKTDLSGALNELQDEAARLSWLATTGVPCAAVLDVVTEAGRDWLLLGEVPGQDLLSSHLAPAEKVSIMADAMRRLHTLDPATCPFDHQAKHRIERARTRMEAGLVDQDDLDEEHQGLAPAELFARLKARMPDGDDLVVTHGDACLPNIMVENGRFSGFIDCGRLGVADRYQDIALATRDIAEELGGEWADRFLVLYGIAAPDSQRIAFYRLLDEFF"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "c68f606e8613525d068cd48c8bc9916ee8250d179e089cb9adf669187e67a7b4",
+      "extraction_method": "feature_table_gene",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    },
+    {
+      "asset_id": "pbi121::009",
+      "name": "NOS 3' regulatory region",
+      "biological_role": "NOS 3' regulatory region",
+      "asset_type": "three_prime_regulatory_region",
+      "exact_sequence": "GATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGG",
+      "length": 256,
+      "topology": "linear_feature",
+      "strand": 1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "regulatory",
+      "source_feature_location": "[4021:4277](+)",
+      "source_feature_qualifiers": {
+        "regulatory_class": [
+          "terminator"
+        ],
+        "note": [
+          "NOS"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "6c8916397c8f95a894a870ce5620837d41d776e57c64d415d76f3f0d02eb35c4",
+      "extraction_method": "feature_table_regulatory_class_and_note",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    },
+    {
+      "asset_id": "pbi121::010",
+      "name": "CaMV 35S promoter",
+      "biological_role": "CaMV 35S promoter",
+      "asset_type": "promoter",
+      "exact_sequence": "AGATTAGCCTTTTCAATTTCAGAAAGAATGCTAACCCACAGATGGTTAGAGAGGCTTACGCAGCAGGTCTCATCAAGACGATCTACCCGAGCAATAATCTCCAGGAAATCAAATACCTTCCCAAGAAGGTTAAAGATGCAGTCAAAAGATTCAGGACTAACTGCATCAAGAACACAGAGAAAGATATATTTCTCAAGATCAGAAGTACTATTCCAGTATGGACGATTCAAGGCTTGCTTCACAAACCAAGGCAAGTAATAGAGATTGGAGTCTCTAAAAAGGTAGTTCCCACTGAATCAAAGGCCATGGAGTCAAAGATTCAAATAGAGGACCTAACAGAACTCGCCGTAAAGACTGGCGAACAGTTCATACAGAGTCTCTTACGACTCAATGACAAGAAGAAAATCTTCGTCAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGAACACG",
+      "length": 835,
+      "topology": "linear_feature",
+      "strand": 1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "regulatory",
+      "source_feature_location": "[4973:5808](+)",
+      "source_feature_qualifiers": {
+        "regulatory_class": [
+          "promoter"
+        ],
+        "note": [
+          "CaMV 35S"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "4f5069bdd68260bb7a243ec7f8b628e13d52f58242c6f7acf53e3cc55a8673e2",
+      "extraction_method": "feature_table_regulatory_class_and_note",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    },
+    {
+      "asset_id": "pbi121::012",
+      "name": "gusA reporter CDS",
+      "biological_role": "gusA reporter CDS",
+      "asset_type": "reporter_cassette",
+      "exact_sequence": "ATGTTACGTCCTGTAGAAACCCCAACCCGTGAAATCAAAAAACTCGACGGCCTGTGGGCATTCAGTCTGGATCGCGAAAACTGTGGAATTGATCAGCGTTGGTGGGAAAGCGCGTTACAAGAAAGCCGGGCAATTGCTGTGCCAGGCAGTTTTAACGATCAGTTCGCCGATGCAGATATTCGTAATTATGCGGGCAACGTCTGGTATCAGCGCGAAGTCTTTATACCGAAAGGTTGGGCAGGCCAGCGTATCGTGCTGCGTTTCGATGCGGTCACTCATTACGGCAAAGTGTGGGTCAATAATCAGGAAGTGATGGAGCATCAGGGCGGCTATACGCCATTTGAAGCCGATGTCACGCCGTATGTTATTGCCGGGAAAAGTGTACGTATCACCGTTTGTGTGAACAACGAACTGAACTGGCAGACTATCCCGCCGGGAATGGTGATTACCGACGAAAACGGCAAGAAAAAGCAGTCTTACTTCCATGATTTCTTTAACTATGCCGGAATCCATCGCAGCGTAATGCTCTACACCACGCCGAACACCTGGGTGGACGATATCACCGTGGTGACGCATGTCGCGCAAGACTGTAACCACGCGTCTGTTGACTGGCAGGTGGTGGCCAATGGTGATGTCAGCGTTGAACTGCGTGATGCGGATCAACAGGTGGTTGCAACTGGACAAGGCACTAGCGGGACTTTGCAAGTGGTGAATCCGCACCTCTGGCAACCGGGTGAAGGTTATCTCTATGAACTGTGCGTCACAGCCAAAAGCCAGACAGAGTGTGATATCTACCCGCTTCGCGTCGGCATCCGGTCAGTGGCAGTGAAGGGCGAACAGTTCCTGATTAACCACAAACCGTTCTACTTTACTGGCTTTGGTCGTCATGAAGATGCGGACTTGCGTGGCAAAGGATTCGATAACGTGCTGATGGTGCACGACCACGCATTAATGGACTGGATTGGGGCCAACTCCTACCGTACCTCGCATTACCCTTACGCTGAAGAGATGCTCGACTGGGCAGATGAACATGGCATCGTGGTGATTGATGAAACTGCTGCTGTCGGCTTTAACCTCTCTTTAGGCATTGGTTTCGAAGCGGGCAACAAGCCGAAAGAACTGTACAGCGAAGAGGCAGTCAACGGGGAAACTCAGCAAGCGCACTTACAGGCGATTAAAGAGCTGATAGCGCGTGACAAAAACCACCCAAGCGTGGTGATGTGGAGTATTGCCAACGAACCGGATACCCGTCCGCAAGGTGCACGGGAATATTTCGCGCCACTGGCGGAAGCAACGCGTAAACTCGACCCGACGCGTCCGATCACCTGCGTCAATGTAATGTTCTGCGACGCTCACACCGATACCATCAGCGATCTCTTTGATGTGCTGTGCCTGAACCGTTATTACGGATGGTATGTCCAAAGCGGCGATTTGGAAACGGCAGAGAAGGTACTGGAAAAAGAACTTCTGGCCTGGCAGGAGAAACTGCATCAGCCGATTATCATCACCGAATACGGCGTGGATACGTTAGCCGGGCTGCACTCAATGTACACCGACATGTGGAGTGAAGAGTATCAGTGTGCATGGCTGGATATGTATCACCGCGTCTTTGATCGCGTCAGCGCCGTCGTCGGTGAACAGGTATGGAATTTCGCCGATTTTGCGACCTCGCAAGGCATATTGCGCGTTGGCGGTAACAAGAAAGGGATCTTCACTCGCGACCGCAAACCGAAGTCGGCGGCTTTTCTGCTGCAAAAACGCTGGACTGGCATGAACTTCGGTGAAAAACCGCAGCAGGGAGGCAAACAATGA",
+      "length": 1812,
+      "topology": "linear_feature",
+      "strand": 1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "CDS",
+      "source_feature_location": "[5844:7656](+)",
+      "source_feature_qualifiers": {
+        "gene": [
+          "gusA"
+        ],
+        "note": [
+          "GUS"
+        ],
+        "codon_start": [
+          "1"
+        ],
+        "product": [
+          "beta-glucuronidase"
+        ],
+        "protein_id": [
+          "AAL92040.1"
+        ],
+        "translation": [
+          "MLRPVETPTREIKKLDGLWAFSLDRENCGIDQRWWESALQESRAIAVPGSFNDQFADADIRNYAGNVWYQREVFIPKGWAGQRIVLRFDAVTHYGKVWVNNQEVMEHQGGYTPFEADVTPYVIAGKSVRITVCVNNELNWQTIPPGMVITDENGKKKQSYFHDFFNYAGIHRSVMLYTTPNTWVDDITVVTHVAQDCNHASVDWQVVANGDVSVELRDADQQVVATGQGTSGTLQVVNPHLWQPGEGYLYELCVTAKSQTECDIYPLRVGIRSVAVKGEQFLINHKPFYFTGFGRHEDADLRGKGFDNVLMVHDHALMDWIGANSYRTSHYPYAEEMLDWADEHGIVVIDETAAVGFNLSLGIGFEAGNKPKELYSEEAVNGETQQAHLQAIKELIARDKNHPSVVMWSIANEPDTRPQGAREYFAPLAEATRKLDPTRPITCVNVMFCDAHTDTISDLFDVLCLNRYYGWYVQSGDLETAEKVLEKELLAWQEKLHQPIIITEYGVDTLAGLHSMYTDMWSEEYQCAWLDMYHRVFDRVSAVVGEQVWNFADFATSQGILRVGGNKKGIFTRDRKPKSAAFLLQKRWTGMNFGEKPQQGGKQ"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "cf625a11ece85bb2217ae60754042a71accf12790be1543c1987a43b1f7e7291",
+      "extraction_method": "feature_table_gene",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    },
+    {
+      "asset_id": "pbi121::013",
+      "name": "NOS 3' regulatory region",
+      "biological_role": "NOS 3' regulatory region",
+      "asset_type": "three_prime_regulatory_region",
+      "exact_sequence": "GATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATC",
+      "length": 253,
+      "topology": "linear_feature",
+      "strand": 1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "regulatory",
+      "source_feature_location": "[7726:7979](+)",
+      "source_feature_qualifiers": {
+        "regulatory_class": [
+          "terminator"
+        ],
+        "note": [
+          "NOS"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "07296665a19dbedd665dc2f350869a1474a72811f54688cbef8835e24372ab3f",
+      "extraction_method": "feature_table_regulatory_class_and_note",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    },
+    {
+      "asset_id": "pbi121::014",
+      "name": "T-DNA left border",
+      "biological_role": "T-DNA left border",
+      "asset_type": "left_border",
+      "exact_sequence": "TGGCAGGATATATTGTGGTGTAAACA",
+      "length": 26,
+      "topology": "linear_feature",
+      "strand": -1,
+      "source_type": "official_ncbi_genbank",
+      "source_accession": "AF485783.1",
+      "source_record_name": "pBI121",
+      "source_feature_type": "misc_feature",
+      "source_feature_location": "[8620:8646](-)",
+      "source_feature_qualifiers": {
+        "note": [
+          "T-DNA left border"
+        ]
+      },
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "sequence_sha256": "867cca27b42ecbf82c45691d04357ac82fc018352146e9643422e087b98d1624",
+      "extraction_method": "explicit_feature_note",
+      "user_edit_status": "source_immutable",
+      "provenance_status": "verified_source",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "",
+      "source_version": "AF485783.1"
+    }
+  ],
+  "unclassified_features": [
+    {
+      "feature_id": "AF485783.1:feature:001",
+      "ordinal": 1,
+      "type": "source",
+      "name": "constructed using pB221 from Clontech Laboratories and Bin19 described in GenBank Accession Number U09365",
+      "location_expression": "[0:14758](+)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 0,
+          "end_zero_based_exclusive": 14758,
+          "start_one_based": 1,
+          "end_one_based_inclusive": 14758,
+          "strand": 1
+        }
+      ],
+      "start_zero_based": 0,
+      "end_zero_based_exclusive": 14758,
+      "start_one_based": 1,
+      "end_one_based_inclusive": 14758,
+      "strand": 1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "organism": [
+          "Binary vector pBI121"
+        ],
+        "mol_type": [
+          "genomic DNA"
+        ],
+        "db_xref": [
+          "taxon:189807"
+        ],
+        "note": [
+          "constructed using pB221 from Clontech Laboratories and Bin19 described in GenBank Accession Number U09365"
+        ]
+      },
+      "sequence_sha256": "e497e664f6d6baba1bd1cafce38bceedf88c0108101bc57adf29513246497539",
+      "length": 14758,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:002",
+      "ordinal": 2,
+      "type": "misc_feature",
+      "name": "similar to traF in GenBank Accession Number X54459",
+      "location_expression": "[12:796](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 12,
+          "end_zero_based_exclusive": 796,
+          "start_one_based": 13,
+          "end_one_based_inclusive": 796,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 12,
+      "end_zero_based_exclusive": 796,
+      "start_one_based": 13,
+      "end_one_based_inclusive": 796,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to traF in GenBank Accession Number X54459"
+        ]
+      },
+      "sequence_sha256": "501bc5c4b136f3dac51574b5984aff35f3ba3cc73435d259a406461c93e8947c",
+      "length": 784,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:003",
+      "ordinal": 3,
+      "type": "rep_origin",
+      "name": "ColE1 ori; similar to sequence in GenBank Accession Number V00268",
+      "location_expression": "[789:1168](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 789,
+          "end_zero_based_exclusive": 1168,
+          "start_one_based": 790,
+          "end_one_based_inclusive": 1168,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 789,
+      "end_zero_based_exclusive": 1168,
+      "start_one_based": 790,
+      "end_one_based_inclusive": 1168,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "ColE1 ori; similar to sequence in GenBank Accession Number V00268"
+        ]
+      },
+      "sequence_sha256": "6badc7b72ec8224f3c8563247909e974c1bdacb7f9af3b5022d9dbdd55ec0858",
+      "length": 379,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:004",
+      "ordinal": 4,
+      "type": "misc_feature",
+      "name": "similar to tetA in GenBank Accession Number X75761",
+      "location_expression": "[1160:2344](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 1160,
+          "end_zero_based_exclusive": 2344,
+          "start_one_based": 1161,
+          "end_one_based_inclusive": 2344,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 1160,
+      "end_zero_based_exclusive": 2344,
+      "start_one_based": 1161,
+      "end_one_based_inclusive": 2344,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to tetA in GenBank Accession Number X75761"
+        ]
+      },
+      "sequence_sha256": "2ef4455e99a50c14853903630f957c862391482c1bcf4112ee1bcb5cf9ee0367",
+      "length": 1184,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:006",
+      "ordinal": 6,
+      "type": "regulatory",
+      "name": "NOS",
+      "location_expression": "[2518:2825](+)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 2518,
+          "end_zero_based_exclusive": 2825,
+          "start_one_based": 2519,
+          "end_one_based_inclusive": 2825,
+          "strand": 1
+        }
+      ],
+      "start_zero_based": 2518,
+      "end_zero_based_exclusive": 2825,
+      "start_one_based": 2519,
+      "end_one_based_inclusive": 2825,
+      "strand": 1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "regulatory_class": [
+          "promoter"
+        ],
+        "note": [
+          "NOS"
+        ]
+      },
+      "sequence_sha256": "e6d7e7a42fa52593622bfcbdd0610e52b8272216e6f6d662c1c884f8c29018aa",
+      "length": 307,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:007",
+      "ordinal": 7,
+      "type": "gene",
+      "name": "nptII",
+      "location_expression": "[2837:3632](+)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 2837,
+          "end_zero_based_exclusive": 3632,
+          "start_one_based": 2838,
+          "end_one_based_inclusive": 3632,
+          "strand": 1
+        }
+      ],
+      "start_zero_based": 2837,
+      "end_zero_based_exclusive": 3632,
+      "start_one_based": 2838,
+      "end_one_based_inclusive": 3632,
+      "strand": 1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "gene": [
+          "nptII"
+        ]
+      },
+      "sequence_sha256": "c68f606e8613525d068cd48c8bc9916ee8250d179e089cb9adf669187e67a7b4",
+      "length": 795,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:011",
+      "ordinal": 11,
+      "type": "gene",
+      "name": "gusA",
+      "location_expression": "[5844:7656](+)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 5844,
+          "end_zero_based_exclusive": 7656,
+          "start_one_based": 5845,
+          "end_one_based_inclusive": 7656,
+          "strand": 1
+        }
+      ],
+      "start_zero_based": 5844,
+      "end_zero_based_exclusive": 7656,
+      "start_one_based": 5845,
+      "end_one_based_inclusive": 7656,
+      "strand": 1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "gene": [
+          "gusA"
+        ]
+      },
+      "sequence_sha256": "cf625a11ece85bb2217ae60754042a71accf12790be1543c1987a43b1f7e7291",
+      "length": 1812,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:015",
+      "ordinal": 15,
+      "type": "misc_feature",
+      "name": "similar to tetA in GenBank Accession Number L13842",
+      "location_expression": "[9155:10198](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 9155,
+          "end_zero_based_exclusive": 10198,
+          "start_one_based": 9156,
+          "end_one_based_inclusive": 10198,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 9155,
+      "end_zero_based_exclusive": 10198,
+      "start_one_based": 9156,
+      "end_one_based_inclusive": 10198,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to tetA in GenBank Accession Number L13842"
+        ]
+      },
+      "sequence_sha256": "ffac70598ed942d3f5a6fc6f39f231f279f3cff05180a433b85db0221e5e9353",
+      "length": 1043,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:016",
+      "ordinal": 16,
+      "type": "misc_feature",
+      "name": "similar to trfA in GenBank Accession Number X00713",
+      "location_expression": "[10198:11680](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 10198,
+          "end_zero_based_exclusive": 11680,
+          "start_one_based": 10199,
+          "end_one_based_inclusive": 11680,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 10198,
+      "end_zero_based_exclusive": 11680,
+      "start_one_based": 10199,
+      "end_one_based_inclusive": 11680,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to trfA in GenBank Accession Number X00713"
+        ]
+      },
+      "sequence_sha256": "2411d335f186954c46055ae85c43f0081ae851fa86d8e8ba190a861390bde762",
+      "length": 1482,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:017",
+      "ordinal": 17,
+      "type": "misc_feature",
+      "name": "similar to NPTIII gene in GenBank Accession Number V01547",
+      "location_expression": "[11680:12673](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 11680,
+          "end_zero_based_exclusive": 12673,
+          "start_one_based": 11681,
+          "end_one_based_inclusive": 12673,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 11680,
+      "end_zero_based_exclusive": 12673,
+      "start_one_based": 11681,
+      "end_one_based_inclusive": 12673,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to NPTIII gene in GenBank Accession Number V01547"
+        ]
+      },
+      "sequence_sha256": "6d7435abcc1e3855732de6ae85d5813f05cc22e161cabac60bb0fd971c77222f",
+      "length": 993,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:018",
+      "ordinal": 18,
+      "type": "misc_feature",
+      "name": "similar to transposable element IS1 in GenBank Accession Number X58999",
+      "location_expression": "[12673:13443](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 12673,
+          "end_zero_based_exclusive": 13443,
+          "start_one_based": 12674,
+          "end_one_based_inclusive": 13443,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 12673,
+      "end_zero_based_exclusive": 13443,
+      "start_one_based": 12674,
+      "end_one_based_inclusive": 13443,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to transposable element IS1 in GenBank Accession Number X58999"
+        ]
+      },
+      "sequence_sha256": "c8a3f9a6fefef5e566022688ed82d6470b7b02b3446e3b977ba3f88fe69f2e28",
+      "length": 770,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:019",
+      "ordinal": 19,
+      "type": "misc_feature",
+      "name": "similarity to NPT III gene in GenBank Accession Number V01547",
+      "location_expression": "[13443:13794](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 13443,
+          "end_zero_based_exclusive": 13794,
+          "start_one_based": 13444,
+          "end_one_based_inclusive": 13794,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 13443,
+      "end_zero_based_exclusive": 13794,
+      "start_one_based": 13444,
+      "end_one_based_inclusive": 13794,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similarity to NPT III gene in GenBank Accession Number V01547"
+        ]
+      },
+      "sequence_sha256": "b5b7bc2faba3b0cae0471188c1f896a230cbe75d699546b2fcc9b8b1db4db693",
+      "length": 351,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:020",
+      "ordinal": 20,
+      "type": "misc_feature",
+      "name": "similar to kilA in GenBank Accession Number M62846",
+      "location_expression": "[13794:14066](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 13794,
+          "end_zero_based_exclusive": 14066,
+          "start_one_based": 13795,
+          "end_one_based_inclusive": 14066,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 13794,
+      "end_zero_based_exclusive": 14066,
+      "start_one_based": 13795,
+      "end_one_based_inclusive": 14066,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "similar to kilA in GenBank Accession Number M62846"
+        ]
+      },
+      "sequence_sha256": "eb934c5d61a8f5fe666def59f8405b02f3af80a0902aecdd3ad08d49ca85625d",
+      "length": 272,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    },
+    {
+      "feature_id": "AF485783.1:feature:021",
+      "ordinal": 21,
+      "type": "rep_origin",
+      "name": "ori V; similar to sequence in GenBank Accession Number M20134",
+      "location_expression": "[14140:14758](-)",
+      "location_operator": "single",
+      "location_parts": [
+        {
+          "start_zero_based": 14140,
+          "end_zero_based_exclusive": 14758,
+          "start_one_based": 14141,
+          "end_one_based_inclusive": 14758,
+          "strand": -1
+        }
+      ],
+      "start_zero_based": 14140,
+      "end_zero_based_exclusive": 14758,
+      "start_one_based": 14141,
+      "end_one_based_inclusive": 14758,
+      "strand": -1,
+      "mixed_strand": false,
+      "crosses_origin": false,
+      "qualifiers": {
+        "note": [
+          "ori V; similar to sequence in GenBank Accession Number M20134"
+        ]
+      },
+      "sequence_sha256": "f8a52862a0219972d06df65a2ff73bd640bb819dc1a6bc5c77bd2f96ea43b964",
+      "length": 618,
+      "asset_type": "other_feature",
+      "biological_role": "",
+      "registerable_component": false,
+      "extraction_method": "not_reliably_classified",
+      "provenance_status": "needs_feature_review",
+      "verification_status": "source_feature_parsed",
+      "manual_review_notes": "Feature retained as other_feature; no biological role was inferred."
+    }
+  ]
+}

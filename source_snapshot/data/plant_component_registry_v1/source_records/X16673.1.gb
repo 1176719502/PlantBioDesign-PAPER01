@@ -1,0 +1,59 @@
+LOCUS       X16673                   554 bp    DNA     linear   VRL 09-SEP-2004
+DEFINITION  Figwort mosaic virus DNA for 34S promoter region.
+ACCESSION   X16673
+VERSION     X16673.1
+KEYWORDS    34S promoter; enhancer region; promoter region.
+SOURCE      Figwort mosaic virus
+  ORGANISM  Figwort mosaic virus
+            Viruses; Riboviria; Pararnavirae; Artverviricota; Revtraviricetes;
+            Ortervirales; Caulimoviridae; Caulimovirus; Caulimovirus
+            tesselloscrophulariae.
+REFERENCE   1  (bases 296 to 397)
+  AUTHORS   Sanger,M., Daubert,S. and Goodman,R.M.
+  TITLE     Characteristics of a strong promoter from figwort mosaic virus:
+            comparison with the analogous 35S promoter from cauliflower mosaic
+            virus and the regulated mannopine synthase promoter
+  JOURNAL   Plant Mol. Biol. 14 (3), 433-443 (1990)
+   PUBMED   2102823
+REFERENCE   2  (bases 1 to 554)
+  AUTHORS   Sanger,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-OCT-1989) Sanger M., Dept of Plant Pathology,
+            University of California, Davis CA 95616, U S A
+COMMENT     Data kindly reviewed (30-APR-1990) by Sanger M.
+FEATURES             Location/Qualifiers
+     source          1..554
+                     /organism="Figwort mosaic virus"
+                     /mol_type="genomic DNA"
+                     /strain="M3"
+                     /db_xref="taxon:10649"
+                     /tissue_type="leaf"
+     misc_feature    296..355
+                     /note="overall enhancer region"
+     regulatory      308..312
+                     /regulatory_class="promoter"
+                     /note="CAAT box"
+     misc_feature    325..329
+                     /note="TTACG enhancer region"
+     misc_feature    337..341
+                     /note="TGACG enhancer region"
+     misc_feature    346..350
+                     /note="CCACT enhancer region"
+     misc_feature    356..397
+                     /note="overall TATA region"
+     regulatory      364..370
+                     /regulatory_class="promoter"
+                     /note="TATA box"
+ORIGIN      
+        1 ctcgagcaag tgtacaaaaa agattaccac ggaagaaatt cacaaggtaa aactttttga
+       61 gaaaagattg atcaacatca atcaaatcaa ttgtggagac cacacaaaga aattgtggtg
+      121 taaaattcta cagaaaaagt acgaagagca tctttgccag tactgcagtg gggaccaccc
+      181 acgtgacaac aaagaagtgg cagacaagtc acctcaaagt ggaacccatc cacgtgataa
+      241 aagtatcatg gcagacagcc ggtacaataa tggggaggac agcttgcaaa gcagcccatg
+      301 tggaagccca ctcacaaacg cgtattacga acgcagtgac gacatccact caagaattcc
+      361 atctatttaa agacggattc attcccattt gaagatcatc aatactcaac caatatttct
+      421 cactctaaga aataaagagc tttgtattct tcaatgatag gctaagaccc taaagagtct
+      481 cgaaagagac atgtagtata gtaagagtcc tcccagtccg ggagattgta ataaagagat
+      541 cttgttaagg atcc
+//
+

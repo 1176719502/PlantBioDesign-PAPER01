@@ -1,0 +1,41 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "source_contract",
+  "case_id": "MT-01",
+  "source_provider": "NCBI Nucleotide",
+  "accession_version": "KX758647.1",
+  "record_id": "KX758647.1",
+  "retrieval": {
+    "method": "NCBI E-utilities efetch anonymous HTTPS",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=KX758647.1&rettype=gbwithparts&retmode=text",
+    "request_accession_must_equal": "KX758647.1",
+    "repository_write_allowed": false,
+    "cache_requirement": "repository-external explicit directory"
+  },
+  "expected_response": {
+    "content_type": "text/plain",
+    "file_name": "KX758647.1.gb",
+    "raw_file_size_bytes": 13304,
+    "raw_file_sha256": "d082c3c34c425c2a4da809625af0fae83e77382399193a0c87dcf17398fadfd9"
+  },
+  "parsed_record": {
+    "id": "KX758647.1",
+    "description": "Cloning vector pGrDL_SP, complete sequence",
+    "topology": "circular",
+    "length_bp": 7086,
+    "sequence_sha256": "7baff645c3e75e31518a7bbc31b45ea321748fa37e5475fa821489ed8df06d15",
+    "feature_count": 11,
+    "parser": "Biopython SeqIO GenBank",
+    "verified_parser_version": "1.87"
+  },
+  "failure_behavior": {
+    "source_unavailable": "fail with an actionable message and non-zero exit status",
+    "version_mismatch": "reject without extracting",
+    "topology_mismatch": "reject without extracting",
+    "source_length_mismatch": "report MT01_UPSTREAM_EVIDENCE_MISMATCH and reject",
+    "source_sequence_mismatch": "report MT01_UPSTREAM_EVIDENCE_MISMATCH and reject",
+    "raw_file_mismatch": "reject cached or fetched content even if the file name matches"
+  }
+}

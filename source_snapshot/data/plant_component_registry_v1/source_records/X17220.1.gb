@@ -1,0 +1,65 @@
+LOCUS       X17220                   615 bp    DNA     linear   BCT 12-SEP-1993
+DEFINITION  Streptomyces hygroscopicus bar gene for phosphinothricin acetyl
+            transferase.
+ACCESSION   X17220
+VERSION     X17220.1
+KEYWORDS    bar gene; bialaphos resistance; herbicide resistance;
+            phosphinothricin acetyl transferase.
+SOURCE      Streptomyces hygroscopicus
+  ORGANISM  Streptomyces hygroscopicus
+            Bacteria; Bacillati; Actinomycetota; Actinomycetes;
+            Kitasatosporales; Streptomycetaceae; Streptomyces; Streptomyces
+            violaceusniger group.
+REFERENCE   1  (bases 1 to 615)
+  AUTHORS   White,J., Chang,S.Y., Bibb,M.J. and Bibb,M.J.
+  TITLE     A cassette containing the bar gene of Streptomyces hygroscopicus: a
+            selectable marker for plant transformation
+  JOURNAL   Nucleic Acids Res. 18 (4), 1062 (1990)
+   PUBMED   2315036
+REFERENCE   2  (bases 1 to 615)
+  AUTHORS   Bibb,M.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (20-DEC-1989) Bibb M., John Innes Institute, Colney Lane,
+            Norwich NR4 7UH, U.K
+COMMENT     For overlapping sequence see <X05822>.
+            The bar gene is a useful marker for the selection of transgenic
+            plants.
+FEATURES             Location/Qualifiers
+     source          1..615
+                     /organism="Streptomyces hygroscopicus"
+                     /mol_type="genomic DNA"
+                     /strain="ATCC 21705"
+                     /db_xref="taxon:1912"
+                     /clone="pIJ4104"
+     misc_feature    1..22
+                     /note="multiple cloning site"
+     CDS             31..582
+                     /note="unnamed protein product; phosphinothricin acetyl
+                     transferase (AA 1-183)"
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA35093.1"
+                     /db_xref="GOA:P16426"
+                     /db_xref="InterPro:IPR000182"
+                     /db_xref="InterPro:IPR016181"
+                     /db_xref="UniProtKB/Swiss-Prot:P16426"
+                     /translation="MSPERRPADIRRATEADMPAVCTIVNHYIETSTVNFRTEPQEPQ
+                     EWTDDLVRLRERYPWLVAEVDGEVAGIAYAGPWKARNAYDWTAESTVYVSPRHQRTGL
+                     GSTLYTHLLKSLEAQGFKSVVAVIGLPNDPSVRMHEALGYAPRGMLRAAGFKHGNWHD
+                     VGFWQLDFSLPVPPRPVLPVTEI"
+     misc_feature    586..615
+                     /note="multiple cloning site"
+ORIGIN      
+        1 gaattcgagc tcggtacccg gggatctacc atgagcccag aacgacgccc ggccgacatc
+       61 cgccgtgcca ccgaggcgga catgccggcg gtctgcacca tcgtcaacca ctacatcgag
+      121 acaagcacgg tcaacttccg taccgagccg caggaaccgc aggagtggac ggacgacctc
+      181 gtccgtctgc gggagcgcta tccctggctc gtcgccgagg tggacggcga ggtcgccggc
+      241 atcgcctacg cgggcccctg gaaggcacgc aacgcctacg actggacggc cgagtcgacc
+      301 gtgtacgtct ccccccgcca ccagcggacg ggactgggct ccacgctcta cacccacctg
+      361 ctgaagtccc tggaggcaca gggcttcaag agcgtggtcg ctgtcatcgg gctgcccaac
+      421 gacccgagcg tgcgcatgca cgaggcgctc ggatatgccc cccgcggcat gctgcgggcg
+      481 gccggcttca agcacgggaa ctggcatgac gtgggtttct ggcagctgga cttcagcctg
+      541 ccggtaccgc cccgtccggt cctgcccgtc accgagatct gatgacccgg gggatccctg
+      601 caggcatgca agctt
+//
+

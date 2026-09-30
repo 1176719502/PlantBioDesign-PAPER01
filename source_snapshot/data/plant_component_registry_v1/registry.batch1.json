@@ -1,0 +1,1680 @@
+{
+  "registry_version": "v1-publication-minimum-expansion-20260824-draft",
+  "records": [
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-35S-835",
+      "display_name": "CaMV 35S promoter",
+      "component_type": "promoter",
+      "component_role": "constitutive promoter",
+      "sequence": "AGATTAGCCTTTTCAATTTCAGAAAGAATGCTAACCCACAGATGGTTAGAGAGGCTTACGCAGCAGGTCTCATCAAGACGATCTACCCGAGCAATAATCTCCAGGAAATCAAATACCTTCCCAAGAAGGTTAAAGATGCAGTCAAAAGATTCAGGACTAACTGCATCAAGAACACAGAGAAAGATATATTTCTCAAGATCAGAAGTACTATTCCAGTATGGACGATTCAAGGCTTGCTTCACAAACCAAGGCAAGTAATAGAGATTGGAGTCTCTAAAAAGGTAGTTCCCACTGAATCAAAGGCCATGGAGTCAAAGATTCAAATAGAGGACCTAACAGAACTCGCCGTAAAGACTGGCGAACAGTTCATACAGAGTCTCTTACGACTCAATGACAAGAAGAAAATCTTCGTCAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGAACACG",
+      "sequence_length": 835,
+      "sequence_sha256": "4f5069bdd68260bb7a243ec7f8b628e13d52f58242c6f7acf53e3cc55a8673e2",
+      "source_organism": "Cauliflower mosaic virus",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum",
+        "Glycine max"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AF485783",
+      "accession_version": "AF485783.1",
+      "plasmid_id": "pBI121",
+      "primary_reference": "NCBI GenBank AF485783.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "CaMV 35S",
+        "strand": "+",
+        "start_one_based": 4974,
+        "end_one_based_inclusive": 5808,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb",
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "CaMV 35S"
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-3REG-NOS-256",
+      "display_name": "NOS 3-prime regulatory region",
+      "component_type": "three_prime_regulatory_region",
+      "component_role": "3-prime regulatory region",
+      "sequence": "GATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGG",
+      "sequence_length": 256,
+      "sequence_sha256": "6c8916397c8f95a894a870ce5620837d41d776e57c64d415d76f3f0d02eb35c4",
+      "source_organism": "Agrobacterium tumefaciens",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum",
+        "Glycine max"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AF485783",
+      "accession_version": "AF485783.1",
+      "plasmid_id": "pBI121",
+      "primary_reference": "NCBI GenBank AF485783.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "NOS",
+        "strand": "+",
+        "start_one_based": 4022,
+        "end_one_based_inclusive": 4277,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb",
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "NOS"
+      ],
+      "related_records": [
+        {
+          "component_id": "PCLV1-3REG-NOS-253",
+          "relationship_type": "related_locus_source_variant",
+          "shared_accession_version": "AF485783.1",
+          "sequence_relationship": "The 253 bp record is an exact prefix of this 256 bp record and differs only by this record's three terminal bases.",
+          "diversity_interpretation": "Treat the pair as related NOS locus/source variants, not as independent biological diversity."
+        }
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-3REG-NOS-253",
+      "display_name": "NOS 3-prime regulatory region (253 bp feature)",
+      "component_type": "three_prime_regulatory_region",
+      "component_role": "3-prime regulatory region",
+      "sequence": "GATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATC",
+      "sequence_length": 253,
+      "sequence_sha256": "07296665a19dbedd665dc2f350869a1474a72811f54688cbef8835e24372ab3f",
+      "source_organism": "Agrobacterium tumefaciens",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum",
+        "Glycine max"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AF485783",
+      "accession_version": "AF485783.1",
+      "plasmid_id": "pBI121",
+      "primary_reference": "NCBI GenBank AF485783.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "NOS",
+        "strand": "+",
+        "start_one_based": 7727,
+        "end_one_based_inclusive": 7979,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb",
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "NOS"
+      ],
+      "related_records": [
+        {
+          "component_id": "PCLV1-3REG-NOS-256",
+          "relationship_type": "related_locus_source_variant",
+          "shared_accession_version": "AF485783.1",
+          "sequence_relationship": "This 253 bp record is an exact prefix of the related 256 bp record and lacks its three terminal bases.",
+          "diversity_interpretation": "Treat the pair as related NOS locus/source variants, not as independent biological diversity."
+        }
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-NPTII",
+      "display_name": "nptII selectable marker CDS",
+      "component_type": "cds",
+      "component_role": "selectable marker CDS",
+      "sequence": "ATGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTCGGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCAGCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTGCAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTGCTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAGGATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATGCGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGCATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAAGAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGACGGCGATGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAATGGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGACATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTCCTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTTGACGAGTTCTTCTGA",
+      "sequence_length": 795,
+      "sequence_sha256": "c68f606e8613525d068cd48c8bc9916ee8250d179e089cb9adf669187e67a7b4",
+      "source_organism": "Escherichia coli",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum",
+        "Glycine max"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AF485783",
+      "accession_version": "AF485783.1",
+      "plasmid_id": "pBI121",
+      "primary_reference": "NCBI GenBank AF485783.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "nptII",
+        "strand": "+",
+        "start_one_based": 2838,
+        "end_one_based_inclusive": 3632,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb",
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "nptII"
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-GUSA",
+      "display_name": "gusA reporter CDS",
+      "component_type": "cds",
+      "component_role": "reporter CDS",
+      "sequence": "ATGTTACGTCCTGTAGAAACCCCAACCCGTGAAATCAAAAAACTCGACGGCCTGTGGGCATTCAGTCTGGATCGCGAAAACTGTGGAATTGATCAGCGTTGGTGGGAAAGCGCGTTACAAGAAAGCCGGGCAATTGCTGTGCCAGGCAGTTTTAACGATCAGTTCGCCGATGCAGATATTCGTAATTATGCGGGCAACGTCTGGTATCAGCGCGAAGTCTTTATACCGAAAGGTTGGGCAGGCCAGCGTATCGTGCTGCGTTTCGATGCGGTCACTCATTACGGCAAAGTGTGGGTCAATAATCAGGAAGTGATGGAGCATCAGGGCGGCTATACGCCATTTGAAGCCGATGTCACGCCGTATGTTATTGCCGGGAAAAGTGTACGTATCACCGTTTGTGTGAACAACGAACTGAACTGGCAGACTATCCCGCCGGGAATGGTGATTACCGACGAAAACGGCAAGAAAAAGCAGTCTTACTTCCATGATTTCTTTAACTATGCCGGAATCCATCGCAGCGTAATGCTCTACACCACGCCGAACACCTGGGTGGACGATATCACCGTGGTGACGCATGTCGCGCAAGACTGTAACCACGCGTCTGTTGACTGGCAGGTGGTGGCCAATGGTGATGTCAGCGTTGAACTGCGTGATGCGGATCAACAGGTGGTTGCAACTGGACAAGGCACTAGCGGGACTTTGCAAGTGGTGAATCCGCACCTCTGGCAACCGGGTGAAGGTTATCTCTATGAACTGTGCGTCACAGCCAAAAGCCAGACAGAGTGTGATATCTACCCGCTTCGCGTCGGCATCCGGTCAGTGGCAGTGAAGGGCGAACAGTTCCTGATTAACCACAAACCGTTCTACTTTACTGGCTTTGGTCGTCATGAAGATGCGGACTTGCGTGGCAAAGGATTCGATAACGTGCTGATGGTGCACGACCACGCATTAATGGACTGGATTGGGGCCAACTCCTACCGTACCTCGCATTACCCTTACGCTGAAGAGATGCTCGACTGGGCAGATGAACATGGCATCGTGGTGATTGATGAAACTGCTGCTGTCGGCTTTAACCTCTCTTTAGGCATTGGTTTCGAAGCGGGCAACAAGCCGAAAGAACTGTACAGCGAAGAGGCAGTCAACGGGGAAACTCAGCAAGCGCACTTACAGGCGATTAAAGAGCTGATAGCGCGTGACAAAAACCACCCAAGCGTGGTGATGTGGAGTATTGCCAACGAACCGGATACCCGTCCGCAAGGTGCACGGGAATATTTCGCGCCACTGGCGGAAGCAACGCGTAAACTCGACCCGACGCGTCCGATCACCTGCGTCAATGTAATGTTCTGCGACGCTCACACCGATACCATCAGCGATCTCTTTGATGTGCTGTGCCTGAACCGTTATTACGGATGGTATGTCCAAAGCGGCGATTTGGAAACGGCAGAGAAGGTACTGGAAAAAGAACTTCTGGCCTGGCAGGAGAAACTGCATCAGCCGATTATCATCACCGAATACGGCGTGGATACGTTAGCCGGGCTGCACTCAATGTACACCGACATGTGGAGTGAAGAGTATCAGTGTGCATGGCTGGATATGTATCACCGCGTCTTTGATCGCGTCAGCGCCGTCGTCGGTGAACAGGTATGGAATTTCGCCGATTTTGCGACCTCGCAAGGCATATTGCGCGTTGGCGGTAACAAGAAAGGGATCTTCACTCGCGACCGCAAACCGAAGTCGGCGGCTTTTCTGCTGCAAAAACGCTGGACTGGCATGAACTTCGGTGAAAAACCGCAGCAGGGAGGCAAACAATGA",
+      "sequence_length": 1812,
+      "sequence_sha256": "cf625a11ece85bb2217ae60754042a71accf12790be1543c1987a43b1f7e7291",
+      "source_organism": "Escherichia coli",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana",
+        "Oryza sativa",
+        "Zea mays",
+        "Solanum lycopersicum",
+        "Glycine max"
+      ],
+      "host_group": [
+        "dicot",
+        "monocot"
+      ],
+      "accession": "AF485783",
+      "accession_version": "AF485783.1",
+      "plasmid_id": "pBI121",
+      "primary_reference": "NCBI GenBank AF485783.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "gusA",
+        "strand": "+",
+        "start_one_based": 5845,
+        "end_one_based_inclusive": 7656,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF485783.1.gb",
+      "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "gusA"
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-CYP76AD1",
+      "display_name": "CYP76AD1 CDS",
+      "component_type": "cds",
+      "component_role": "enzyme CDS",
+      "sequence": "ATGGATCATGCAACATTAGCAATGATACTAGCCATTTGGTTCATTTCTTTTCATTTCATAAAATTACTTTTTAGCCAACAAACTACCAAACTTCTTCCTCCTGGTCCAAAACCATTGCCAATAATTGGTAACATCTTAGAAGTTGGTAAAAAACCCCATCGTTCATTTGCTAATCTTGCTAAAATTCACGGCCCTTTAATATCGTTACGTCTAGGAAGTGTAACAACTATTGTTGTATCATCAGCAGATGTAGCTAAAGAAATGTTCTTAAAAAAAGACCACCCTCTTTCTAACCGTACTATTCCTAATTCTGTCACGGCCGGTGACCACCATAAACTCACCATGTCGTGGTTGCCCGTTTCGCCGAAATGGCGGAATTTTCGTAAGATTACAGCCGTCCATTTGCTTTCTCCTCAAAGACTTGATGCTTGCCAAACCTTTCGCCATGCCAAGGTGCAACAGCTTTATGAATATGTACAAGAATGTGCACAAAAAGGCCAAGCTGTTGATATTGGCAAAGCTGCATTTACTACCTCCCTTAATTTGTTATCTAAACTATTCTTTTCAGTGGAATTAGCCCACCATAAATCACACACTTCTCAAGAGTTTAAGGAACTAATATGGAACATTATGGAAGATATTGGGAAACCTAATTATGCTGATTATTTTCCTATTTTAGGCTGTGTTGATCCATCAGGTATTCGTCGAAGATTAGCATGTAGTTTTGACAAGTTGATTGCAGTTTTTCAGGGTATAATATGTGAAAGGCTTGCGCCTGATTCTTCAACTACAACAACAACGACGACTGATGATGTGCTAGACGTTCTTCTTCAGCTCTTCAAACAAAATGAGCTCACTATGGGCGAGATTAACCATTTGCTCGTCGACATTTTTGATGCTGGAACAGACACTACATCAAGTACTTTTGAGTGGGTCATGACAGAGTTAATTAGGAATCCTGAAATGATGGAAAAGGCTCAAGAAGAAATTAAGCAAGTATTGGGCAAAGATAAACAAATTCAGGAATCAGACATTATTAACCTACCTTACTTACAAGCCATTATCAAAGAAACTTTGCGACTACATCCACCAACTGTATTTCTTTTGCCTCGTAAAGCCGACACTGATGTTGAACTATATGGTTATATTGTGCCTAAAGATGCACAAATACTTGTTAACTTATGGGCTATTGGAAGAGATCCTAATGCATGGCAAAATGCTGATATTTTTTCGCCCGAAAGATTTATAGGGTGTGAAATTGATGTCAAAGGAAGAGATTTTGGACTCTTACCTTTTGGAGCCGGAAGAAGGATATGTCCTGGGATGAATTTGGCCATTAGAATGTTAACTTTGATGCTAGCTACTTTACTTCAATTCTTCAATTGGAAGCTTGAAGGAGACATAAGTCCAAAAGACTTAGACATGGATGAGAAATTTGGGATTGCGTTACAAAAGACAAAGCCTTTAAAACTTATTCCAATACCTAGGTATTGA",
+      "sequence_length": 1494,
+      "sequence_sha256": "79c7ffaaa7ad20dbfc1903619d14208160be9b0af48851a85b89a19eeb43a27c",
+      "source_organism": "Beta vulgaris",
+      "target_host_species": [
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "HQ656023",
+      "accession_version": "HQ656023.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank HQ656023.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "CYP76AD1",
+        "strand": "+",
+        "start_one_based": 259,
+        "end_one_based_inclusive": 1752,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656023.1.gb",
+      "source_record_sha256": "b541b6b132fba98ba7b9ee6ed56f37aafd1565c44e138a87116b7198efe16590",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "CYP76AD1"
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-DODA1",
+      "display_name": "DODA1 CDS",
+      "component_type": "cds",
+      "component_role": "enzyme CDS",
+      "sequence": "ATGAAAATGATGAATGGTGAAGATGCTAATGATCAAATGATCAAAGAAAGCTTCTTCATAACACATGGAAACCCAATATTAACAGTAGAAGACACACATCCATTAAGACCTTTCTTTGAAACTTGGAGAGAGAAAATCTTTTCTAAGAAACCTAAGGCAATTCTTATTATTTCTGGTCATTGGGAAACTGTTAAACCTACTGTTAATGCTGTCCATATCAATGATACTATCCATGATTTTGATGACTATCCTGCTGCTATGTACCAGTTCAAGTATCCAGCTCCTGGGGAACCAGAATTGGCAAGAAAAGTAGAGGAAATTCTGAAAAAATCGGGTTTCGAAACGGCGGAAACTGATCAAAAACGTGGGCTTGATCATGGTGCATGGGTACCTCTAATGCTAATGTATCCTGAGGCTGATATACCAGTATGTCAGCTCTCAGTTCAGCCGCATTTAGATGGAACATACCATTACAACTTAGGACGAGCATTGGCTCCCTTGAAAAACGACGGCGTATTAATCATTGGTTCAGGAAGTGCAACTCACCCTTTGGATGAAACTCCTCATTATTTTGATGGAGTTGCACCTTGGGCAGCTGCCTTTGATTCATGGCTTCGTAAAGCTCTCATTAATGGAAGGTTTGAAGAAGTGAATATATATGAAAGCAAAGCACCAAATTGGAAATTAGCACATCCTTTCCCAGAACATTTTTATCCATTGCATGTTGTTCTTGGCGCTGCTGGTGAAAAATGGAAGGCAGAGCTTATTCATAGCAGTTGGGATCATGGCACCTTGTGTCATGGCTCCTACAAGTTCACTTCAGCCTAG",
+      "sequence_length": 828,
+      "sequence_sha256": "cbdd9b4070de50ff2a863c361a1e6791adde5707b55abe8227dcb47b607654f7",
+      "source_organism": "Beta vulgaris",
+      "target_host_species": [
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "HQ656027",
+      "accession_version": "HQ656027.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank HQ656027.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "DODA1",
+        "strand": "+",
+        "start_one_based": 60,
+        "end_one_based_inclusive": 887,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656027.1.gb",
+      "source_record_sha256": "7be76a1ec62db527aacd9d3719b57cee46d8eabe84dfc871c579e9f1bb04fecc",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "DODA1"
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-CDOPA5GT",
+      "display_name": "cDOPA5GT CDS",
+      "component_type": "cds",
+      "component_role": "enzyme CDS",
+      "sequence": "ATGACCGCCATTAAAATGAACACCAATGGTGAAGGTGAAACACAACATATACTAATGATACCTTTCATGGCGCAAGGGCATTTACGTCCTTTCCTTGAGCTTGCTATGTTTCTATATAAACGAAGTCATGTTATCATTACTCTTCTTACTACCCCGCTCAATGCGGGTTTCCTACGACATCTCCTTCACCACCATAGCTATTCTAGCTCGGGGATCAGAATTGTCGAGTTACCTTTCAACTCAACCAATCATGGTCTTCCACCTGGCATTGAAAACACTGATAAACTTACACTCCCACTTGTAGTATCACTTTTTCATTCAACCATTTCTCTTGACCCTCACCTTAGAGATTATATTTCCCGCCATTTCTCCCCTGCGCGCCCTCCTCTGTGTGTCATACATGATGTGTTCCTTGGTTGGGTTGATCAAGTTGCTAAAGACGTGGGCTCAACTGGTGTTGTTTTTACTACGGGTGGCGCGTATGGTACAAGCGCATATGTGTCCATTTGGAATGATCTGCCTCACCAGAATTACTCTGATGATCAAGAGTTTCCGCTTCCTGGTTTCCCGGAGAATCATAAATTCCGACGTTCTCAACTTCATCGGTTTCTGAGGTATGCCGATGGATCAGATGATTGGTCGAAATATTTCCAACCGCAATTGAGGCAATCAATGAAGAGTTTTGGATGGCTATGTAATTCAGTTGAGGAAATCGAAACACTTGGGTTTAGTATCCTCAGGAACTACACTAAACTACCCATTTGGGGTATTGGACCGTTGATAGCTTCACCTGTACAACATTCATCATCTGATAATAACAGTACTGGTGCCGAGTTTGTTCAATGGTTGAGCTTGAAAGAACCAGATTCTGTATTATACATCTCATTTGGATCACAGAACACAATTTCACCAACCCAGATGATGGAACTAGCAGCCGGTTTGGAGTCAAGTGAGAAGCCGTTTTTGTGGGTGATTCGAGCACCATTTGGGTTCGATATCAATGAGGAAATGAGACCAGAATGGCTACCAGAGGGATTCGAGGAGCGAATGAAGGTGAAAAAACAAGGAAAGTTGGTGTATAAGTTGGGACCACAGTTGGAGATACTTAACCATGAGTCAATCGGAGGGTTCTTAACTCATTGTGGGTGGAATTCGATCCTTGAGTCACTTCGAGAAGGTGTGCCTATGTTAGGGTGGCCATTGGCAGCCGAACAAGCTTATAATTTGAAGTATTTGGAGGACGAAATGGGGGTTGCAGTCGAGTTAGCGAGGGGATTGGAAGGAGAGATAAGTAAAGAGAAAGTGAAGAGAATTGTGGAGATGATTTTAGAGAGAAATGAAGGAAGTAAAGGATGGGAAATGAAAAATAGAGCAGTAGAAATGGGGAAGAAACTTAAAGACGCTGTCAATGAGGAGAAGGAACTGAAGGGTTCTTCTGTTAAGGCAATAGATGATTTCTTAGATGCGGTCATGCAAGCTAAGTTGGAACCTTCTCTTCAATAA",
+      "sequence_length": 1503,
+      "sequence_sha256": "47cdcd7083868df23861ad31837b674b0a7390ad72e4a7649807715b7f85e522",
+      "source_organism": "Mirabilis jalapa",
+      "target_host_species": [
+        "Nicotiana benthamiana",
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AB182643",
+      "accession_version": "AB182643.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank AB182643.1",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "cDOPA5GT",
+        "strand": "+",
+        "start_one_based": 22,
+        "end_one_based_inclusive": 1524,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AB182643.1.gb",
+      "source_record_sha256": "00181b8cb48e2f9d19cedd7f3fe9055425f7e930a39ae7e62ee617531014b927",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_NEEDS_REVIEW",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "cDOPA5GT"
+      ],
+      "notes": "Sequence boundaries are reproduced from the cited GenBank feature.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-UBQ10",
+      "display_name": "AtUBQ10 promoter (636 bp minimal fragment)",
+      "component_type": "promoter",
+      "component_role": "ubiquitin promoter",
+      "sequence": "GTCGACGAGTCAGTAATAAACGGCGTCAAAGTGGTTGCAGCCGGCACACACGAGTCGTGTTTATCAACTCAAAGCACAAATACTTTTCCTCAACCTAAAAATAAGGCAATTAGCCAAAAACAACTTTGCGTGTAAACAACGCTCAATACACGTGTCATTTTATTATTAGCTATTGCTTCACCGCCTTAGCTTTCTCGTGACCTAGTCGTCCTCGTCTTTTCTTCTTCTTCTTCTATAAAACAATACCCAAAGAGCTCTTCTTCTTCACAATTCAGATTTCAATTTCTCAAAATCTTAAAAACTTTCTCTCAATTCTCTCTACCGTGATCAAGGTAAATTTCTGTGTTCCTTATTCTCTCAAAATCTTCGATTTTGTTTTCGTTCGATCCCAATTTCGTATATGTTCTTTGGTTTAGATTCTGTTAATCTTAGATCGAAGACGATTTTCTGGGTTTGATCGTTAGATATCATCTTAATTCTCGATTAGGGTTTCATAGATATCATCCGATTTGTTCAAATAATTTGAGTTTTGTCGAATAATTACTCTTCGATTTGTGATTTCTATCTAGATCTGGTGTTAGTTTCTAGTTTGTGCGATCGAATTTGTAGATTAATCTGAGTTTTTCTGATTAACAG",
+      "sequence_length": 636,
+      "sequence_sha256": "b24922506b7b3660d7ce5e58986994888077a013da1c123a0139a2e45419c5a4",
+      "source_organism": "Arabidopsis thaliana",
+      "target_host_species": [
+        "Arabidopsis thaliana"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "HQ693235",
+      "accession_version": "HQ693235.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank HQ693235.1; Hashimoto and Kudla direct submission (2010)",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "GenBank feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "UBQ10 promoter",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 636,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/HQ693235.1.gb",
+      "source_record_sha256": "5e20eb0c773738349f1a74b661d7282be2aeb057196e2953525f6ba885de0e84",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "AtUBQ10",
+        "UBQ10"
+      ],
+      "notes": "The complete 636 bp record is annotated regulatory_class=promoter at 1..636.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-UBI1",
+      "display_name": "ZmUbi1 promoter region (deposited 2015 bp fragment)",
+      "component_type": "promoter",
+      "component_role": "ubiquitin promoter",
+      "sequence": "TACTGCAGGTGCAGCGTGACCCGGTCGTGCCCCTCTCTAGAGCTCTAGAGTAGAGCATTGCATGTCTAAGTTATAAAAAATTACCACATATTTTTTTTGTACACTTGTGTTTGAAGTGCAGTTTATCTATCTCTATACATATATTTAAACTTCACTATATGAATAATATAGTCTATAGTATTAAAATAATATCAATGTTTTAGATGATTATATAACTGAGCTGCTAGACATGGTCTAAAGGACAACCGAGTATTTTGACAACATGACTCTACAGTTTTATCTTTTTAGTGTGCGTGTGTTCTTTTTACTTTTGCAAATAGCTTCACCTATATAATACTTCATCCATTTTATTAGTACATCCATTTACTAAATTTTTAGTACATCTATTTTATTCTATTTTAGCCTCTAAATTAAGAAAACTTAAACTCTATTTTAGTTTTTTATTTAATAATTTAGATATAAAATAGAATAAAATAAAGTGACTAAAAAATAACTAAATACCTTTTTAAGAAATAAAAAAACTAAGGAACCATTTTTCTTGTTCCGAGTAGATAATGACAGCCTGTTCAACGCCGTCGACGAGTCTAACCGGAACACCCCATCAGCGAACCCAGGCAGCGTCGCGTCCGGTTCAAGCGAAGCAGAACGCCACGGGCATCTTCTGTAGCTGCCCTTTCTGGACCCCCTCTCTCCGAGAGAAGGTTTCCGCTCCCACCGTTGGACTTGCTCCCGCTGTTCGGCATCCCAGAAAATTGCGTGGGCGGGAGCGGCAGACGTGAGCCGGCACGGGCAGGCGGCCTTCCTTCTCACGGCACCGGCAGCTACGGGGGATTCCCTTTCCCACCGCTCCTTTCGCTTTTCCTTCCTCGCCCGCCGTAATAAATAGACACCCCCCCTCCCACACCCTCTTTCCCCCAACCTCGTGTTGTTCGGAGCGCACACACACACAACCAGATCTCCCCCCAAACCCACCCGTCGGCACCTCCCGCTTCAAGGTACGCCGCTCGTCCTCCCCCCCCCCCCCTCTCTCTACCTTCTCTAGATCGGCGTTCCGGTCCATGGTTAGGGCCCCGGTAGTTCTACTTCTGTTCATGTTTGTGTTAGATCCGTGTTTGTGTTAGATCCGTGCTGCTAGCGTTCGTACACGGATGCGACCTGTACGTCAGACACGTTCTGATTGCTAACTTGCCAGTGTTTCTCTTTGGGGAATCCTGGGATGGCTCTAGCCGTTCCGCAGACGGGATCGATTTCATGATTTTTTTTGTTTCGTTGCATAGGGTTTGGTTTGCCCTTTTCCTTTATTTCAATATATGCCGTGCACTTGTTTGTCGGGTCATCTTTTCATGCTTTTTTTTGTCTTGGTTGTGATGATGTGGTCTGGTTGGGCGGTCGTTCTAGATCGGAGTAGAATTCTGTTTCAAACTACCTGGTGGATTTATTAATTTTGGATCTGTATGTGTGTGCCATACATATTCATAGTTACGAATTGAAGATGATGGATGGAAATATCGATCTAGGATAGGTATACATGTTGATGCGGGTTTTACTGGTGCATATACAGAGATGCTTTTTGTTCGCTTGGTTGTGATGATGTGGTGTGGTTGGGCGGTCGTTCATTCGTTCTAGATCGGAGTAGAATACTGTTTCAAACTACCTGGTGTATTTATTAATTTTGGAACTGTATGTGTGTGTCATACATCTTCATAGTTACGAGTTTAAGATGGATGGAAATATCGATCTAGGATAGGTATACATGTTGATGTGGGTTTTACTGATGCATATACATGATGGCATATGCAGCATCTATTCATATGCTCTAACCTTGAGTACCTATCTATTATAATAAACAAGTATGTTTTATAATTATTTTGATCTTGATATACTTGGATGATGGCATATGCAGCAGCTATATGTGGATTTTTTTAGCCCTGCCTTCATACGCTATTTATTTGCTTGGTACTGTTTCTTTGTCCGATGCTCATCCTGTTGTTTGGTGTTACTTCTGCAGGATCCTA",
+      "sequence_length": 2015,
+      "sequence_sha256": "821e00405808f6e0d1a84390121792189e3e4fe90715e5c6b7403eaa21bb4450",
+      "source_organism": "Zea mays",
+      "target_host_species": [
+        "Zea mays"
+      ],
+      "host_group": [
+        "monocot"
+      ],
+      "accession": "JX947345",
+      "accession_version": "JX947345.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank JX947345.1; Nguyen and Le direct submission (2012)",
+      "evidence_level": "E2",
+      "feature_boundary_method": {
+        "method": "complete GenBank record explicitly defined as promoter region",
+        "feature_type": "regulatory",
+        "feature_label": "Ubi promoter",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 2015,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "complete parsed GenBank record",
+        "source_location": "<1..2015"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/JX947345.1.gb",
+      "source_record_sha256": "0655627210b173aa0c321300f40baf1f78770f0615825c6d8f8b5e85234e25fb",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "ZmUbi1",
+        "Ubi"
+      ],
+      "notes": "The registry represents only the complete deposited 2015 bp promoter-region fragment. The source regulatory feature has a fuzzy left bound (<1), so this is E2 rather than E1 and is not asserted to be the full biological promoter.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and documented boundary interpretation were checked for Registry traceability.",
+      "limitations": "The sequence/source relationship is reviewable, but biological role, cross-host transferability, and experimental suitability retain documented context limitations.",
+      "review_status": "source_sequence_reviewed_context_limited"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-TER-OCS",
+      "display_name": "OCS terminator (723 bp patent sequence)",
+      "component_type": "terminator",
+      "component_role": "octopine synthase terminator",
+      "sequence": "GCGGGACTCTGGGGTTCGCTGCTTTAATGAGATATGCGAGACGCCTATGATCGCATGATATTTGCTTTCAATTCTGTTGTGCACGTTGTAAAAAACCTGAGCATGTGTAGCTCAGATCCTTACCGCCGGTTTCGGTTCATTCTAATGAATATATCACCCGTTACTATCGTATTTTTATGAATAATATTCTCCGTTCAATTTACTGATTGTACCCTACTACTTATATGTACAATATTAAAATGAAAACAATATATTGTGCTGAATAGGTTTATAGCGACATCTATGATAGAGCGCCACAATAACAAACAATTGCGTTTTATTATTACAAATCCAATTTTAAAAAAAGCGGCAGAACCGGTCAAACCTAAAAGACTGATTACATAAATCTTATTCAAATTTCAAAAGGCCCCAGGGGCTAGTATCTACGACACACCGAGCGGCGAACTAATAACGTTCACTGAAGGGAACTCCGGTTCCCCGCCGGCGCGCATGGGTGAGATTCCTTGAAGTTGAGTATTGGCCGTCCGCTCTACCGAAAGTTACGGGCACCATTCAACCCGGTCCAGCACGGCGGCCGGGTAACCGACTTGCTGCCCCGAGAATTATGCAGCATTTTTTTGGTGTATGTGGGCCCCAAATGAAGTGCAGGTCAAACCTTGACAGTGACGACAAATCGTTGGGCGGGTCCAGGGCGAATTTTGCGACAACATGTCGAGGCTCAGC",
+      "sequence_length": 723,
+      "sequence_sha256": "a59c971aea1ae0f1aafddce600b157c2aa2aaf6cbd2d914455757714cb9c8f7c",
+      "source_organism": "synthetic construct",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "MP385296",
+      "accession_version": "MP385296.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank MP385296.1; WO 2019211296-A1 sequence 60 (2019)",
+      "evidence_level": "E2",
+      "feature_boundary_method": {
+        "method": "complete INSDC patent sequence with source note",
+        "feature_type": "source",
+        "feature_label": "octopine synthase terminator",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 723,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "complete parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/MP385296.1.gb",
+      "source_record_sha256": "fc1a0e08e2f0d85c47ad3ba1bc5c5414d2e841ebb46f34b72068859d77996d2a",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "OCS terminator",
+        "octopine synthase terminator"
+      ],
+      "notes": "The complete deposited sequence is identified by the official patent record source note as octopine synthase terminator; no paper PDF or restricted source file is retained.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and documented boundary interpretation were checked for Registry traceability.",
+      "limitations": "The sequence/source relationship is reviewable, but biological role, cross-host transferability, and experimental suitability retain documented context limitations.",
+      "review_status": "source_sequence_reviewed_context_limited"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-VEC-PBIN19",
+      "display_name": "pBIN19 complete binary-vector source",
+      "component_type": "vector_backbone",
+      "component_role": "complete binary vector source for manual T-DNA replacement review",
+      "sequence": "CCGGGCTGGTTGCCCTCGCCGCTGGGCTGGCGGCCGTCTATGGCCCTGCAAACGCGCCAGAAACGCCGTCGAAGCCGTGTGCGAGACACCGCGGCCGCCGGCGTTGTGGATACCTCGCGGAAAACTTGGCCCTCACTGACAGATGAGGGGCGGACGTTGACACTTGAGGGGCCGACTCACCCGGCGCGGCGTTGACAGATGAGGGGCAGGCTCGATTTCGGCCGGCGACGTGGAGCTGGCCAGCCTCGCAAATCGGCGAAAACGCCTGATTTTACGCGAGTTTCCCACAGATGATGTGGACAAGCCTGGGGATAAGTGCCCTGCGGTATTGACACTTGAGGGGCGCGACTACTGACAGATGAGGGGCGCGATCCTTGACACTTGAGGGGCAGAGTGCTGACAGATGAGGGGCGCACCTATTGACATTTGAGGGGCTGTCCACAGGCAGAAAATCCAGCATTTGCAAGGGTTTCCGCCCGTTTTTCGGCCACCGCTAACCTGTCTTTTAACCTGCTTTTAAACCAATATTTATAAACCTTGTTTTTAACCAGGGCTGCGCCCTGTGCGCGTGACCGCGCACGCCGAAGGGGGGTGCCCCCCCTTCTCGAACCCTCCCGGCCCGCTAACGCGGGCCTCCCATCCCCCCAGGGGCTGCGCCCCTCGGCCGCGAACGGCCTCACCCCAAAAATGGCAGCGCTGGCAGTCCTTGCCATTGCCGGGATCGGGGCAGTAACGGGATGGGCGATCAGCCCGAGCGCGACGCCCGGAAGCATTGACGTGCCGCAGGTGCTGGCATCGACATTCAGCGACCAGGTGCCGGGCAGTGAGGGCGGCGGCCTGGGTGGCGGCCTGCCCTTCACTTCGGCCGTCGGGGCATTCACGGACTTCATGGCGGGGCCGGCAATTTTTACCTTGGGCATTCTTGGCATAGTGGTCGCGGGTGCCGTGCTCGTGTTCGGGGGTGCGATAAACCCAGCGAACCATTTGAGGTGATAGGTAAGATTATACCGAGGTATGAAAACGAGAATTGGACCTTTACAGAATTACTCTATGAAGCGCCATATTTAAAAAGCTACCAAGACGAAGAGGATGAAGAGGATGAGGAGGCAGATTGCCTTGAATATATTGACAATACTGATAAGATAATATATCTTTTATATAGAAGATATCGCCGTATGTAAGGATTTCAGGGGGCAAGGCATAGGCAGCGCGCTTATCAATATATCTATAGAATGGGCAAAGCATAAAAACTTGCATGGACTAATGCTTGAAACCCAGGACAATAACCTTATAGCTTGTAAATTCTATCATAATTGGGTAATGACTCCAACTTATTGATAGTGTTTTATGTTCAGATAATGCCCGATGACTTTGTCATGCAGCTCCACCGATTTTGAGAACGACAGCGACTTCCGTCCCAGCCGTGCCAGGTGCTGCCTCAGATTCAGGTTATGCCGCTCAATTCGCTGCGTATATCGCTTGCTGATTACGTGCAGCTTTCCCTTCAGGCGGGATTCATACAGCGGCCAGCCATCCGTCATCCATATCACCACGTCAAAGGGTGACAGCAGGCTCATAAGACGCCCCAGCGTCGCCATAGTGCGTTCACCGAATACGTGCGCAACAACCGTCTTCCGGAGACTGTCATACGCGTAAAACAGCCAGCGCTGGCGCGATTTAGCCCCGACATAGCCCCACTGTTCGTCCATTTCCGCGCAGACGATGACGTCACTGCCCGGCTGTATGCGCGAGGTTACCGACTGCGGCCTGAGTTTTTTAAGTGACGTAAAATCGTGTTGAGGCCAACGCCCATAATGCGGGCTGTTGCCCGGCATCCAACGCCATTCATGGCCATATCAATGATTTTCTGGTGCGTACCGGGTTGAGAAGCGGTGTAAGTGAACTGCAGTTGCCATGTTTTACGGCAGTGAGAGCAGAGATAGCGCTGATGTCCGGCGGTGCTTTTGCCGTTACGCACCACCCCGTCAGTAGCTGAACAGGAGGGACAGCTGATAGACACAGAAGCCACTGGAGCACCTCAAAAACACCATCATACACTAAATCAGTAAGTTGGCAGCATCACCCATAATTGTGGTTTCAAAATCGGCTCCGTCGATACTATGTTATACGCCAACTTTGAAAACAACTTTGAAAAAGCTGTTTTCTGGTATTTAAGGTTTTAGAATGCAAGGAACAGTGAATTGGAGTTCGTCTTGTTATAATTAGCTTCTTGGGGTATCTTTAAATACTGTAGAAAAGAGGAAGGAAATAATAAATGGCTAAAATGAGAATATCACCGGAATTGAAAAAACTGATCGAAAAATACCGCTGCGTAAAAGATACGGAAGGAATGTCTCCTGCTAAGGTATATAAGCTGGTGGGAGAAAATGAAAACCTATATTTAAAAATGACGGACAGCCGGTATAAAGGGACCACCTATGATGTGGAACGGGAAAAGGACATGATGCTATGGCTGGAAGGAAAGCTGCCTGTTCCAAAGGTCCTGCACTTTGAACGGCATGATGGCTGGAGCAATCTGCTCATGAGTGAGGCCGATGGCGTCCTTTGCTCGGAAGAGTATGAAGATGAACAAAGCCCTGAAAAGATTATCGAGCTGTATGCGGAGTGCATCAGGCTCTTTCACTCCATCGACATATCGGATTGTCCCTATACGAATAGCTTAGACAGCCGCTTAGCCGAATTGGATTACTTACTGAATAACGATCTGGCCGATGTGGATTGCGAAAACTGGGAAGAAGACACTCCATTTAAAGATCCGCGCGAGCTGTATGATTTTTTAAAGACGGAAAAGCCCGAAGAGGAACTTGTCTTTTCCCACGGCGACCTGGGAGACAGCAACATCTTTGTGAAAGATGGCAAAGTAAGTGGCTTTATTGATCTTGGGAGAAGCGGCAGGGCGGACAAGTGGTATGACATTGCCTTCTGCGTCCGGTCGATCAGGGAGGATATCGGGGAAGAACAGTATGTCGAGCTATTTTTTGACTTACTGGGGATCAAGCCTGATTGGGAGAAAATAAAATATTATATTTTACTGGATGAATTGTTTTAGTACCTAGATGTGGCGCAACGATGCCGGCGACAAGCAGGAGCGCACCGACTTCTTCCGCATCAAGTGTTTTGGCTCTCAGGCCGAGGCCCACGGCAAGTATTTGGGCAAGGGGTCGCTGGTATTCGTGCAGGGCAAGATTCGGAATACCAAGTACGAGAAGGACGGCCAGACGGTCTACGGGACCGACTTCATTGCCGATAAGGTGGATTATCTGGACACCAAGGCACCAGGCGGGTCAAATCAGGAATAAGGGCACATTGCCCCGGCGTGAGTCGGGGCAATCCCGCAAGGAGGGTGAATGAATCGGACGTTTGACCGGAAGGCATACAGGCAAGAACTGATCGACGCGGGGTTTTCCGCCGAGGATGCCGAAACCATCGCAAGCCGCACCGTCATGCGTGCGCCCCGCGAAACCTTCCAGTCCGTCGGCTCGATGGTCCAGCAAGCTACGGCCAAGATCGAGCGCGACAGCGTGCAACTGGCTCCCCCTGCCCTGCCCGCGCCATCGGCCGCCGTGGAGCGTTCGCGTCGTCTCGAACAGGAGGCGGCAGGTTTGGCGAAGTCGATGACCATCGACACGCGAGGAACTATGACGACCAAGAAGCGAAAAACCGCCGGCGAGGACCTGGCAAAACAGGTCAGCGAGGCCAAGCAGGCCGCGTTGCTGAAACACACGAAGCAGCAGATCAAGGAAATGCAGCTTTCCTTGTTCGATATTGCGCCGTGGCCGGACACGATGCGAGCGATGCCAAACGACACGGCCCGCTCTGCCCTGTTCACCACGCGCAACAAGAAAATCCCGCGCGAGGCGCTGCAAAACAAGGTCATTTTCCACGTCAACAAGGACGTGAAGATCACCTACACCGGCGTCGAGCTGCGGGCCGACGATGACGAACTGGTGTGGCAGCAGGTGTTGGAGTACGCGAAGCGCACCCCTATCGGCGAGCCGATCACCTTCACGTTCTACGAGCTTTGCCAGGACCTGGGCTGGTCGATCAATGGCCGGTATTACACGAAGGCCGAGGAATGCCTGTCGCGCCTACAGGCGACGGCGATGGGCTTCACGTCCGACCGCGTTGGGCACCTGGAATCGGTGTCGCTGCTGCACCGCTTCCGCGTCCTGGACCGTGGCAAGAAAACGTCCCGTTGCCAGGTCCTGATCGACGAGGAAATCGTCGTGCTGTTTGCTGGCGACCACTACACGAAATTCATATGGGAGAAGTACCGCAAGCTGTCGCCGACGGCCCGACGGATGTTCGACTATTTCAGCTCGCACCGGGAGCCGTACCCGCTCAAGCTGGAAACCTTCCGCCTCATGTGCGGATCGGATTCCACCCGCGTGAAGAAGTGGCGCGAGCAGGTCGGCGAAGCCTGCGAAGAGTTGCGAGGCAGCGGCCTGGTGGAACACGCCTGGGTCAATGATGACCTGGTGCATTGCAAACGCTAGGGCCTTGTGGGGTCAGTTCCGGCTGGGGGTTCAGCAGCCAGCGCTTTACTGGCATTTCAGGAACAAGCGGGCACTGCTCGACGCACTTGCTTCGCTCAGTATCGCTCGGGACGCACGGCGCGCTCTACGAACTGCCGATAAACAGAGGATTAAAATTGACAATTGTGATTAAGGCTCAGATTCGACGGCTTGGAGCGGCCGACGTGCAGGATTTCCGCGAGATCCGATTGTCGGCCCTGAAGAAAGCTCCAGAGATGTTCGGGTCCGTTTACGAGCACGAGGAGAAAAAGCCCATGGAGGCGTTCGCTGAACGGTTGCGAGATGCCGTGGCATTCGGCGCCTACATCGACGGCGAGATCATTGGGCTGTCGGTCTTCAAACAGGAGGACGGCCCCAAGGACGCTCACAAGGCGCATCTGTCCGGCGTTTTCGTGGAGCCCGAACAGCGAGGCCGAGGGGTCGCCGGTATGCTGCTGCGGGCGTTGCCGGCGGGTTTATTGCTCGTGATGATCGTCCGACAGATTCCAACGGGAATCTGGTGGATGCGCATCTTCATCCTCGGCGCACTTAATATTTCGCTATTCTGGAGCTTGTTGTTTATTTCGGTCTACCGCCTGCCGGGCGGGGTCGCGGCGACGGTAGGCGCTGTGCAGCCGCTGATGGTCGTGTTCATCTCTGCCGCTCTGCTAGGTAGCCCGATACGATTGATGGCGGTCCTGGGGGCTATTTGCGGAACTGCGGGCGTGGCGCTGTTGGTGTTGACACCAAACGCAGCGCTAGATCCTGTCGGCGTCGCAGCGGGCCTGGCGGGGGCGGTTTCCATGGCGTTCGGAACCGTGCTGACCCGCAAGTGGCAACCTCCCGTGCCTCTGCTCACCTTTACCGCCTGGCAACTGGCGGCCGGAGGACTTCTGCTCGTTCCAGTAGCTTTAGTGTTTGATCCGCCAATCCCGATGCCTACAGGAACCAATGTTCTCGGCCTGGCGTGGCTCGGCCTGATCGGAGCGGGTTTAACCTACTTCCTTTGGTTCCGGGGGATCTCGCGACTCGAACCTACAGTTGTTTCCTTACTGGGCTTTCTCAGCCCCAGATCTGGGGTCGATCAGCCGGGGATGCATCAGGCCGACAGTCGGAACTTCGGGTCCCCGACCTGTACCATTCGGTGAGCAATGGATAGGGGAGTTGATATCGTCAACGTTCACTTCTAAAGAAATAGCGCCACTCAGCTTCCTCAGCGGCTTTATCCAGCGATTTCCTATTATGTCGGCATAGTTCTCAAGATCGACAGCCTGTCACGGTTAAGCGAGAAATGAATAAGAAGGCTGATAATTCGGATCTCTGCGAGGGAGATGATATTTGATCACAGGCAGCAACGCTCTGTCATCGTTACAATCAACATGCTACCCTCCGCGAGATCATCCGTGTTTCAAACCCGGCAGCTTAGTTGCCGTTCTTCCGAATAGCATCGGTAACATGAGCAAAGTCTGCCGCCTTACAACGGCTCTCCCGCTGACGCCGTCCCGGACTGATGGGCTGCCTGTATCGAGTGGTGATTTTGTGCCGAGCTGCCGGTCGGGGAGCTGTTGGCTGGCTGGTGGCAGGATATATTGTGGTGTAAACAAATTGACGCTTAGACAACTTAATAACACATTGCGGACGTTTTTAATGTACTGGGGTGGTTTTTCTTTTCACCAGTGAGACGGGCAACAGCTGATTGCCCTTCACCGCCTGGCCCTGAGAGAGTTGCAGCAAGCGGTCCACGCTGGTTTGCCCCAGCAGGCGAAAATCCTGTTTGATGGTGGTTCCGAAATCGGCAAAATCCCTTATAAATCAAAAGAATAGCCCGAGATAGGGTTGAGTGTTGTTCCAGTTTGGAACAAGAGTCCACTATTAAAGAACGTGGACTCCAACGTCAAAGGGCGAAAAACCGTCTATCAGGGCGATGGCCCACTACGTGAACCATCACCCAAATCAAGTTTTTTGGGGTCGAGGTGCCGTAAAGCACTAAATCGGAACCCTAAAGGGAGCCCCCGATTTAGAGCTTGACGGGGAAAGCCGGCGAACGTGGCGAGAAAGGAAGGGAAGAAAGCGAAAGGAGCGGGCGCCATTCAGGCTGCGCAACTGTTGGGAAGGGCGATCGGTGCGGGCCTCTTCGCTATTACGCCAGCTGGCGAAAGGGGGATGTGCTGCAAGGCGATTAAGTTGGGTAACGCCAGGGTTTTCCCAGTCACGACGTTGTAAAACGACGGCCAGTGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGGCGTAATCATGGTCATAGCTGTTTCCTGTGTGAAATTGTTATCCGCTCACAATTCCACACAACATACGAGCCGGAAGCATAAAGTGTAAAGCCTGGGGTGCCTAATGAGTGAGCTAACTCACATTAATTGCGTTGCGCTCACTGCCCGCTTTCCAGTCGGGAAACCTGTCGTGCCAGCTGCATTAATGAATCGGCCAACGCGCGGGGAGAGGCGGTTTGCGTATTGGGCCAAAGACAAAAGGGCGACATTCAACCGATTGAGGGAGGGAAGGTAAATATTGACGGAAATTATTCATTAAAGGTGAATTATCACCGTCACCGACTTGAGCCATTTGGGAATTAGAGCCAGCAAAATCACCAGTAGCACCATTACCATTAGCAAGGCCGGAAACGTCACCAATGAAACCATCGATAGCAGCACCGTAATCAGTAGCGACAGAATCAAGTTTGCCTTTAGCGTCAGACTGTAGCGCGTTTTCATCGGCATTTTCGGTCATAGCCCCCTTATTAGCGTTTGCCATCTTTTCATAATCAAAATCACCGGAACCAGAGCCACCACCGGAACCGCCTCCCTCAGAGCCGCCACCCTCAGAACCGCCACCCTCAGAGCCACCACCCTCAGAGCCGCCACCAGAACCACCACCAGAGCCGCCGCCAGCATTGACAGGAGGCCCGATCTAGTAACATAGATGACACCGCGCGCGATAATTTATCCTAGTTTGCGCGCTATATTTTGTTTTCTATCGCGTATTAAATGTATAATTGCGGGACTCTAATCATAAAAACCCATCTCATAAATAACGTCATGCATTACATGTTAATTATTACATGCTTAACGTAATTCAACAGAAATTATATGATAATCATCGCAAGACCGGCAACAGGATTCAATCTTAAGAAACTTTATTGCCAAATGTTTGAACGATCGGGGATCATCCGGGTCTGTGGCGGGAACTCCACGAAAATATCCGAACGCAGCAAGATATCGCGGTGCATCTCGGTCTTGCCTGGGCAGTCGCCGCCGACGCCGTTGATGTGGACGCCGGGCCCGATCATATTGTCGCTCAGGATCGTGGCGTTGTGCTTGTCGGCCGTTGCTGTCGTAATGATATCGGCACCTTCGACCGCCTGTTCCGCAGAGATCCCGTGGGCGAAGAACTCCAGCATGAGATCCCCGCGCTGGAGGATCATCCAGCCGGCGTCCCGGAAAACGATTCCGAAGCCCAACCTTTCATAGAAGGCGGCGGTGGAATCGAAATCTCGTGATGGCAGGTTGGGCGTCGCTTGGTCGGTCATTTCGAACCCCAGAGTCCCGCTCAGAAGAACTCGTCAAGAAGGCGATAGAAGGCGATGCGCTGCGAATCGGGAGCGGCGATACCGTAAAGCACGAGGAAGCGGTCAGCCCATTCGCCGCCAAGCTCTTCAGCAATATCACGGGTAGCCAACGCTATGTCCTGATAGCGGTCCGCCACACCCAGCCGGCCACAGTCGATGAATCCAGAAAAGCGGCCATTTTCCACCATGATATTCGGCAAGCAGGCATCGCCATGGGTCACGACGAGATCATCGCCGTCGGGCATGCGCGCCTTGAGCCTGGCGAACAGTTCGGCTGGCGCGAGCCCCTGATGCTCTTCGTCCAGATCATCCTGATCGACAAGACCGGCTTCCATCCGAGTACGTGCTCGCTCGATGCGATGTTTCGCTTGGTGGTCGAATGGGCAGGTAGCCGGATCAAGCGTATGCAGCCGCCGCATTGCATCAGCCATGATGGATACTTTCTCGGCAGGAGCAAGGTGAGATGACAGGAGATCCTGCCCCGGCACTTCGCCCAATAGCAGCCAGTCCCTTCCCGCTTCAGTGACAACGTCGAGCACAGCTGCGCAAGGAACGCCCGTCGTGGCCAGCCACGATAGCCGCGCTGCCTCGTCCTGCAGTTCATTCAGGGCACCGGACAGGTCGGTCTTGACAAAAAGAACCGGGCGCCCCTGCGCTGACAGCCGGAACACGGCGGCATCAGAGCAGCCGATTGTCTGTTGTGCCCAGTCATAGCCGAATAGCCTCTCCACCCAAGCGGCCGGAGAACCTGCGTGCAATCCATCTTGTTCAATCATGCGAAACGATCCAGATCCGGTGCAGATTATTTGGATTGAGAGTGAATATGAGACTCTAATTGGATACCGAGGGGAATTTATGGAACGTCAGTGGAGCATTTTTGACAAGAAATATTTGCTAGCTGATAGTGACCTTAGGCGACTTTTGAACGCGCAATAATGGTTTCTGACGTATGTGCTTAGCTCATTAAACTCCAGAAACCCGCGGCTGAGTGGCTCCTTCAACGTTGCGGTTCTGTCAGTTCCAAACGTAAAACGGCTTGTCCCGCGTCATCGGCGGGGGTCATAACGTGACTCCCTTAATTCTCCGCTCATGATCAGATTGTCGTTTCCCGCCTTCAGTTTAAACTATCAGTGTTTGACAGGATATATTGGCGGGTAAACCTAAGAGAAAAGAGCGTTTATTAGAATAATCGGATATTTAAAAGGGCGTGAAAAGGTTTATCCGTTCGTCCATTTGTATGTGCATGCCAACCACAGGGTTCCCCAGATCTGGCGCCGGCCAGCGAGACGAGCAAGATTGGCCGCCGCCCGAAACGATCCGACAGCGCGCCCAGCACAGGTGCGCAGGCAAATTGCACCAACGCATACAGCGCCAGCAGAATGCCATAGTGGGCGGTGACGTCGTTCGAGTGAACCAGATCGCGCAGGAGGCCCGGCAGCACCGGCATAATCAGGCCGATGCCGACAGCGTCGAGCGCGACAGTGCTCAGAATTACGATCAGGGGTATGTTGGGTTTCACGTCTGGCCTCCGGACCAGCCTCCGCTGGTCCGATTGAACGCGCGGATTCTTTATCACTGATAAGTTGGTGGACATATTATGTTTATCAGTGATAAAGTGTCAAGCATGACAAAGTTGCAGCCGAATACAGTGATCCGTGCCGCCCTGGACCTGTTGAACGAGGTCGGCGTAGACGGTCTGACGACACGCAAACTGGCGGAACGGTTGGGGGTTCAGCAGCCGGCGCTTTACTGGCACTTCAGGAACAAGCGGGCGCTGCTCGACGCACTGGCCGAAGCCATGCTGGCGGAGAATCATACGCATTCGGTGCCGAGAGCCGACGACGACTGGCGCTCATTTCTGATCGGGAATGCCCGCAGCTTCAGGCAGGCGCTGCTCGCCTACCGCGATGGCGCGCGCATCCATGCCGGCACGCGACCGGGCGCACCGCAGATGGAAACGGCCGACGCGCAGCTTCGCTTCCTCTGCGAGGCGGGTTTTTCGGCCGGGGACGCCGTCAATGCGCTGATGACAATCAGCTACTTCACTGTTGGGGCCGTGCTTGAGGAGCAGGCCGGCGACAGCGATGCCGGCGAGCGCGGCGGCACCGTTGAACAGGCTCCGCTCTCGCCGCTGTTGCGGGCCGCGATAGACGCCTTCGACGAAGCCGGTCCGGACGCAGCGTTCGAGCAGGGACTCGCGGTGATTGTCGATGGATTGGCGAAAAGGAGGCTCGTTGTCAGGAACGTTGAAGGACCGAGAAAGGGTGACGATTGATCAGGACCGCTGCCGGAGCGCAACCCACTCACTACAGCAGAGCCATGTAGACAACATCCCCTCCCCCTTTCCACCGCGTCAGACGCCCGTAGCAGCCCGCTACGGGCTTTTTCATGCCCTGCCCTAGCGTCCAAGCCTCACGGCCGCGCTCGGCCTCTCTGGCGGCCTTCTGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTTCCGCTGCATAACCCTGCTTCGGGGTCATTATAGCGATTTTTTCGGTATATCCATCCTTTTTCGCACGATATACAGGATTTTGCCAAAGGGTTCGTGTAGACTTTCCTTGGTGTATCCAACGGCGTCAGCCGGGCAGGATAGGTGAAGTAGGCCCACCCGCGAGCGGGTGTTCCTTCTTCACTGTCCCTTATTCGCACCTGGCGGTGCTCAACGGGAATCCTGCTCTGCGAGGCTGGCCGGCTACCGCCGGCGTAACAGATGAGGGCAAGCGGATGGCTGATGAAACCAAGCCAACCAGGAAGGGCAGCCCACCTATCAAGGTGTACTGCCTTCCAGACGAACGAAGAGCGATTGAGGAAAAGGCGGCGGCGGCCGGCATGAGCCTGTCGGCCTACCTGCTGGCCGTCGGCCAGGGCTACAAAATCACGGGCGTCGTGGACTATGAGCACGTCCGCGAGCTGGCCCGCATCAATGGCGACCTGGGCCGCCTGGGCGGCCTGCTGAAACTCTGGCTCACCGACGACCCGCGCACGGCGCGGTTCGGTGATGCCACGATCCTCGCCCTGCTGGCGAAGATCGAAGAGAAGCAGGACGAGCTTGGCAAGGTCATGATGGGCGTGGTCCGCCCGAGGGCAGAGCCATGACTTTTTTAGCCGCTAAAACGGCCGGGGGGTGCGCGTGATTGCCAAGCACGTCCCCATGCGCTCCATCAAGAAGAGCGACTTCGCGGAGCTGGTGAAGTACATCACCGACGAGCAAGGCAAGACCGAGCGCCTTTGCGACGCTCA",
+      "sequence_length": 11777,
+      "sequence_sha256": "9e8a6e62caaff3c4204ffd3a250e56e2486c7fb593304afa7403f06bd2a755ff",
+      "source_organism": "Binary vector Bin19",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana",
+        "Oryza sativa",
+        "Zea mays",
+        "Solanum lycopersicum",
+        "Glycine max"
+      ],
+      "host_group": [
+        "dicot",
+        "monocot"
+      ],
+      "accession": "U09365",
+      "accession_version": "U09365.1",
+      "plasmid_id": "pBIN19",
+      "primary_reference": "NCBI GenBank U09365.1; Frisch et al., Plant Mol Biol 27:405-409 (1995), PMID 7888628",
+      "evidence_level": "E1",
+      "feature_boundary_method": {
+        "method": "complete GenBank source record with explicit vector subregions",
+        "feature_type": "source",
+        "feature_label": "Binary vector Bin19, complete sequence",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 11777,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "complete parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/U09365.1.gb",
+      "source_record_sha256": "d0b13b3534d70e35c028f0bf3f0f22b5d3d638a5f0022e4b249a90201057e7ca",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "pBIN19",
+        "Bin19"
+      ],
+      "notes": "Qualified complete-vector source, not an empty or unqualified bacterial backbone. It contains a non-empty T-DNA and must undergo manual LB/RB and replacement review before use.",
+      "vector_context": {
+        "record_scope": {
+          "start_one_based": 1,
+          "end_one_based_inclusive": 11777,
+          "length": 11777
+        },
+        "left_border": {
+          "feature_label": "T-DNA left border similarity",
+          "strand": "+",
+          "start_one_based": 6043,
+          "end_one_based_inclusive": 6190
+        },
+        "right_border": {
+          "feature_label": "T-DNA right border similarity",
+          "strand": "+",
+          "start_one_based": 9260,
+          "end_one_based_inclusive": 9421
+        },
+        "t_dna_region": {
+          "start_one_based": 6043,
+          "end_one_based_inclusive": 9421,
+          "length": 3379,
+          "crosses_origin": false
+        },
+        "non_t_dna_backbone": {
+          "segments": [
+            {
+              "start_one_based": 9422,
+              "end_one_based_inclusive": 11777
+            },
+            {
+              "start_one_based": 1,
+              "end_one_based_inclusive": 6042
+            }
+          ],
+          "length": 8398,
+          "crosses_origin": true
+        },
+        "plant_selectable_cassette": {
+          "start_one_based": 7501,
+          "end_one_based_inclusive": 9259,
+          "length": 1759,
+          "feature_order": [
+            "Nos terminator 7501..7756",
+            "NPTII similarity 7969..8952",
+            "Nos promoter 8953..9259"
+          ]
+        },
+        "formal_workflow_decision": "REQUIRES_MANUAL_T_DNA_REPLACEMENT_REVIEW"
+      },
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and direct feature boundary were checked for Registry traceability.",
+      "limitations": "The record supports sequence identity and cited source context only; biological performance, cross-host transferability, and experimental suitability were not assessed.",
+      "review_status": "source_and_boundary_reviewed"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-FMVT",
+      "display_name": "FMV 34S promoter region (554 bp deposited fragment)",
+      "component_type": "promoter",
+      "component_role": "viral promoter",
+      "sequence": "CTCGAGCAAGTGTACAAAAAAGATTACCACGGAAGAAATTCACAAGGTAAAACTTTTTGAGAAAAGATTGATCAACATCAATCAAATCAATTGTGGAGACCACACAAAGAAATTGTGGTGTAAAATTCTACAGAAAAAGTACGAAGAGCATCTTTGCCAGTACTGCAGTGGGGACCACCCACGTGACAACAAAGAAGTGGCAGACAAGTCACCTCAAAGTGGAACCCATCCACGTGATAAAAGTATCATGGCAGACAGCCGGTACAATAATGGGGAGGACAGCTTGCAAAGCAGCCCATGTGGAAGCCCACTCACAAACGCGTATTACGAACGCAGTGACGACATCCACTCAAGAATTCCATCTATTTAAAGACGGATTCATTCCCATTTGAAGATCATCAATACTCAACCAATATTTCTCACTCTAAGAAATAAAGAGCTTTGTATTCTTCAATGATAGGCTAAGACCCTAAAGAGTCTCGAAAGAGACATGTAGTATAGTAAGAGTCCTCCCAGTCCGGGAGATTGTAATAAAGAGATCTTGTTAAGGATCC",
+      "sequence_length": 554,
+      "sequence_sha256": "47521eeaa73884edf67f1edee24494d71222904411502bfeb8047fde0cf5518d",
+      "source_organism": "Figwort mosaic virus",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana benthamiana"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "X16673",
+      "accession_version": "X16673.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank X16673.1; Sanger et al., Plant Mol Biol 14:433-443 (1990), PMID 2102823",
+      "evidence_level": "E2",
+      "feature_boundary_method": {
+        "method": "complete GenBank record explicitly defined as 34S promoter region",
+        "feature_type": "source",
+        "feature_label": "FMV 34S promoter region",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 554,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "complete parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/X16673.1.gb",
+      "source_record_sha256": "4f6c9cdb3eab9b13e324645c922880fb6f7713b3d9e59303cade00275a00425e",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Registry draft record only; not connected to the formal workflow.",
+      "aliases": [
+        "FMV 34S",
+        "Figwort mosaic virus 34S promoter"
+      ],
+      "notes": "Replacement candidate from the existing 77-candidate pool. The complete deposited record is the reproducible E2 boundary; internal enhancer and TATA features remain separately annotated in the source.",
+      "evidence_context": "Source accession, byte-preserved local record, sequence hash, and documented boundary interpretation were checked for Registry traceability.",
+      "limitations": "The sequence/source relationship is reviewable, but biological role, cross-host transferability, and experimental suitability retain documented context limitations.",
+      "review_status": "source_sequence_reviewed_context_limited"
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-35S2-758",
+      "display_name": "Duplicated CaMV 35S promoter (758 bp feature)",
+      "component_type": "promoter",
+      "component_role": "duplicated constitutive viral promoter",
+      "sequence": "AACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCGTCACTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGGACCTCGAGAATTCGAG",
+      "sequence_length": 758,
+      "sequence_sha256": "2a8d4fc6a4e4b431437be578e741db3c9db105d88ae235c5cf900d22834a7f3d",
+      "source_organism": "Cauliflower mosaic virus",
+      "target_host_species": [],
+      "host_group": [
+        "plant expression context"
+      ],
+      "accession": "DQ370426",
+      "accession_version": "DQ370426.1",
+      "plasmid_id": "pCsGFPBT",
+      "primary_reference": "NCBI GenBank DQ370426.1; Zhang and Galbraith direct submission (2006)",
+      "evidence_level": "E1",
+      "evidence_context": "The deposited binary-vector record directly annotates bases 1..758 as a duplicated CaMV 35S promoter.",
+      "feature_boundary_method": {
+        "method": "GenBank regulatory feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "cauliflower mosaic virus 35S promoter; duplicated",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 758,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb",
+      "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "2x35S",
+        "CaMV35S2"
+      ],
+      "limitations": "The record supports sequence identity and source-vector context only; expression magnitude, host range, and experimental performance were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Catalog context only; no automatic promoter ranking or host recommendation is implied."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-RD29A-824",
+      "display_name": "AtRD29A promoter region (824 bp deposited record)",
+      "component_type": "promoter",
+      "component_role": "stress-responsive promoter",
+      "sequence": "CGACTCAAAACAAACTTACGAAATTTAGGTAGAACTTATATACATTATATGTGTAATTTTTTGTAACAAAATGTTTTTATTATTATTATAGAATTTTACTGGTTAAATTAAAAATGAATAGAAAAGGTGAATTAAGAGGAGAGAGGAGGTAAACATTTTCTTCTATTTTTTCATATTTTCAGGATAAATTATTGTAGAAGTTTAAAAGATTTCCATTTGACTAGTGTAAATGAGGAATATTCTCTAGTAAGATCATTATTTCATCTACTTCTTTTATCTTCTACCAGTAGAGGAATAAACAATATTTAGCTCCTTTGTAAATACAAATTAATTTTCGTTCTTGACATCATTCAATTTTAATTTTACGTATAAAATAAAAGATCATACCTATTAGAACGATTAAGGAGAAATACAATTCGAATGAGAAGGATGTGCCGTTTGTTATAATAAACAGCCACACGACGTAAACGTAAAATGACCACATGATGGGCCAATAGACATGGACCGACTACTAATAATAGTAAGTTACATTTTAGGATGGAATAAATATCATACCGACATCAGTTTGAAAGAAAAGGGAAAAAAAGAAAAAATAAATAAAAGATATACTACCGACATGAGTTCCAAAAAGCAAAAAAAAAGATCAAGCCGACACAGACACGCGTAGAGAGCAAAATGACTTTGACGTCACACCACGAAAACAGACGCTTCATACGTGTCCCTTTATCTCTCTCAGTCTCTCTATAAACTTAGTGAGACCCTCCTCTGTTTTACTCACAAATATGCAAACTAGAAAACAATCATCAGGAATAAAGGGTTTGATT",
+      "sequence_length": 824,
+      "sequence_sha256": "2d215d69cb4876c6949989f5180460b0e0d94fe6722bf291c0ff71e2d4ef5d58",
+      "source_organism": "Arabidopsis thaliana",
+      "target_host_species": [
+        "Arabidopsis thaliana"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AY973635",
+      "accession_version": "AY973635.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank AY973635.1; Zhang, Si and Wang, Zuo Wu Xue Bao 31, 159-164 (2005)",
+      "evidence_level": "E2",
+      "evidence_context": "The complete deposited record is annotated as the Arabidopsis rd29A promoter region.",
+      "feature_boundary_method": {
+        "method": "Record-spanning GenBank regulatory feature with fuzzy endpoints normalized to deposited bases 1..824",
+        "feature_type": "regulatory",
+        "feature_label": "rd29A promoter",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 824,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AY973635.1.gb",
+      "source_record_sha256": "a005b791ed3b6e944d981f33d8c029f893baa1aa176c8e80df0e7178ab454085",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "AtRD29A",
+        "RD29A"
+      ],
+      "limitations": "Both feature endpoints are fuzzy in the source annotation. Stress responsiveness is literature context, not a prediction for a new construct or host.",
+      "review_status": "manual_context_review_required",
+      "notes": "The normalized whole-record boundary is reproducible; endpoint interpretation remains explicitly review-marked."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-E8-2164",
+      "display_name": "Tomato E8 promoter (2164 bp feature)",
+      "component_type": "promoter",
+      "component_role": "fruit-associated ethylene-responsive promoter",
+      "sequence": "AAGCTTTCCCTAATGATATTGTTCATGTAATTAAGTTTTGTGGAAGTGAGAGAGTCCAATTTTGATAAGAAAAGAGTCAGAAAACGTAATATTTTAAAAGTCTAAATCTTTCTACAAATAAGAGCAAATTTATTTATTTTTTAATCCAATAAATATTAATGGAGGACAAATTCAATTCACTTGGTTGTAAAATAAACTTAAACCAATAACCAAAGAACTAATAAATCCTGAAGTGGAATTATTAAGGATAAATGTACATAGACAATGAAGAAATAATAGGTTCGATGAATTAATAATAATTAAGGATGTTACAATCATCATGTGCCAAGTATATACACAATATTCTATGGGATTTATAATTTCGTTACTTCACTTAACTTTTGCGTAAATAAAACGAATTATCTGATATTTTATAATAAAACAGTTAATTAAGAACCATCATTTTTAACAACATAGATATATTATTTCTAATAGTTTAATGATACTTTTAAATCTTTTAAATTTTATGTTTCTTTTAGAAAATAAAAATTCAAAAAATTAAATATATTTACAAAAACTACAATCAAACACAACTTCATATATTAAAAGCAAAATATATTTTGAAAATTTCAAGTGTCCTAACAAATAAGACAAGAGGAAAATGTACGATGAGAGACATAAAGAGAACTAATAATTGAGGAGTCCTATAATATATAATAAAGTTTATTAGTAAACTTAATTATTAAGGACTCCTAAAATATATGATAGGAGAAAATGAATGGTGAGAGATATTGGAAAACTTAATAATTAAGGATTTTAAAATATATGGTAAAAGATAGGCAAAGTATCCATTATCCCCTTTTAACTTGAAGTCTACTAGGCGCATGTGAAAGTTGATTTTTTGTCACGTCATATAGCTATAACGTAAAAAAAGAAAGTAAAATTTTTAATTTTTTTTAATATATGACATATTTTAAACGAAATATAGGACAAAATGTAAATGAATAGTAAAGGAAACAAAGATTAATACTTACTTTGTAAGAATTTAAGATAAATTTAAAATTTAATAGATCAACTTTACGTCTAGAAAGACCCTATCTTAGAAGGAATTTCAGAAATCGGCCCTTTTTCAAAAATAACTTTTAAATAATGAATTTTAAATTTTAAGAAATAATTTCCAATGAATAAATGACATGTAGCATTTTACCTAAATATTTCAACTATTTTAATCCAATATTAATTTGTTTATTCCCAACAATAGAAAGTCTTGTGCAGACATTTAATCTGACTTTTCCAGTACTAAATATTAATTTTCTGAAGATTTTCGGGTTTAGTCCACAAGTTTTAGTGAGAAGTTTTGCTCAAAATTTTAGGTGAGAAGGTTTGATATTTATCTTTTGTTAAATTAATTTATCTAGGTGACTATTATTTATTTAAGTAGAAATTCATATCATTACTTTTGCCAACTTGTAGTCATAATAGGAGTAGGTGTATATGATGAAGGAATAAACAAGTTCAGTGAAGTGATTAAAATAAAATATAATTTAGGTGTACATCAAATAAAAACCTTAAAGTTTAGAAAGGCACCGAATAATTTTGCATAGAAGATATTAGTAAATTTATAAAAATAAAAGAAATGTAGTTGTCAAGTTGTCTTCTTTTTTTTGGATAAAAATAGCAGTTGGCTTATGTCATTCTTTTACAACCTCCATGCCACTTGTCCAATTGTTGACACTTAACTAATTAGTTTGATTCATGTATGAATACTAAATAATTTTTTAGGACTGACTCAAATATTTTTATATTATCATAGTAATATTTATCTAATTTTTAGGACCACTTATTACTAAATAATAAATTAACTACTACTATATTATTGTTGTGAAACAACAACGTTTTGGTTGTTATGATGAAACGTACACTATATCAGTATGAAAAATTCAAAACGATTAGTATAAATTATATTGAAAATTTGATATTTTTCTATTCTTAATCAGACGTATTGGGTTTCATATTTTAAAAAGGGACTAAACTTAGAAGAGAAGTTTGTTTGAAACTACTTTTGTCTCTTTCTTGTTCCCATTTCTCTCTTAGATTTCAAAAAGTGAACTACTTTATCTCTTTCTTTGTTCACATTTTATTTTATTCTATTATAAATATGGCATCCTCATATTGAGATTTTTAG",
+      "sequence_length": 2164,
+      "sequence_sha256": "ee18d306f8a4cddfe4cb0f7822500127641a188b4b475e3890a4a62e72add427",
+      "source_organism": "Solanum lycopersicum",
+      "target_host_species": [
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "KJ561284",
+      "accession_version": "KJ561284.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank KJ561284.1; Hong et al. direct submission (2014); Deikman and Fischer, EMBO J. 7, 3315-3320 (1988)",
+      "evidence_level": "E1",
+      "evidence_context": "The deposited record directly annotates bases 1..2164 as the tomato E8 promoter and includes a linked 5' UTR feature.",
+      "feature_boundary_method": {
+        "method": "GenBank regulatory feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "E8 tomato fruit specific promoter",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 2164,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/KJ561284.1.gb",
+      "source_record_sha256": "010afc851758dfbde711ac156102cfd22993bb4a47df870d4040c1cce50e5089",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "E8",
+        "SlE8"
+      ],
+      "limitations": "Fruit-associated and ethylene-responsive wording is source/literature context. Developmental timing, cultivar transferability, and expression performance were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "This is a provenance-supported catalog record, not a recommendation for fruit-specific expression.",
+      "source_sequence_length": 2203,
+      "distribution_mode": "bundled",
+      "sequence_availability": "local_verified",
+      "workflow_admission_status": "eligible",
+      "rights_classification": "RIGHTS_CLEAR_FOR_CURRENT_USE",
+      "role_semantics_reviewed": true,
+      "host_applicability_reviewed": true,
+      "alias_collision_reviewed": true,
+      "formal_export_compatible": true,
+      "governance_decision_source": "docs/qa/component_library_v1_full_evidence_completion/phase_b2b/COMPONENT_LIBRARY_V1_B2B_RIGHTS_GOVERNANCE.json; docs/qa/component_library_v1_full_evidence_completion/phase_b2c/COMPONENT_LIBRARY_V1_B2C_PRODUCT_ADMISSION.json",
+      "governance_decision_version": "COMPONENT_LIBRARY_V1_DIRECT_USE_CONTRACT_V1",
+      "host_applicability": {
+        "status": "reviewed",
+        "scope": [
+          "Solanum lycopersicum"
+        ],
+        "evidence_source": "KJ561284.1 source context and COMPONENT_LIBRARY_V1_B2C_PRODUCT_ADMISSION.json",
+        "evidence_version": "COMPONENT_LIBRARY_V1_DIRECT_USE_CONTRACT_V1",
+        "limitation": "Solanum lycopersicum is the reviewed source-species scope. Cultivar, expression performance, transferability, and suitability outside that scope are not inferred."
+      },
+      "attribution": {
+        "source_database": "NCBI GenBank / INSDC",
+        "record_locator": "https://www.ncbi.nlm.nih.gov/nuccore/KJ561284.1",
+        "accession_version": "KJ561284.1",
+        "submitter_source_context": "Hong, Duc, Son, Ngoc, and Ha; Applied DNA Technology, Institute of Biotechnology; direct submission (2014); Solanum lycopersicum cultivar PT18 source context.",
+        "publication_citations": [
+          "NCBI GenBank KJ561284.1 direct submission (2014)",
+          "Deikman and Fischer, EMBO J. 7, 3315-3320 (1988), DOI 10.1002/j.1460-2075.1988.tb03202.x, PMID 3208738 (research context only)"
+        ],
+        "source_coordinates_one_based_inclusive": "1..2164",
+        "strand": "+",
+        "feature_type": "regulatory promoter",
+        "retrieval_date": "2026-09-06",
+        "source_record_sha256": "010afc851758dfbde711ac156102cfd22993bb4a47df870d4040c1cce50e5089",
+        "feature_sha256": "ee18d306f8a4cddfe4cb0f7822500127641a188b4b475e3890a4a62e72add427",
+        "rights_caveat_reference": "docs/qa/component_library_v1_full_evidence_completion/phase_b2b/COMPONENT_LIBRARY_V1_B2B_ATTRIBUTION_CONTRACT.md; https://www.ncbi.nlm.nih.gov/home/about/policies/",
+        "component_contract_version": "COMPONENT_LIBRARY_V1_DIRECT_USE_CONTRACT_V1",
+        "required_notice": "Sequence provenance: NCBI GenBank / INSDC, accession and version shown above. INSDC database policy supports access and redistribution of database records. NCBI does not receive submitter rights and cannot grant unrestricted third-party permission. This attribution is not a legal clearance, freedom-to-operate conclusion, biological performance conclusion, or formal product-admission record."
+      }
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-PRO-LEB4-2697",
+      "display_name": "Vicia faba legumin B LeB4 upstream region",
+      "component_type": "promoter",
+      "component_role": "seed-associated legumin promoter region",
+      "sequence": "GATCTGTCGTCTCAAACTCATTCATCAGAACCTTCTTGAACTTAGTTATCTCTTGTTCAGAGCTTCCTGTTAGCAATATGTCATCAACATATAAACATGTCCCAGAAGCCAGAAGATAGAAGTTGGATGATAGAAGTAAAGTAATGTTACTGGTGGAGTACCACAATACAAGTTCATACAAACTTTATTGTCCAGAAACTAACAAAGTTGAGTTCAGCATAGATGAAAGACAAAAAGAATATATTAAATGACGGCTGCAAAATAAGGAGTAATGAATACATTGACCTACCTACTACTAGGCTATTTATACACAATATTAGGGTATAATAAAATATTAAAATACCCTCTATCAGACTTAGTCAATAAGACATTCCTAAAATATAAATTATTTCCAACAATAATTTGTCTCAAATAAAATATAGAGGTGCAAAAGTTAAACTAAGAGTGCAAAGTAAAATTTTGAGAGGGCTCAAAATTGAATATAATAACAATATTAGTGTAGTTTAAGAAAACTCAGGGGATGCAGTTGAACTCCCTCAACTGTACGTAGCTCCTCCCCTGGATGCAGTGTAAAGATTTGAAGATATATTTTAGTACTTTGGATATTGTAGGCCAGAGGGTGTTGAAGATAAAGGTTCAGGAACTAACACATTCATCCACAACTTCTATGTGTCCATCGTCAGTGAAATACATGCCAAATAGGGGAGTTAAGAAGAGTAGAAAGGGTCAAGATAGTGATGTGCATCGTGATCCTTCATAATGGGAGTGTGGTGAGGGCTCGCATGGGAGTCATACTACAAAGAGATCATGCATAAAACCAACTAGAAGTCAACTGTCAAGTATGACGGCTGACAATTAACCGTCCACCAAATCTTCCAGACATGTTTACTTGTCCCAGTTTTCTGATTTCTTATATCCATACATTGATGACATTATTGATGTTGGTGGCGATGGAGATTGGGGTTTTCATGCTATTACAGCTTTACTTGGATGGGGTGAAGAGTCATAGCCTTTGATTCAGACGCAGTTAGATACTCAAGTTCATCAACACCCTCAATTGTTTTTTAAGTTGTTTTGTGACACGATCTCTACAGTTAGAAATGCGTTACGAGTAGAACACTTGGCTGTGCAGGGTATAGATAAATGAATGACGATTTATGATATGGGTTACCCTATTGCTTCTAGATACAATGTCGTATTTGTCTCCCTTCCAAAAGACTTAACATCACGTTTTTTCCTCTTGCCTTATCTCCACCTATGTATACAAGCAGGCATAAAATCATTGTTGTTGGTTTTGTCAACAACAATCATTGAGTTTAGGTAAAGTTGAAACTTGATTGTCCATTACCTCTTGTCACTGACTGTTGAAGACAGAATTGTACTGACTGTATATATCAACATATGCGAGACGCGTTAGGCAGTGGAAAGACGTAGTTAGGATGTCATCATAATTTGTTTCGTATTTTTATATGTAGCACAGTTTTTATATGTATATATTTTATCGGGTAGTTTTTTATCGATTCAGTTATTTGAGAAAAAGTAATGCAGACAAAAAGTGGAAAAGACAATCTGACTGTACATAAGAAATTTCCAATTTTTGAAATTTTTTTATAATTATCAGAAATTTTAAAATTTCCGATAAAAACATACATGTATAGATCGAAAATTTCAAATTTCTAGTACTTTCAAATTTCTTGCAGTAAAAGTTGTAATTTTTTAAAAATTTACGATAATTTACAGTATTTAAAAAAAAATCCAATCTTAAATAAAGGGTATAAGAATAAAAGCACTCATGTGGAGTGGCAGGTTTCGTCACACCCTAAGAACATCCCTAAATACACCACATATGTATAAGTATTAAGTGATTGATGTTAAGTGAAACGAAAATATTTATATGTGAATTTAATATTCAGCTTACTTGATTAAACTCCATAGTGACCCAATAAGTGCTAACTTTTACTGTCTTTACCTTTAAATGTTATATTGATTTATTTATGCATTTCTTTTTCCTGCATCTCAATAGTATATAGGGTATCAAATAGTGATTATCCAAACTTAAATAAGTTAGAGGAAACACCAAGATATGCCATATACTCTCAAATTTGACACTATGATTCAAAGTTGCACTTGCATAAAACTTATTAATTCAATAGTAAAACCAAACTTGTGCGTGATACAGTTAAAATGACTAAACTACTAATTAAGGTCCCTCCCATTAGTAAATAAGTTATTTTTTTAGAAAAAGAAAATAATAAAAAGAATGACGAGTCTATCTAAATCATATTAACAAGTAATACATATTGATTCATTCGATGGAGGAGGCCAATAATTGTAGCAAACAAGCAGTGCCGAGGTTAATATATGCTCAAGACAGTAAATAATCTAAATGAATTAAGACAGTGATTTGCAAAGAGTAGATGCAGAGAAGAGAACTAAAGATTTGCTGCTACACGTATATAAGAATAGCAACAGATATTCATTCTGTCTCTTTGTGGAATATGGATATCTACTAATCATCATCTATCTGTGAAGAATAAAAGAAGCGGCCACAAGCGCAGCGTCGCACATATGATGTGTATCAAATTAGGACTCCATAGCCATGCATGCTGAAGAATGTCACACACGTTCTGTCACACGTGTTACTCTCTCACTGTTCTCCTCTTCCTATAAATCACCGCGCCACAGCTTCTCCACTTC",
+      "sequence_length": 2697,
+      "sequence_sha256": "661c55c9dc075c2e98ca3bd3317b2304bb0b01a54f5eeb1ee09cee6fba9df1f9",
+      "source_organism": "Vicia faba",
+      "target_host_species": [
+        "Vicia faba"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "X03677",
+      "accession_version": "X03677.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank X03677.1; Baumlein et al., Nucleic Acids Res. 14, 2707-2720 (1986), PMID:3960730",
+      "evidence_level": "E2",
+      "evidence_context": "The boundary is derived from the deposited record start and the annotated putative cap site; the record also annotates the legumin box and TATA box.",
+      "feature_boundary_method": {
+        "method": "Deposited record start through the base preceding the annotated putative cap site",
+        "feature_type": "derived_upstream_region",
+        "feature_label": "LeB4 sequence upstream of the putative cap site",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 2697,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/X03677.1.gb",
+      "source_record_sha256": "e70e001f00286356f2e7b5cfb41e33ee1bb237807ac8a804eb726c38c649f5a6",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "LeB4 promoter",
+        "legumin B promoter"
+      ],
+      "limitations": "The source record does not annotate the full 1..2697 interval as one promoter feature. Seed-associated function and the chosen upstream extent require manual context review.",
+      "review_status": "manual_context_review_required",
+      "notes": "Boundary derivation is explicit and reproducible; no cross-species activity conclusion is made."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-5UTR-E8-39",
+      "display_name": "Tomato E8 native 5' UTR (39 bp feature)",
+      "component_type": "five_prime_utr",
+      "component_role": "native plant 5' untranslated region",
+      "sequence": "AAATTATTCTAATCATTCACAGTGCAAAAGAAGGGATCC",
+      "sequence_length": 39,
+      "sequence_sha256": "a7da5c3785337eaedb5b066f7de19bf5daaddcb6b2241325842681be3fe45b19",
+      "source_organism": "Solanum lycopersicum",
+      "target_host_species": [
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "KJ561284",
+      "accession_version": "KJ561284.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank KJ561284.1; Hong et al. direct submission (2014)",
+      "evidence_level": "E1",
+      "evidence_context": "The deposited E8 promoter-region record directly annotates bases 2165..2203 as a 5' UTR.",
+      "feature_boundary_method": {
+        "method": "GenBank 5'UTR feature coordinates",
+        "feature_type": "5'UTR",
+        "feature_label": "E8 5' UTR",
+        "strand": "+",
+        "start_one_based": 2165,
+        "end_one_based_inclusive": 2203,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/KJ561284.1.gb",
+      "source_record_sha256": "010afc851758dfbde711ac156102cfd22993bb4a47df870d4040c1cce50e5089",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "E8 5'UTR"
+      ],
+      "limitations": "The record supports native transcript context only. Translation efficiency, Kozak strength, and portability were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Native sequence context is preserved as a review record; no translation enhancement claim is made."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-5UTR-TEV-136",
+      "display_name": "Tobacco etch virus translation leader (136 bp feature)",
+      "component_type": "five_prime_utr",
+      "component_role": "viral translation leader used in a plant binary vector",
+      "sequence": "AATTCTCAACACAACATATACAAAACAAACGAATCTCAAGCAATCAAGCATTCTACTTCTATTGCAGCAATTTAAATCATTTCTTTTAAAGCAAAAGCAATTTTCTGAAAATTTTCACCATTTACGAACGATAGCC",
+      "sequence_length": 136,
+      "sequence_sha256": "d96f66c7b2a750624450405b4bd37a7d8816029870979d503c8376cfb52544b7",
+      "source_organism": "Tobacco etch virus",
+      "target_host_species": [],
+      "host_group": [
+        "plant translation context"
+      ],
+      "accession": "DQ370426",
+      "accession_version": "DQ370426.1",
+      "plasmid_id": "pCsGFPBT",
+      "primary_reference": "NCBI GenBank DQ370426.1; Zhang and Galbraith direct submission (2006)",
+      "evidence_level": "E1",
+      "evidence_context": "The deposited plant binary-vector record directly annotates bases 759..894 as a TEV-derived translation leader/5' UTR.",
+      "feature_boundary_method": {
+        "method": "GenBank 5'UTR feature coordinates",
+        "feature_type": "5'UTR",
+        "feature_label": "translation leader sequence; 5'UTR from tobacco etch virus",
+        "strand": "+",
+        "start_one_based": 759,
+        "end_one_based_inclusive": 894,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb",
+      "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "TEV leader",
+        "TEV 5'UTR"
+      ],
+      "limitations": "The sequence is cataloged from one deposited construct. Translation enhancement, host range, and compatibility with a new coding sequence were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Translation-related role follows the source annotation and does not constitute an optimization claim."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-5UTR-CYP76AD1-258",
+      "display_name": "Beta vulgaris CYP76AD1 native 5' UTR",
+      "component_type": "five_prime_utr",
+      "component_role": "native plant mRNA 5' untranslated region",
+      "sequence": "TACTAATGTGCAAATGCATAAATTTAATTTCAGATACTCTTTTTTATAAATATTATTATACTGTGCATTCTTTTAACCCAAAAAAAAAACTGTCTTAATACACCATTTAATTCCTTTCTCTAGGATCCACTATCACATGTAGTATATAAATATAATCCTATACAGTTCACGTTATCAAACACCAAAGCATCAAAAGCCTTCCACACTTGTATTATTTTGGGGTAGTTGATTTGTTAGCGTGTTATTTGTGAGATCATC",
+      "sequence_length": 258,
+      "sequence_sha256": "d7d8f587b2d7e0b85f0dc08b69bdca992fa7cef29bdc77ee012ad74922d83f52",
+      "source_organism": "Beta vulgaris",
+      "target_host_species": [
+        "Beta vulgaris"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "HQ656023",
+      "accession_version": "HQ656023.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank HQ656023.1; Hatlestad et al., Nat. Genet. 44, 816-820 (2012)",
+      "evidence_level": "E2",
+      "evidence_context": "The source is an mRNA record described as complete CDS; bases 1..258 precede the annotated CDS.",
+      "feature_boundary_method": {
+        "method": "Complete-mRNA record start through the base preceding the annotated CDS",
+        "feature_type": "derived_5'UTR",
+        "feature_label": "sequence preceding the annotated CYP76AD1 CDS",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 258,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656023.1.gb",
+      "source_record_sha256": "b541b6b132fba98ba7b9ee6ed56f37aafd1565c44e138a87116b7198efe16590",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "CYP76AD1 5'UTR"
+      ],
+      "limitations": "NCBI does not provide a separate 5'UTR feature on this record. Transcript completeness at the 5' end and translation effects require manual review.",
+      "review_status": "manual_context_review_required",
+      "notes": "This inferred native 5' UTR is retained for provenance review, not translation scoring."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-5UTR-DODA1-59",
+      "display_name": "Beta vulgaris DODA1 native 5' UTR",
+      "component_type": "five_prime_utr",
+      "component_role": "native plant mRNA 5' untranslated region",
+      "sequence": "AAAACAAGAAGAAAACAAAACAACCTTTTATATAACTAGAAAGCAACAAAAAAAAAAGA",
+      "sequence_length": 59,
+      "sequence_sha256": "8680cac6e3567a81996a61d471bfb48f55ea6a77fceba4b9bc38b5c4aab3c4f4",
+      "source_organism": "Beta vulgaris",
+      "target_host_species": [
+        "Beta vulgaris"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "HQ656027",
+      "accession_version": "HQ656027.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank HQ656027.1; Hatlestad et al., Nat. Genet. 44, 816-820 (2012)",
+      "evidence_level": "E2",
+      "evidence_context": "The source is an mRNA record described as complete CDS; bases 1..59 precede the annotated CDS.",
+      "feature_boundary_method": {
+        "method": "Complete-mRNA record start through the base preceding the annotated CDS",
+        "feature_type": "derived_5'UTR",
+        "feature_label": "sequence preceding the annotated DODA1 CDS",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 59,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/HQ656027.1.gb",
+      "source_record_sha256": "7be76a1ec62db527aacd9d3719b57cee46d8eabe84dfc871c579e9f1bb04fecc",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "DODA1 5'UTR"
+      ],
+      "limitations": "NCBI does not provide a separate 5'UTR feature on this record. Transcript completeness at the 5' end and translation effects require manual review.",
+      "review_status": "manual_context_review_required",
+      "notes": "This inferred native 5' UTR is retained for provenance review, not translation scoring."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-5UTR-CDOPA5GT-21",
+      "display_name": "Mirabilis jalapa cDOPA5GT native 5' UTR",
+      "component_type": "five_prime_utr",
+      "component_role": "native plant mRNA 5' untranslated region",
+      "sequence": "CCTCACCTCCATAACAAAGAA",
+      "sequence_length": 21,
+      "sequence_sha256": "b4f07915b0c0d9d68f98d15738eb6717df97b3ff986066740fb58c75055d9f54",
+      "source_organism": "Mirabilis jalapa",
+      "target_host_species": [
+        "Mirabilis jalapa"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AB182643",
+      "accession_version": "AB182643.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank AB182643.1; Sasaki et al., Plant Cell Physiol. 46, 666-670 (2005)",
+      "evidence_level": "E2",
+      "evidence_context": "The source is an mRNA record described as complete CDS; bases 1..21 precede the annotated CDS.",
+      "feature_boundary_method": {
+        "method": "Complete-mRNA record start through the base preceding the annotated CDS",
+        "feature_type": "derived_5'UTR",
+        "feature_label": "sequence preceding the annotated cDOPA5GT CDS",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 21,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AB182643.1.gb",
+      "source_record_sha256": "00181b8cb48e2f9d19cedd7f3fe9055425f7e930a39ae7e62ee617531014b927",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "cDOPA5GT 5'UTR"
+      ],
+      "limitations": "NCBI does not provide a separate 5'UTR feature on this record. Transcript completeness at the 5' end and translation effects require manual review.",
+      "review_status": "manual_context_review_required",
+      "notes": "This inferred native 5' UTR is retained for provenance review, not translation scoring."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-3REG-CAMV35S-212",
+      "display_name": "CaMV 35S polyadenylation region (212 bp feature)",
+      "component_type": "three_prime_regulatory_region",
+      "component_role": "viral 3' regulatory region",
+      "sequence": "AGTCCGCAAAAATCACCAGTCTCTCTCTACAAATCTATCTCTCTCTATTTTTCTCCAGAATAATGTGTGAGTAGTTCCCAGATAAGGGAATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTGAC",
+      "sequence_length": 212,
+      "sequence_sha256": "9dcb1ca38d17df734b63b759d44b35fee363e9a7ffae7c289e8b83e86f13d705",
+      "source_organism": "Cauliflower mosaic virus",
+      "target_host_species": [],
+      "host_group": [
+        "plant expression context"
+      ],
+      "accession": "DQ370426",
+      "accession_version": "DQ370426.1",
+      "plasmid_id": "pCsGFPBT",
+      "primary_reference": "NCBI GenBank DQ370426.1; Zhang and Galbraith direct submission (2006)",
+      "evidence_level": "E1",
+      "evidence_context": "The deposited binary-vector record directly annotates bases 1624..1835 as a CaMV 35S poly(A) signal.",
+      "feature_boundary_method": {
+        "method": "GenBank regulatory feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "cauliflower mosaic virus 35S poly(A) signal",
+        "strand": "+",
+        "start_one_based": 1624,
+        "end_one_based_inclusive": 1835,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb",
+      "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "CaMV 35S poly(A)",
+        "35S 3' regulatory region"
+      ],
+      "limitations": "The feature is cataloged as a 3' regulatory region, not globally renamed a terminator. Processing efficiency and host transferability were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Terminology follows the deposited feature and Registry boundary policy."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-3REG-E8-140",
+      "display_name": "Tomato E8 transcript 3' region",
+      "component_type": "three_prime_regulatory_region",
+      "component_role": "native plant transcript 3' region",
+      "sequence": "GAATAAGAATAATAATGTTATCTATTATTACTATTTATACTTCTGCAGATTGTACCTTTGAATTTGAAGCAAATGTTTGAGTTAAATACTTTCACGTTTCTAAGCAATGTAATATAATTTATAAAGTATGTGCTTGCTAT",
+      "sequence_length": 140,
+      "sequence_sha256": "d3fadbf01d3eaa2a1f82f7cf1831222714e502954a545749a7672547a34c19f8",
+      "source_organism": "Solanum lycopersicum",
+      "target_host_species": [
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "X13437",
+      "accession_version": "X13437.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank X13437.1; Deikman and Fischer, EMBO J. 7, 3315-3320 (1988), PMID:3208738",
+      "evidence_level": "E2",
+      "evidence_context": "The boundary is derived from the annotated final CDS base, primary-transcript endpoint, poly(A) signal, and poly(A) site.",
+      "feature_boundary_method": {
+        "method": "Annotated CDS end plus one through annotated primary-transcript end",
+        "feature_type": "derived_3'transcript_region",
+        "feature_label": "E8 sequence after the annotated CDS through the primary-transcript endpoint",
+        "strand": "+",
+        "start_one_based": 2711,
+        "end_one_based_inclusive": 2850,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/X13437.1.gb",
+      "source_record_sha256": "ab4e2ce91ebd62f0fce9853eb3849def221bd076d6597fa84bbf350f212f74ce",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "E8 3' region"
+      ],
+      "limitations": "NCBI does not label the complete interval as one terminator or 3'UTR feature. Transcript processing function and portability require manual review.",
+      "review_status": "manual_context_review_required",
+      "notes": "Cataloged as a 3' regulatory region; no terminator equivalence or performance conclusion is asserted."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-3REG-LEB4-123",
+      "display_name": "Vicia faba legumin B transcript 3' region",
+      "component_type": "three_prime_regulatory_region",
+      "component_role": "native seed-gene transcript 3' region",
+      "sequence": "GATCATGCTAAGGAGTGCAATAATGAGATGGCCATCTTATCATAAATAATAAATTTTGAATGTATTGTAGTAAAGAACTTCAGTTCCGATAATAAAACAATAAAGTATGGCCTTATTATCCCA",
+      "sequence_length": 123,
+      "sequence_sha256": "12c0850ad859b015d074945d59a7de09758bae7e256cbe83f20b57f9349041ea",
+      "source_organism": "Vicia faba",
+      "target_host_species": [
+        "Vicia faba"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "X03677",
+      "accession_version": "X03677.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank X03677.1; Baumlein et al., Nucleic Acids Res. 14, 2707-2720 (1986), PMID:3960730",
+      "evidence_level": "E2",
+      "evidence_context": "The boundary is derived from the annotated CDS and primary-transcript endpoints; multiple poly(A) signals and a poly(A) site occur in the interval.",
+      "feature_boundary_method": {
+        "method": "Annotated CDS end plus one through annotated primary-transcript end",
+        "feature_type": "derived_3'transcript_region",
+        "feature_label": "LeB4 sequence after the annotated CDS through the primary-transcript endpoint",
+        "strand": "+",
+        "start_one_based": 4404,
+        "end_one_based_inclusive": 4526,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/X03677.1.gb",
+      "source_record_sha256": "e70e001f00286356f2e7b5cfb41e33ee1bb237807ac8a804eb726c38c649f5a6",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "LeB4 3' region",
+        "legumin B 3' region"
+      ],
+      "limitations": "NCBI does not label the complete interval as one terminator or 3'UTR feature. Processing function and portability require manual review.",
+      "review_status": "manual_context_review_required",
+      "notes": "Cataloged as a 3' regulatory region; no terminator equivalence or performance conclusion is asserted."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-TER-HSP18-2-250",
+      "display_name": "Arabidopsis HSP18.2 terminator (250 bp feature)",
+      "component_type": "terminator",
+      "component_role": "Arabidopsis HSP18.2 transcription terminator",
+      "sequence": "ATATGAAGATGAAGATGAAATATTTGGTGTGTCAAATAAAAAGGTTGTGTGCTTAAGTTTGTGTTTTTTTCTTGGCTTGTTGTGTTATGAATTTGTGGCTTTTTCTAATATTAAATGAATGTAACATCTCATTATAATGAATAAACAAATGTTTCTATAATCCATTGTGAATGTTTTGTTGGATCTCTTCTCCAGCATATAACTACTGTATGTGCTATGGTATGGACTATGGAATATGATTAAAGATAAG",
+      "sequence_length": 250,
+      "sequence_sha256": "f64cc0a9ffd000d281dc8d75163b072d42ec8184ad216470461941a4e61dfd1d",
+      "source_organism": "Arabidopsis thaliana",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Solanum lycopersicum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "PP558908",
+      "accession_version": "PP558908.1",
+      "plasmid_id": "L0_hspt",
+      "primary_reference": "NCBI GenBank PP558908.1; Nagaya et al., Plant Cell Physiol. 51, 328-332 (2010), PMID:20040586, DOI:10.1093/pcp/pcp188",
+      "evidence_level": "E1",
+      "evidence_context": "PP558908.1 directly annotates bases 852..1101 as an HSP18.2 terminator; Nagaya et al. independently studied an Arabidopsis HSP18.2 terminator in plant cells.",
+      "feature_boundary_method": {
+        "method": "GenBank regulatory terminator feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "HSP18.2 terminator",
+        "strand": "+",
+        "start_one_based": 852,
+        "end_one_based_inclusive": 1101,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/PP558908.1.gb",
+      "source_record_sha256": "521467bde8978a3e02115b2e5ef6e205700e016b7ee31c44da92ffb39d00dfc9",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "HSP18.2 terminator",
+        "tHSP18.2"
+      ],
+      "limitations": "The GenBank feature fixes sequence identity and boundary. The cited study is retained as component-level literature context; its measured expression effects are not generalized to other constructs, hosts, tissues, or conditions.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Catalog provenance and literature context do not grant formal workflow admission or imply expression performance.",
+      "source_sequence_length": 2501,
+      "distribution_mode": "bundled",
+      "sequence_availability": "local_verified",
+      "workflow_admission_status": "eligible",
+      "rights_classification": "RIGHTS_CLEAR_FOR_CURRENT_USE",
+      "role_semantics_reviewed": true,
+      "host_applicability_reviewed": true,
+      "alias_collision_reviewed": true,
+      "formal_export_compatible": true,
+      "governance_decision_source": "docs/qa/component_library_v1_full_evidence_completion/phase_b2b/COMPONENT_LIBRARY_V1_B2B_RIGHTS_GOVERNANCE.json; docs/qa/component_library_v1_full_evidence_completion/phase_b2c/COMPONENT_LIBRARY_V1_B2C_PRODUCT_ADMISSION.json; docs/qa/V1_TOMATO_HSP18_2_HOST_SCOPE_EXTENSION_R1_20260909.json",
+      "governance_decision_version": "COMPONENT_LIBRARY_V1_DIRECT_USE_CONTRACT_V1+TOMATO_HOST_SCOPE_R1",
+      "host_applicability": {
+        "status": "reviewed",
+        "scope": [
+          "Arabidopsis thaliana",
+          "Solanum lycopersicum"
+        ],
+        "evidence_source": "PP558908.1 feature context; COMPONENT_LIBRARY_V1_B2C_PRODUCT_ADMISSION.json; V1_TOMATO_HSP18_2_HOST_SCOPE_EXTENSION_R1_20260909.json@eff14afd",
+        "evidence_version": "COMPONENT_LIBRARY_V1_DIRECT_USE_CONTRACT_V1+TOMATO_HOST_SCOPE_R1",
+        "limitation": "Arabidopsis thaliana and Solanum lycopersicum are the reviewed scopes for this exact 250 bp identity. The complete synthetic construct, surrounding sequence, expression magnitude, transferability to other hosts, and suitability under other conditions are not inferred."
+      },
+      "attribution": {
+        "source_database": "NCBI GenBank / INSDC",
+        "record_locator": "https://www.ncbi.nlm.nih.gov/nuccore/PP558908.1",
+        "accession_version": "PP558908.1",
+        "submitter_source_context": "Cintia et al.; Yale University; direct submission (2024); synthetic construct L0_hspt source context.",
+        "publication_citations": [
+          "NCBI GenBank PP558908.1 direct submission (2024)",
+          "Sagawa et al., Plant Methods (2024), DOI 10.1186/s13007-024-01274-4, PMID 39342225, PMCID PMC11438372 (Level0_HSPt source context)",
+          "Nagaya et al., Plant Cell Physiol. 51, 328-332 (2010), DOI 10.1093/pcp/pcp188, PMID 20040586 (Arabidopsis research context only)",
+          "Swinnen et al., Plant Biotechnology Journal (2025), DOI 10.1111/pbi.70212, PMID 40545632, PMCID PMC12392962 (Tomato exact-source-object bridge; no performance inference)"
+        ],
+        "source_coordinates_one_based_inclusive": "852..1101",
+        "strand": "+",
+        "feature_type": "regulatory terminator",
+        "retrieval_date": "2026-09-09",
+        "source_record_sha256": "521467bde8978a3e02115b2e5ef6e205700e016b7ee31c44da92ffb39d00dfc9",
+        "feature_sha256": "f64cc0a9ffd000d281dc8d75163b072d42ec8184ad216470461941a4e61dfd1d",
+        "rights_caveat_reference": "docs/qa/component_library_v1_full_evidence_completion/phase_b2b/COMPONENT_LIBRARY_V1_B2B_ATTRIBUTION_CONTRACT.md; https://www.ncbi.nlm.nih.gov/home/about/policies/",
+        "component_contract_version": "COMPONENT_LIBRARY_V1_DIRECT_USE_CONTRACT_V1+TOMATO_HOST_SCOPE_R1",
+        "required_notice": "Sequence provenance: NCBI GenBank / INSDC, accession and version shown above. INSDC database policy supports access and redistribution of database records. NCBI does not receive submitter rights and cannot grant unrestricted third-party permission. This attribution is not a legal clearance, freedom-to-operate conclusion, biological performance conclusion, or formal product-admission record."
+      }
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-TER-RBCS-E9-295",
+      "display_name": "Pea rbcS E9 terminator (295 bp feature)",
+      "component_type": "terminator",
+      "component_role": "pea rbcS E9 transcription terminator",
+      "sequence": "ATTATGGCATTGGGAAAACTGTTTTTCTTGTACCATTTGTTGTGCTTGTAATTTACTGTGTTTTTTATTCGGTTTTCGCTATCGAACTGTGAAATGGAAATGGATGGAGAAGAGTTAATGAATGATATGGTCCTTTTGTTCATTCTCAAATTAATATTATTTGTTTTTTCTCTTATTTGTTGTGTGTTGAATTTGAAATTATAAGAGATATGCAAACATTTTGTTTTGAGTAAAAATGTGTCAAATCGTGGCCTCTAATGACCGAAGTTAATATGAGGAGTAAAACATCCCAAAC",
+      "sequence_length": 295,
+      "sequence_sha256": "e4d09d94a70cfcf400736631bf58668e64f5016671b8a949a5cc92269ed35721",
+      "source_organism": "Pisum sativum",
+      "target_host_species": [
+        "Arabidopsis thaliana",
+        "Nicotiana tabacum"
+      ],
+      "host_group": [
+        "dicot"
+      ],
+      "accession": "AF309825",
+      "accession_version": "AF309825.2",
+      "plasmid_id": "pER8",
+      "primary_reference": "NCBI GenBank AF309825.2; Zuo, Niu and Chua, Plant J. 24, 265-273 (2000), PMID:11069700, DOI:10.1046/j.1365-313x.2000.00868.x",
+      "evidence_level": "E1",
+      "evidence_context": "AF309825.2 directly annotates bases 1882..2176 as the pea rbcS E9 terminator in the published pER8 plant expression vector.",
+      "feature_boundary_method": {
+        "method": "GenBank regulatory terminator feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "pea rbcS E9",
+        "strand": "+",
+        "start_one_based": 1882,
+        "end_one_based_inclusive": 2176,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF309825.2.gb",
+      "source_record_sha256": "53d3c9d6a8ac1604fd245a25257d8b77bfd685fc8d20bdc7947bcafc897a79f4",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "rbcS E9 terminator",
+        "pea E9 terminator"
+      ],
+      "limitations": "The record supports exact identity, boundary, and source-vector context. Termination efficiency, expression effects, portability, and suitability outside the cited vector/study contexts were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "The crop-derived terminator is retained as a provenance catalog record, not a recommendation or performance claim."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-HPTII",
+      "display_name": "hptII selectable marker CDS",
+      "component_type": "cds",
+      "component_role": "selectable marker CDS",
+      "sequence": "ATGAAAAAGCCTGAACTCACCGCGACGTCTGTCGAGAAGTTTCTGATCGAAAAGTTCGACAGCGTCTCCGACCTGATGCAGCTCTCGGAGGGCGAAGAATCTCGTGCTTTCAGCTTCGATGTAGGAGGGCGTGGATATGTCCTGCGGGTAAATAGCTGCGCCGATGGTTTCTACAAAGATCGTTATGTTTATCGGCACTTTGCATCGGCCGCGCTCCCGATTCCGGAAGTGCTTGACATTGGGGAGTTTAGCGAGAGCCTGACCTATTGCATCTCCCGCCGTGCACAGGGTGTCACGTTGCAAGACCTGCCTGAAACCGAACTGCCCGCTGTTCTACAACCGGTCGCGGAGGCTATGGATGCGATCGCTGCGGCCGATCTTAGCCAGACGAGCGGGTTCGGCCCATTCGGACCGCAAGGAATCGGTCAATACACTACATGGCGTGATTTCATATGCGCGATTGCTGATCCCCATGTGTATCACTGGCAAACTGTGATGGACGACACCGTCAGTGCGTCCGTCGCGCAGGCTCTCGATGAGCTGATGCTTTGGGCCGAGGACTGCCCCGAAGTCCGGCACCTCGTGCACGCGGATTTCGGCTCCAACAATGTCCTGACGGACAATGGCCGCATAACAGCGGTCATTGACTGGAGCGAGGCGATGTTCGGGGATTCCCAATACGAGGTCGCCAACATCTTCTTCTGGAGGCCGTGGTTGGCTTGTATGGAGCAGCAGACGCGCTACTTCGAGCGGAGGCATCCGGAGCTTGCAGGATCGCCACGACTCCGGGCGTATATGCTCCGCATTGGTCTTGACCAACTCTATCAGAGCTTGGTTGACGGCAATTTCGATGATGCAGCTTGGGCGCAGGGTCGATGCGACGCAATCGTCCGATCCGGAGCCGGGACTGTCGGGCGTACACAAATCGCCCGCAGAAGCGCGGCCGTCTGGACCGATGGCTGTGTAGAAGTACTCGCCGATAGTGGAAACCGACGCCCCAGCACTCGTCCGAGGGCAAAGAAATAG",
+      "sequence_length": 1026,
+      "sequence_sha256": "e4e528f88a3c0a01fd6256cc38eecf22b362ccd68b5216d0d26e66fb976031c4",
+      "source_organism": "Escherichia coli",
+      "target_host_species": [],
+      "host_group": [
+        "plant transformation context"
+      ],
+      "accession": "AF234296",
+      "accession_version": "AF234296.1",
+      "plasmid_id": "pCAMBIA-1300",
+      "primary_reference": "NCBI GenBank AF234296.1; Hajdukiewicz, Svab and Maliga, Plant Mol. Biol. 25, 989-994 (1994), PMID:7919218",
+      "evidence_level": "E1",
+      "evidence_context": "The pCAMBIA-1300 record directly annotates the reverse-strand hptII CDS used in a plant binary-vector context.",
+      "feature_boundary_method": {
+        "method": "GenBank CDS feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "hptII hygromycin phosphotransferase",
+        "strand": "-",
+        "start_one_based": 6873,
+        "end_one_based_inclusive": 7898,
+        "crosses_origin": false,
+        "reverse_complemented": true,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF234296.1.gb",
+      "source_record_sha256": "7fbadcf1bb92d69d38a553bcfaedf4f12349706c4db5fb0f508f2e2c831c9d95",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "hpt",
+        "hph",
+        "hygromycin phosphotransferase"
+      ],
+      "limitations": "Selection behavior depends on host, expression cassette, and experimental conditions; none is predicted or certified here.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Reverse-complement extraction preserves the feature coding orientation."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-BAR",
+      "display_name": "bar phosphinothricin acetyltransferase CDS",
+      "component_type": "cds",
+      "component_role": "selectable marker CDS",
+      "sequence": "ATGAGCCCAGAACGACGCCCGGCCGACATCCGCCGTGCCACCGAGGCGGACATGCCGGCGGTCTGCACCATCGTCAACCACTACATCGAGACAAGCACGGTCAACTTCCGTACCGAGCCGCAGGAACCGCAGGAGTGGACGGACGACCTCGTCCGTCTGCGGGAGCGCTATCCCTGGCTCGTCGCCGAGGTGGACGGCGAGGTCGCCGGCATCGCCTACGCGGGCCCCTGGAAGGCACGCAACGCCTACGACTGGACGGCCGAGTCGACCGTGTACGTCTCCCCCCGCCACCAGCGGACGGGACTGGGCTCCACGCTCTACACCCACCTGCTGAAGTCCCTGGAGGCACAGGGCTTCAAGAGCGTGGTCGCTGTCATCGGGCTGCCCAACGACCCGAGCGTGCGCATGCACGAGGCGCTCGGATATGCCCCCCGCGGCATGCTGCGGGCGGCCGGCTTCAAGCACGGGAACTGGCATGACGTGGGTTTCTGGCAGCTGGACTTCAGCCTGCCGGTACCGCCCCGTCCGGTCCTGCCCGTCACCGAGATCTGA",
+      "sequence_length": 552,
+      "sequence_sha256": "712bca6c2816a493924a9801137e301ae2fde43e0bd5e6c445e7a345876a6205",
+      "source_organism": "Streptomyces hygroscopicus",
+      "target_host_species": [],
+      "host_group": [
+        "plant transformation context"
+      ],
+      "accession": "X17220",
+      "accession_version": "X17220.1",
+      "plasmid_id": null,
+      "primary_reference": "NCBI GenBank X17220.1; White et al., Nucleic Acids Res. 18, 1062 (1990), PMID:2315036",
+      "evidence_level": "E1",
+      "evidence_context": "The source record directly annotates the bar CDS and cites its use as a selectable marker for plant transformation.",
+      "feature_boundary_method": {
+        "method": "GenBank CDS feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "phosphinothricin acetyltransferase",
+        "strand": "+",
+        "start_one_based": 31,
+        "end_one_based_inclusive": 582,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/X17220.1.gb",
+      "source_record_sha256": "0ee9ffd99575cff183e6e6e6926d683a0574146bd0fdbb00b7320adbc99db77b",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "bar",
+        "PAT"
+      ],
+      "limitations": "Selection behavior, regulatory compliance, host performance, and experimental conditions were not assessed.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "The catalog records sequence provenance only and does not recommend a selection system."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-CDS-SGFP",
+      "display_name": "synthetic GFP reporter CDS",
+      "component_type": "cds",
+      "component_role": "reporter CDS",
+      "sequence": "ATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCTTCACCTACGGCGTGCAGTGCTTCAGCCGCTACCCCGACCACATGAAGCAGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGAGCACCCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCACGGCATGGACGAGCTGTACAAGGGGATCCTCTAG",
+      "sequence_length": 729,
+      "sequence_sha256": "3751bac5ca134864ca50325f60ebfc5ffa2222b9f68975d63174231364dd0de5",
+      "source_organism": "Synthetic construct",
+      "target_host_species": [],
+      "host_group": [
+        "plant expression context"
+      ],
+      "accession": "DQ370426",
+      "accession_version": "DQ370426.1",
+      "plasmid_id": "pCsGFPBT",
+      "primary_reference": "NCBI GenBank DQ370426.1; Zhang and Galbraith direct submission (2006)",
+      "evidence_level": "E1",
+      "evidence_context": "The deposited plant binary-vector record directly annotates the sGFP CDS and identifies it as a modified GFP reporter.",
+      "feature_boundary_method": {
+        "method": "GenBank CDS feature coordinates",
+        "feature_type": "CDS",
+        "feature_label": "sGFP",
+        "strand": "+",
+        "start_one_based": 895,
+        "end_one_based_inclusive": 1623,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb",
+      "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "sGFP",
+        "synthetic GFP"
+      ],
+      "limitations": "Fluorescence, localization, expression level, and host performance were not assessed from the sequence record.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Reporter role follows the source annotation; no assay outcome is claimed."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-VEC-PCAMBIA1300",
+      "display_name": "pCAMBIA-1300 complete binary-vector source",
+      "component_type": "vector_backbone",
+      "component_role": "complete plant transformation vector source",
+      "sequence": "AATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGGCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGCTAGAGCAGCTTGAGCTTGGATCAGATTGTCGTTTCCCGCCTTCAGTTTAAACTATCAGTGTTTGACAGGATATATTGGCGGGTAAACCTAAGAGAAAAGAGCGTTTATTAGAATAACGGATATTTAAAAGGGCGTGAAAAGGTTTATCCGTTCGTCCATTTGTATGTGCATGCCAACCACAGGGTTCCCCTCGGGATCAAAGTACTTTGATCCAACCCCTCCGCTGCTATAGTGCAGTCGGCTTCTGACGTTCAGTGCAGCCGTCTTCTGAAAACGACATGTCGCACAAGTCCTAAGTTACGCGACAGGCTGCCGCCCTGCCCTTTTCCTGGCGTTTTCTTGTCGCGTGTTTTAGTCGCATAAAGTAGAATACTTGCGACTAGAACCGGAGACATTACGCCATGAACAAGAGCGCCGCCGCTGGCCTGCTGGGCTATGCCCGCGTCAGCACCGACGACCAGGACTTGACCAACCAACGGGCCGAACTGCACGCGGCCGGCTGCACCAAGCTGTTTTCCGAGAAGATCACCGGCACCAGGCGCGACCGCCCGGAGCTGGCCAGGATGCTTGACCACCTACGCCCTGGCGACGTTGTGACAGTGACCAGGCTAGACCGCCTGGCCCGCAGCACCCGCGACCTACTGGACATTGCCGAGCGCATCCAGGAGGCCGGCGCGGGCCTGCGTAGCCTGGCAGAGCCGTGGGCCGACACCACCACGCCGGCCGGCCGCATGGTGTTGACCGTGTTCGCCGGCATTGCCGAGTTCGAGCGTTCCCTAATCATCGACCGCACCCGGAGCGGGCGCGAGGCCGCCAAGGCCCGAGGCGTGAAGTTTGGCCCCCGCCCTACCCTCACCCCGGCACAGATCGCGCACGCCCGCGAGCTGATCGACCAGGAAGGCCGCACCGTGAAAGAGGCGGCTGCACTGCTTGGCGTGCATCGCTCGACCCTGTACCGCGCACTTGAGCGCAGCGAGGAAGTGACGCCCACCGAGGCCAGGCGGCGCGGTGCCTTCCGTGAGGACGCATTGACCGAGGCCGACGCCCTGGCGGCCGCCGAGAATGAACGCCAAGAGGAACAAGCATGAAACCGCACCAGGACGGCCAGGACGAACCGTTTTTCATTACCGAAGAGATCGAGGCGGAGATGATCGCGGCCGGGTACGTGTTCGAGCCGCCCGCGCACGTCTCAACCGTGCGGCTGCATGAAATCCTGGCCGGTTTGTCTGATGCCAAGCTGGCGGCCTGGCCGGCCAGCTTGGCCGCTGAAGAAACCGAGCGCCGCCGTCTAAAAAGGTGATGTGTATTTGAGTAAAACAGCTTGCGTCATGCGGTCGCTGCGTATATGATGCGATGAGTAAATAAACAAATACGCAAGGGGAACGCATGAAGGTTATCGCTGTACTTAACCAGAAAGGCGGGTCAGGCAAGACGACCATCGCAACCCATCTAGCCCGCGCCCTGCAACTCGCCGGGGCCGATGTTCTGTTAGTCGATTCCGATCCCCAGGGCAGTGCCCGCGATTGGGCGGCCGTGCGGGAAGATCAACCGCTAACCGTTGTCGGCATCGACCGCCCGACGATTGACCGCGACGTGAAGGCCATCGGCCGGCGCGACTTCGTAGTGATCGACGGAGCGCCCCAGGCGGCGGACTTGGCTGTGTCCGCGATCAAGGCAGCCGACTTCGTGCTGATTCCGGTGCAGCCAAGCCCTTACGACATATGGGCCACCGCCGACCTGGTGGAGCTGGTTAAGCAGCGCATTGAGGTCACGGATGGAAGGCTACAAGCGGCCTTTGTCGTGTCGCGGGCGATCAAAGGCACGCGCATCGGCGGTGAGGTTGCCGAGGCGCTGGCCGGGTACGAGCTGCCCATTCTTGAGTCCCGTATCACGCAGCGCGTGAGCTACCCAGGCACTGCCGCCGCCGGCACAACCGTTCTTGAATCAGAACCCGAGGGCGACGCTGCCCGCGAGGTCCAGGCGCTGGCCGCTGAAATTAAATCAAAACTCATTTGAGTTAATGAGGTAAAGAGAAAATGAGCAAAAGCACAAACACGCTAAGTGCCGGCCGTCCGAGCGCACGCAGCAGCAAGGCTGCAACGTTGGCCAGCCTGGCAGACACGCCAGCCATGAAGCGGGTCAACTTTCAGTTGCCGGCGGAGGATCACACCAAGCTGAAGATGTACGCGGTACGCCAAGGCAAGACCATTACCGAGCTGCTATCTGAATACATCGCGCAGCTACCAGAGTAAATGAGCAAATGAATAAATGAGTAGATGAATTTTAGCGGCTAAAGGAGGCGGCATGGAAAATCAAGAACAACCAGGCACCGACGCCGTGGAATGCCCCATGTGTGGAGGAACGGGCGGTTGGCCAGGCGTAAGCGGCTGGGTTGTCTGCCGGCCCTGCAATGGCACTGGAACCCCCAAGCCCGAGGAATCGGCGTGACGGTCGCAAACCATCCGGCCCGGTACAAATCGGCGCGGCGCTGGGTGATGACCTGGTGGAGAAGTTGAAGGCCGCGCAGGCCGCCCAGCGGCAACGCATCGAGGCAGAAGCACGCCCCGGTGAATCGTGGCAAGCGGCCGCTGATCGAATCCGCAAAGAATCCCGGCAACCGCCGGCAGCCGGTGCGCCGTCGATTAGGAAGCCGCCCAAGGGCGACGAGCAACCAGATTTTTTCGTTCCGATGCTCTATGACGTGGGCACCCGCGATAGTCGCAGCATCATGGACGTGGCCGTTTTCCGTCTGTCGAAGCGTGACCGACGAGCTGGCGAGGTGATCCGCTACGAGCTTCCAGACGGGCACGTAGAGGTTTCCGCAGGGCCGGCCGGCATGGCCAGTGTGTGGGATTACGACCTGGTACTGATGGCGGTTTCCCATCTAACCGAATCCATGAACCGATACCGGGAAGGGAAGGGAGACAAGCCCGGCCGCGTGTTCCGTCCACACGTTGCGGACGTACTCAAGTTCTGCCGGCGAGCCGATGGCGGAAAGCAGAAAGACGACCTGGTAGAAACCTGCATTCGGTTAAACACCACGCACGTTGCCATGCAGCGTACGAAGAAGGCCAAGAACGGCCGCCTGGTGACGGTATCCGAGGGTGAAGCCTTGATTAGCCGCTACAAGATCGTAAAGAGCGAAACCGGGCGGCCGGAGTACATCGAGATCGAGCTAGCTGATTGGATGTACCGCGAGATCACAGAAGGCAAGAACCCGGACGTGCTGACGGTTCACCCCGATTACTTTTTGATCGATCCCGGCATCGGCCGTTTTCTCTACCGCCTGGCACGCCGCGCCGCAGGCAAGGCAGAAGCCAGATGGTTGTTCAAGACGATCTACGAACGCAGTGGCAGCGCCGGAGAGTTCAAGAAGTTCTGTTTCACCGTGCGCAAGCTGATCGGGTCAAATGACCTGCCGGAGTACGATTTGAAGGAGGAGGCGGGGCAGGCTGGCCCGATCCTAGTCATGCGCTACCGCAACCTGATCGAGGGCGAAGCATCCGCCGGTTCCTAATGTACGGAGCAGATGCTAGGGCAAATTGCCCTAGCAGGGGAAAAAGGTCGAAAAGGTCTCTTTCCTGTGGATAGCACGTACATTGGGAACCCAAAGCCGTACATTGGGAACCGGAACCCGTACATTGGGAACCCAAAGCCGTACATTGGGAACCGGTCACACATGTAAGTGACTGATATAAAAGAGAAAAAAGGCGATTTTTCCGCCTAAAACTCTTTAAAACTTATTAAAACTCTTAAAACCCGCCTGGCCTGTGCATAACTGTCTGGCCAGCGCACAGCCGAAGAGCTGCAAAAAGCGCCTACCCTTCGGTCGCTGCGCTCCCTACGCCCCGCCGCTTCGCGTCGGCCTATCGCGGCCGCTGGCCGCTCAAAAATGGCTGGCCTACGGCCAGGCAATCTACCAGGGCGCGGACAAGCCGCGCCGTCGCCACTCGACCGCCGGCGCCCACATCAAGGCACCCTGCCTCGCGCGTTTCGGTGATGACGGTGAAAACCTCTGACACATGCAGCTCCCGGAGACGGTCACAGCTTGTCTGTAAGCGGATGCCGGGAGCAGACAAGCCCGTCAGGGCGCGTCAGCGGGTGTTGGCGGGTGTCGGGGCGCAGCCATGACCCAGTCACGTAGCGATAGCGGAGTGTATACTGGCTTAACTATGCGGCATCAGAGCAGATTGTACTGAGAGTGCACCATATGCGGTGTGAAATACCGCACAGATGCGTAAGGAGAAAATACCGCATCAGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGGACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGCATTCTAGGTACTAAAACAATTCATCCAGTAAAATATAATATTTTATTTTCTCCCAATCAGGCTTGATCCCCAGTAAGTCAAAAAATAGCTCGACATACTGTTCTTCCCCGATATCCTCCCTGATCGACCGGACGCAGAAGGCAATGTCATACCACTTGTCCGCCCTGCCGCTTCTCCCAAGATCAATAAAGCCACTTACTTTGCCATCTTTCACAAAGATGTTGCTGTCTCCCAGGTCGCCGTGGGAAAAGACAAGTTCCTCTTCGGGCTTTTCCGTCTTTAAAAAATCATACAGCTCGCGCGGATCTTTAAATGGAGTGTCTTCTTCCCAGTTTTCGCAATCCACATCGGCCAGATCGTTATTCAGTAAGTAATCCAATTCGGCTAAGCGGCTGTCTAAGCTATTCGTATAGGGACAATCCGATATGTCGATGGAGTGAAAGAGCCTGATGCACTCCGCATACAGCTCGATAATCTTTTCAGGGCTTTGTTCATCTTCATACTCTTCCGAGCAAAGGACGCCATCGGCCTCACTCATGAGCAGATTGCTCCAGCCATCATGCCGTTCAAAGTGCAGGACCTTTGGAACAGGCAGCTTTCCTTCCAGCCATAGCATCATGTCCTTTTCCCGTTCCACATCATAGGTGGTCCCTTTATACCGGCTGTCCGTCATTTTTAAATATAGGTTTTCATTTTCTCCCACCAGCTTATATACCTTAGCAGGAGACATTCCTTCCGTATCTTTTACGCAGCGGTATTTTTCGATCAGTTTTTTCAATTCCGGTGATATTCTCATTTTAGCCATTTATTATTTCCTTCCTCTTTTCTACAGTATTTAAAGATACCCCAAGAAGCTAATTATAACAAGACGAACTCCAATTCACTGTTCCTTGCATTCTAAAACCTTAAATACCAGAAAACAGCTTTTTCAAAGTTGTTTTCAAAGTTGGCGTATAACATAGTATCGACGGAGCCGATTTTGAAACCGCGGTGATCACAGGCAGCAACGCTCTGTCATCGTTACAATCAACATGCTACCCTCCGCGAGATCATCCGTGTTTCAAACCCGGCAGCTTAGTTGCCGTTCTTCCGAATAGCATCGGTAACATGAGCAAAGTCTGCCGCCTTACAACGGCTCTCCCGCTGACGCCGTCCCGGACTGATGGGCTGCCTGTATCGAGTGGTGATTTTGTGCCGAGCTGCCGGTCGGGGAGCTGTTGGCTGGCTGGTGGCAGGATATATTGTGGTGTAAACAAATTGACGCTTAGACAACTTAATAACACATTGCGGACGTTTTTAATGTACTGAATTAACGCCGAATTAATTCGGGGGATCTGGATTTTAGTACTGGATTTTGGTTTTAGGAATTAGAAATTTTATTGATAGAAGTATTTTACAAATACAAATACATACTAAGGGTTTCTTATATGCTCAACACATGAGCGAAACCCTATAGGAACCCTAATTCCCTTATCTGGGAACTACTCACACATTATTATGGAGAAACTCGAGCTTGTCGATCGACAGATCCGGTCGGCATCTACTCTATTTCTTTGCCCTCGGACGAGTGCTGGGGCGTCGGTTTCCACTATCGGCGAGTACTTCTACACAGCCATCGGTCCAGACGGCCGCGCTTCTGCGGGCGATTTGTGTACGCCCGACAGTCCCGGCTCCGGATCGGACGATTGCGTCGCATCGACCCTGCGCCCAAGCTGCATCATCGAAATTGCCGTCAACCAAGCTCTGATAGAGTTGGTCAAGACCAATGCGGAGCATATACGCCCGGAGTCGTGGCGATCCTGCAAGCTCCGGATGCCTCCGCTCGAAGTAGCGCGTCTGCTGCTCCATACAAGCCAACCACGGCCTCCAGAAGAAGATGTTGGCGACCTCGTATTGGGAATCCCCGAACATCGCCTCGCTCCAGTCAATGACCGCTGTTATGCGGCCATTGTCCGTCAGGACATTGTTGGAGCCGAAATCCGCGTGCACGAGGTGCCGGACTTCGGGGCAGTCCTCGGCCCAAAGCATCAGCTCATCGAGAGCCTGCGCGACGGACGCACTGACGGTGTCGTCCATCACAGTTTGCCAGTGATACACATGGGGATCAGCAATCGCGCATATGAAATCACGCCATGTAGTGTATTGACCGATTCCTTGCGGTCCGAATGGGCCGAACCCGCTCGTCTGGCTAAGATCGGCCGCAGCGATCGCATCCATAGCCTCCGCGACCGGTTGTAGAACAGCGGGCAGTTCGGTTTCAGGCAGGTCTTGCAACGTGACACCCTGTGCACGGCGGGAGATGCAATAGGTCAGGCTCTCGCTAAACTCCCCAATGTCAAGCACTTCCGGAATCGGGAGCGCGGCCGATGCAAAGTGCCGATAAACATAACGATCTTTGTAGAAACCATCGGCGCAGCTATTTACCCGCAGGACATATCCACGCCCTCCTACATCGAAGCTGAAAGCACGAGATTCTTCGCCCTCCGAGAGCTGCATCAGGTCGGAGACGCTGTCGAACTTTTCGATCAGAAACTTCTCGACAGACGTCGCGGTGAGTTCAGGCTTTTTCATATCTCATTGCCCCCCGGGATCTGCGAAAGCTCGAGAGAGATAGATTTGTAGAGAGAGACTGGTGATTTCAGCGTGTCCTCTCCAAATGAAATGAACTTCCTTATATAGAGGAAGGTCTTGCGAAGGATAGTGGGATTGTGCGTCATCCCTTACGTCAGTGGAGATATCACATCAATCCACTTGCTTTGAAGACGTGGTTGGAACGTCTTCTTTTTCCACGATGCTCCTCGTGGGTGGGGGTCCATCTTTGGGACCACTGTCGGCAGAGGCATCTTGAACGATAGCCTTTCCTTTATCGCAATGATGGCATTTGTAGGTGCCACCTTCCTTTTCTACTGTCCTTTTGATGAAGTGACAGATAGCTGGGCAATGGAATCCGAGGAGGTTTCCCGATATTACCCTTTGTTGAAAAGTCTCAATAGCCCTTTGGTCTTCTGAGACTGTATCTTTGATATTCTTGGAGTAGACGAGAGTGTCGTGCTCCACCATGTTATCACATCAATCCACTTGCTTTGAAGACGTGGTTGGAACGTCTTCTTTTTCCACGATGCTCCTCGTGGGTGGGGGTCCATCTTTGGGACCACTGTCGGCAGAGGCATCTTGAACGATAGCCTTTCCTTTATCGCAATGATGGCATTTGTAGGTGCCACCTTCCTTTTCTACTGTCCTTTTGATGAAGTGACAGATAGCTGGGCAATGGAATCCGAGGAGGTTTCCCGATATTACCCTTTGTTGAAAAGTCTCAATAGCCCTTTGGTCTTCTGAGACTGTATCTTTGATATTCTTGGAGTAGACGAGAGTGTCGTGCTCCACCATGTTGGCAAGCTGCTCTAGCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACG",
+      "sequence_length": 8958,
+      "sequence_sha256": "83c7d28d071a9ff167dbe78817b2b20a5e285dcc6e1637e7392adb9f7be89de6",
+      "source_organism": "Binary vector pCAMBIA-1300",
+      "target_host_species": [],
+      "host_group": [
+        "plant transformation vector"
+      ],
+      "accession": "AF234296",
+      "accession_version": "AF234296.1",
+      "plasmid_id": "pCAMBIA-1300",
+      "primary_reference": "NCBI GenBank AF234296.1; Hajdukiewicz, Svab and Maliga, Plant Mol. Biol. 25, 989-994 (1994), PMID:7919218",
+      "evidence_level": "E1",
+      "evidence_context": "The complete circular sequence and T-DNA border features are preserved from AF234296.1.",
+      "feature_boundary_method": {
+        "method": "Complete deposited circular source record",
+        "feature_type": "source",
+        "feature_label": "complete pCAMBIA-1300 sequence",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 8958,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AF234296.1.gb",
+      "source_record_sha256": "7fbadcf1bb92d69d38a553bcfaedf4f12349706c4db5fb0f508f2e2c831c9d95",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "pCAMBIA1300"
+      ],
+      "limitations": "This is a complete vector source, not an empty backbone. T-DNA replacement boundaries, workflow compatibility, and experimental suitability require separate professional review.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Catalog provenance does not grant formal workflow admission."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-VEC-PPZP201",
+      "display_name": "pPZP201 complete binary-vector source",
+      "component_type": "vector_backbone",
+      "component_role": "complete plant transformation vector source",
+      "sequence": "AGTACTTTGATCCAACCCCTCCGCTGCTATAGTGCAGTCGGCTTCTGACGTTCAGTGCAGCCGTCTTCTGAAAACGACATGTCGCACAAGTCCTAAGTTACGCGACAGGCTGCCGCCCTGCCCTTTTCCTGGCGTTTTCTTGTCGCGTGTTTTAGTCGCATAAAGTAGAATACTTGCGACTAGAACCGGAGACATTACGCCATGAACAAGAGCGCCGCCGCTGGCCTGCTGGGCTATGCCCGCGTCAGCACCGACGACCAGGACTTGACCAACCAACGGGCCGAACTGCACGCGGCCGGCTGCACCAAGCTGTTTTCCGAGAAGATCACCGGCACCAGGCGCGACCGCCCGGAGCTGGCCAGGATGCTTGACCACCTACGCCCTGGCGACGTTGTGACAGTGACCAGGCTAGACCGCCTGGCCCGCAGCACCCGCGACCTACTGGACATTGCCGAGCGCATCCAGGAGGCCGGCGCGGGCCTGCGTAGCCTGGCAGAGCCGTGGGCCGACACCACCACGCCGGCCGGCCGCATGGTGTTGACCGTGTTCGCCGGCATTGCCGAGTTCGAGCGTTCCCTAATCATCGACCGCACCCGGAGCGGGCGCGAGGCCGCCAAGGCCCGAGGCGTGAAGTTTGGCCCCCGCCCTACCCTCACCCCGGCACAGATCGCGCACGCCCGCGAGCTGATCGACCAGGAAGGCCGCACCGTGAAAGAGGCGGCTGCACTGCTTGGCGTGCATCGCTCGACCCTGTACCGCGCACTTGAGCGCAGCGAGGAAGTGACGCCCACCGAGGCCAGGCGGCGCGGTGCCTTCCGTGAGGACGCATTGACCGAGGCCGACGCCCTGGCGGCCGCCGAGAATGAACGCCAAGAGGAACAAGCATGAAACCGCACCAGGACGGCCAGGACGAACCGTTTTTCATTACCGAAGAGATCGAGGCGGAGATGATCGCGGCCGGGTACGTGTTCGAGCCGCCCGCGCACGTCTCAACCGTGCGGCTGCATGAAATCCTGGCCGGTTTGTCTGATGCCAAGCTGGCGGCCTGGCCGGCCAGCTTGGCCGCTGAAGAAACCGAGCGCCGCCGTCTAAAAAGGTGATGTGTATTTGAGTAAAACAGCTTGCGTCATGCGGTCGCTGCGTATATGATGCGATGAGTAAATAAACAAATACGCAAGGGGAACGCATGAAGGTTATCGCTGTACTTAACCAGAAAGGCGGGTCAGGCAAGACGACCATCGCAACCCATCTAGCCCGCGCCCTGCAACTCGCCGGGGCCGATGTTCTGTTAGTCGATTCCGATCCCCAGGGCAGTGCCCGCGATTGGGCGGCCGTGCGGGAAGATCAACCGCTAACCGTTGTCGGCATCGACCGCCCGACGATTGACCGCGACGTGAAGGCCATCGGCCGGCGCGACTTCGTAGTGATCGACGGAGCGCCCCAGGCGGCGGACTTGGCTGTGTCCGCGATCAAGGCAGCCGACTTCGTGCTGATTCCGGTGCAGCCAAGCCCTTACGACATATGGGCCACCGCCGACCTGGTGGAGCTGGTTAAGCAGCGCATTGAGGTCACGGATGGAAGGCTACAAGCGGCCTTTGTCGTGTCGCGGGCGATCAAAGGCACGCGCATCGGCGGTGAGGTTGCCGAGGCGCTGGCCGGGTACGAGCTGCCCATTCTTGAGTCCCGTATCACGCAGCGCGTGAGCTACCCAGGCACTGCCGCCGCCGGCACAACCGTTCTTGAATCAGAACCCGAGGGCGACGCTGCCCGCGAGGTCCAGGCGCTGGCCGCTGAAATTAAATCAAAACTCATTTGAGTTAATGAGGTAAAGAGAAAATGAGCAAAAGCACAAACACGCTAAGTGCCGGCCGTCCGAGCGCACGCAGCAGCAAGGCTGCAACGTTGGCCAGCCTGGCAGACACGCCAGCCATGAAGCGGGTCAACTTTCAGTTGCCGGCGGAGGATCACACCAAGCTGAAGATGTACGCGGTACGCCAAGGCAAGACCATTACCGAGCTGCTATCTGAATACATCGCGCAGCTACCAGAGTAAATGAGCAAATGAATAAATGAGTAGATGAATTTTAGCGGCTAAAGGAGGCGGCATGGAAAATCAAGAACAACCAGGCACCGACGCCGTGGAATGCCCCATGTGTGGAGGAACGGGCGGTTGGCCAGGCGTAAGCGGCTGGGTTGTCTGCCGGCCCTGCAATGGCACTGGAACCCCCAAGCCCGAGGAATCGGCGTGACGGTCGCAAACCATCCGGCCCGGTACAAATCGGCGCGGCGCTGGGTGATGACCTGGTGGAGAAGTTGAAGGCCGCGCAGGCCGCCCAGCGGCAACGCATCGAGGCAGAAGCACGCCCCGGTGAATCGTGGCAAGCGGCCGCTGATCGAATCCGCAAAGAATCCCGGCAACCGCCGGCAGCCGGTGCGCCGTCGATTAGGAAGCCGCCCAAGGGCGACGAGCAACCAGATTTTTTCGTTCCGATGCTCTATGACGTGGGCACCCGCGATAGTCGCAGCATCATGGACGTGGCCGTTTTCCGTCTGTCGAAGCGTGACCGACGAGCTGGCGAGGTGATCCGCTACGAGCTTCCAGACGGGCACGTAGAGGTTTCCGCAGGGCCGGCCGGCATGGCCAGTGTGTGGGATTACGACCTGGTACTGATGGCGGTTTCCCATCTAACCGAATCCATGAACCGATACCGGGAAGGGAAGGGAGACAAGCCCGGCCGCGTGTTCCGTCCACACGTTGCGGACGTACTCAAGTTCTGCCGGCGAGCCGATGGCGGAAAGCAGAAAGACGACCTGGTAGAAACCTGCATTCGGTTAAACACCACGCACGTTGCCATGCAGCGTACGAAGAAGGCCAAGAACGGCCGCCTGGTGACGGTATCCGAGGGTGAAGCCTTGATTAGCCGCTACAAGATCGTAAAGAGCGAAACCGGGCGGCCGGAGTACATCGAGATCGAGCTAGCTGATTGGATGTACCGCGAGATCACAGAAGGCAAGAACCCGGACGTGCTGACGGTTCACCCCGATTACTTTTTGATCGATCCCGGCATCGGCCGTTTTCTCTACCGCCTGGCACGCCGCGCCGCAGGCAAGGCAGAAGCCAGATGGTTGTTCAAGACGATCTACGAACGCAGTGGCAGCGCCGGAGAGTTCAAGAAGTTCTGTTTCACCGTGCGCAAGCTGATCGGGTCAAATGACCTGCCGGAGTACGATTTGAAGGAGGAGGCGGGGCAGGCTGGCCCGATCCTAGTCATGCGCTACCGCAACCTGATCGAGGGCGAAGCATCCGCCGGTTCCTAATGTACGGAGCAGATGCTAGGGCAAATTGCCCTAGCAGGGGAAAAAGGTCGAAAAGGTCTCTTTCCTGTGGATAGCACGTACATTGGGAACCCAAAGCCGTACATTGGGAACCGGAACCCGTACATTGGGAACCCAAAGCCGTACATTGGGAACCGGTCACACATGTAAGTGACTGATATAAAAGAGAAAAAAGGCGATTTTTCCGCCTAAAACTCTTTAAAACTTATTAAAACTCTTAAAACCCGCCTGGCCTGTGCATAACTGTCTGGCCAGCGCACAGCCGAAGAGCTGCAAAAAGCGCCTACCCTTCGGTCGCTGCGCTCCCTACGCCCCGCCGCTTCGCGTCGGCCTATCGCGGCCGCTGGCCGCTCAAAAATGGCTGGCCTACGGCCAGGCAATCTACCAGGGCGCGGACAAGCCGCGCCGTCGCCACTCGACCGCCGGCGCCCACATCAAGGCACCCTGCCTCGCGCGTTTCGGTGATGACGGTGAAAACCTCTGACACATGCAGCTCCCGGAGACGGTCACAGCTTGTCTGTAAGCGGATGCCGGGAGCAGACAAGCCCGTCAGGGCGCGTCAGCGGGTGTTGGCGGGTGTCGGGGCGCAGCCATGACCCAGTCACGTAGCGATAGCGGAGTGTATACTGGCTTAACTATGCGGCATCAGAGCAGATTGTACTGAGAGTGCACCATATGCGGTGTGAAATACCGCACAGATGCGTAAGGAGAAAATACCGCATCAGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGGACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGCATGATATATCTCCCAATTTGTGTAGGGCTTATTATGCACGCTTAAAAATAATAAAAGCAGACTTGACCTGATAGTTTGGCTGTGAGCAATTATGTGCTTAGTGCATCTAATCGCTTGAGTTAACGCCGGCGAAGCGGCGTCGGCTTGAACGAATTTCTAGCTAGACATTATTTGCCGACTACCTTGGTGATCTCGCCTTTCACGTAGTGGACAAATTCTTCCAACTGATCTGCGCGCGAGGCCAAGCGATCTTCTTCTTGTCCAAGATAAGCCTGTCTAGCTTCAAGTATGACGGGCTGATACTGGGCCGGCAGGCGCTCCATTGCCCAGTCGGCAGCGACATCCTTCGGCGCGATTTTGCCGGTTACTGCGCTGTACCAAATGCGGGACAACGTAAGCACTACATTTCGCTCATCGCCAGCCCAGTCGGGCGGCGAGTTCCATAGCGTTAAGGTTTCATTTAGCGCCTCAAATAGATCCTGTTCAGGAACCGGATCAAAGAGTTCCTCCGCCGCTGGACCTACCAAGGCAACGCTATGTTCTCTTGCTTTTGTCAGCAAGATAGCCAGATCAATGTCGATCGTGGCTGGCTCGAAGATACCTGCAAGAATGTCATTGCGCTGCCATTCTCCAAATTGCAGTTCGCGCTTAGCTGGATAACGCCACGGAATGATGTCGTCGTGCACAACAATGGTGACTTCTACAGCGCGGAGAATCTCGCTCTCTCCAGGGGAAGCCGAAGTTTCCAAAAGGTCGTTGATCAAAGCTCGCCGCGTTGTTTCATCAAGCCTTACGGTCACCGTAACCAGCAAATCAATATCACTGTGTGGCTTCAGGCCGCCATCCACTGCGGAGCCGTACAAATGTACGGCCAGCAACGTCGGTTCGAGATGGCGCTCGATGACGCCAACTACCTCTGATAGTTGAGTCGATACTTCGGCGATCACCGCTTCCCCCATGATGTTTAACTTTGTTTTAGGGCGACTGCCCTGCTGCGTAACATCGTTGCTGCTCCATAACATCAAACATCGACCCACGGCGTAACGCGCTTGCTGCTTGGATGCCCGAGGCATAGACTGTACCCCAAAAAAACATGTCATAACAAGAAGCCATGAAAACCGCCACTGCGCCGTTACCACCGCTGCGTTCGGTCAAGGTTCTGGACCAGTTGCGTGACGGCAGTTACGCTACTTGCATTACAGCTTACGAACCGAACGAGGCTTATGTCCACTGGGTTCGTGCCCGAATTGATCACAGGCAGCAACGCTCTGTCATCGTTACAATCAACATGCTACCCTCCGCGAGATCATCCGTGTTTCAAACCCGGCAGCTTAGTTGCCGTTCTTCCGAATAGCATCGGTAACATGAGCAAAGTCTGCCGCCTTACAACGGCTCTCCCGCTGACGCCGTCCCGGACTGATGGGCTGCCTGTATCGAGTGGTGATTTTGTGCCGAGCTGCCGGTCGGGGAGCTGTTGGCTGGCTGGTGGCAGGATATATTGTGGTGTAAACAAATTGACGCTTAGACAACTTAATAACACATTGCGGACGTTTTTAATGTACTGAATTAACGCCGAATTGCTCTAGCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGAATTCGAGCTCGGTACCCGGGGATCCTCTAGAGTCGACCTGCAGGCATGCAAGCTTGGCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGAGCTTGAGCTTGGATCAGATTGTCGTTTCCCGCCTTCAGTTTAAACTATCAGTGTTTGACAGGATATATTGGCGGGTAAACCTAAGAGAAAAGAGCGTTTATTAGAATAACGGATATTTAAAAGGGCGTGAAAAGGTTTATCCGTTCGTCCATTTGTATGTGCATGCCAACCACAGGGTTCCCCTCGGGATCAA",
+      "sequence_length": 7132,
+      "sequence_sha256": "17194d4b3449e96c7d064e61edae2d4713a6539928c3f1f31b9afefa7283b236",
+      "source_organism": "Cloning vector pPZP201",
+      "target_host_species": [],
+      "host_group": [
+        "plant transformation vector"
+      ],
+      "accession": "U10489",
+      "accession_version": "U10489.1",
+      "plasmid_id": "pPZP201",
+      "primary_reference": "NCBI GenBank U10489.1; Hajdukiewicz, Svab and Maliga, Plant Mol. Biol. 25, 989-994 (1994), PMID:7919218",
+      "evidence_level": "E1",
+      "evidence_context": "The complete circular record is deposited as a binary cloning vector for plant transformation.",
+      "feature_boundary_method": {
+        "method": "Complete deposited circular source record",
+        "feature_type": "source",
+        "feature_label": "complete pPZP201 sequence",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 7132,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/U10489.1.gb",
+      "source_record_sha256": "8a00615905fc34362b691cddf2a3ec42ac92489193e331831b3ae3197d9dd346",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "pPZP-201"
+      ],
+      "limitations": "The record lacks detailed INSDC feature annotations. T-DNA replacement boundaries, workflow compatibility, and experimental suitability require manual review.",
+      "review_status": "manual_context_review_required",
+      "notes": "Whole-record identity is verified; feature-level interpretation is intentionally not supplied."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-VEC-PCSGFPBT",
+      "display_name": "pCsGFPBT complete binary-vector source",
+      "component_type": "vector_backbone",
+      "component_role": "complete reporter plant binary-vector source",
+      "sequence": "AACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCGTCACTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGGACCTCGAGAATTCGAGAATTCTCAACACAACATATACAAAACAAACGAATCTCAAGCAATCAAGCATTCTACTTCTATTGCAGCAATTTAAATCATTTCTTTTAAAGCAAAAGCAATTTTCTGAAAATTTTCACCATTTACGAACGATAGCCATGGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCTTCACCTACGGCGTGCAGTGCTTCAGCCGCTACCCCGACCACATGAAGCAGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGAGCACCCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCACGGCATGGACGAGCTGTACAAGGGGATCCTCTAGAGTCCGCAAAAATCACCAGTCTCTCTCTACAAATCTATCTCTCTCTATTTTTCTCCAGAATAATGTGTGAGTAGTTCCCAGATAAGGGAATTAGGGTTCTTATAGGGTTTCGCTCATGTGTTGAGCATATAAGAAACCCTTAGTATGTATTTGTATTTGTAAAATACTTCTATCAATAAAATTTCTAATTCCTAAAACCAAAATCCAGTGACCTGCAGGCATGCAAGCTTGGCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCCTGATGCGGTATTTTCTCCTTACGCATCTGTGCGGTATTTCACACCGCATATGGTGCACTCTCAGTACAATCTGCTCTGATGCCGCATAGTTAAGCCAGCCCCGACACCCGCCAACACCCGCTGACGCGCCCTGACGGGCTTGTCTGCTCCCGGCATCCGCTTACAGACAAGCTGTGACCGTCTCCGGGAGCTGCATGTGTCAGAGGTTTTCACCGTCATCACCGAAACGCGCGAGACGAAAGGGCCTCGTGATACGCCTATTTTTATAGGTTAATGTCATGATAATAATGGTTTCTTAGACGTCAGGTGGCACTTTTCGGGGAAATGTGCGCGGAACCCCTATTTGTTTATTTTTCTAAATACATTCAAATATGTATCCGCTCATGAGACAATAACCCTGATAAATGCTTCAATAATGTGTGAATTGGTGACCAGCTCGAATTTCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGAATTAAACTATCAGTGTTTGACAGGATATATTGGCGGGTAAACCTAAGAGAAAAGAGCGTTTATTAGAATAACGGATATTTAAAAGGGCGTGAAAAGGTTTATCCGTTCGTCCATTTGTATGTGCATGCCAACCACAGGGTTCCCCTCGGGATCAAAGTACTTTGATCCAACCCCTCCGCTGCTATAGTGCAGTCGGCTTCTGACGTTCAGTGCAGCCGTCTTCTGAAAACGACATGTCGCACAAGTCCTAAGTTACGCGACAGGCTGCCGCCCTGCCCTTTTCCTGGCGTTTTCTTGTCGCGTGTTTTAGTCGCATAAAGTAGAATACTTGCGACTAGAACCGGAGACATTACGCCATGAACAAGAGCGCCGCCGCTGGCCTGCTGGGCTATGCCCGCGTCAGCACCGACGACCAGGACTTGACCAACCAACGGGCCGAACTGCACGCGGCCGGCTGCACCAAGCTGTTTTCCGAGAAGATCACCGGCACCAGGCGCGACCGCCCGGAGCTGGCCAGGATGCTTGACCACCTACGCCCTGGCGACGTTGTGACAGTGACCAGGCTAGACCGCCTGGCCCGCAGCACCCGCGACCTACTGGACATTGCCGAGCGCATCCAGGAGGCCGGCGCGGGCCTGCGTAGCCTGGCAGAGCCGTGGGCCGACACCACCACGCCGGCCGGCCGCATGGTGTTGACCGTGTTCGCCGGCATTGCCGAGTTCGAGCGTTCCCTAATCATCGACCGCACCCGGAGCGGGCGCGAGGCCGCCAAGGCCCGAGGCGTGAAGTTTGGCCCCCGCCCTACCCTCACCCCGGCACAGATCGCGCACGCCCGCGAGCTGATCGACCAGGAAGGCCGCACCGTGAAAGAGGCGGCTGCACTGCTTGGCGTGCATCGCTCGACCCTGTACCGCGCACTTGAGCGCAGCGAGGAAGTGACGCCCACCGAGGCCAGGCGGCGCGGTGCCTTCCGTGAGGACGCATTGACCGAGGCCGACGCCCTGGCGGCCGCCGAGAATGAACGCCAAGAGGAACAAGCATGAAACCGCACCAGGACGGCCAGGACGAACCGTTTTTCATTACCGAAGAGATCGAGGCGGAGATGATCGCGGCCGGGTACGTGTTCGAGCCGCCCGCGCACGTCTCAACCGTGCGGCTGCATGAAATCCTGGCCGGTTTGTCTGATGCCAAGCTGGCGGCCTGGCCGGCCAGCTTGGCCGCTGAAGAAACCGAGCGCCGCCGTCTAAAAAGGTGATGTGTATTTGAGTAAAACAGCTTGCGTCATGCGGTCGCTGCGTATATGATGCGATGAGTAAATAAACAAATACGCAAGGGGAACGCATGAAGGTTATCGCTGTACTTAACCAGAAAGGCGGGTCAGGCAAGACGACCATCGCAACCCATCTAGCCCGCGCCCTGCAACTCGCCGGGGCCGATGTTCTGTTAGTCGATTCCGATCCCCAGGGCAGTGCCCGCGATTGGGCGGCCGTGCGGGAAGATCAACCGCTAACCGTTGTCGGCATCGACCGCCCGACGATTGACCGCGACGTGAAGGCCATCGGCCGGCGCGACTTCGTAGTGATCGACGGAGCGCCCCAGGCGGCGGACTTGGCTGTGTCCGCGATCAAGGCAGCCGACTTCGTGCTGATTCCGGTGCAGCCAAGCCCTTACGACATATGGGCCACCGCCGACCTGGTGGAGCTGGTTAAGCAGCGCATTGAGGTCACGGATGGAAGGCTACAAGCGGCCTTTGTCGTGTCGCGGGCGATCAAAGGCACGCGCATCGGCGGTGAGGTTGCCGAGGCGCTGGCCGGGTACGAGCTGCCCATTCTTGAGTCCCGTATCACGCAGCGCGTGAGCTACCCAGGCACTGCCGCCGCCGGCACAACCGTTCTTGAATCAGAACCCGAGGGCGACGCTGCCCGCGAGGTCCAGGCGCTGGCCGCTGAAATTAAATCAAAACTCATTTGAGTTAATGAGGTAAAGAGAAAATGAGCAAAAGCACAAACACGCTAAGTGCCGGCCGTCCGAGCGCACGCAGCAGCAAGGCTGCAACGTTGGCCAGCCTGGCAGACACGCCAGCCATGAAGCGGGTCAACTTTCAGTTGCCGGCGGAGGATCACACCAAGCTGAAGATGTACGCGGTACGCCAAGGCAAGACCATTACCGAGCTGCTATCTGAATACATCGCGCAGCTACCAGAGTAAATGAGCAAATGAATAAATGAGTAGATGAATTTTAGCGGCTAAAGGAGGCGGCATGGAAAATCAAGAACAACCAGGCACCGACGCCGTGGAATGCCCCATGTGTGGAGGAACGGGCGGTTGGCCAGGCGTAAGCGGCTGGGTTGTCTGCCGGCCCTGCAATGGCACTGGAACCCCCAAGCCCGAGGAATCGGCGTGACGGTCGCAAACCATCCGGCCCGGTACAAATCGGCGCGGCGCTGGGTGATGACCTGGTGGAGAAGTTGAAGGCCGCGCAGGCCGCCCAGCGGCAACGCATCGAGGCAGAAGCACGCCCCGGTGAATCGTGGCAAGCGGCCGCTGATCGAATCCGCAAAGAATCCCGGCAACCGCCGGCAGCCGGTGCGCCGTCGATTAGGAAGCCGCCCAAGGGCGACGAGCAACCAGATTTTTTCGTTCCGATGCTCTATGACGTGGGCACCCGCGATAGTCGCAGCATCATGGACGTGGCCGTTTTCCGTCTGTCGAAGCGTGACCGACGAGCTGGCGAGGTGATCCGCTACGAGCTTCCAGACGGGCACGTAGAGGTTTCCGCAGGGCCGGCCGGCATGGCCAGTGTGTGGGATTACGACCTGGTACTGATGGCGGTTTCCCATCTAACCGAATCCATGAACCGATACCGGGAAGGGAAGGGAGACAAGCCCGGCCGCGTGTTCCGTCCACACGTTGCGGACGTACTCAAGTTCTGCCGGCGAGCCGATGGCGGAAAGCAGAAAGACGACCTGGTAGAAACCTGCATTCGGTTAAACACCACGCACGTTGCCATGCAGCGTACGAAGAAGGCCAAGAACGGCCGCCTGGTGACGGTATCCGAGGGTGAAGCCTTGATTAGCCGCTACAAGATCGTAAAGAGCGAAACCGGGCGGCCGGAGTACATCGAGATCGAGCTAGCTGATTGGATGTACCGCGAGATCACAGAAGGCAAGAACCCGGACGTGCTGACGGTTCACCCCGATTACTTTTTGATCGATCCCGGCATCGGCCGTTTTCTCTACCGCCTGGCACGCCGCGCCGCAGGCAAGGCAGAAGCCAGATGGTTGTTCAAGACGATCTACGAACGCAGTGGCAGCGCCGGAGAGTTCAAGAAGTTCTGTTTCACCGTGCGCAAGCTGATCGGGTCAAATGACCTGCCGGAGTACGATTTGAAGGAGGAGGCGGGGCAGGCTGGCCCGATCCTAGTCATGCGCTACCGCAACCTGATCGAGGGCGAAGCATCCGCCGGTTCCTAATGTACGGAGCAGATGCTAGGGCAAATTGCCCTAGCAGGGGAAAAAGGTCGAAAAGGTCTCTTTCCTGTGGATAGCACGTACATTGGGAACCCAAAGCCGTACATTGGGAACCGGAACCCGTACATTGGGAACCCAAAGCCGTACATTGGGAACCGGTCACACATGTAAGTGACTGATATAAAAGAGAAAAAAGGCGATTTTTCCGCCTAAAACTCTTTAAAACTTATTAAAACTCTTAAAACCCGCCTGGCCTGTGCATAACTGTCTGGCCAGCGCACAGCCGAAGAGCTGCAAAAAGCGCCTACCCTTCGGTCGCTGCGCTCCCTACGCCCCGCCGCTTCGCGTCGGCCTATCGCGGCCGCTGGCCGCTCAAAAATGGCTGGCCTACGGCCAGGCAATCTACCAGGGCGCGGACAAGCCGCGCCGTCGCCACTCGACCGCCGGCGCCCACATCAAGGCACCCTGCCTCGCGCGTTTCGGTGATGACGGTGAAAACCTCTGACACATGCAGCTCCCGGAGACGGTCACAGCTTGTCTGTAAGCGGATGCCGGGAGCAGACAAGCCCGTCAGGGCGCGTCAGCGGGTGTTGGCGGGTGTCGGGGCGCAGCCATGACCCAGTCACGTAGCGATAGCGGAGTGTATACTGGCTTAACTATGCGGCATCAGAGCAGATTGTACTGAGAGTGCACCATATGCGGTGTGAAATACCGCACAGATGCGTAAGGAGAAAATACCGCATCAGGCGCTCTTCCGCTTCCTCGCTCACTGACTCGCTGCGCTCGGTCGTTCGGCTGCGGCGAGCGGTATCAGCTCACTCAAAGGCGGTAATACGGTTATCCACAGAATCAGGGGATAACGCAGGAAAGAACATGTGAGCAAAAGGCCAGCAAAAGGCCAGGAACCGTAAAAAGGCCGCGTTGCTGGCGTTTTTCCATAGGCTCCGCCCCCCTGACGAGCATCACAAAAATCGACGCTCAAGTCAGAGGTGGCGAAACCCGACAGGACTATAAAGATACCAGGCGTTTCCCCCTGGAAGCTCCCTCGTGCGCTCTCCTGTTCCGACCCTGCCGCTTACCGGATACCTGTCCGCCTTTCTCCCTTCGGGAAGCGTGGCGCTTTCTCATAGCTCACGCTGTAGGTATCTCAGTTCGGTGTAGGTCGTTCGCTCCAAGCTGGGCTGTGTGCACGAACCCCCCGTTCAGCCCGACCGCTGCGCCTTATCCGGTAACTATCGTCTTGAGTCCAACCCGGTAAGACACGACTTATCGCCACTGGCAGCAGCCACTGGTAACAGGATTAGCAGAGCGAGGTATGTAGGCGGTGCTACAGAGTTCTTGAAGTGGTGGCCTAACTACGGCTACACTAGAAGGACAGTATTTGGTATCTGCGCTCTGCTGAAGCCAGTTACCTTCGGAAAAAGAGTTGGTAGCTCTTGATCCGGCAAACAAACCACCGCTGGTAGCGGTGGTTTTTTTGTTTGCAAGCAGCAGATTACGCGCAGAAAAAAAGGATCTCAAGAAGATCCTTTGATCTTTTCTACGGGGTCTGACGCTCAGTGGAACGAAAACTCACGTTAAGGGATTTTGGTCATGCATTCTAGGTACTAAAACAATTCATCCAGTAAAATATAATATTTTATTTTCTCCCAATCAGGCTTGATCCCCAGTAAGTCAAAAAATAGCTCGACATACTGTTCTTCCCCGATATCCTCCCTGATCGACCGGACGCAGAAGGCAATGTCATACCACTTGTCCGCCCTGCCGCTTCTCCCAAGATCAATAAAGCCACTTACTTTGCCATCTTTCACAAAGATGTTGCTGTCTCCCAGGTCGCCGTGGGAAAAGACAAGTTCCTCTTCGGGCTTTTCCGTCTTTAAAAAATCATACAGCTCGCGCGGATCTTTAAATGGAGTGTCTTCTTCCCAGTTTTCGCAATCCACATCGGCCAGATCGTTATTCAGTAAGTAATCCAATTCGGCTAAGCGGCTGTCTAAGCTATTCGTATAGGGACAATCCGATATGTCGATGGAGTGAAAGAGCCTGATGCACTCCGCATACAGCTCGATAATCTTTTCAGGGCTTTGTTCATCTTCATACTCTTCCGAGCAAAGGACGCCATCGGCCTCACTCATGAGCAGATTGCTCCAGCCATCATGCCGTTCAAAGTGCAGGACCTTTGGAACAGGCAGCTTTCCTTCCAGCCATAGCATCATGTCCTTTTCCCGTTCCACATCATAGGTGGTCCCTTTATACCGGCTGTCCGTCATTTTTAAATATAGGTTTTCATTTTCTCCCACCAGCTTATATACCTTAGCAGGAGACATTCCTTCCGTATCTTTTACGCAGCGGTATTTTTCGATCAGTTTTTTCAATTCCGGTGATATTCTCATTTTAGCCATTTATTATTTCCTTCCTCTTTTCTACAGTATTTAAAGATACCCCAAGAAGCTAATTATAACAAGACGAACTCCAATTCACTGTTCCTTGCATTCTAAAACCTTAAATACCAGAAAACAGCTTTTTCAAAGTTGTTTTCAAAGTTGGCGTATAACATAGTATCGACGGAGCCGATTTTGAAACCGCGGTGATCACAGGCAGCAACGCTCTGTCATCGTTACAATCAACATGCTACCCTCCGCGAGATCATCCGTGTTTCAAACCCGGCAGCTTAGTTGCCGTTCTTCCGAATAGCATCGGTAACATGAGCAAAGTCTGCCGCCTTACAACGGCTCTCCCGCTGACGCCGTCCCGGACTGATGGGCTGCCTGTATCGAGTGGTGATTTTGTGCCGAGCTGCCGGTCGGGGAGCTGTTGGCTGGCTGGTGGCAGGATATATTGTGGTGTAAACAAATTGACGCTTAGACAACTTAATAACACATTGCGGACGTTTTTAATGTACTGAATTAACGCCGAATTAATTCGGGGGATCTGGATTTTAGTACTGGATTTTGGTTTTAGGAATTAGAAATTTTATTGATAGAAGTATTTTACAAATACAAATACATACTAAGGGTTTCTTATATGCTCAACACATGAGCGAAACCCTATAGGAACCCTAATTCCCTTATCTGGGAACTACTCACACATTATTATGGAGAAACTCGAGCTTGTCGATCGACAGATCCGGTCGGCATCTACTCTATTTCTTTGCCCTCGGACGAGTGCTGGGGCGTCGGTTTCCACTATCGGCGAGTACTTCTACACAGCCATCGGTCCAGACGGCCGCGCTTCTGCGGGCGATTTGTGTACGCCCGACAGTCCCGGCTCCGGATCGGACGATTGCGTCGCATCGACCCTGCGCCCAAGCTGCATCATCGAAATTGCCGTCAACCAAGCTCTGATAGAGTTGGTCAAGACCAATGCGGAGCATATACGCCCGGAGTCGTGGCGATCCTGCAAGCTCCGGATGCCTCCGCTCGAAGTAGCGCGTCTGCTGCTCCATACAAGCCAACCACGGCCTCCAGAAGAAGATGTTGGCGACCTCGTATTGGGAATCCCCGAACATCGCCTCGCTCCAGTCAATGACCGCTGTTATGCGGCCATTGTCCGTCAGGACATTGTTGGAGCCGAAATCCGCGTGCACGAGGTGCCGGACTTCGGGGCAGTCCTCGGCCCAAAGCATCAGCTCATCGAGAGCCTGCGCGACGGACGCACTGACGGTGTCGTCCATCACAGTTTGCCAGTGATACACATGGGGATCAGCAATCGCGCATATGAAATCACGCCATGTAGTGTATTGACCGATTCCTTGCGGTCCGAATGGGCCGAACCCGCTCGTCTGGCTAAGATCGGCCGCAGCGATCGCATCCATAGCCTCCGCGACCGGTTGTAGAACAGCGGGCAGTTCGGTTTCAGGCAGGTCTTGCAACGTGACACCCTGTGCACGGCGGGAGATGCAATAGGTCAGGCTCTCGCTAAACTCCCCAATGTCAAGCACTTCCGGAATCGGGAGCGCGGCCGATGCAAAGTGCCGATAAACATAACGATCTTTGTAGAAACCATCGGCGCAGCTATTTACCCGCAGGACATATCCACGCCCTCCTACATCGAAGCTGAAAGCACGAGATTCTTCGCCCTCCGAGAGCTGCATCAGGTCGGAGACGCTGTCGAACTTTTCGATCAGAAACTTCTCGACAGACGTCGCGGTGAGTTCAGGCTTTTTCATATCTCATTGCCCCCCGGGATCTGCGAAAGCTCGAGAGAGATAGATTTGTAGAGAGAGACTGGTGATTTCAGCGTGTCCTCTCCAAATGAAATGAACTTCCTTATATAGAGGAAGGTCTTGCGAAGGATAGTGGGATTGTGCGTCATCCCTTACGTCAGTGGAGATATCACATCAATCCACTTGCTTTGAAGACGTGGTTGGAACGTCTTCTTTTTCCACGATGCTCCTCGTGGGTGGGGGTCCATCTTTGGGACCACTGTCGGCAGAGGCATCTTGAACGATAGCCTTTCCTTTATCGCAATGATGGCATTTGTAGGTGCCACCTTCCTTTTCTACTGTCCTTTTGATGAAGTGACAGATAGCTGGGCAATGGAATCCGAGGAGGTTTCCCGATATTACCCTTTGTTGAAAAGTCTCAATAGCCCTTTGGTCTTCTGAGACTGTATCTTTGATATTCTTGGAGTAGACGAGAGTGTCGTGCTCCACCATGTTATCACATCAATCCACTTGCTTTGAAGACGTGGTTGGAACGTCTTCTTTTTCCACGATGCTCCTCGTGGGTGGGGGTCCATCTTTGGGACCACTGTCGGCAGAGGCATCTTGAACGATAGCCTTTCCTTTATCGCAATGATGGCATTTGTAGGTGCCACCTTCCTTTTCTACTGTCCTTTTGATGAAGTGACAGATAGCTGGGCAATGGAATCCGAGGAGGTTTCCCGATATTACCCTTTGTTGAAAAGTCTCAATAGCCCTTTGGTCTTCTGAGACTGTATCTTTGATATTCTTGGAGTAGACGAGAGTGTCGTGCTCCACCATGTTGGCAAGCTGCTCTAGCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGAATTCGAGCTCGGTACCC",
+      "sequence_length": 11437,
+      "sequence_sha256": "7b597a337f8ceee2a010bc5bc0a5da92c33a3253bc2c67540b6e15d8e719e08b",
+      "source_organism": "Binary vector pCsGFPBT",
+      "target_host_species": [],
+      "host_group": [
+        "plant transformation vector"
+      ],
+      "accession": "DQ370426",
+      "accession_version": "DQ370426.1",
+      "plasmid_id": "pCsGFPBT",
+      "primary_reference": "NCBI GenBank DQ370426.1; Zhang and Galbraith direct submission (2006)",
+      "evidence_level": "E1",
+      "evidence_context": "The complete circular record includes annotated T-DNA borders, reporter cassette elements, and pCAMBIA-derived vector sequence.",
+      "feature_boundary_method": {
+        "method": "Complete deposited circular source record",
+        "feature_type": "source",
+        "feature_label": "complete pCsGFPBT sequence",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 11437,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/DQ370426.1.gb",
+      "source_record_sha256": "ca9dfdbef350563ee4d450069bd18600e47ff76145ea0b47b033b464f9bfb133",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "pCs-GFP-BT"
+      ],
+      "limitations": "This is a populated reporter vector, not an empty backbone. Replacement boundaries, workflow compatibility, and experimental suitability require separate professional review.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Catalog provenance does not grant formal workflow admission."
+    },
+    {
+      "schema_version": "plant-component-registry-v1",
+      "component_id": "PCLV1-VEC-PGWB8",
+      "display_name": "pGWB8 complete Gateway binary-vector source",
+      "component_type": "vector_backbone",
+      "component_role": "complete Gateway plant binary-vector source",
+      "sequence": "TGAGCGTCGCAAAGGCGCTCGGTCTTGCCTTGCTCGTCGGTGATGTACTTCACCAGCTCCGCGAAGTCGCTCTTCTTGATGGAGCGCATGGGGACGTGCTTGGCAATCACGCGCACCCCCCGGCCGTTTTAGCGGCTAAAAAAGTCATGGCTCTGCCCTCGGGCGGACCACGCCCATCATGACCTTGCCAAGCTCGTCCTGCTTCTCTTCGATCTTCGCCAGCAGGGCGAGGATCGTGGCATCACCGAACCGCGCCGTGCGCGGGTCGTCGGTGAGCCAGAGTTTCAGCAGGCCGCCCAGGCGGCCCAGGTCGCCATTGATGCGGGCCAGCTCGCGGACGTGCTCATAGTCCACGACGCCCGTGATTTTGTAGCCCTGGCCGACGGCCAGCAGGTAGGCCGACAGGCTCATGCCGGCCGCCGCCGCCTTTTCCTCAATCGCTCTTCGTTCGTCTGGAAGGCAGTACACCTTGATAGGTGGGCTGCCCTTCCTGGTTGGCTTGGTTTCATCAGCCATCCGCTTGCCCTCATCTGTTACGCCGGCGGTAGCCGGCCAGCCTCGCAGAGCAGGATTCCCGTTGAGCACCGCCAGGTGCGAATAAGGGACAGTGAAGAAGGAACACCCGCTCGCGGGTGGGCCTACTTCACCTATCCTGCCCGGCTGACGCCGTTGGATACACCAAGGAAAGTCTACACGAACCCTTTGGCAAAATCCTGTATATCGTGCGAAAAAGGATGGATATACCGAAAAAATCGCTATAATGACCCCGAAGCAGGGTTATGCAGCGGAAAAGCGCCACGCTTCCCGAAGGGAGAAAGGCGGACAGGTATCCGGTAAGCGGCAGGGTCGGAACAGGAGAGCGCACGAGGGAGCTTCCAGGGGGAAACGCCTGGTATCTTTATAGTCCTGTCGGGTTTCGCCACCTCTGACTTGAGCGTCGATTTTTGTGATGCTCGTCAGGGGGGCGGAGCCTATGGAAAAACGCCAGCAACGCGGCCTTTTTACGGTTCCTGGCCTTTTGCTGGCCTTTTGCTCACATGTTCTTTCCTGCGTTATCCCCTGATTCTGTGGATAACCGTATTACCGCCTTTGAGTGAGCTGATACCGCTCGCCGCAGCCGAACGACCGAGCGCAGCGAGTCAGTGAGCGAGGAAGCGGAAGAGCGCCAGAAGGCCGCCAGAGAGGCCGAGCGCGGCCGTGAGGCTTGGACGCTAGGGCAGGGCATGAAAAAGCCCGTAGCGGGCTGCTACGGGCGTCTGACGCGGTGGAAAGGGGGAGGGGATGTTGTCTACATGGCTCTGCTGTAGTGAGTGGGTTGCGCTCCGGCAGCGGTCCTGATCAATCGTCACCCTTTCTCGGTCCTTCAACGTTCCTGACAACGAGCCTCCTTTTCGCCAATCCATCGACAATCACCGCGAGTCCCTGCTCGAACGCTGCGTCCGGACCGGCTTCGTCGAAGGCGTCTATCGCGGCCCGCAACAGCGGCGAGAGCGGAGCCTGTTCAACGGTGCCGCCGCGCTCGCCGGCATCGCTGTCGCCGGCCTGCTCCTCAAGCACGGCCCCAACAGTGAAGTAGCTGATTGTCATCAGCGCATTGACGGCGTCCCCGGCCGAAAAACCCGCCTCGCAGAGGAAGCGAAGCTGCGCGTCGGCCGTTTCCATCTGCGGTGCGCCCGGTCGCGTGCCGGCATGGATGCGCGCGCCATCGCGGTAGGCGAGCAGCGCCTGCCTGAAGCTGCGGGCATTCCCGATCAGAAATGAGCGCCAGTCGTCGTCGGCTCTCGGCACCGAATGCGTATGATTCTCCGCCAGCATGGCTTCGGCCAGTGCGTCGAGCAGCGCCCGCTTGTTCCTGAAGTGCCAGTAAAGCGCCGGCTGCTGAACCCCCAACCGTTCCGCCAGTTTGCGTGTCGTCAGACCGTCTACGCCGACCTCGTTCAACAGGTCCAGGGCGGCACGGATCACTGTATTCGGCTGCAACTTTGTCATGCTTGACACTTTATCACTGATAAACATAATATGTCCACCAACTTATCAGTGATAAAGAATCCGCGCGTTCAATCGGACCAGCGGAGGCTGGTCCGGAGGCCAGACGTGAAACCCAACATACCCCTGATCGTAATTCTGAGCACTGTCGCGCTCGACGCTGTCGGCATCGGCCTGATTATGCCGGTGCTGCCGGGCCTCCTGCGCGATCTGGTTCACTCGAACGACGTCACCGCCCACTATGGCATTCTGCTGGCGCTGTATGCGTTGGTGCAATTTGCCTGCGCACCTGTGCTGGGCGCGCTGTCGGATCGTTTCGGGCGGCGGCCAATCTTGCTCGTCTCGCTGGCCGGCGCCAGATCTGGGGAACCCTGTGGTTGGCATGCACATACAAATGGACGAACGGATAAACCTTTTCACGCCCTTTTAAATATCCGATTATTCTAATAAACGCTCTTTTCTCTTAGGTTTACCCGCCAATATATCCTGTCAAACACTGATAGTTTAAACTGAAGGCGGGAAACGACAATCTGATCATGAGCGGAGAATTAAGGGAGTCACGTTATGACCCCCGCCGATGACGCGGGACAAGCCGTTTTACGTTTGGAACTGACAGAACCGCAACGTTGAAGGAGCCACTCAGCCGCGGGTTTCTGGAGTTTAATGAGCTAAGCACATACGTCAGAAACCATTATTGCGCGTTCAAAAGTCGCCTAAGGTCACTATCAGCTAGCAAATATTTCTTGTCAAAAATGCTCCACTGACGTTCCATAAATTCCCCTCGGTATCCAATTAGAGTCTCATATTCACTCTCAATCCAAATAATCTGCACCGGATCTGGATCGTTTCGCATGATTGAACAAGATGGATTGCACGCAGGTTCTCCGGCCGCTTGGGTGGAGAGGCTATTCGGCTATGACTGGGCACAACAGACAATCGGCTGCTCTGATGCCGCCGTGTTCCGGCTGTCAGCGCAGGGGCGCCCGGTTCTTTTTGTCAAGACCGACCTGTCCGGTGCCCTGAATGAACTGCAGGACGAGGCAGCGCGGCTATCGTGGCTGGCCACGACGGGCGTTCCTTGCGCAGCTGTGCTCGACGTTGTCACTGAAGCGGGAAGGGACTGGCTGCTATTGGGCGAAGTGCCGGGGCAGGATCTCCTGTCATCTCACCTTGCTCCTGCCGAGAAAGTATCCATCATGGCTGATGCAATGCGGCGGCTGCATACGCTTGATCCGGCTACCTGCCCATTCGACCACCAAGCGAAACATCGCATCGAGCGAGCACGTACTCGGATGGAAGCCGGTCTTGTCGATCAGGATGATCTGGACGAAGAGCATCAGGGGCTCGCGCCAGCCGAACTGTTCGCCAGGCTCAAGGCGCGCATGCCCGACGGCGATGATCTCGTCGTGACCCATGGCGATGCCTGCTTGCCGAATATCATGGTGGAAAATGGCCGCTTTTCTGGATTCATCGACTGTGGCCGGCTGGGTGTGGCGGACCGCTATCAGGACATAGCGTTGGCTACCCGTGATATTGCTGAAGAGCTTGGCGGCGAATGGGCTGACCGCTTCCTCGTGCTTTACGGTATCGCCGCTCCCGATTCGCAGCGCATCGCCTTCTATCGCCTTCTTGACGAGTTCTTCTGAGCGGGACTCTGGGGTTCGAAATGACCGACCAAGCGACGCCCAACCTGCCATCACGAGATTTCGATTCCACCGCCGCCTTCTATGAAAGGTTGGGCTTCGGAATCGTTTTCCGGGACGCCGGCTGGATGATCCTCCAGCGCGGGGATCTCATGCTGGAGTTCTTCGCCCACGGGATCTCTGCGGAACAGGCGGTCGAAGGTGCCGATATCATTACGACAGCAACGGCCGACAAGCACAACGCCACGATCCTGAGCGACAATATGATCGGGCCCGGCGTCCACATCAACGGCGTCGGCGGCGACTGCCCAGGCAAGACCGAGATGCACCGCGATATCTTGCTGCGTTCGGATATTTTCGTGGAGTTCCCGCCACAGACCCGGATGATCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGCCTCCTGTCAATGCTGGCGGCGGCTCTGGTGGTGGTTCTGGTGGCGGCTCTGAGGGTGGTGGCTCTGAGGGTGGCGGTTCTGAGGGTGGCGGCTCTGAGGGAGGCGGTTCCGGTGGTGGCTCTGGTTCCGGTGATTTTGATTATGAAAAGATGGCAAACGCTAATAAGGGGGCTATGACCGAAAATGCCGATGAAAACGCGCTACAGTCTGACGCTAAAGGCAAACTTGATTCTGTCGCTACTGATTACGGTGCTGCTATCGATGGTTTCATTGGTGACGTTTCCGGCCTTGCTAATGGTAATGGTGCTACTGGTGATTTTGCTGGCTCTAATTCCCAAATGGCTCAAGTCGGTGACGGTGATAATTCACCTTTAATGAATAATTTCCGTCAATATTTACCTTCCCTCCCTCAATCGGTTGAATGTCGCCCTTTTGTCTTTGGCCCAATACGCAAACCGCCTCTCCCCGCGCGTTGGCCGATTCATTAATGCAGCTGGCACGACAGGTTTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGCATGCCTGCAGGTCCCCAGATTAGCCTTTTCAATTTCAGAAAGAATGCTAACCCACAGATGGTTAGAGAGGCTTACGCAGCAGGTCTCATCAAGACGATCTACCCGAGCAATAATCTCCAGGAAATCAAATACCTTCCCAAGAAGGTTAAAGATGCAGTCAAAAGATTCAGGACTAACTGCATCAAGAACACAGAGAAAGATATATTTCTCAAGATCAGAAGTACTATTCCAGTATGGACGATTCAAGGCTTGCTTCACAAACCAAGGCAAGTAATAGAGATTGGAGTCTCTAAAAAGGTAGTTCCCACTGAATCAAAGGCCATGGAGTCAAAGATTCAAATAGAGGACCTAACAGAACTCGCCGTAAAGACTGGCGAACAGTTCATACAGAGTCTCTTACGACTCAATGACAAGAAGAAAATCTTCGTCAACATGGTGGAGCACGACACACTTGTCTACTCCAAAAATATCAAAGATACAGTCTCAGAAGACCAAAGGGCAATTGAGACTTTTCAACAAAGGGTAATATCCGGAAACCTCCTCGGATTCCATTGCCCAGCTATCTGTCACTTTATTGTGAAGATAGTGGAAAAGGAAGGTGGCTCCTACAAATGCCATCATTGCGATAAAGGAAAGGCCATCGTTGAAGATGCCTCTGCCGACAGTGGTCCCAAAGATGGACCCCCACCCACGAGGAGCATCGTGGAAAAAGAAGACGTTCCAACCACGTCTTCAAAGCAAGTGGATTGATGTGATATCTCCACTGACGTAAGGGATGACGCACAATCCCACTATCCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGAACACGGGGGACTCTAGAGTTATCAACAAGTTTGTACAAAAAAGCTGAACGAGAAACGTAAAATGATATAAATATCAATATATTAAATTAGATTTTGCATAAAAAACAGACTACATAATACTGTAAAACACAACATATCCAGTCACTATGGCGGCCCCTCGAGGGGCCGCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATAATGTGTGGATTTTGAGTTAGGATCCGGCGAGATTTTCAGGAGCTAAGGAAGCTAAAATGGAGAAAAAAATCACTGGATATACCACCGTTGATATATCCCAATGGCATCGTAAAGAACATTTTGAGGCATTTCAGTCAGTTGCTCAATGTACCTATAACCAGACCGTTCAGCTGGATATTACGGCCTTTTTAAAGACCGTAAAGAAAAATAAGCACAAGTTTTATCCGGCCTTTATTCACATTCTTGCCCGCCTGATGAATGCTCATCCGGAATTCCGTATGGCAATGAAAGACGGTGAGCTGGTGATATGGGATAGTGTTCACCCTTGTTACACCGTTTTCCATGAGCAAACTGAAACGTTTTCATCGCTCTGGAGTGAATACCACGACGATTTCCGGCAGTTTCTACACATATATTCGCAAGATGTGGCGTGTTACGGTGAAAACCTGGCCTATTTCCCTAAAGGGTTTATTGAGAATATGTTTTTCGTCTCAGCCAATCCCTGGGTGAGTTTCACCAGTTTTGATTTAAACGTGGCCAATATGGACAACTTCTTCGCCCCCGTTTTCACCATGGGCAAATATTATACGCAAGGCGACAAGGTGCTGATGCCGCTGGCGATTCAGGTTCATCATGCCGTCTGTGATGGCTTCCATGTCGGCAGAATGCTTAATGAATTACAACAGTACTGCGATGAGTGGCAGGGCGGGGCGTAAAGATCTGGATCCGGCTTACTAAAAGCCAGATAACAGTATGCGTATTTGCGCGCTGATTTTTGCGGTATAAGAATATATACTGATATGTATACCCGAAGTATGTCAAAAAGAGGTGTGCTATGAAGCAGCGTATTACAGTGACAGTTGACAGCGACAGCTATCAGTTGCTCAAGGCATATATGATGTCAATATCTCCGGTCTGGTAAGCACAACCATGCAGAATGAAGCCCGTCGTCTGCGTGCCGAACGCTGGAAAGCGGAAAATCAGGAAGGGATGGCTGAGGTCGCCCGGTTTATTGAAATGAACGGCTCTTTTGCTGACGAGAACAGGGACTGGTGAAATGCAGTTTAAGGTTTACACCTATAAAAGAGAGAGCCGTTATCGTCTGTTTGTGGATGTACAGAGTGATATTATTGACACGCCCGGGCGACGGATGGTGATCCCCCTGGCCAGTGCACGTCTGCTGTCAGATAAAGTCTCCCGTGAACTTTACCCGGTGGTGCATATCGGGGATGAAAGCTGGCGCATGATGACCACCGATATGGCCAGTGTGCCGGTCTCCGTTATCGGGGAAGAAGTGGCTGATCTCAGCCACCGCGAAAATGACATCAAAAACGCCATTAACCTGATGTTCTGGGGAATATAAATGTCAGGCTCCCTTATACACAGCCAGTCTGCAGGTCGACCATAGTGACTGGATATGTTGTGTTTTACAGTATTATGTAGTCTGTTTTTTATGCAAAATCTAATTTAATATATTGATATTTATATCATTTTACGTTTCTCGTTCAGCTTTCTTGTACAAAGTGGTTGATAACAGCCATCATCATCATCATCATGCTTAGAGCTCGAATTTCCCCGATCGTTCAAACATTTGGCAATAAAGTTTCTTAAGATTGAATCCTGTTGCCGGTCTTGCGATGATTATCATATAATTTCTGTTGAATTACGTTAAGCATGTAATAATTAACATGTAATGCATGACGTTATTTATGAGATGGGTTTTTATGATTAGAGTCCCGCAATTATACATTTAATACGCGATAGAAAACAAAATATAGCGCGCAAACTAGGATAAATTATCGCGCGCGGTGTCATCTATGTTACTAGATCGGGAATTAGCTTCATCAACGCAAGACATGCGCACGACCGTCTGACAGGAGAGGAATTTCCGACGAGCACAGAAAGGACTTGCTCTTGGACGTAGGCCTATTTCTCAGGCACATGTATCAAGTGTTCGGACGTGGGTTTTCGATGGTGTATCAGCCGCCGCCAACTGGGAGATGAGGAGGCTTTCTTGGGGGGCAGTCAGCAGTTCATTTCACAAGACAGAGGAACTTGTAAGGAGATGCACTGATTTATCTTGGCGCAAACCAGCAGGACGAATTAGTGGGAATAGCCCGCGAATATCTAAGTTATGCCTGTCGGCATGAGCAGAAACTTCCAATTCGAAACAGTTTGGAGAGGTTGTTTTTGGGCATACCTTTTGTTAGTCAGCCTCTCGATTGCTCATCGTCATTACACAGTACCGAAGTTTGATCGATCTAGTAACATAGATGACACCGCGCGCGATAATTTATCCTAGTTTGCGCGCTATATTTTGTTTTCTATCGCGTATTAAATGTATAATTGCGGGACTCTAATCATAAAAACCCATCTCATAAATAACGTCATGCATTACATGTTAATTATTACATGCTTAACGTAATTCAACAGAAATTATATGATAATCATCGCAAGACCGGCAACAGGATTCAATCTTAAGAAACTTTATTGCCAAATGTTTGAACGATCTGCTTCGACGCACTCCTTCTTTACTCCACCATCTCGTCCTTATTGAAAACGTGGGTAGCACCAAAACGAATCAAGTCGCTGGAACTGAAGTTACCAATCACGCTGGATGATTTGCCAGTTGGATTAATCTTGCCTTTCCCCGCATGAATAATATTGATGAATGCATGCGTGAGGGGTATTTCGATTTTGGCAATAGCTGCAATTGCCGCGACATCCTCCAACGAGCATAATTCTTCAGAAAAATAGCGATGTTCCATGTTGTCAGGGCATGCATGATGCACGTTATGAGGTGACGGTGCTAGGCAGTATTCCCTCAAAGTTTCATAGTCAGTATCATATTCATCATTGCATTCCTGCAAGAGAGAATTGAGACGCAATCCACACGCTGCGGCAACCTTCCGGCGTTCGTGGTCTATTTGCTCTTGGACGTTGCAAACGTAAGTGTTGGATCCCGGTCGGCATCTACTCTATTCCTTTGCCCTCGGACGAGTGCTGGGGCGTCGGTTTCCACTATCGGCGAGTACTTCTACACAGCCATCGGTCCAGACGGCCGCGCTTCTGCGGGCGATTTGTGTACGCCCGACAGTCCCGGCTCCGGATCGGACGATTGCGTCGCATCGACCCTGCGCCCAAGCTGCATCATCGAAATTGCCGTCAACCAAGCTCTGATAGAGTTGGTCAAGACCAATGCGGAGCATATACGCCCGGAGCCGCGGCGATCCTGCAAGCTCCGGATGCCTCCGCTCGAAGTAGCGCGTCTGCTGCTCCATACAAGCCAACCACGGCCTCCAGAAGAAGATGTTGGCGACCTCGTATTGGGAATCCCCGAACATCGCCTCGCTCCAGTCAATGACCGCTGTTATGCGGCCATTGTCCGTCAGGACATTGTTGGAGCCGAAATCCGCGTGCACGAGGTGCCGGACTTCGGGGCAGTCCTCGGCCCAAAGCATCAGCTCATCGAGAGCCTGCGCGACGGACGCACTGACGGTGTCGTCCATCACAGTTTGCCAGTGATACACATGGGGATCAGCAATCGCGCATATGAAATCACGCCATGTAGTGTATTGACCGATTCCTTGCGGTCCGAATGGGCCGAACCCGCTCGTCTGGCTAAGATCGGCCGCAGCGATCGCATCCATGGCCTCCGCGACCGGCTGCAGAACAGCGGGCAGTTCGGTTTCAGGCAGGTCTTGCAACGTGACACCCTGTGCACGGCGGGAGATGCAATAGGTCAGGCTCTCGCTGAATTCCCCAATGTCAAGCACTTCCGGAATCGGGAGCGCGGCCGATGCAAAGTGCCGATAAACATAACGATCTTTGTAGAAACCATCGGCGCAGCTATTTACCCGCAGGACATATCCACGCCCTCCTACATCGAAGCTGAAAGCACGAGATTCTTCGCCCTCCGAGAGCTGCATCAGGTCGGAGACGCTGTCGAACTTTTCGATCAGAAACTTCTCGACAGACGTCGCGGTGAGTTCAGGCTTTTTCATATCGGGGTCGTCCTCTCCAAATGAAATGAACTTCCTTATATAGAGGAAGGGTCTTGCGAAGGATAGTGGGATTGTGCGTCATCCCTTACGTCAGTGGAGATATCACATCAATCCACTTGCTTTGAAGACGTGGTTGGAACGTCTTCTTTTTCCACGATGCTCCTCGTGGGTGGGGGTCCATCTTTGGGACCACTGTCGGCAGAGGCATCTTGAACGATAGCCTTTCCTTTATCGCAATGATGGCATTTGTAGGTGCCACCTTCCTTTTCTACTGTCCTTTTGATGAAGTGACAGATAGCTGGGCAATGGAATCCGAGGAGGTTTCCCGATATTACCCTTTGTTGAAAAGTCTCAATAGCCCTTTGGTCTTCTGAGACTGTATCTTTGATATTCTTGGAGTAGACGAGAGTGTCGTGCTCCACCATGTTGACGGATCTCTAGGACGCGTCCTAGAAGCTAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGCCCGCTCCTTTCGCTTTCTTCCCTTCCTTTCTCGCCACGTTCGCCGGCTTTCCCCGTCAAGCTCTAAATCGGGGGCTCCCTTTAGGGTTCCGATTTAGTGCTTTACGGCACCTCGACCCCAAAAAACTTGATTTGGGTGATGGTTCACGTAGTGGGCCATCGCCCTGATAGACGGTTTTTCGCCCTTTGACGTTGGAGTCCACGTTCTTTAATAGTGGACTCTTGTTCCAAACTGGAACAACACTCAACCCTATCTCGGGCTATTCTTTTGATTTATAAGGGATTTTGCCGATTTCGGAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACCCCAGTACATTAAAAACGTCCGCAATGTGTTATTAAGTTGTCTAAGCGTCAATTTGTTTACACCACAATATATCCTGCCACCAGCCAGCCAACAGCTCCCCGACCGGCAGCTCGGCACAAAATCACCACTCGATACAGGCAGCCCATCAGTCCGGGACGGCGTCAGCGGGAGAGCCGTTGTAAGGCGGCAGACTTTGCTCATGTTACCGATGCTATTCGGAAGAACGGCAACTAAGCTGCCGGGTTTGAAACACGGATGATCTCGCGGAGGGTAGCATGTTGATTGTAACGATGACAGAGCGTTGCTGCCTGTGATCAAATATCATCTCCCTCGCAGAGATCCGAATTATCAGCCTTCTTATTCATTTCTCGCTTAACCGTGACAGGCTGTCGATCTTGAGAACTATGCCGACATAATAGGAAATCGCTGGATAAAGCCGCTGAGGAAGCTGAGTGGCGCTATTTCTTTAGAAGTGAACGTTGACGATATCAACTCCCCTATCCATTGCTCACCGAATGGTACAGGTCGGGGACCCGAAGTTCCGACTGTCGGCCTGATGCATCCCCGGCTGATCGACCCCAGATCTGGGGCTGAGAAAGCCCAGTAAGGAAACAACTGTAGGTTCGAGTCGCGAGATCCCCCGGAACCAAAGGAAGTAGGTTAAACCCGCTCCGATCAGGCCGAGCCACGCCAGGCCGAGAACATTGGTTCCTGTAGGCATCGGGATTGGCGGATCAAACACTAAAGCTACTGGAACGAGCAGAAGTCCTCCGGCCGCCAGTTGCCAGGCGGTAAAGGTGAGCAGAGGCACGGGAGGTTGCCACTTGCGGGTCAGCACGGTTCCGAACGCCATGGAAACCGCCCCCGCCAGGCCCGCTGCGACGCCGACAGGATCTAGCGCTGCGTTTGGTGTCAACACCAACAGCGCCACGCCCGCAGTTCCGCAAATAGCCCCCAGGACCGCCATCAATCGTATCGGGCTACCTAGCAGAGCGGCAGAGATGAACACGACCATCAGCGGCTGCACAGCGCCTACCGTCGCCGCGACCCCGCCCGGCAGGCGGTAGACCGAAATAAACAACAAGCTCCAGAATAGCGAAATATTAAGTGCGCCGAGGATGAAGATGCGCATCCACCAGATTCCCGTTGGAATCTGTCGGACGATCATCACGAGCAATAAACCCGCCGGCAACGCCCGCAGCAGCATACCGGCGACCCCTCGGCCTCGCTGTTCGGGCTCCACGAAAACGCCGGACAGATGCGCCTTGTGAGCGTCCTTGGGGCCGTCCTCCTGTTTGAAGACCGACAGCCCAATGATCTCGCCGTCGATGTAGGCGCCGAATGCCACGGCATCTCGCAACCGTTCAGCGAACGCCTCCATGGGCTTTTTCTCCTCGTGCTCGTAAACGGACCCGAACATCTCTGGAGCTTTCTTCAGGGCCGACAATCGGATCTCGCGGAAATCCTGCACGTCGGCCGCTCCAAGCCGTCGAATCTGAGCCTTAATCACAATTGTCAATTTTAATCCTCTGTTTATCGGCAGTTCGTAGAGCGCGCCGTGCGTCCCGAGCGATACTGAGCGAAGCAAGTGCGTCGAGCAGTGCCCGCTTGTTCCTGAAATGCCAGTAAAGCGCTGGCTGCTGAACCCCCAGCCGGAACTGACCCCACAAGGCCCTAGCGTTTGCAATGCACCAGGTCATCATTGACCCAGGCGTGTTCCACCAGGCCGCTGCCTCGCAACTCTTCGCAGGCTTCGCCGACCTGCTCGCGCCACTTCTTCACGCGGGTGGAATCCGATCCGCACATGAGGCGGAAGGTTTCCAGCTTGAGCGGGTACGGCTCCCGGTGCGAGCTGAAATAGTCGAACATCCGTCGGGCCGTCGGCGACAGCTTGCGGTACTTCTCCCATATGAATTTCGTGTAGTGGTCGCCAGCAAACAGCACGACGATTTCCTCGTCGATCAGGACCTGGCAACGGGACGTTTTCTTGCCACGGTCCAGGACGCGGAAGCGGTGCAGCAGCGACACCGATTCCAGGTGCCCAACGCGGTCGGACGTGAAGCCCATCGCCGTCGCCTGTAGGCGCGACAGGCATTCCTCGGCCTTCGTGTAATACCGGCCATTGATCGACCAGCCCAGGTCCTGGCAAAGCTCGTAGAACGTGAAGGTGATCGGCTCGCCGATAGGGGTGCGCTTCGCGTACTCCAACACCTGCTGCCACACCAGTTCGTCATCGTCGGCCCGCAGCTCGACGCCGGTGTAGGTGATCTTCACGTCCTTGTTGACGTGGAAAATGACCTTGTTTTGCAGCGCCTCGCGCGGGATTTTCTTGTTGCGCGTGGTGAACAGGGCAGAGCGGGCCGTGTCGTTTGGCATCGCTCGCATCGTGTCCGGCCACGGCGCAATATCGAACAAGGAAAGCTGCATTTCCTTGATCTGCTGCTTCGTGTGTTTCAGCAACGCGGCCTGCTTGGCCTCGCTGACCTGTTTTGCCAGGTCCTCGCCGGCGGTTTTTCGCTTCTTGGTCGTCATAGTTCCTCGCGTGTCGATGGTCATCGACTTCGCCAAACCTGCCGCCTCCTGTTCGAGACGACGCGAACGCTCCACGGCGGCCGATGGCGCGGGCAGGGCAGGGGGAGCCAGTTGCACGCTGTCGCGCTCGATCTTGGCCGTAGCTTGCTGGACCATCGAGCCGACGGACTGGAAGGTTTCGCGGGGCGCACGCATGACGGTGCGGCTTGCGATGGTTTCGGCATCCTCGGCGGAAAACCCCGCGTCGATCAGTTCTTGCCTGTATGCCTTCCGGTCAAACGTCCGATTCATTCACCCTCCTTGCGGGATTGCCCCGACTCACGCCGGGGCAATGTGCCCTTATTCCTGATTTGACCCGCCTGGTGCCTTGGTGTCCAGATAATCCACCTTATCGGCAATGAAGTCGGTCCCGTAGACCGTCTGGCCGTCCTTCTCGTACTTGGTATTCCGAATCTTGCCCTGCACGAATACCAGCGACCCCTTGCCCAAATACTTGCCGTGGGCCTCGGCCTGAGAGCCAAAACACTTGATGCGGAAGAAGTCGGTGCGCTCCTGCTTGTCGCCGGCATCGTTGCGCCACATCTAGGTACTAAAACAATTCATCCAGTAAAATATAATATTTTATTTTCTCCCAATCAGGCTTGATCCCCAGTAAGTCAAAAAATAGCTCGACATACTGTTCTTCCCCGATATCCTCCCTGATCGACCGGACGCAGAAGGCAATGTCATACCACTTGTCCGCCCTGCCGCTTCTCCCAAGATCAATAAAGCCACTTACTTTGCCATCTTTCACAAAGATGTTGCTGTCTCCCAGGTCGCCGTGGGAAAAGACAAGTTCCTCTTCGGGCTTTTCCGTCTTTAAAAAATCATACAGCTCGCGCGGATCTTTAAATGGAGTGTCTTCTTCCCAGTTTTCGCAATCCACATCGGCCAGATCGTTATTCAGTAAGTAATCCAATTCGGCTAAGCGGCTGTCTAAGCTATTCGTATAGGGACAATCCGATATGTCGATGGAGTGAAAGAGCCTGATGCACTCCGCATACAGCTCGATAATCTTTTCAGGGCTTTGTTCATCTTCATACTCTTCCGAGCAAAGGACGCCATCGGCCTCACTCATGAGCAGATTGCTCCAGCCATCATGCCGTTCAAAGTGCAGGACCTTTGGAACAGGCAGCTTTCCTTCCAGCCATAGCATCATGTCCTTTTCCCGTTCCACATCATAGGTGGTCCCTTTATACCGGCTGTCCGTCATTTTTAAATATAGGTTTTCATTTTCTCCCACCAGCTTATATACCTTAGCAGGAGACATTCCTTCCGTATCTTTTACGCAGCGGTATTTTTCGATCAGTTTTTTCAATTCCGGTGATATTCTCATTTTAGCCATTTATTATTTCCTTCCTCTTTTCTACAGTATTTAAAGATACCCCAAGAAGCTAATTATAACAAGACGAACTCCAATTCACTGTTCCTTGCATTCTAAAACCTTAAATACCAGAAAACAGCTTTTTCAAAGTTGTTTTCAAAGTTGGCGTATAACATAGTATCGACGGAGCCGATTTTGAAACCACAATTATGGGTGATGCTGCCAACTTACTGATTTAGTGTATGATGGTGTTTTTGAGGTGCTCCAGTGGCTTCTGTGTCTATCAGCTGTCCCTCCTGTTCAGCTACTGACGGGGTGGTGCGTAACGGCAAAAGCACCGCCGGACATCAGCGCTATCTCTGCTCTCACTGCCGTAAAACATGGCAACTGCAGTTCACTTACACCGCTTCTCAACCCGGTACGCACCAGAAAATCATTGATATGGCCATGAATGGCGTTGGATGCCGGGCAACAGCCCGCATTATGGGCGTTGGCCTCAACACGATTTTACGTCACTTAAAAAACTCAGGCCGCAGTCGGTAACCTCGCGCATACAGCCGGGCAGTGACGTCATCGTCTGCGCGGAAATGGACGAACAGTGGGGCTATGTCGGGGCTAAATCGCGCCAGCGCTGGCTGTTTTACGCGTATGACAGTCTCCGGAAGACGGTTGTTGCGCACGTATTCGGTGAACGCACTATGGCGACGCTGGGGCGTCTTATGAGCCTGCTGTCACCCTTTGACGTGGTGATATGGATGACGGATGGCTGGCCGCTGTATGAATCCCGCCTGAAGGGAAAGCTGCACGTAATCAGCAAGCGATATACGCAGCGAATTGAGCGGCATAACCTGAATCTGAGGCAGCACCTGGCACGGCTGGGACGGAAGTCGCTGTCGTTCTCAAAATCGGTGGAGCTGCATGACAAAGTCATCGGGCATTATCTGAACATAAAACACTATCAATAAGTTGGAGTCATTACCCAATTATGATAGAATTTACAAGCTATAAGGTTATTGTCCTGGGTTTCAAGCATTAGTCCATGCAAGTTTTTATGCTTTGCCCATTCTATAGATATATTGATAAGCGCGCTGCCTATGCCTTGCCCCCTGAAATCCTTACATACGGCGATATCTTCTATATAAAAGATATATTATCTTATCAGTATTGTCAATATATTCAAGGCAATCTGCCTCCTCATCCTCTTCATCCTCTTCGTCTTGGTAGCTTTTTAAATATGGCGCTTCATAGAGTAATTCTGTAAAGGTCCAATTCTCGTTTTCATACCTCGGTATAATCTTACCTATCACCTCAAATGGTTCGCTGGGTTTATCGCACCCCCGAACACGAGCACGGCACCCGCGACCACTATGCCAAGAATGCCCAAGGTAAAAATTGCCGGCCCCGCCATGAAGTCCGTGAATGCCCCGACGGCCGAAGTGAAGGGCAGGCCGCCACCCAGGCCGCCGCCCTCACTGCCCGGCACCTGGTCGCTGAATGTCGATGCCAGCACCTGCGGCACGTCAATGCTTCCGGGCGTCGCGCTCGGGCTGATCGCCCATCCCGTTACTGCCCCGATCCCGGCAATGGCAAGGACTGCCAGCGCTGCCATTTTTGGGGTGAGGCCGTTCGCGGCCGAGGGGCGCAGCCCCTGGGGGGATGGGAGGCCCGCGTTAGCGGGCCGGGAGGGTTCGAGAAGGGGGGGCACCCCCCTTCGGCGTGCGCGGTCACGCGCACAGGGCGCAGCCCTGGTTAAAAACAAGGTTTATAAATATTGGTTTAAAAGCAGGTTAAAAGACAGGTTAGCGGTGGCCGAAAAACGGGCGGAAACCCTTGCAAATGCTGGATTTTCTGCCTGTGGACAGCCCCTCAAATGTCAATAGGTGCGCCCCTCATCTGTCAGCACTCTGCCCCTCAAGTGTCAAGGATCGCGCCCCTCATCTGTCAGTAGTCGCGCCCCTCAAGTGTCAATACCGCAGGGCACTTATCCCCAGGCTTGTCCACATCATCTGTGGGAAACTCGCGTAAAATCAGGCGTTTTCGCCGATTTGCGAGGCTGGCCAGCTCCACGTCGCCGGCCGAAATCGAGCCTGCCCCTCATCTGTCAACGCCGCGCCGGGTGAGTCGGCCCCTCAAGTGTCAACGTCCGCCCCTCATCTGTCAGTGAGGGCCAAGTTTTCCGCGAGGTATCCACAACGCCGGCGGCCGCGGTGTCTCGCACACGGCTTCGACGGCGTTTCTGGCGCGTTTGCAGGGCCATAGACGGCCGCCAGCCCAGCGGCGAGGGCAACCAGCCCGG",
+      "sequence_length": 17254,
+      "sequence_sha256": "80a0438eb03770a1d6f7b03574c3357d60dff34d22e86764f115357b62136f58",
+      "source_organism": "Gateway binary vector pGWB8",
+      "target_host_species": [],
+      "host_group": [
+        "plant transformation vector"
+      ],
+      "accession": "AB289771",
+      "accession_version": "AB289771.1",
+      "plasmid_id": "pGWB8",
+      "primary_reference": "NCBI GenBank AB289771.1; Nakagawa et al., J. Biosci. Bioeng. 104, 34-41 (2007), PMID:17697981",
+      "evidence_level": "E1",
+      "evidence_context": "The complete circular record includes annotated T-DNA borders, Gateway cassette features, selectable-marker cassettes, and vector replication regions.",
+      "feature_boundary_method": {
+        "method": "Complete deposited circular source record",
+        "feature_type": "source",
+        "feature_label": "complete pGWB8 sequence",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 17254,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "source_record": "data/plant_component_registry_v1/source_records/AB289771.1.gb",
+      "source_record_sha256": "b4650acf84fcd7d7ed430dbc412234d29eda0a970f1a2f88f782bff2feeba2fe",
+      "redistribution_status": "PUBLIC_NCBI_RECORD_RIGHTS_CAVEAT_RECORDED",
+      "workflow_fit": "Provenance-supported Registry catalog record; not admitted to formal workflow selection.",
+      "aliases": [
+        "Gateway pGWB8"
+      ],
+      "limitations": "This is a populated Gateway vector, not an empty backbone. Recombination operations, replacement boundaries, workflow compatibility, and experimental suitability require separate review.",
+      "review_status": "source_and_boundary_reviewed",
+      "notes": "Catalog provenance does not grant formal workflow admission."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+LOCUS       MP385296                 723 bp    DNA     linear   PAT 15-MAY-2020
+DEFINITION  Sequence 60 from Patent WO2019211296.
+ACCESSION   MP385296
+VERSION     MP385296.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+REFERENCE   1
+  AUTHORS   SCHERES,B., HEIDSTRA,R., PIJNENBURG,M.C.C. and DE,B.M.T.J.
+  TITLE     GENES FOR HORMONE-FREE PLANT REGENERATION
+  JOURNAL   Patent: WO 2019211296-A1 60 07-NOV-2019;
+            KEYGENE NV [NL]
+FEATURES             Location/Qualifiers
+     source          1..723
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:32630"
+                     /note="octopine synthase terminator"
+ORIGIN      
+        1 gcgggactct ggggttcgct gctttaatga gatatgcgag acgcctatga tcgcatgata
+       61 tttgctttca attctgttgt gcacgttgta aaaaacctga gcatgtgtag ctcagatcct
+      121 taccgccggt ttcggttcat tctaatgaat atatcacccg ttactatcgt atttttatga
+      181 ataatattct ccgttcaatt tactgattgt accctactac ttatatgtac aatattaaaa
+      241 tgaaaacaat atattgtgct gaataggttt atagcgacat ctatgataga gcgccacaat
+      301 aacaaacaat tgcgttttat tattacaaat ccaattttaa aaaaagcggc agaaccggtc
+      361 aaacctaaaa gactgattac ataaatctta ttcaaatttc aaaaggcccc aggggctagt
+      421 atctacgaca caccgagcgg cgaactaata acgttcactg aagggaactc cggttccccg
+      481 ccggcgcgca tgggtgagat tccttgaagt tgagtattgg ccgtccgctc taccgaaagt
+      541 tacgggcacc attcaacccg gtccagcacg gcggccgggt aaccgacttg ctgccccgag
+      601 aattatgcag catttttttg gtgtatgtgg gccccaaatg aagtgcaggt caaaccttga
+      661 cagtgacgac aaatcgttgg gcgggtccag ggcgaatttt gcgacaacat gtcgaggctc
+      721 agc
+//
+

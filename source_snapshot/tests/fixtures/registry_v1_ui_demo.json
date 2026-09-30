@@ -1,0 +1,86 @@
+{
+  "registry_version": "synthetic-ui-demo-v1",
+  "records": [
+    {
+      "component_id": "DEMO-BUNDLED-CDS",
+      "display_name": "Synthetic bundled CDS",
+      "component_type": "cds",
+      "source_record": "synthetic/DEMO-BUNDLED-CDS.gb",
+      "accession_version": "DEMO000001.1",
+      "source_organism": "Oryza sativa",
+      "target_host_species": ["Oryza sativa"],
+      "evidence_level": "E1",
+      "primary_reference": "Synthetic UI demonstration fixture",
+      "distribution_mode": "bundled",
+      "sequence_availability": "local_verified",
+      "workflow_admission_status": "eligible",
+      "governance_decision_source": "synthetic-ui-demonstration",
+      "governance_decision_version": "demo-r1",
+      "host_applicability": {
+        "status": "reviewed",
+        "scope": ["Oryza sativa"],
+        "evidence_source": "synthetic-ui-demonstration",
+        "evidence_version": "demo-host-r1",
+        "limitation": "Synthetic UI fixture; no biological performance conclusion."
+      },
+      "sequence": "ATGGCCGCCTAA",
+      "sequence_length": 12,
+      "sequence_sha256": "fa66df9deece249f8a79d297b091720b75a634475cce6ef5b0fd750e02f0c2ed"
+    },
+    {
+      "component_id": "DEMO-REFERENCE-CDS",
+      "display_name": "Synthetic reference-only CDS",
+      "component_type": "cds",
+      "source_record": "synthetic/DEMO-REFERENCE-CDS.gb",
+      "accession_version": "DEMO000002.1",
+      "source_organism": "Oryza sativa",
+      "target_host_species": ["Oryza sativa"],
+      "evidence_level": "E1",
+      "primary_reference": "Synthetic UI demonstration fixture",
+      "distribution_mode": "reference_only",
+      "sequence_availability": "unavailable",
+      "workflow_admission_status": "requires_sequence",
+      "governance_decision_source": "synthetic-ui-demonstration",
+      "governance_decision_version": "demo-r1",
+      "host_applicability": {
+        "status": "reviewed",
+        "scope": ["Oryza sativa"],
+        "evidence_source": "synthetic-ui-demonstration",
+        "evidence_version": "demo-host-r1",
+        "limitation": "Synthetic UI fixture; no biological performance conclusion."
+      }
+    },
+    {
+      "component_id": "DEMO-DEFERRED-CDS",
+      "display_name": "Synthetic deferred CDS",
+      "component_type": "cds",
+      "source_record": "synthetic/DEMO-DEFERRED-CDS.gb",
+      "accession_version": "DEMO000003.1",
+      "source_organism": "Oryza sativa",
+      "target_host_species": ["Oryza sativa"],
+      "evidence_level": "E1",
+      "primary_reference": "Synthetic UI demonstration fixture",
+      "distribution_mode": "deferred",
+      "sequence_availability": "unavailable",
+      "workflow_admission_status": "blocked",
+      "governance_decision_source": "synthetic-ui-demonstration",
+      "governance_decision_version": "demo-r1",
+      "host_applicability": {
+        "status": "reviewed",
+        "scope": ["Oryza sativa"],
+        "evidence_source": "synthetic-ui-demonstration",
+        "evidence_version": "demo-host-r1",
+        "limitation": "Synthetic UI fixture; no biological performance conclusion."
+      }
+    },
+    {
+      "component_id": "DEMO-LEGACY-CDS",
+      "display_name": "Synthetic legacy CDS",
+      "component_type": "cds",
+      "source_record": "synthetic/DEMO-LEGACY-CDS.gb",
+      "sequence": "ACGT",
+      "sequence_length": 4,
+      "sequence_sha256": "1dff3e84fe7877e0673b69bbddcf40124e396e3f9943dd890c91b6a09adb9af0"
+    }
+  ]
+}

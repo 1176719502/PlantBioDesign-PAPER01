@@ -1,0 +1,333 @@
+{
+  "schema_version": "v2.7-r225-query-plan",
+  "query_plan_id": "plant_expression_batch_1",
+  "description": "Versioned candidate query plan for plant nuclear single-gene expression-vector metadata discovery.",
+  "license_policy_note": "Metadata-first plan. Full text is out of scope unless a future source adapter records open-access status and reuse basis.",
+  "limitations": "Queries create a candidate pool for manual documentation review; they do not approve, rank, or validate biological components.",
+  "queries": [
+    {
+      "query_id": "plant_expression_vector",
+      "description": "Plant expression vector literature and protein/accession metadata.",
+      "domain_label": "plant expression vector",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Broad expression-vector metadata candidate query.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(TITLE:\"plant expression vector\" OR ABSTRACT:\"plant expression vector\") AND (plant OR plants)",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (keyword:Plasmid OR keyword:Expression)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_transient_expression",
+      "description": "Plant transient expression literature metadata.",
+      "domain_label": "plant transient expression",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Transient-expression context only; no protocol capture.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(TITLE:\"plant transient expression\" OR ABSTRACT:\"plant transient expression\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (transient expression)"
+        }
+      }
+    },
+    {
+      "query_id": "nicotiana_benthamiana_transient_expression",
+      "description": "Nicotiana benthamiana transient expression metadata candidates.",
+      "domain_label": "Nicotiana benthamiana transient expression",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Plant host/context metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"Nicotiana benthamiana\" AND \"transient expression\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:4100) AND (keyword:Expression OR keyword:Secreted OR keyword:Transit peptide)"
+        }
+      }
+    },
+    {
+      "query_id": "stable_plant_expression_cassette",
+      "description": "Stable plant expression cassette metadata candidates.",
+      "domain_label": "stable plant expression cassette",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Stable-expression literature context; no transformation instructions.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"stable plant expression\" OR \"plant expression cassette\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (stable expression)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_promoter_expression",
+      "description": "Plant promoter expression metadata candidates.",
+      "domain_label": "plant promoter expression",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Promoter/regulatory metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(plant promoter expression OR \"plant promoter\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (promoter)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_terminator_expression",
+      "description": "Plant terminator and 3 prime regulatory region metadata candidates.",
+      "domain_label": "plant terminator expression",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Terminator/3 prime region metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant terminator\" OR \"3' regulatory region\" OR \"3 prime regulatory region\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (terminator)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_5_prime_utr_translation",
+      "description": "Plant 5 prime UTR and translation-related metadata candidates.",
+      "domain_label": "plant 5 prime UTR translation",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "5 prime regulatory metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant 5' UTR\" OR \"plant 5 prime UTR\" OR \"plant untranslated region\") AND translation",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (translation)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_signal_peptide_secretion",
+      "description": "Plant signal peptide and secretion metadata candidates.",
+      "domain_label": "plant signal peptide secretion",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Signal peptide metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant signal peptide\" OR \"signal peptide\") AND (plant OR plants) AND secretion",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (keyword:Signal OR keyword:Secreted)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_subcellular_targeting_peptide",
+      "description": "Plant subcellular targeting peptide metadata candidates.",
+      "domain_label": "plant subcellular targeting peptide",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Localization and targeting metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant targeting peptide\" OR \"chloroplast transit peptide\" OR \"subcellular targeting\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (keyword:Transit peptide OR keyword:Chloroplast OR keyword:Mitochondrion)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_localization_tag",
+      "description": "Plant localization tag metadata candidates.",
+      "domain_label": "plant localization tag",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Tag/localization metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant localization tag\" OR \"plant protein localization\" OR \"subcellular localization tag\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (keyword:Subcellular location)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_selectable_marker",
+      "description": "Plant selectable marker metadata candidates.",
+      "domain_label": "plant selectable marker",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Marker metadata only; no selection protocol.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant selectable marker\" OR \"selectable marker gene\") AND plant",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (selectable marker)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_reporter_gene",
+      "description": "Plant reporter gene metadata candidates.",
+      "domain_label": "plant reporter gene",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Reporter metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant reporter gene\" OR \"reporter gene\") AND plant",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (reporter gene OR fluorescent protein)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_vector_backbone",
+      "description": "Plant vector backbone metadata candidates.",
+      "domain_label": "plant vector backbone",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Backbone/toolkit metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant vector backbone\" OR \"binary vector\" OR \"plant transformation vector\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (vector backbone)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_moclo",
+      "description": "Plant MoClo metadata candidates.",
+      "domain_label": "plant MoClo",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Assembly standard metadata only; no cloning steps.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(Plant MoClo OR \"plant modular cloning\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (MoClo OR modular cloning)"
+        }
+      }
+    },
+    {
+      "query_id": "plant_golden_gate_assembly",
+      "description": "Plant Golden Gate assembly metadata candidates.",
+      "domain_label": "plant Golden Gate assembly",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Assembly standard metadata only; no cloning steps.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"Golden Gate assembly\" AND plant)",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (Golden Gate assembly)"
+        }
+      }
+    },
+    {
+      "query_id": "phytobrick",
+      "description": "PhytoBrick metadata candidates.",
+      "domain_label": "PhytoBrick",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Standard metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(PhytoBrick OR PhytoBricks)",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (PhytoBrick OR PhytoBricks)"
+        }
+      }
+    },
+    {
+      "query_id": "sbol_plant_design",
+      "description": "SBOL plant design metadata candidates.",
+      "domain_label": "SBOL plant design",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Standards metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(SBOL AND plant AND design)",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND SBOL"
+        }
+      }
+    },
+    {
+      "query_id": "plant_expression_toolkit",
+      "description": "Plant expression toolkit metadata candidates.",
+      "domain_label": "plant expression toolkit",
+      "enabled": true,
+      "max_records": 350,
+      "date_version": "2026-07-10",
+      "notes": "Toolkit metadata only.",
+      "source_queries": {
+        "europe_pmc": {
+          "query": "(\"plant expression toolkit\" OR \"plant synthetic biology toolkit\")",
+          "result_type": "core"
+        },
+        "uniprot": {
+          "query": "(taxonomy_id:33090) AND (toolkit OR synthetic biology)"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "v2.7-r225-source-registry",
+  "description": "Official-source metadata adapters for plant expression candidate ingestion. Records are candidates for manual documentation review, not approved catalog entries.",
+  "sources": [
+    {
+      "source_id": "europe_pmc",
+      "source_name": "Europe PMC Search API",
+      "adapter": "europe_pmc",
+      "adapter_version": "r225.v1",
+      "base_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search",
+      "endpoint_note": "REST search endpoint using JSON metadata responses and cursorMark pagination.",
+      "license_note": "Metadata and abstracts are retained only as provided by Europe PMC API responses; full text is not downloaded by this adapter.",
+      "usage_policy_note": "Uses conservative page sizes, timeouts, retries, and pacing. No authentication or scraping.",
+      "enabled": true
+    },
+    {
+      "source_id": "uniprot",
+      "source_name": "UniProt REST API",
+      "adapter": "uniprot",
+      "adapter_version": "r225.v1",
+      "base_url": "https://rest.uniprot.org/uniprotkb/search",
+      "endpoint_note": "UniProtKB REST search endpoint using JSON metadata responses and cursor pagination.",
+      "license_note": "Protein/accession metadata is retained as source metadata; no sequence bulk corpus is committed to Git.",
+      "usage_policy_note": "Uses conservative page sizes, timeouts, retries, and pacing. Optional API credentials are not required by this adapter.",
+      "enabled": true
+    }
+  ],
+  "deferred_sources": [
+    {
+      "source_id": "ncbi_eutils",
+      "reason": "Deferred from Batch 1 to keep the first foundation bounded after Europe PMC and UniProt are implemented. A future adapter can add E-utilities with explicit email/tool configuration and NCBI pacing rules."
+    },
+    {
+      "source_id": "addgene",
+      "reason": "Deferred because this batch avoids website scraping and uses only supported public APIs or download mechanisms."
+    },
+    {
+      "source_id": "synbiohub",
+      "reason": "Deferred until plant-specific collection scope and supported API/download usage are selected."
+    }
+  ]
+}

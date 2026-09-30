@@ -1,0 +1,48 @@
+LOCUS       AY973635                 824 bp    DNA     linear   PLN 18-APR-2005
+DEFINITION  Arabidopsis thaliana rd29A gene, promoter region.
+ACCESSION   AY973635
+VERSION     AY973635.1
+KEYWORDS    .
+SOURCE      Arabidopsis thaliana (thale cress)
+  ORGANISM  Arabidopsis thaliana
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; malvids; Brassicales; Brassicaceae;
+            Camelineae; Arabidopsis.
+REFERENCE   1  (bases 1 to 824)
+  AUTHORS   Zhang,N., Si,H.J. and Wang,D.
+  TITLE     Cloning of rd29A gene promoter from Arabidopsis thaliana and its
+            application in stress-resistance transgenic potato
+  JOURNAL   Zuo Wu Xue Bao 31, 159-164 (2005)
+REFERENCE   2  (bases 1 to 824)
+  AUTHORS   Si,H.J., Zhang,N. and Wang,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (24-MAR-2005) College of Life Science and Technology,
+            Gansu Agricultural University, Lanzhou, Gansu 730070, China
+FEATURES             Location/Qualifiers
+     source          1..824
+                     /organism="Arabidopsis thaliana"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:3702"
+     gene            <1..>824
+                     /gene="rd29A"
+     regulatory      <1..>824
+                     /regulatory_class="promoter"
+                     /gene="rd29A"
+ORIGIN      
+        1 cgactcaaaa caaacttacg aaatttaggt agaacttata tacattatat gtgtaatttt
+       61 ttgtaacaaa atgtttttat tattattata gaattttact ggttaaatta aaaatgaata
+      121 gaaaaggtga attaagagga gagaggaggt aaacattttc ttctattttt tcatattttc
+      181 aggataaatt attgtagaag tttaaaagat ttccatttga ctagtgtaaa tgaggaatat
+      241 tctctagtaa gatcattatt tcatctactt cttttatctt ctaccagtag aggaataaac
+      301 aatatttagc tcctttgtaa atacaaatta attttcgttc ttgacatcat tcaattttaa
+      361 ttttacgtat aaaataaaag atcataccta ttagaacgat taaggagaaa tacaattcga
+      421 atgagaagga tgtgccgttt gttataataa acagccacac gacgtaaacg taaaatgacc
+      481 acatgatggg ccaatagaca tggaccgact actaataata gtaagttaca ttttaggatg
+      541 gaataaatat cataccgaca tcagtttgaa agaaaaggga aaaaaagaaa aaataaataa
+      601 aagatatact accgacatga gttccaaaaa gcaaaaaaaa agatcaagcc gacacagaca
+      661 cgcgtagaga gcaaaatgac tttgacgtca caccacgaaa acagacgctt catacgtgtc
+      721 cctttatctc tctcagtctc tctataaact tagtgagacc ctcctctgtt ttactcacaa
+      781 atatgcaaac tagaaaacaa tcatcaggaa taaagggttt gatt
+//
+

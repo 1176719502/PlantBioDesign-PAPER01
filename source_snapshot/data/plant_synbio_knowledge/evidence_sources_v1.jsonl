@@ -1,0 +1,5 @@
+{"evidence_source_id":"pubmed_query_plan","label":"PubMed query plan","source_type":"literature_search_intent","allowed_use":"Search planning only; no PDF download or full-text storage."}
+{"evidence_source_id":"europe_pmc_query_plan","label":"Europe PMC query plan","source_type":"literature_search_intent","allowed_use":"Search planning only; no PDF download or full-text storage."}
+{"evidence_source_id":"crossref_query_plan","label":"Crossref query plan","source_type":"metadata_search_intent","allowed_use":"Metadata discovery planning only."}
+{"evidence_source_id":"semantic_scholar_query_plan","label":"Semantic Scholar query plan","source_type":"literature_search_intent","allowed_use":"Search planning only; no PDF download or full-text storage."}
+{"evidence_source_id":"manual_case_library_review","label":"Manual case library review","source_type":"local_review_intent","allowed_use":"Manual review of direct or adjacent plant evidence candidates."}

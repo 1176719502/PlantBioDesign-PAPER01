@@ -1,0 +1,58 @@
+{
+  "fixture_id": "generic-pathway-pbi121-r3",
+  "workflow": "gate3_pathway",
+  "design_scenario": "metabolic_pathway_multi_tu_vector",
+  "pathway_steps": [
+    {
+      "step_id": "pathway-step-1",
+      "step_name": "Documented conversion step 1",
+      "cds_sequence": "ATGGCTGCTTAA",
+      "mapped_unit_id": "TU1"
+    },
+    {
+      "step_id": "pathway-step-2",
+      "step_name": "Documented conversion step 2",
+      "cds_sequence": "ATGAAACCCGGGTAG",
+      "mapped_unit_id": "TU2"
+    }
+  ],
+  "expression_units": [
+    {
+      "unit_id": "TU1",
+      "unit_name": "PATHWAY_UNIT_ALPHA",
+      "orientation": "forward",
+      "order": 1,
+      "promoter": {"display_name": "PROMOTER_ALPHA", "sequence": "AACCGGTT"},
+      "five_prime_region": {"display_name": "FIVE_PRIME_ALPHA", "sequence": "AATT"},
+      "cds": {"display_name": "CDS_ALPHA", "sequence": "ATGGCTGCTTAA"},
+      "3_prime_regulatory_region": {"display_name": "THREE_PRIME_ALPHA", "sequence": "TTGCAACC"}
+    },
+    {
+      "unit_id": "TU2",
+      "unit_name": "PATHWAY_UNIT_BETA",
+      "orientation": "forward",
+      "order": 2,
+      "promoter": {"display_name": "PROMOTER_BETA", "sequence": "GGTTAACC"},
+      "five_prime_region": {"display_name": "FIVE_PRIME_BETA", "sequence": "GGCC"},
+      "cds": {"display_name": "CDS_BETA", "sequence": "ATGAAACCCGGGTAG"},
+      "3_prime_regulatory_region": {"display_name": "THREE_PRIME_BETA", "sequence": "CCGGTTAA"}
+    }
+  ],
+  "vector": {
+    "asset_id": "pbi121_af485783_1",
+    "accession_version": "AF485783.1",
+    "reviewed_source_path": "data/real_assets/pbi121/source_records/AF485783.1.gb",
+    "replacement_interval_1_based_inclusive": [4974, 7979],
+    "replacement_interval_0_based_half_open": [4973, 7979],
+    "topology": "circular"
+  },
+  "expected": {
+    "tu_count": 2,
+    "multi_tu_length": 67,
+    "multi_tu_sha256": "07a587c0d73868e7bdc187a412c18a5d0918bdc9dcb5ef7d8d380ee314d390bc",
+    "final_plasmid_length": 11819,
+    "final_plasmid_sha256": "f6321f529bfbfb45de661476c62cf5a7a46446631e59954c5c97c70dd12f2e61",
+    "fasta_sequence_equals_canonical": true,
+    "genbank_sequence_equals_canonical": true
+  }
+}

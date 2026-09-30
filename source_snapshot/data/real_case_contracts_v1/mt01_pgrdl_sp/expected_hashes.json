@@ -1,0 +1,41 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "expected_hashes",
+  "case_id": "MT-01",
+  "raw_source_file_sha256": "d082c3c34c425c2a4da809625af0fae83e77382399193a0c87dcf17398fadfd9",
+  "source_sequence_sha256": "7baff645c3e75e31518a7bbc31b45ea321748fa37e5475fa821489ed8df06d15",
+  "extracted_sequence_sha256": "1847b411bd0592e0927db433bfc88f8eec3a9f8c30620af97aba5dae465c3104",
+  "transcription_units": {
+    "TU1": "3b4ee457e45adc487c79983826ae5adead3e60dacb2b0bb9f640bd2342c09278",
+    "TU2": "63d0aa10b758fc2bdd0e0d07f20dc063e347da77f03e521b084fce7e19fb17cf"
+  },
+  "components": {
+    "MT-01-TU1-THREE-PRIME": {"physical": "f80ee57d15e76b5b079956ed5eee40d1679ccce2847cdf8e3b5e6aa695b06a10", "ui_input": "da45947ef22e320625b1558a289fff984fdb4d3824377d22faf88cc49d2453c4"},
+    "MT-01-TU1-CDS": {"physical": "a5aa25e82020e26bc52e07632fdf963f460944433aaaf3b4bc27582eff3699ca", "ui_input": "5f433c4c767f5aeb6da1c2ae5cf5167d9c28f27dce0bd378193b5842c5e3cd70"},
+    "MT-01-TU1-PROMOTER-SIDE": {"physical": "13677c3d9f170b8108f337ce317aac006c17a19f74a20fe401109831fcbc99d7", "ui_input": "b41eb43f1eae765687a4b20763b38ab8bf0493d3ba50254b5ac11e134354a53d"},
+    "MT-01-TU2-PROMOTER-SIDE": {"physical": "e8cc34a86d7e1851dd6add3d54982559fb0c2f923b18b2ecadf11a0c8021e991", "ui_input": "e8cc34a86d7e1851dd6add3d54982559fb0c2f923b18b2ecadf11a0c8021e991"},
+    "MT-01-TU2-CDS": {"physical": "96f67d08021450f2b425c7da4a5e5487ed489b407444fe6ff5dc17ff8177c9f8", "ui_input": "96f67d08021450f2b425c7da4a5e5487ed489b407444fe6ff5dc17ff8177c9f8"},
+    "MT-01-TU2-THREE-PRIME": {"physical": "6e3b946a0a44429e7eb22ddb413bea80dc139cb579ce1d6c94e1ed4dd07721a5", "ui_input": "6e3b946a0a44429e7eb22ddb413bea80dc139cb579ce1d6c94e1ed4dd07721a5"}
+  },
+  "unannotated_intervals": {
+    "MT-01-J01": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd",
+    "MT-01-J02": "ef3d0074b197662a123cef1a8fb47d9e880793615cae091e282e38db67047957",
+    "MT-01-J03": "38dab4c3b2dec6968334beecaefadb3c9206fabc06ad81960a6105de6e37944e",
+    "MT-01-J04": "258471f7780bad7d42962579bc485bf7354f203ca7a2ad6a0789797126b67b03",
+    "MT-01-J05": "a28eff5e8310ea7c3515feacdc0cdef95ee99bd47000dd43ed043defa69ab911"
+  },
+  "source_features": {
+    "MT-01-SF-NOS-TERMINATOR": "1e5aa060f84dfd97c21ef60b06703d6eb6ac4bcc6d248c3b4170e4a28f58175f",
+    "MT-01-SF-RENILLA-CDS": "a5aa25e82020e26bc52e07632fdf963f460944433aaaf3b4bc27582eff3699ca",
+    "MT-01-SF-NOS-PROMOTER": "7bb3c832a3c46b6acc1c241eabc097de3a2cb88d2a2c90062b527a0f1ac7c8c4",
+    "MT-01-SF-CAMV35S-PROMOTER": "3dc66987ea78606a60f2a3912f79286a33679490b9cf8a369e6148471da52eea",
+    "MT-01-SF-FIREFLY-CDS": "96f67d08021450f2b425c7da4a5e5487ed489b407444fe6ff5dc17ff8177c9f8",
+    "MT-01-SF-35S-TERMINATOR": "ade5165ca0598534c01eaa32d9bf1f04354c8e6f88c00a8f565d7e43f0cbb144"
+  },
+  "protected_resource_tree_hashes": {
+    "data/plant_component_registry_v1": "e05de0d1d49553b71ef8c0634b2c681068a560d8b4b6fa2c94871c7dda06e6a3",
+    "data/vector_asset_contracts_v1": "c8515fb4319878b9b8632b15980147bf5c31c811b62d147c4c3dafec2c894ea3"
+  }
+}

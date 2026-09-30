@@ -1,0 +1,23 @@
+# .streamlit/config.toml
+# Streamlit 性能优化配置文件
+
+[client]
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[server]
+maxUploadSize = 50
+headless = true
+
+[logger]
+level = "warning"
+
+[theme]
+primaryColor = "#0084FF"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false

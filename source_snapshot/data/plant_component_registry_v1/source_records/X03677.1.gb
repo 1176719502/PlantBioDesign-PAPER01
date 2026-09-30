@@ -1,0 +1,181 @@
+LOCUS       X03677                  4852 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  Vicia faba legumin B gene LeB4.
+ACCESSION   X03677
+VERSION     X03677.1
+KEYWORDS    direct repeat; legumin; seed storage protein; signal peptide.
+SOURCE      Vicia faba (fava bean)
+  ORGANISM  Vicia faba
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; rosids; fabids; Fabales; Fabaceae; Papilionoideae; 50
+            kb inversion clade; NPAAA clade; Hologalegina; IRL clade; Fabeae;
+            Vicia.
+REFERENCE   1  (bases 1 to 2844)
+  AUTHORS   Baumlein,H., Wobus,U., Pustell,J. and Kafatos,F.C.
+  TITLE     The legumin gene family: structure of a B type gene of Vicia faba
+            and a possible legumin gene specific regulatory element
+  JOURNAL   Nucleic Acids Res. 14 (6), 2707-2720 (1986)
+   PUBMED   3960730
+REFERENCE   2  (bases 1 to 2844)
+  AUTHORS   Baeumlein,H., Nagy,I., Villarroel,R., Inze,D. and Wobus,U.
+  TITLE     Cis-analysis of a seed protein gene promoter: the conservative RY
+            repeat CATGCATG wihin the legumin box is essential for
+            tissue-specific expression of a legumin gene
+  JOURNAL   Plant J. 24, 233-239 (1992)
+COMMENT     On May 29, 1995 this sequence version replaced gi:829145.
+FEATURES             Location/Qualifiers
+     source          1..4852
+                     /organism="Vicia faba"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:3906"
+     regulatory      2591..2618
+                     /regulatory_class="other"
+                     /note="pot. regulatory element; legumin box"
+     regulatory      2666..2671
+                     /regulatory_class="TATA_box"
+     repeat_region   2683..2691
+                     /note="direct repeat 1"
+     misc_feature    2684..2699
+                     /note="conserv. seq. in legumin genes"
+     repeat_region   2692..2699
+                     /note="direct repeat 1"
+     precursor_RNA   2698..4526
+                     /note="put. primary transcript"
+     exon            2698..3302
+                     /number=1
+     misc_RNA        2698
+                     /note="put. cap site"
+     repeat_region   2700..2707
+                     /note="direct repeat 1"
+     repeat_region   2708..2715
+                     /note="direct repeat 1"
+     CDS             join(2754..3302,3398..3925,4026..4403)
+                     /codon_start=1
+                     /product="legumin B"
+                     /protein_id="CAA27313.1"
+                     /db_xref="GOA:P05190"
+                     /db_xref="InterPro:IPR006044"
+                     /db_xref="InterPro:IPR006045"
+                     /db_xref="InterPro:IPR011051"
+                     /db_xref="InterPro:IPR014710"
+                     /db_xref="InterPro:IPR022379"
+                     /db_xref="UniProtKB/Swiss-Prot:P05190"
+                     /translation="MSKPFLSLLSLSLLLFTSTCLATSSEFDRLNQCRLDNINALEPD
+                     HRVESEAGLTETWNPNHPELRCAGVSLIRRTIDPNGLHLPSYSPSPQLIYIIQGKGVI
+                     GLTLPGCPQTYQEPRSSQSRQGSRQQQPDSHQKIRRFRKGDIIAIPSGIPYWTYNNGD
+                     EPLVAISLLDTSNIANQLDSTPRVFYLVGNPEVEFPETQEEQQERHQQKHSLPVGRRG
+                     GQHQQEEESEEQKDGNSVLSGFSSEFLAHTFNTEEDTAKRLRSPRDKRNQIVRVEGGL
+                     RIINPEGQQEEEEEEEEEKQRSEQGRNGLEETICSLKIRENIAQPARADLYNPRAGSI
+                     STANSLTLPILRYLRLSAEYVRLYRNGIYAPHWNINANSLLYVIRGEGRVRIVNSQGN
+                     AVFDNKVTKGQLVVVPQNFVVAEQAGEEEGLEYLVFKTNDRAAVSHVQQVFRATPADV
+                     LANAFGLRQRQVTELKLSGNRGPLVHPQSQSQSN"
+     sig_peptide     2754..2819
+     mat_peptide     join(2820..3302,3398..3757)
+                     /product="legumin B alpha chain"
+     mat_peptide     join(3758..3925,4026..4400)
+                     /product="legumin B beta chain"
+     intron          3303..3397
+                     /number=1
+     intron          3926..4025
+                     /number=2
+     misc_feature    3987..3992
+                     /note="put. splice signal"
+     regulatory      4386..4399
+                     /regulatory_class="polyA_signal_sequence"
+     repeat_region   4386..4399
+                     /note="direct repeat 2"
+     regulatory      4422..4427
+                     /regulatory_class="polyA_signal_sequence"
+     regulatory      4448..4452
+                     /regulatory_class="polyA_signal_sequence"
+     regulatory      4451..4456
+                     /regulatory_class="polyA_signal_sequence"
+     regulatory      4502..4507
+                     /regulatory_class="polyA_signal_sequence"
+     repeat_region   4525..4538
+                     /note="direct repeat 2"
+     polyA_site      4526
+ORIGIN      
+        1 gatctgtcgt ctcaaactca ttcatcagaa ccttcttgaa cttagttatc tcttgttcag
+       61 agcttcctgt tagcaatatg tcatcaacat ataaacatgt cccagaagcc agaagataga
+      121 agttggatga tagaagtaaa gtaatgttac tggtggagta ccacaataca agttcataca
+      181 aactttattg tccagaaact aacaaagttg agttcagcat agatgaaaga caaaaagaat
+      241 atattaaatg acggctgcaa aataaggagt aatgaataca ttgacctacc tactactagg
+      301 ctatttatac acaatattag ggtataataa aatattaaaa taccctctat cagacttagt
+      361 caataagaca ttcctaaaat ataaattatt tccaacaata atttgtctca aataaaatat
+      421 agaggtgcaa aagttaaact aagagtgcaa agtaaaattt tgagagggct caaaattgaa
+      481 tataataaca atattagtgt agtttaagaa aactcagggg atgcagttga actccctcaa
+      541 ctgtacgtag ctcctcccct ggatgcagtg taaagatttg aagatatatt ttagtacttt
+      601 ggatattgta ggccagaggg tgttgaagat aaaggttcag gaactaacac attcatccac
+      661 aacttctatg tgtccatcgt cagtgaaata catgccaaat aggggagtta agaagagtag
+      721 aaagggtcaa gatagtgatg tgcatcgtga tccttcataa tgggagtgtg gtgagggctc
+      781 gcatgggagt catactacaa agagatcatg cataaaacca actagaagtc aactgtcaag
+      841 tatgacggct gacaattaac cgtccaccaa atcttccaga catgtttact tgtcccagtt
+      901 ttctgatttc ttatatccat acattgatga cattattgat gttggtggcg atggagattg
+      961 gggttttcat gctattacag ctttacttgg atggggtgaa gagtcatagc ctttgattca
+     1021 gacgcagtta gatactcaag ttcatcaaca ccctcaattg ttttttaagt tgttttgtga
+     1081 cacgatctct acagttagaa atgcgttacg agtagaacac ttggctgtgc agggtataga
+     1141 taaatgaatg acgatttatg atatgggtta ccctattgct tctagataca atgtcgtatt
+     1201 tgtctccctt ccaaaagact taacatcacg ttttttcctc ttgccttatc tccacctatg
+     1261 tatacaagca ggcataaaat cattgttgtt ggttttgtca acaacaatca ttgagtttag
+     1321 gtaaagttga aacttgattg tccattacct cttgtcactg actgttgaag acagaattgt
+     1381 actgactgta tatatcaaca tatgcgagac gcgttaggca gtggaaagac gtagttagga
+     1441 tgtcatcata atttgtttcg tatttttata tgtagcacag tttttatatg tatatatttt
+     1501 atcgggtagt tttttatcga ttcagttatt tgagaaaaag taatgcagac aaaaagtgga
+     1561 aaagacaatc tgactgtaca taagaaattt ccaatttttg aaattttttt ataattatca
+     1621 gaaattttaa aatttccgat aaaaacatac atgtatagat cgaaaatttc aaatttctag
+     1681 tactttcaaa tttcttgcag taaaagttgt aattttttaa aaatttacga taatttacag
+     1741 tatttaaaaa aaaatccaat cttaaataaa gggtataaga ataaaagcac tcatgtggag
+     1801 tggcaggttt cgtcacaccc taagaacatc cctaaataca ccacatatgt ataagtatta
+     1861 agtgattgat gttaagtgaa acgaaaatat ttatatgtga atttaatatt cagcttactt
+     1921 gattaaactc catagtgacc caataagtgc taacttttac tgtctttacc tttaaatgtt
+     1981 atattgattt atttatgcat ttctttttcc tgcatctcaa tagtatatag ggtatcaaat
+     2041 agtgattatc caaacttaaa taagttagag gaaacaccaa gatatgccat atactctcaa
+     2101 atttgacact atgattcaaa gttgcacttg cataaaactt attaattcaa tagtaaaacc
+     2161 aaacttgtgc gtgatacagt taaaatgact aaactactaa ttaaggtccc tcccattagt
+     2221 aaataagtta tttttttaga aaaagaaaat aataaaaaga atgacgagtc tatctaaatc
+     2281 atattaacaa gtaatacata ttgattcatt cgatggagga ggccaataat tgtagcaaac
+     2341 aagcagtgcc gaggttaata tatgctcaag acagtaaata atctaaatga attaagacag
+     2401 tgatttgcaa agagtagatg cagagaagag aactaaagat ttgctgctac acgtatataa
+     2461 gaatagcaac agatattcat tctgtctctt tgtggaatat ggatatctac taatcatcat
+     2521 ctatctgtga agaataaaag aagcggccac aagcgcagcg tcgcacatat gatgtgtatc
+     2581 aaattaggac tccatagcca tgcatgctga agaatgtcac acacgttctg tcacacgtgt
+     2641 tactctctca ctgttctcct cttcctataa atcaccgcgc cacagcttct ccacttcacc
+     2701 acttcaccac ttcactcaca atccttcatt agttgtttac tatcacagtc acaatgtcca
+     2761 aaccttttct atctttgctt tcactttcct tgcttctctt tacaagcaca tgtttagcaa
+     2821 ctagctctga gtttgacaga ctcaaccaat gccggttaga caacatcaat gcattggaac
+     2881 ctgaccaccg tgtggagtcc gaagctggtc tcactgagac atggaatcca aatcaccctg
+     2941 agctaagatg tgccggtgtg tctcttatca gacgcaccat tgaccctaat ggactccact
+     3001 tgccatctta ctcaccctct ccacagttga tttacatcat ccaaggaaag ggtgttattg
+     3061 gacttacact tcctggttgt ccccagactt accaagagcc acgttcatca caatctagac
+     3121 aaggatccag gcagcaacaa cctgacagtc accagaagat tcgccgattc aggaaaggtg
+     3181 atatcattgc cattccatcg ggaattccat attggacata taacaatggc gatgaaccgc
+     3241 ttgttgccat tagtcttctt gacacttcca acattgcaaa ccagcttgat tcaaccccaa
+     3301 gagtaagtaa tagtgtaact atacattaca ttgtctgtta taaattgttc tagaacttta
+     3361 aactcaatca aatcgcatgt aaatatgtgt ttttcaggta ttttaccttg ttgggaaccc
+     3421 ggaggtagag ttccctgaaa cacaggagga gcagcaagaa agacatcaac aaaaacatag
+     3481 tttaccagtt ggacgtcggg gtggacagca ccaacaagaa gaggaatctg aagaacaaaa
+     3541 ggacggtaac agcgttttga gtggcttcag ttcagagttt ttagcacaca cattcaacac
+     3601 cgaagaggat acagctaaga gacttcgttc tccacgcgac aaaaggaatc aaatcgtgag
+     3661 agttgagggc ggtctccgca ttatcaaccc tgaggggcag caggaagaag aagaagaaga
+     3721 ggaggaggag aagcagagaa gtgagcaggg aaggaatggt ttggaagaaa ccatctgtag
+     3781 tctcaagatt cgtgagaaca ttgctcagcc tgcacgtgca gacctctata acccacgtgc
+     3841 cggtagtatc agcaccgcaa acagtttaac ccttccaatc ctccgctatt tacgcctcag
+     3901 tgccgaatat gttcgtcttt acagggtacg tatagtatta actatttaac caatttctat
+     3961 atttcatata aatgattttt taataaacta atcaataaca tgcatatgca tgtatgtata
+     4021 tgcagaatgg tatatatgct ccacactgga acataaacgc aaacagtctg ctgtacgtga
+     4081 taagaggaga aggaagagtt aggattgtga actcccaagg aaacgcagtg ttcgacaaca
+     4141 aggtgacaaa gggacagttg gtggtggtac cacaaaactt tgtggtggcg gaacaagctg
+     4201 gagaggaaga aggattagag tatcttgtgt tcaagacaaa tgacagagct gctgttagcc
+     4261 acgtacagca ggtgtttagg gccactcctg cagatgttct tgcaaatgct tttggtcttc
+     4321 gtcagcgcca agtcacagag ttaaagctca gtggaaaccg tggccctctg gttcaccctc
+     4381 agtctcaatc tcaatctaat tgagatcatg ctaaggagtg caataatgag atggccatct
+     4441 tatcataaat aataaatttt gaatgtattg tagtaaagaa cttcagttcc gataataaaa
+     4501 caataaagta tggccttatt atcccaatct taatctaaat ttgcatgcat ttataagtgg
+     4561 cgaataacaa tatcttgaat cacctacaat tgccataata aaatgcatac actttttact
+     4621 atagcttata tgtttgtttg aatcatataa aaaacacaac tagaaatctg cattttttcc
+     4681 atcggattct tcttcttcta actttcagaa actcaaagaa aatctgacag aaggtattaa
+     4741 ctaatttccc atgtcaaatg tgtatttgaa ataaaaaaag aaaacggtac cctaaaaaac
+     4801 tttctctcct taaattttct acaaattata ccatgtaatt aattggaaca at
+//
+

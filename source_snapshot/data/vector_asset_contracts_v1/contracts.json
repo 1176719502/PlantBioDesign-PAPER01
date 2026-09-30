@@ -1,0 +1,163 @@
+{
+  "schema_version": "vector-asset-contracts-v1",
+  "contracts": [
+    {
+      "schema_version": "vector-asset-contracts-v1",
+      "contract_version": "1.0.0",
+      "asset_id": "pcambia1300_af234296_1",
+      "display_name": "pCAMBIA-1300 / AF234296.1",
+      "aliases": ["pCAMBIA-1300", "pCAMBIA1300", "AF234296.1"],
+      "accession_version": "AF234296.1",
+      "record_id": "AF234296.1",
+      "asset_kind": "exact_insertion_source",
+      "operation_kind": "exact_insertion",
+      "circular": true,
+      "full_sequence_length": 8958,
+      "full_sequence_sha256": "83c7d28d071a9ff167dbe78817b2b20a5e285dcc6e1637e7392adb9f7be89de6",
+      "external_coordinate_contract": {
+        "coordinate_system": "1-based adjacent cut boundary",
+        "cut_boundary": "27|28"
+      },
+      "internal_coordinate_contract": {
+        "coordinate_system": "0-based insertion index",
+        "cut_index": 27
+      },
+      "operation_region_sha256": null,
+      "supported_workflows": ["single_gene_rice_alb"],
+      "blocked_workflows": ["single_gene", "generic_multi_tu", "betalain_gate3"],
+      "direct_design_allowed": true,
+      "arbitrary_coordinate_allowed": false,
+      "reference_view_allowed": true,
+      "canonical_modification_allowed": true,
+      "formal_selection_allowed": true,
+      "retained_features": ["hptII plant selection cassette", "T-DNA right border", "T-DNA left border"],
+      "protected_features": ["hptII plant selection cassette", "T-DNA right border", "T-DNA left border"],
+      "warning_text": "Only the reviewed single-gene rice ALB workflow may apply the fixed XbaI cut boundary 27|28. Multi-TU, Gate 3, replacement, and arbitrary coordinates are blocked.",
+      "source_evidence": [
+        {
+          "evidence_type": "reviewed_local_genbank_snapshot",
+          "local_record_path": "case_inputs/rice_hsa/raw/AF234296.1.gb",
+          "note": "Exact identity and insertion boundary are covered by the pCAMBIA-1300 audit."
+        }
+      ],
+      "review_status": "approved",
+      "reference_status": "reviewed_local_snapshot"
+    },
+    {
+      "schema_version": "vector-asset-contracts-v1",
+      "contract_version": "1.0.0",
+      "asset_id": "pbi121_af485783_1",
+      "display_name": "pBI121 / AF485783.1",
+      "aliases": ["pBI121", "AF485783.1"],
+      "accession_version": "AF485783.1",
+      "record_id": "AF485783.1",
+      "asset_kind": "tDNA_replacement_source",
+      "operation_kind": "exact_replacement",
+      "circular": true,
+      "full_sequence_length": 14758,
+      "full_sequence_sha256": "e497e664f6d6baba1bd1cafce38bceedf88c0108101bc57adf29513246497539",
+      "external_coordinate_contract": {
+        "coordinate_system": "1-based inclusive",
+        "start": 4974,
+        "end": 7979
+      },
+      "internal_coordinate_contract": {
+        "coordinate_system": "0-based half-open",
+        "start": 4973,
+        "end": 7979
+      },
+      "operation_region_sha256": "e010e62e9297fdda0d3956a64872766640faf24416f3fae9fac4c1fea9095d5c",
+      "supported_workflows": ["betalain_gate3", "gate3_pathway"],
+      "blocked_workflows": ["single_gene", "single_gene_rice_alb", "generic_multi_tu"],
+      "direct_design_allowed": true,
+      "arbitrary_coordinate_allowed": false,
+      "reference_view_allowed": true,
+      "canonical_modification_allowed": true,
+      "formal_selection_allowed": true,
+      "retained_features": ["nptII plant selection cassette", "T-DNA right border", "T-DNA left border", "bacterial replication regions"],
+      "protected_features": ["nptII plant selection cassette", "T-DNA right border", "T-DNA left border"],
+      "warning_text": "Only the reviewed Betalain Gate 3 or generic metabolic-pathway workflow may replace the fixed half-open interval [4973,7979). Direct insertion and arbitrary replacement coordinates are blocked.",
+      "source_evidence": [
+        {
+          "evidence_type": "reviewed_local_genbank_snapshot",
+          "local_record_path": "data/real_assets/pbi121/source_records/AF485783.1.gb",
+          "note": "Exact identity and reporter-cassette replacement are covered by the pBI121 audit."
+        }
+      ],
+      "review_status": "approved",
+      "reference_status": "reviewed_local_snapshot"
+    },
+    {
+      "schema_version": "vector-asset-contracts-v1",
+      "contract_version": "1.0.0",
+      "asset_id": "pbin19_u09365_1",
+      "display_name": "pBIN19 / U09365.1",
+      "aliases": ["pBIN19", "Bin19", "U09365.1"],
+      "accession_version": "U09365.1",
+      "record_id": "U09365.1",
+      "asset_kind": "reference_vector",
+      "operation_kind": "none",
+      "circular": true,
+      "full_sequence_length": 11777,
+      "full_sequence_sha256": "9e8a6e62caaff3c4204ffd3a250e56e2486c7fb593304afa7403f06bd2a755ff",
+      "external_coordinate_contract": null,
+      "internal_coordinate_contract": null,
+      "operation_region_sha256": null,
+      "supported_workflows": [],
+      "blocked_workflows": ["single_gene", "single_gene_rice_alb", "generic_multi_tu", "betalain_gate3"],
+      "direct_design_allowed": false,
+      "arbitrary_coordinate_allowed": false,
+      "reference_view_allowed": true,
+      "canonical_modification_allowed": false,
+      "formal_selection_allowed": false,
+      "retained_features": [],
+      "protected_features": ["border-associated envelope 6043..9421", "plant selection cassette envelope 7501..9259"],
+      "warning_text": "Complete reference vector only. The audited structural envelopes are not approved insertion or replacement regions, so canonical modification is blocked.",
+      "source_evidence": [
+        {
+          "evidence_type": "bundled_genbank_record",
+          "local_record_path": "data/plant_component_registry_v1/source_records/U09365.1.gb",
+          "note": "Local and current NCBI sequence identity was audited; no design operation was approved."
+        }
+      ],
+      "review_status": "reference_only",
+      "reference_status": "reviewed_reference_only"
+    },
+    {
+      "schema_version": "vector-asset-contracts-v1",
+      "contract_version": "1.0.0",
+      "asset_id": "r229_local_example",
+      "display_name": "r229 local example / R229BONE",
+      "aliases": ["r229", "R229BONE"],
+      "accession_version": null,
+      "record_id": "R229BONE",
+      "asset_kind": "hold_unverified_asset",
+      "operation_kind": "none",
+      "circular": true,
+      "full_sequence_length": 4200,
+      "full_sequence_sha256": "5cd87c81854c5d17f1d8185275eb19298a3b439930c339892286913197aa753c",
+      "external_coordinate_contract": null,
+      "internal_coordinate_contract": null,
+      "operation_region_sha256": null,
+      "supported_workflows": [],
+      "blocked_workflows": ["single_gene", "single_gene_rice_alb", "generic_multi_tu", "betalain_gate3"],
+      "direct_design_allowed": false,
+      "arbitrary_coordinate_allowed": false,
+      "reference_view_allowed": true,
+      "canonical_modification_allowed": false,
+      "formal_selection_allowed": false,
+      "retained_features": [],
+      "protected_features": [],
+      "warning_text": "Local example with unverified provenance. The historical 2100..2101 default is not source-supported and no formal design operation is allowed.",
+      "source_evidence": [
+        {
+          "evidence_type": "local_example_record",
+          "local_record_path": "examples/plant_single_gene_mvp/r229_backbone.gb",
+          "note": "The record is retained for development compatibility only; public provenance was not established."
+        }
+      ],
+      "review_status": "hold",
+      "reference_status": "local_example_only"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+LOCUS       JX947345                2015 bp    DNA     linear   PLN 30-OCT-2012
+DEFINITION  Zea mays ubiquitin 1 (Ubi) gene, promoter region.
+ACCESSION   JX947345
+VERSION     JX947345.1
+KEYWORDS    .
+SOURCE      Zea mays
+  ORGANISM  Zea mays
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; Liliopsida; Poales; Poaceae; PACMAD
+            clade; Panicoideae; Andropogonodae; Andropogoneae; Tripsacinae;
+            Zea.
+REFERENCE   1  (bases 1 to 2015)
+  AUTHORS   Nguyen,T.D. and Le,D.H.
+  TITLE     Isolation and characterization of ubiquitin promoter from maize
+            cultivar H240
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2015)
+  AUTHORS   Nguyen,T.D. and Le,D.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-OCT-2012) Plant Cell Genetics, Institute of
+            Biotechnology, 18 Hoang Quoc Viet, Cau Giay, Hanoi 844, Vietnam
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2015
+                     /organism="Zea mays"
+                     /mol_type="genomic DNA"
+                     /cultivar="H240"
+                     /db_xref="taxon:4577"
+                     /PCR_primers="fwd_seq: atctgcaggcatgcctgcagtgcagcgtgacc,
+                     rev_seq: gcggatcctctagagtcgacctgcagaagtaac"
+     gene            <1..2015
+                     /gene="Ubi"
+                     /note="ubiquitin 1"
+     regulatory      <1..2015
+                     /regulatory_class="promoter"
+                     /gene="Ubi"
+ORIGIN      
+        1 tactgcaggt gcagcgtgac ccggtcgtgc ccctctctag agctctagag tagagcattg
+       61 catgtctaag ttataaaaaa ttaccacata ttttttttgt acacttgtgt ttgaagtgca
+      121 gtttatctat ctctatacat atatttaaac ttcactatat gaataatata gtctatagta
+      181 ttaaaataat atcaatgttt tagatgatta tataactgag ctgctagaca tggtctaaag
+      241 gacaaccgag tattttgaca acatgactct acagttttat ctttttagtg tgcgtgtgtt
+      301 ctttttactt ttgcaaatag cttcacctat ataatacttc atccatttta ttagtacatc
+      361 catttactaa atttttagta catctatttt attctatttt agcctctaaa ttaagaaaac
+      421 ttaaactcta ttttagtttt ttatttaata atttagatat aaaatagaat aaaataaagt
+      481 gactaaaaaa taactaaata cctttttaag aaataaaaaa actaaggaac catttttctt
+      541 gttccgagta gataatgaca gcctgttcaa cgccgtcgac gagtctaacc ggaacacccc
+      601 atcagcgaac ccaggcagcg tcgcgtccgg ttcaagcgaa gcagaacgcc acgggcatct
+      661 tctgtagctg ccctttctgg accccctctc tccgagagaa ggtttccgct cccaccgttg
+      721 gacttgctcc cgctgttcgg catcccagaa aattgcgtgg gcgggagcgg cagacgtgag
+      781 ccggcacggg caggcggcct tccttctcac ggcaccggca gctacggggg attccctttc
+      841 ccaccgctcc tttcgctttt ccttcctcgc ccgccgtaat aaatagacac cccccctccc
+      901 acaccctctt tcccccaacc tcgtgttgtt cggagcgcac acacacacaa ccagatctcc
+      961 ccccaaaccc acccgtcggc acctcccgct tcaaggtacg ccgctcgtcc tccccccccc
+     1021 cccctctctc taccttctct agatcggcgt tccggtccat ggttagggcc ccggtagttc
+     1081 tacttctgtt catgtttgtg ttagatccgt gtttgtgtta gatccgtgct gctagcgttc
+     1141 gtacacggat gcgacctgta cgtcagacac gttctgattg ctaacttgcc agtgtttctc
+     1201 tttggggaat cctgggatgg ctctagccgt tccgcagacg ggatcgattt catgattttt
+     1261 tttgtttcgt tgcatagggt ttggtttgcc cttttccttt atttcaatat atgccgtgca
+     1321 cttgtttgtc gggtcatctt ttcatgcttt tttttgtctt ggttgtgatg atgtggtctg
+     1381 gttgggcggt cgttctagat cggagtagaa ttctgtttca aactacctgg tggatttatt
+     1441 aattttggat ctgtatgtgt gtgccataca tattcatagt tacgaattga agatgatgga
+     1501 tggaaatatc gatctaggat aggtatacat gttgatgcgg gttttactgg tgcatataca
+     1561 gagatgcttt ttgttcgctt ggttgtgatg atgtggtgtg gttgggcggt cgttcattcg
+     1621 ttctagatcg gagtagaata ctgtttcaaa ctacctggtg tatttattaa ttttggaact
+     1681 gtatgtgtgt gtcatacatc ttcatagtta cgagtttaag atggatggaa atatcgatct
+     1741 aggataggta tacatgttga tgtgggtttt actgatgcat atacatgatg gcatatgcag
+     1801 catctattca tatgctctaa ccttgagtac ctatctatta taataaacaa gtatgtttta
+     1861 taattatttt gatcttgata tacttggatg atggcatatg cagcagctat atgtggattt
+     1921 ttttagccct gccttcatac gctatttatt tgcttggtac tgtttctttg tccgatgctc
+     1981 atcctgttgt ttggtgttac ttctgcagga tccta
+//
+

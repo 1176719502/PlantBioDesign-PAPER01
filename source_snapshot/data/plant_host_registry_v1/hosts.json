@@ -1,0 +1,83 @@
+{
+  "registry_version": "plant-host-registry-v1",
+  "records": [
+    {
+      "host_id": "rice",
+      "common_name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "aliases": ["O. sativa"],
+      "plant_scope": "plant",
+      "workflow_levels": ["SINGLE_GENE_COMPLETE_VECTOR", "GENERIC_MULTI_TU_ASSEMBLY"],
+      "workflow_contracts": {
+        "SINGLE_GENE_COMPLETE_VECTOR": {"contains_vector": true},
+        "GENERIC_MULTI_TU_ASSEMBLY": {"contains_vector": false}
+      },
+      "evidence_refs": ["DATA-02B"],
+      "status": "active",
+      "display_order": 1
+    },
+    {
+      "host_id": "tobacco",
+      "common_name": "Tobacco",
+      "scientific_name": "Nicotiana benthamiana",
+      "aliases": ["N. benthamiana"],
+      "plant_scope": "plant",
+      "workflow_levels": ["GENERIC_MULTI_TU_ASSEMBLY"],
+      "workflow_contracts": {"GENERIC_MULTI_TU_ASSEMBLY": {"contains_vector": false}},
+      "evidence_refs": ["DATA-02B"],
+      "status": "active",
+      "display_order": 2
+    },
+    {
+      "host_id": "maize",
+      "common_name": "Maize",
+      "scientific_name": "Zea mays",
+      "aliases": ["Corn"],
+      "plant_scope": "plant",
+      "workflow_levels": ["GENERIC_MULTI_TU_ASSEMBLY"],
+      "workflow_contracts": {"GENERIC_MULTI_TU_ASSEMBLY": {"contains_vector": false}},
+      "evidence_refs": ["DATA-02B"],
+      "status": "active",
+      "display_order": 3
+    },
+    {
+      "host_id": "arabidopsis",
+      "common_name": "Arabidopsis",
+      "scientific_name": "Arabidopsis thaliana",
+      "aliases": ["A. thaliana"],
+      "plant_scope": "plant",
+      "workflow_levels": ["GENERIC_MULTI_TU_ASSEMBLY"],
+      "workflow_contracts": {"GENERIC_MULTI_TU_ASSEMBLY": {"contains_vector": false}},
+      "evidence_refs": ["DATA-02B"],
+      "status": "active",
+      "display_order": 4
+    },
+    {
+      "host_id": "tomato",
+      "common_name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "aliases": ["S. lycopersicum"],
+      "plant_scope": "plant",
+      "workflow_levels": ["SINGLE_GENE_COMPLETE_VECTOR", "GENERIC_MULTI_TU_ASSEMBLY"],
+      "workflow_contracts": {
+        "SINGLE_GENE_COMPLETE_VECTOR": {"contains_vector": true},
+        "GENERIC_MULTI_TU_ASSEMBLY": {"contains_vector": false}
+      },
+      "evidence_refs": ["DATA-02B"],
+      "status": "active",
+      "display_order": 5
+    },
+    {
+      "host_id": "soybean",
+      "common_name": "Soybean",
+      "scientific_name": "Glycine max",
+      "aliases": ["G. max"],
+      "plant_scope": "plant",
+      "workflow_levels": ["GENERIC_MULTI_TU_ASSEMBLY"],
+      "workflow_contracts": {"GENERIC_MULTI_TU_ASSEMBLY": {"contains_vector": false}},
+      "evidence_refs": ["DATA-02B"],
+      "status": "active",
+      "display_order": 6
+    }
+  ]
+}

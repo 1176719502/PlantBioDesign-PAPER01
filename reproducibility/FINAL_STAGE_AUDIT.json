@@ -1,0 +1,26 @@
+{
+  "binary_files": [
+    {
+      "path": "source_snapshot/assets/fonts/noto_sans_sc/NotoSansSC-wght.ttf",
+      "size": 17772300
+    },
+    {
+      "path": "source_snapshot/core/ai_models/crispr_gb_model.pkl",
+      "size": 441356
+    },
+    {
+      "path": "source_snapshot/tools/muscle.exe",
+      "size": 353792
+    }
+  ],
+  "correction02_hits": [],
+  "large_files": [
+    {
+      "path": "source_snapshot/assets/fonts/noto_sans_sc/NotoSansSC-wght.ttf",
+      "size": 17772300
+    }
+  ],
+  "local_path_hits": [],
+  "prohibited_mt_payload_hits": [],
+  "secret_hits": []
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "feature_contract",
+  "case_id": "MT-01",
+  "feature_policy": {
+    "coordinate_space": "extracted-region local coordinates",
+    "external_coordinate_system": "1-based inclusive",
+    "internal_coordinate_system": "0-based half-open",
+    "source_traceability_required": true,
+    "conservative_labels_required": true,
+    "unannotated_feature_export": "conditional_on_future_product_feature_contract",
+    "source_feature_strand_rule": "preserve the strand stated by KX758647.1 even when a broader composite span follows TU orientation"
+  },
+  "source_feature_assertions": [
+    {
+      "feature_id": "MT-01-SF-NOS-TERMINATOR",
+      "feature_type": "regulatory",
+      "source_interval": {"start": 570, "end": 852},
+      "strand": 1,
+      "qualifier": {"key": "note", "value": "NOS terminator"},
+      "expected_sequence_sha256": "1e5aa060f84dfd97c21ef60b06703d6eb6ac4bcc6d248c3b4170e4a28f58175f"
+    },
+    {
+      "feature_id": "MT-01-SF-RENILLA-CDS",
+      "feature_type": "CDS",
+      "source_interval": {"start": 853, "end": 1789},
+      "strand": -1,
+      "qualifier": {"key": "product", "value": "Renilla luciferase"},
+      "expected_sequence_sha256": "a5aa25e82020e26bc52e07632fdf963f460944433aaaf3b4bc27582eff3699ca"
+    },
+    {
+      "feature_id": "MT-01-SF-NOS-PROMOTER",
+      "feature_type": "regulatory",
+      "source_interval": {"start": 1804, "end": 2128},
+      "strand": -1,
+      "qualifier": {"key": "note", "value": "NOS promoter"},
+      "expected_sequence_sha256": "7bb3c832a3c46b6acc1c241eabc097de3a2cb88d2a2c90062b527a0f1ac7c8c4"
+    },
+    {
+      "feature_id": "MT-01-SF-CAMV35S-PROMOTER",
+      "feature_type": "regulatory",
+      "source_interval": {"start": 2323, "end": 2715},
+      "strand": 1,
+      "qualifier": {"key": "note", "value": "CaMV 35S promoter"},
+      "expected_sequence_sha256": "3dc66987ea78606a60f2a3912f79286a33679490b9cf8a369e6148471da52eea"
+    },
+    {
+      "feature_id": "MT-01-SF-FIREFLY-CDS",
+      "feature_type": "CDS",
+      "source_interval": {"start": 2721, "end": 4374},
+      "strand": 1,
+      "qualifier": {"key": "product", "value": "firefly luciferase"},
+      "expected_sequence_sha256": "96f67d08021450f2b425c7da4a5e5487ed489b407444fe6ff5dc17ff8177c9f8"
+    },
+    {
+      "feature_id": "MT-01-SF-35S-TERMINATOR",
+      "feature_type": "regulatory",
+      "source_interval": {"start": 4483, "end": 4649},
+      "strand": 1,
+      "qualifier": {"key": "note", "value": "35S terminator"},
+      "expected_sequence_sha256": "ade5165ca0598534c01eaa32d9bf1f04354c8e6f88c00a8f565d7e43f0cbb144"
+    }
+  ],
+  "expected_features": [
+    {"feature_id": "MT-01-EF-SOURCE", "feature_type": "source", "local_start": 1, "local_end": 4079, "strand": 1, "label": "MT-01 deterministic extracted region", "source_accession_version": "KX758647.1", "source_coordinates": "571..4649", "case_id": "MT-01", "tu_number": null, "role": "extracted_region", "expected_sequence_sha256": "1847b411bd0592e0927db433bfc88f8eec3a9f8c30620af97aba5dae465c3104", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-TU1", "feature_type": "transcription_unit", "local_start": 1, "local_end": 1753, "strand": -1, "label": "Renilla luciferase TU", "source_accession_version": "KX758647.1", "source_coordinates": "571..2323", "case_id": "MT-01", "tu_number": 1, "role": "transcription_unit", "expected_sequence_sha256": "3b4ee457e45adc487c79983826ae5adead3e60dacb2b0bb9f640bd2342c09278", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-TU2", "feature_type": "transcription_unit", "local_start": 1754, "local_end": 4079, "strand": 1, "label": "firefly luciferase TU", "source_accession_version": "KX758647.1", "source_coordinates": "2324..4649", "case_id": "MT-01", "tu_number": 2, "role": "transcription_unit", "expected_sequence_sha256": "63d0aa10b758fc2bdd0e0d07f20dc063e347da77f03e521b084fce7e19fb17cf", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-TU1-THREE-PRIME", "feature_type": "regulatory_region", "local_start": 1, "local_end": 283, "strand": -1, "label": "TU1 3-prime regulatory physical span", "source_accession_version": "KX758647.1", "source_coordinates": "571..853", "case_id": "MT-01", "tu_number": 1, "role": "three_prime_regulatory_region", "expected_sequence_sha256": "f80ee57d15e76b5b079956ed5eee40d1679ccce2847cdf8e3b5e6aa695b06a10", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-RENILLA-CDS", "feature_type": "CDS", "local_start": 284, "local_end": 1219, "strand": -1, "label": "Renilla luciferase CDS", "source_accession_version": "KX758647.1", "source_coordinates": "854..1789", "case_id": "MT-01", "tu_number": 1, "role": "cds", "expected_sequence_sha256": "a5aa25e82020e26bc52e07632fdf963f460944433aaaf3b4bc27582eff3699ca", "evidence_classification": "FACT_FROM_VERSIONED_SOURCE_FEATURE", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-TU1-PROMOTER-SIDE", "feature_type": "regulatory_region", "local_start": 1220, "local_end": 1753, "strand": -1, "label": "TU1 promoter-side physical span", "source_accession_version": "KX758647.1", "source_coordinates": "1790..2323", "case_id": "MT-01", "tu_number": 1, "role": "promoter", "expected_sequence_sha256": "13677c3d9f170b8108f337ce317aac006c17a19f74a20fe401109831fcbc99d7", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-TU2-PROMOTER-SIDE", "feature_type": "regulatory_region", "local_start": 1754, "local_end": 2151, "strand": 1, "label": "TU2 promoter-side physical span", "source_accession_version": "KX758647.1", "source_coordinates": "2324..2721", "case_id": "MT-01", "tu_number": 2, "role": "promoter", "expected_sequence_sha256": "e8cc34a86d7e1851dd6add3d54982559fb0c2f923b18b2ecadf11a0c8021e991", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-FIREFLY-CDS", "feature_type": "CDS", "local_start": 2152, "local_end": 3804, "strand": 1, "label": "firefly luciferase CDS", "source_accession_version": "KX758647.1", "source_coordinates": "2722..4374", "case_id": "MT-01", "tu_number": 2, "role": "cds", "expected_sequence_sha256": "96f67d08021450f2b425c7da4a5e5487ed489b407444fe6ff5dc17ff8177c9f8", "evidence_classification": "FACT_FROM_VERSIONED_SOURCE_FEATURE", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-TU2-THREE-PRIME", "feature_type": "regulatory_region", "local_start": 3805, "local_end": 4079, "strand": 1, "label": "TU2 3-prime regulatory physical span", "source_accession_version": "KX758647.1", "source_coordinates": "4375..4649", "case_id": "MT-01", "tu_number": 2, "role": "three_prime_regulatory_region", "expected_sequence_sha256": "6e3b946a0a44429e7eb22ddb413bea80dc139cb579ce1d6c94e1ed4dd07721a5", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-NOS-TERMINATOR-CORE", "feature_type": "regulatory", "local_start": 1, "local_end": 282, "strand": 1, "label": "NOS terminator (source annotation)", "source_accession_version": "KX758647.1", "source_coordinates": "571..852", "case_id": "MT-01", "tu_number": 1, "role": "source_annotated_regulatory_core", "expected_sequence_sha256": "1e5aa060f84dfd97c21ef60b06703d6eb6ac4bcc6d248c3b4170e4a28f58175f", "evidence_classification": "FACT_FROM_VERSIONED_SOURCE_FEATURE", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-NOS-PROMOTER-CORE", "feature_type": "regulatory", "local_start": 1235, "local_end": 1558, "strand": -1, "label": "NOS promoter (source annotation)", "source_accession_version": "KX758647.1", "source_coordinates": "1805..2128", "case_id": "MT-01", "tu_number": 1, "role": "source_annotated_regulatory_core", "expected_sequence_sha256": "7bb3c832a3c46b6acc1c241eabc097de3a2cb88d2a2c90062b527a0f1ac7c8c4", "evidence_classification": "FACT_FROM_VERSIONED_SOURCE_FEATURE", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-CAMV35S-PROMOTER-CORE", "feature_type": "regulatory", "local_start": 1754, "local_end": 2145, "strand": 1, "label": "CaMV 35S promoter (source annotation)", "source_accession_version": "KX758647.1", "source_coordinates": "2324..2715", "case_id": "MT-01", "tu_number": 2, "role": "source_annotated_regulatory_core", "expected_sequence_sha256": "3dc66987ea78606a60f2a3912f79286a33679490b9cf8a369e6148471da52eea", "evidence_classification": "FACT_FROM_VERSIONED_SOURCE_FEATURE", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-35S-TERMINATOR-CORE", "feature_type": "regulatory", "local_start": 3914, "local_end": 4079, "strand": 1, "label": "35S terminator (source annotation)", "source_accession_version": "KX758647.1", "source_coordinates": "4484..4649", "case_id": "MT-01", "tu_number": 2, "role": "source_annotated_regulatory_core", "expected_sequence_sha256": "ade5165ca0598534c01eaa32d9bf1f04354c8e6f88c00a8f565d7e43f0cbb144", "evidence_classification": "FACT_FROM_VERSIONED_SOURCE_FEATURE", "export_requirement": "required"},
+    {"feature_id": "MT-01-EF-J01", "feature_type": "misc_feature", "local_start": 283, "local_end": 283, "strand": -1, "label": "UNANNOTATED_SOURCE_SEQUENCE MT-01-J01", "source_accession_version": "KX758647.1", "source_coordinates": "853..853", "case_id": "MT-01", "tu_number": 1, "role": "unannotated_source_sequence", "expected_sequence_sha256": "559aead08264d5795d3909718cdd05abd49572e84fe55590eef31a88a08fdffd", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "conditional"},
+    {"feature_id": "MT-01-EF-J02", "feature_type": "misc_feature", "local_start": 1220, "local_end": 1234, "strand": -1, "label": "UNANNOTATED_SOURCE_SEQUENCE MT-01-J02", "source_accession_version": "KX758647.1", "source_coordinates": "1790..1804", "case_id": "MT-01", "tu_number": 1, "role": "unannotated_source_sequence", "expected_sequence_sha256": "ef3d0074b197662a123cef1a8fb47d9e880793615cae091e282e38db67047957", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "conditional"},
+    {"feature_id": "MT-01-EF-J03", "feature_type": "misc_feature", "local_start": 1559, "local_end": 1753, "strand": -1, "label": "UNANNOTATED_SOURCE_SEQUENCE MT-01-J03", "source_accession_version": "KX758647.1", "source_coordinates": "2129..2323", "case_id": "MT-01", "tu_number": 1, "role": "unannotated_source_sequence", "expected_sequence_sha256": "38dab4c3b2dec6968334beecaefadb3c9206fabc06ad81960a6105de6e37944e", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "conditional"},
+    {"feature_id": "MT-01-EF-J04", "feature_type": "misc_feature", "local_start": 2146, "local_end": 2151, "strand": 1, "label": "UNANNOTATED_SOURCE_SEQUENCE MT-01-J04", "source_accession_version": "KX758647.1", "source_coordinates": "2716..2721", "case_id": "MT-01", "tu_number": 2, "role": "unannotated_source_sequence", "expected_sequence_sha256": "258471f7780bad7d42962579bc485bf7354f203ca7a2ad6a0789797126b67b03", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "conditional"},
+    {"feature_id": "MT-01-EF-J05", "feature_type": "misc_feature", "local_start": 3805, "local_end": 3913, "strand": 1, "label": "UNANNOTATED_SOURCE_SEQUENCE MT-01-J05", "source_accession_version": "KX758647.1", "source_coordinates": "4375..4483", "case_id": "MT-01", "tu_number": 2, "role": "unannotated_source_sequence", "expected_sequence_sha256": "a28eff5e8310ea7c3515feacdc0cdef95ee99bd47000dd43ed043defa69ab911", "evidence_classification": "DETERMINISTIC_ACCESSION_DERIVATION", "export_requirement": "conditional"}
+  ],
+  "forbidden_feature_classes": [
+    "vector",
+    "backbone",
+    "origin_of_replication",
+    "T-DNA_border",
+    "selectable_marker",
+    "invented_assembly_scar"
+  ]
+}

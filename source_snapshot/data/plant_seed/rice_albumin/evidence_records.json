@@ -1,0 +1,39 @@
+{
+  "schema_version": "plant_seed.rice_albumin.v2.7.r131",
+  "batch": "v2.7-r131",
+  "description": "Minimal local rice albumin-like evidence placeholders for documentation-only review.",
+  "source_basis": [
+    "docs/qa/V2_7_R130_EXISTING_PLANT_DATA_INVENTORY_AND_SEED_GAP_MAP.md",
+    "services/plant_design_domain_schema.py:build_rice_albumin_like_domain_seed"
+  ],
+  "records": [
+    {
+      "record_id": "r131-evidence-target-identity-placeholder",
+      "record_type": "EvidenceRecord",
+      "target_or_route": "rice_albumin_like_plant_design_review",
+      "linked_component": "r131-component-albumin-like-cds-source-placeholder",
+      "component_type": "coding_sequence_source",
+      "source_species": "Oryza sativa rice",
+      "source_type": "placeholder",
+      "source_id": "missing",
+      "evidence_type": "target_identity_placeholder",
+      "review_status": "needs_manual_review",
+      "provenance_status": "missing",
+      "manual_review_note": "Target identity evidence still needs manual curation; no PMID, DOI, accession, or database identifier is supplied by the local R98 source."
+    },
+    {
+      "record_id": "r131-evidence-rice-seed-context-placeholder",
+      "record_type": "EvidenceRecord",
+      "target_or_route": "rice_albumin_like_plant_design_review",
+      "linked_component": "r131-rice-seed-design-context",
+      "component_type": "plant_design_context",
+      "source_species": "Oryza sativa rice",
+      "source_type": "placeholder",
+      "source_id": "missing",
+      "evidence_type": "plant_context_placeholder",
+      "review_status": "needs_manual_review",
+      "provenance_status": "missing",
+      "manual_review_note": "Rice seed context evidence remains a review gap; exact tissue, development context, and source reference are not supplied by the local R98 source."
+    }
+  ]
+}

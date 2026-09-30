@@ -1,0 +1,11 @@
+# BioDesign Studio base runtime for Windows x64 / CPython 3.12 only.
+# This is not a development-environment requirements file.
+# Generate requirements-runtime.lock only through the approved release workflow.
+# Do not manually add optional, historical, development, or test dependencies.
+
+streamlit==1.55.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+biopython==1.87
+httpx==0.28.1

@@ -1,0 +1,9 @@
+# format: classification|module|reason
+# No unguarded third-party dynamic import was confirmed by the P0-B1 static graph.
+conditional_excluded|primer3|Native backend is disabled by default on Windows and excluded from the base lock.
+historical_excluded|views.legacy_ui_registry|Historical UI registry is outside the formal four-page workflow.
+verify_in_p0b2b|streamlit.runtime|PyInstaller analysis must verify Streamlit runtime discovery before collection.
+formal_static|core.pcambia1300_exact_insertion_contract|Imported within formal app.py routes; collected through the explicit runtime Python closure.
+formal_static|core.pbi121_replacement_contract|Imported by the formal pBI121 exact-replacement workflow; collected through the explicit runtime Python closure.
+formal_static|core.vector_asset_contracts_v1|Imported by vector admission; collected through the explicit runtime Python closure.
+formal_static|services.vector_asset_admission|Imported by formal T-DNA review; collected through the explicit runtime Python closure.

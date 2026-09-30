@@ -1,0 +1,93 @@
+LOCUS       PP558908                2501 bp    DNA     linear   SYN 27-APR-2024
+DEFINITION  Synthetic construct L0_hspt, complete sequence.
+ACCESSION   PP558908
+VERSION     PP558908.1
+KEYWORDS    .
+SOURCE      synthetic construct
+  ORGANISM  synthetic construct
+            other sequences; artificial sequences.
+REFERENCE   1  (bases 1 to 2501)
+  AUTHORS   Cintia,S.H.D., Thomson,G., Mermaz,B., Vernon,C., Liu,C., Jacob,Y.
+            and Irish,V.
+  TITLE     An efficient multiplex approach to CRISPR/Cas9 gene editing in
+            Citrus
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 2501)
+  AUTHORS   Cintia,S.H.D., Thomson,G., Mermaz,B., Vernon,C., Liu,C., Jacob,Y.
+            and Irish,V.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAR-2024) Department of Molecular, Cellular and
+            Developmental Biology, Yale University, 260 Whitney Ave, New Haven,
+            CT 06511, USA
+COMMENT     ##Assembly-Data-START##
+            Assembly Method       :: MAAFT via Benchling v. version 7
+            Sequencing Technology :: Oxford Nanopore; Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2501
+                     /organism="synthetic construct"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:32630"
+                     /clone="L0_hspt"
+     misc_feature    1..615
+                     /note="rep\(pMB1)"
+     regulatory      852..1101
+                     /regulatory_class="terminator"
+                     /note="HSP18.2 terminator"
+     CDS             1332..2342
+                     /codon_start=1
+                     /transl_table=11
+                     /product="Sm/Sp\no\DraIII"
+                     /protein_id="WZP31545.1"
+                     /translation="MRSRNWSRTLTERSGGNGAVAVFMACYDCFFGVQSMPRASKQQA
+                     RYAVGRCLMLWSSNDVTQQGSRPKTKLNIMREAVIAEVSTQLSEVVGVIERHLEPTLL
+                     AVHLYGSAVDGGLKPHSDIDLLVTVTVRLDETTRRALINDLLETSASPGESEILRAVE
+                     VTIVVHDDIIPWRYPAKRELQFGEWQRNDILAGIFEPATIDIDLAILLTKAREHSVAL
+                     VGPAAEELFDPVPEQDLFEALNETLTLWNSPPDWAGDERNVVLTLSRIWYSAVTGKIA
+                     PKDVAADWAMERLPAQYQPVILEARQAYLGQEEDRLASRADQLEEFVHYVKGEITKVV
+                     GK"
+ORIGIN      
+        1 aaaggatctt cttgagatcc tttttttctg cgcgtaatct gctgcttgca aacaaaaaaa
+       61 ccaccgctac cagcggtggt ttgtttgccg gatcaagagc taccaactct ttttccgaag
+      121 gtaactggct tcagcagagc gcagatacca aatactgtcc ttctagtgta gccgtagtta
+      181 ggccaccact tcaagaactc tgtagcaccg cctacatacc tcgctctgct aatcctgtta
+      241 ccagtggctg ctgccagtgg cgataagtcg tgtcttaccg ggttggactc aagacgatag
+      301 ttaccggata aggcgcagcg gtcgggctga acggggggtt cgtgcacaca gcccagcttg
+      361 gagcgaacga cctacaccga actgagatac ctacagcgtg agctatgaga aagcgccacg
+      421 cttcccgaag ggagaaaggc ggacaggtat ccggtaagcg gcagggtcgg aacaggagag
+      481 cgcacgaggg agcttccagg gggaaacgcc tggtatcttt atagtcctgt cgggtttcgc
+      541 cacctctgac ttgagcgtcg atttttgtga tgctcgtcag gggggcggag cctatggaaa
+      601 aacgccagca acgcggcctt tttacggttc ctggcctttt gctggccttt tgctcacatg
+      661 ttctttcctg cgttatcccc tgattctgtg gataaccgta ttaccgcctt tgagtgagct
+      721 gataccgctc gccgcagccg aacgaccgag cgcagcgagt cagtgagcga ggaagcggaa
+      781 gagcgcccaa tacgcaaacc gcctctcccc gcgcgttggc cgattcatta atcactctgt
+      841 ggtctcagct tatatgaaga tgaagatgaa atatttggtg tgtcaaataa aaaggttgtg
+      901 tgcttaagtt tgtgtttttt tcttggcttg ttgtgttatg aatttgtggc tttttctaat
+      961 attaaatgaa tgtaacatct cattataatg aataaacaaa tgtttctata atccattgtg
+     1021 aatgttttgt tggatctctt ctccagcata taactactgt atgtgctatg gtatggacta
+     1081 tggaatatga ttaaagataa gcgcttgaga ccacgaagtg gctcttcagt ggacgaaagg
+     1141 gcctcgtgat acgcctattt ttataggtta atgtcatgat aataatggtt tcttagacgt
+     1201 caggtggcac ttttcgggga aatgtgcgcg gaacccctat ttgtttattt ttctaaatac
+     1261 attcaaatat gtatccgctc atgagacaat aaccctgata aatgcttcaa taatattgaa
+     1321 aaaggaagag tatgcgctca cgcaactggt ccagaacctt gaccgaacgc agcggtggta
+     1381 acggcgcagt ggcggttttc atggcttgtt atgactgttt ttttggggta cagtctatgc
+     1441 ctcgggcatc caagcagcaa gcgcgttacg ccgtgggtcg atgtttgatg ttatggagca
+     1501 gcaacgatgt tacgcagcag ggcagtcgcc ctaaaacaaa gttaaacatc atgagggaag
+     1561 cggtgatcgc cgaagtatcg actcaactat cagaggtagt tggcgtcatc gagcgccatc
+     1621 tcgaaccgac gttgctggcc gtacatttgt acggctccgc agtggatggc ggcctgaagc
+     1681 cacacagcga tattgatttg ctggttacgg tgaccgtaag gcttgatgaa acaacgcggc
+     1741 gagctttgat caacgacctt ttggaaactt cggcttcccc tggagagagc gagattctcc
+     1801 gcgctgtaga agtcaccatt gttgtgcacg acgacatcat tccgtggcgt tatccagcta
+     1861 agcgcgaact gcaatttgga gaatggcagc gcaatgacat tcttgcaggt atcttcgagc
+     1921 cagccacgat cgacattgat ctggctatct tgctgacaaa agcaagagaa catagcgttg
+     1981 ccttggtagg tccagcggcg gaggaactct ttgatccggt tcctgaacag gatctatttg
+     2041 aggcgctaaa tgaaacctta acgctatgga actcgccgcc cgactgggct ggcgatgagc
+     2101 gaaatgtagt gcttacgttg tcccgcattt ggtacagcgc agtaaccggc aaaatcgcgc
+     2161 cgaaggatgt cgctgccgac tgggcaatgg agcgcctgcc ggcccagtat cagcccgtca
+     2221 tacttgaagc tagacaggct tatcttggac aagaagaaga tcgcttggcc tcgcgcgcag
+     2281 atcagttgga agaatttgtc cattacgtaa aaggcgagat caccaaggta gtcggcaaat
+     2341 aactgtcaga ccaagtttac tcatatatac tttagattga tttaaaactt catttttaat
+     2401 ttaaaaggat ctaggtgaag atcctttttg ataatctcat gaccaaaatc ccttaacgtg
+     2461 agttttcgtt ccactgagcg tcagaccccg tagaaaagat c
+//
+

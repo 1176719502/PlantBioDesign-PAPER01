@@ -1,0 +1,114 @@
+LOCUS       X13437                  3042 bp    DNA     linear   PLN 14-NOV-2006
+DEFINITION  Tomato ethylene-responsive fruit ripening gene E8.
+ACCESSION   X13437
+VERSION     X13437.1
+KEYWORDS    E8 gene; fruit ripening.
+SOURCE      Solanum lycopersicum (Lycopersicon esculentum)
+  ORGANISM  Solanum lycopersicum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; lamiids; Solanales; Solanaceae;
+            Solanoideae; Solaneae; Solanum; Solanum subgen. Lycopersicon.
+REFERENCE   1  (bases 1 to 3042)
+  AUTHORS   Deikman,J. and Fischer,R.L.
+  TITLE     Interaction of a DNA binding factor with the 5'-flanking region of
+            an ethylene-responsive fruit ripening gene from tomato
+  JOURNAL   EMBO J. 7 (11), 3315-3320 (1988)
+   PUBMED   3208738
+COMMENT     Data kindly reviewed (26-JUN-1989) by Fischer R. L.
+FEATURES             Location/Qualifiers
+     source          1..3042
+                     /organism="Solanum lycopersicum"
+                     /mol_type="genomic DNA"
+                     /cultivar="Cherry"
+                     /db_xref="taxon:4081"
+                     /clone="lambda E8-3"
+                     /clone_lib="charon 35."
+     regulatory      1002..1014
+                     /regulatory_class="promoter"
+                     /note="-80 region"
+     regulatory      1055..1063
+                     /regulatory_class="TATA_box"
+     precursor_RNA   1087..2850
+                     /note="primary transcript"
+     exon            1087..1639
+                     /number=1
+     CDS             join(1122..1639,2061..2382,2459..2710)
+                     /codon_start=1
+                     /product="E8 protein"
+                     /protein_id="CAA31789.1"
+                     /db_xref="GOA:P10967"
+                     /db_xref="InterPro:IPR005123"
+                     /db_xref="UniProtKB/Swiss-Prot:P10967"
+                     /translation="MESPRVEESYDKMSELKAFDDTKAGVKGLVDSGITKVPQIFVLP
+                     PKDRAKKCETHFVFPVIDLQGIDEDPIKHKEIVDKVRDASEKWGFFQVVNHGIPTSVL
+                     DRTLQGTRQFFEQDNEVKKQYYTRDTAKKVVYTSNLDLYKSSVPAASWRDTIFCYMAP
+                     NPPSLQEFPTPCGESLIDFSKDVKKLGFTLLELLSEGLGLDRSYLKDYMDCFHLFCSC
+                     NYYPPCPQPELTMGTIQHTDIGFVTILLQDDMGGLQVLHQNHWVDVPPTPGSLVVNIG
+                     DFLQLLSNDKYLSVEHRAISNNVGSRMSITCFFGESPYQSSKLYGPITELLSEDNPPK
+                     YRATTVKDHTSYLHNRGLDGTSALSRYKI"
+     intron          1640..2060
+                     /number=1
+     exon            2061..2382
+                     /number=2
+     intron          2383..2458
+                     /number=2
+     exon            2459..2850
+                     /number=3
+     regulatory      2830..2836
+                     /regulatory_class="polyA_signal_sequence"
+     polyA_site      2850
+ORIGIN      
+        1 ctagaaggaa tttcacgaaa tcggccctta ttcaaaaata acttttaaat aatgaatttt
+       61 aaattttaag aaataatatc caatgaataa atgacatgta gcattttacc taaatatttc
+      121 aactatttta atccaatatt aatttgtttt attcccaaca atagaaagtc ttgtgcagac
+      181 atttaatctg acttttccag tactaaatat taattttctg aagattttcg ggtttagtcc
+      241 acaagtttta gtgagaagtt ttgctcaaaa ttttaggtga gaaggtttga tatttatctt
+      301 ttgttaaatt aatttatcta ggtgactatt atttatttaa gtagaaattc atatcattac
+      361 ttttgccaac ttgtagtcat aataggagta ggtgtatatg atgaaggaat aaacaagttc
+      421 agtgaagtga ttaaaataaa atataattta ggtgtacatc aaataaaaac cttaaagttt
+      481 agaaaggcac cgaataattt tgcatagaag atattagtaa atttataaaa ataaaagaaa
+      541 tgtagttgtc aagttgtctt cttttttttg gataaaaata gcagttggct tatgtcattc
+      601 ttttacaacc tccatgccac ttgtccaatt gttgacactt aactaattag tttgattcat
+      661 gtatgaatac taaataattt tttaggactg actcaaatat ttttatatta tcatagtaat
+      721 atttatctaa tttttaggac cacttattac taaataataa attaactact actatattat
+      781 tgttgtgaaa caacaacgtt ttggttgtta tgatgaaacg tacactatat cagtatgaaa
+      841 aattcaaaac gattagtata aattatattg aaaatttgat atttttctat tcttaatcag
+      901 acgtattggg tttcatattt taaaaaggga ctaaacttag aagagaagtt tgtttgaaac
+      961 tacttttgtc tctttcttgt tcccatttct ctcttagatt tcaaaaagtg aactacttta
+     1021 tctctttctt tgttcacatt ttattttatt ctattataaa tatggcatcc tcatattgag
+     1081 atttttagaa attattctaa tcattcacag tgcaaaagaa gatggaaagc cctagagttg
+     1141 aggagagtta tgacaaaatg agtgaattaa aagcgtttga tgatactaag gccggtgtta
+     1201 aaggacttgt tgattctgga attactaaag tacctcaaat attcgttcta ccgccaaaag
+     1261 acagggctaa aaaatgtgaa acacatttcg tttttccagt gatagacctt caaggtatcg
+     1321 atgaggatcc gattaagcat aaggagatag tggacaaagt tcgagatgca tcggagaaat
+     1381 ggggtttttt ccaagtggtt aatcatggga ttccaacatc cgtcttggac agaacgttgc
+     1441 aaggaacacg acagttcttt gagcaagata acgaggttaa gaaacagtat tacactcgag
+     1501 atactgcgaa aaaagtggtt tatactagca atcttgattt gtataaatct tctgttccag
+     1561 ctgcaagttg gagagacacg attttctgtt acatggctcc gaatcctccc agtctacaag
+     1621 aatttccaac tccatgcggg taagtatttt catttcttag tctggagatt ctttagtagc
+     1681 tcagtggcag aggcggaccc tccgccgtgc tcgagcaccc attaatttcg ttacggaata
+     1741 tatatatatc tacgtagaaa ttaatatgta tttgtataaa attaacatag agcacccaat
+     1801 gaataaacga tttagttggc ccaatggctc ctggatgaat actctgttaa cacatatttt
+     1861 ttatattttc agtttaaatt tctagatccg ccactgctca gttgattgac tatctaaaga
+     1921 cagcaaaaat tcctagatct gtcgctgctc agttgattga gtatctaaat acagcaaatt
+     1981 cttagatccg ccattgctta gttgattgac tatctaaaga cgtctgattt tatataaaaa
+     2041 tatgtcatgt ttcaatgcag ggagtcatta atagacttct ccaaggatgt gaagaaactg
+     2101 ggattcactt tacttgaatt attgtctgaa ggtctcggtc tcgatcgtag ttatctcaaa
+     2161 gattatatgg attgttttca tcttttctgt tcttgcaact actacccacc atgtcctcag
+     2221 ccagaactca ccatgggcac cattcaacat accgatattg gttttgtaac gatccttcta
+     2281 caagatgata tgggagggct ccaagttctt caccagaatc attgggttga tgttcctcct
+     2341 acacccggtt ctctagtggt gaatattgga gattttctgc aggttagtag tcgatattat
+     2401 atacaaagtt tatcgcgcaa cacatttaga aaatcttttt tttaattatt ttttgcagct
+     2461 cttgtcaaat gacaagtact taagtgtcga gcacagagca atctcaaaca atgttggatc
+     2521 aagaatgtca atcacgtgct tcttcggtga aagtccatat caatcttcca agctttatgg
+     2581 accgataact gaattgttat cagaagataa tcctccaaaa tatcgcgcaa ccacagtgaa
+     2641 agaccacact agttacctcc ataacagagg cctagatgga acttctgcat tgtcccgtta
+     2701 caagatctaa gaataagaat aataatgtta tctattatta ctatttatac ttctgcagat
+     2761 tgtacctttg aatttgaagc aaatgtttga gttaaatact ttcacgtttc taagcaatgt
+     2821 aatataattt ataaagtatg tgcttgctat atattgttgt ttaaaacatt aaataatatt
+     2881 acataaatat aaacaccata atataaggat gtttagcatt gtgggaaaat gaaggattaa
+     2941 taagtcatat tagtatttct ctatgtcaca taaatgtgcc ttcaactcaa tttccgctga
+     3001 tatttatctt cttttatttt aagtagacgc ttaaactatt gt
+//
+

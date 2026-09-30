@@ -1,0 +1,1584 @@
+{
+  "seed_name": "V2.6 Local Design Asset Catalog seed expansion",
+  "seed_version": "v2.6-r58",
+  "seed_scope": "metadata-only local design asset records for documentation review",
+  "records": [
+    {
+      "asset_id": "lda-cds-target-006",
+      "asset_type": "cds_target",
+      "display_name": "AaADS amorpha-4,11-diene synthase candidate record",
+      "aliases": [
+        "AaADS",
+        "amorpha-4,11-diene synthase",
+        "enzyme CDS record"
+      ],
+      "short_description": "Candidate enzyme CDS record for documentation-only artemisinin precursor pathway review.",
+      "organism_or_source_context": "Artemisia annua candidate source context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for AaADS documentation traceability.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; codon_preview_only; primer_design_not_ready; construct_review_required; export_documentation_only.",
+      "tags": [
+        "cds",
+        "candidate record",
+        "artemisinin precursor",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only candidate record for source review and traceability; not a validation, prediction, optimization, or wet-lab readiness claim."
+    },
+    {
+      "asset_id": "lda-cds-target-007",
+      "asset_type": "cds_target",
+      "display_name": "AaCYP71AV1 oxidation context candidate record",
+      "aliases": [
+        "AaCYP71AV1",
+        "CYP450 oxidation context",
+        "enzyme CDS record"
+      ],
+      "short_description": "Candidate enzyme CDS record for oxidation-context documentation review.",
+      "organism_or_source_context": "Artemisia annua candidate source context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for AaCYP71AV1 documentation traceability.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; codon_preview_only; primer_design_not_ready; construct_review_required; export_documentation_only.",
+      "tags": [
+        "cds",
+        "candidate record",
+        "oxidation context",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only candidate record for source review and traceability; catalog context only; not a host-compatibility judgment or readiness claim."
+    },
+    {
+      "asset_id": "lda-cds-target-008",
+      "asset_type": "cds_target",
+      "display_name": "AaCPR redox partner candidate record",
+      "aliases": [
+        "AaCPR",
+        "cytochrome P450 reductase context",
+        "redox partner record"
+      ],
+      "short_description": "Candidate redox-partner record for documentation-only pathway review.",
+      "organism_or_source_context": "Artemisia annua candidate source context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for AaCPR documentation traceability.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; codon_preview_only; primer_design_not_ready; construct_review_required; export_documentation_only.",
+      "tags": [
+        "redox partner",
+        "candidate record",
+        "cpr context",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only candidate record for source review and traceability; not a biological recommendation or validated construct claim."
+    },
+    {
+      "asset_id": "lda-cds-target-009",
+      "asset_type": "cds_target",
+      "display_name": "AaDBR2 optional downstream enzyme context",
+      "aliases": [
+        "AaDBR2",
+        "artemisinic aldehyde double-bond reductase",
+        "optional downstream enzyme context"
+      ],
+      "short_description": "Optional downstream enzyme context record for documentation-only review.",
+      "organism_or_source_context": "Artemisia annua optional downstream context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for AaDBR2 downstream context.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; primer_design_not_ready; construct_review_required; export_documentation_only.",
+      "tags": [
+        "cds",
+        "optional downstream",
+        "candidate record",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only downstream context record for source review and traceability; not a pathway completion or readiness claim."
+    },
+    {
+      "asset_id": "lda-cds-target-010",
+      "asset_type": "cds_target",
+      "display_name": "AaALDH1 optional downstream enzyme context",
+      "aliases": [
+        "AaALDH1",
+        "aldehyde dehydrogenase 1",
+        "optional downstream enzyme context"
+      ],
+      "short_description": "Optional downstream enzyme context record for documentation-only review.",
+      "organism_or_source_context": "Artemisia annua optional downstream context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for AaALDH1 downstream context.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; primer_design_not_ready; construct_review_required; export_documentation_only.",
+      "tags": [
+        "cds",
+        "optional downstream",
+        "candidate record",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only downstream context record for source review and traceability; not a pathway prediction or readiness claim."
+    },
+    {
+      "asset_id": "lda-cds-target-011",
+      "asset_type": "cds_target",
+      "display_name": "FPS / FPPS precursor supply context record",
+      "aliases": [
+        "FPS",
+        "FPPS",
+        "farnesyl diphosphate synthase"
+      ],
+      "short_description": "Precursor supply context record for documentation-only pathway review.",
+      "organism_or_source_context": "precursor supply context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for precursor supply traceability.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; codon_preview_only; export_documentation_only.",
+      "tags": [
+        "precursor supply",
+        "candidate record",
+        "fps",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only precursor supply context record for source review and traceability; catalog context only; not an optimization claim."
+    },
+    {
+      "asset_id": "lda-cds-target-012",
+      "asset_type": "cds_target",
+      "display_name": "tHMGR / HMGR precursor supply context record",
+      "aliases": [
+        "tHMGR",
+        "HMGR",
+        "HMG-CoA reductase context"
+      ],
+      "short_description": "Precursor supply context record for documentation-only review of upstream pathway notes.",
+      "organism_or_source_context": "precursor supply context; sequence not bundled; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Candidate/source-recorded manual-review note for HMGR precursor supply traceability.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; sequence_not_bundled; codon_preview_only; export_documentation_only.",
+      "tags": [
+        "precursor supply",
+        "candidate record",
+        "hmgr",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only precursor supply context record for source review and traceability; not a prediction or readiness claim."
+    },
+    {
+      "asset_id": "lda-promoter-006",
+      "asset_type": "promoter",
+      "display_name": "CaMV 35S promoter context record",
+      "aliases": [
+        "CaMV 35S",
+        "plant expression promoter context",
+        "source-recorded regulatory context"
+      ],
+      "short_description": "Source-recorded regulatory-context entry for documentation-only plant-expression review.",
+      "organism_or_source_context": "plant regulatory context; source-recorded candidate note; promoter_not_recommended",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Catalog/source note for CaMV 35S promoter context; catalog context only.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; promoter_not_recommended; export_documentation_only.",
+      "tags": [
+        "promoter",
+        "regulatory context",
+        "candidate record",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only regulatory-context record for source review and traceability; not a promoter recommendation or higher-expression claim."
+    },
+    {
+      "asset_id": "lda-promoter-007",
+      "asset_type": "promoter",
+      "display_name": "Double / enhanced 35S context record",
+      "aliases": [
+        "double 35S",
+        "enhanced 35S",
+        "vector or literature context only"
+      ],
+      "short_description": "Vector or literature context record for documentation-only review.",
+      "organism_or_source_context": "plant regulatory context; vector or literature context only; promoter_not_recommended",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Catalog/source note for double or enhanced 35S context only; catalog context only.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; promoter_not_recommended; export_documentation_only.",
+      "tags": [
+        "promoter",
+        "regulatory context",
+        "vector context",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only regulatory-context record for source review and traceability; catalog context only; not a validation claim."
+    },
+    {
+      "asset_id": "lda-promoter-008",
+      "asset_type": "promoter",
+      "display_name": "RBCS promoter context candidate record",
+      "aliases": [
+        "RBCS",
+        "Rubisco small subunit promoter context",
+        "candidate regulatory context"
+      ],
+      "short_description": "Candidate regulatory-context entry for green-tissue documentation review.",
+      "organism_or_source_context": "green tissue or photosynthetic tissue context; candidate regulatory note; promoter_not_recommended",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Catalog/source note for RBCS promoter context as documentation-only candidate context.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; promoter_not_recommended; export_documentation_only.",
+      "tags": [
+        "promoter",
+        "regulatory context",
+        "green tissue context",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only regulatory-context record for source review and traceability; not a promoter recommendation, ranking, or fit judgment."
+    },
+    {
+      "asset_id": "lda-promoter-009",
+      "asset_type": "promoter",
+      "display_name": "Ubiquitin promoter family context record",
+      "aliases": [
+        "ubiquitin promoter family",
+        "constitutive promoter family context",
+        "catalog record only"
+      ],
+      "short_description": "Catalog-only promoter-family context record for documentation review.",
+      "organism_or_source_context": "constitutive promoter family context; catalog record only; promoter_not_recommended",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Catalog/source note for ubiquitin promoter family context only.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; promoter_not_recommended; export_documentation_only.",
+      "tags": [
+        "promoter",
+        "promoter family",
+        "catalog record",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only promoter-family context record for source review and traceability; catalog context only; not a score or optimization claim."
+    },
+    {
+      "asset_id": "lda-promoter-010",
+      "asset_type": "promoter",
+      "display_name": "Actin promoter family context record",
+      "aliases": [
+        "actin promoter family",
+        "constitutive promoter family context",
+        "catalog record only"
+      ],
+      "short_description": "Catalog-only promoter-family context record for documentation review.",
+      "organism_or_source_context": "constitutive promoter family context; catalog record only; promoter_not_recommended",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Catalog/source note for actin promoter family context only.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r58 Nicotiana documentation case",
+      "review_status": "human review needed",
+      "human_review_notes": "source_review_required; promoter_not_recommended; export_documentation_only.",
+      "tags": [
+        "promoter",
+        "promoter family",
+        "catalog record",
+        "documentation case"
+      ],
+      "documentation_boundary_note": "Documentation-only promoter-family context record for source review and traceability; catalog context only; not a validation or readiness claim."
+    },
+    {
+      "asset_id": "lda-plasmid-backbone-001",
+      "asset_type": "plasmid_backbone",
+      "display_name": "Backbone documentation placeholder A",
+      "aliases": [
+        "plasmid backbone",
+        "backbone note"
+      ],
+      "short_description": "Metadata-only plasmid backbone record for catalog browsing.",
+      "organism_or_source_context": "local documentation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note retained for local review.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "plasmid",
+        "backbone",
+        "documentation record"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-plasmid-backbone-002",
+      "asset_type": "plasmid_backbone",
+      "display_name": "Backbone source review note B",
+      "aliases": [
+        "vector backbone note",
+        "backbone source note"
+      ],
+      "short_description": "Backbone metadata entry focused on source tracing and review state.",
+      "organism_or_source_context": "source citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Citation placeholder for a reviewer-selected source.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "plasmid",
+        "backbone",
+        "source note"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-plasmid-backbone-003",
+      "asset_type": "plasmid_backbone",
+      "display_name": "Circular vector context note",
+      "aliases": [
+        "circular vector context",
+        "plasmid context"
+      ],
+      "short_description": "Plasmid context record with no sequence payload or usage guidance.",
+      "organism_or_source_context": "local catalog example; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed note for documenting a plasmid-level context item.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "plasmid",
+        "vector context",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-plasmid-backbone-004",
+      "asset_type": "plasmid_backbone",
+      "display_name": "Backbone provenance checklist entry",
+      "aliases": [
+        "backbone checklist",
+        "plasmid provenance"
+      ],
+      "short_description": "Checklist-style metadata record for plasmid backbone provenance review.",
+      "organism_or_source_context": "review checklist placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should add source title, accession context, or internal record link when available.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "plasmid",
+        "backbone",
+        "provenance"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-plasmid-backbone-005",
+      "asset_type": "plasmid_backbone",
+      "display_name": "Backbone documentation cross-reference",
+      "aliases": [
+        "backbone cross-reference",
+        "plasmid cross-reference"
+      ],
+      "short_description": "Cross-reference entry for connecting local project notes to a backbone record.",
+      "organism_or_source_context": "local cross-reference placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder for a local notebook, paper, or inventory reference chosen by a reviewer.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "plasmid",
+        "backbone",
+        "cross-reference"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-promoter-001",
+      "asset_type": "promoter",
+      "display_name": "Promoter documentation placeholder A",
+      "aliases": [
+        "promoter note",
+        "regulatory element note"
+      ],
+      "short_description": "Metadata-only promoter record for local documentation review.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder source note for a promoter-related catalog entry.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "promoter",
+        "regulatory element",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-promoter-002",
+      "asset_type": "promoter",
+      "display_name": "Constitutive promoter source note",
+      "aliases": [
+        "constitutive promoter note",
+        "promoter source"
+      ],
+      "short_description": "Promoter source note retained as documentation context only.",
+      "organism_or_source_context": "literature or local source placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer-selected source details are not included in this seed record.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "promoter",
+        "source note",
+        "documentation"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-promoter-003",
+      "asset_type": "promoter",
+      "display_name": "Inducible promoter review note",
+      "aliases": [
+        "inducible promoter note",
+        "promoter review"
+      ],
+      "short_description": "Promoter review entry for catalog filtering and provenance tracking.",
+      "organism_or_source_context": "review placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No inducer, condition, or use guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "promoter",
+        "review note",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-promoter-004",
+      "asset_type": "promoter",
+      "display_name": "Promoter family context note",
+      "aliases": [
+        "promoter family",
+        "regulatory family note"
+      ],
+      "short_description": "Context note for grouping promoter documentation records during review.",
+      "organism_or_source_context": "family context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed record only; reviewer should replace with specific source context when cited.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "promoter",
+        "family context",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-promoter-005",
+      "asset_type": "promoter",
+      "display_name": "Promoter provenance checklist entry",
+      "aliases": [
+        "promoter checklist",
+        "promoter provenance"
+      ],
+      "short_description": "Checklist-style promoter metadata entry for human review workflows.",
+      "organism_or_source_context": "provenance checklist placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Source, organism context, and naming basis require human review.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "promoter",
+        "provenance",
+        "checklist"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-rbs-5utr-001",
+      "asset_type": "rbs_5utr",
+      "display_name": "RBS and 5' UTR documentation placeholder",
+      "aliases": [
+        "rbs",
+        "5 utr",
+        "translation initiation note"
+      ],
+      "short_description": "Metadata-only RBS or 5' UTR record for catalog browsing.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note; no sequence included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "rbs",
+        "5' utr",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-rbs-5utr-002",
+      "asset_type": "rbs_5utr",
+      "display_name": "Bacterial 5' UTR source note",
+      "aliases": [
+        "bacterial 5 utr note",
+        "rbs source note"
+      ],
+      "short_description": "5' UTR metadata note retained for source review and traceability.",
+      "organism_or_source_context": "bacterial context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should add a source note before project citation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "5' utr",
+        "rbs",
+        "source note"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-rbs-5utr-003",
+      "asset_type": "rbs_5utr",
+      "display_name": "Translation initiation review note",
+      "aliases": [
+        "translation initiation",
+        "rbs review"
+      ],
+      "short_description": "Review note for translation initiation metadata without biological selection guidance.",
+      "organism_or_source_context": "local review placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed record for browsing only; no design action is implied.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "translation initiation",
+        "review note",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-rbs-5utr-004",
+      "asset_type": "rbs_5utr",
+      "display_name": "Eukaryotic 5' UTR context note",
+      "aliases": [
+        "eukaryotic 5 utr",
+        "utr context"
+      ],
+      "short_description": "Context note for a 5' UTR record that requires source review.",
+      "organism_or_source_context": "eukaryotic context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No Kozak sequence or expression guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "5' utr",
+        "eukaryotic context",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-rbs-5utr-005",
+      "asset_type": "rbs_5utr",
+      "display_name": "Kozak context review note",
+      "aliases": [
+        "kozak note",
+        "translation context note"
+      ],
+      "short_description": "Metadata-only Kozak context entry for documentation review.",
+      "organism_or_source_context": "source naming placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should document the source basis before using this in project notes.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "kozak",
+        "5' utr",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-terminator-polya-001",
+      "asset_type": "terminator",
+      "display_name": "Terminator documentation placeholder A",
+      "aliases": [
+        "terminator note",
+        "transcription end note"
+      ],
+      "short_description": "Metadata-only terminator record for local catalog browsing.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder source note for a terminator-related record.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "terminator",
+        "metadata",
+        "documentation"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-terminator-polya-002",
+      "asset_type": "terminator",
+      "display_name": "Terminator source review note",
+      "aliases": [
+        "terminator source",
+        "transcription terminator note"
+      ],
+      "short_description": "Terminator metadata entry maintained for provenance review.",
+      "organism_or_source_context": "source citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Citation and source context are intentionally absent from the seed.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "terminator",
+        "source note",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-terminator-polya-003",
+      "asset_type": "terminator",
+      "display_name": "PolyA documentation placeholder",
+      "aliases": [
+        "polya note",
+        "polyadenylation note"
+      ],
+      "short_description": "Metadata-only polyA context record for documentation review.",
+      "organism_or_source_context": "polyA context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No sequence, processing claim, or use guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "polya",
+        "terminator",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-terminator-polya-004",
+      "asset_type": "terminator",
+      "display_name": "Terminator provenance checklist entry",
+      "aliases": [
+        "terminator checklist",
+        "polya checklist"
+      ],
+      "short_description": "Checklist-style terminator or polyA metadata record for review tracking.",
+      "organism_or_source_context": "review checklist placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should add source and naming context before citation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "terminator",
+        "polya",
+        "provenance"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-tag-linker-001",
+      "asset_type": "tag",
+      "display_name": "Tag documentation placeholder A",
+      "aliases": [
+        "tag note",
+        "epitope tag note"
+      ],
+      "short_description": "Metadata-only tag record for documentation browsing.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note for a tag-related entry.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "tag",
+        "metadata",
+        "documentation"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-tag-linker-002",
+      "asset_type": "tag",
+      "display_name": "Affinity tag source note",
+      "aliases": [
+        "affinity tag note",
+        "tag source note"
+      ],
+      "short_description": "Tag metadata note for provenance and human review context.",
+      "organism_or_source_context": "source citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No purification or use guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "tag",
+        "source note",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-tag-linker-003",
+      "asset_type": "tag",
+      "display_name": "Flexible linker context note",
+      "aliases": [
+        "linker note",
+        "flexible linker"
+      ],
+      "short_description": "Linker metadata entry for source tracing and local documentation review.",
+      "organism_or_source_context": "linker context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Sequence and structural interpretation are not included in this seed record.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "linker",
+        "metadata",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-tag-linker-004",
+      "asset_type": "tag",
+      "display_name": "Cleavage site metadata note",
+      "aliases": [
+        "cleavage site note",
+        "tag linker context"
+      ],
+      "short_description": "Metadata-only cleavage site context note for catalog coverage.",
+      "organism_or_source_context": "source naming placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No enzyme selection, protocol, or construct guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "tag",
+        "linker",
+        "cleavage site"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-signal-localization-001",
+      "asset_type": "signal_peptide",
+      "display_name": "Signal peptide documentation placeholder",
+      "aliases": [
+        "signal peptide note",
+        "secretion signal note"
+      ],
+      "short_description": "Metadata-only signal peptide record for local documentation review.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note; no sequence included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "signal peptide",
+        "metadata",
+        "documentation"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-signal-localization-002",
+      "asset_type": "signal_peptide",
+      "display_name": "N-terminal signal context note",
+      "aliases": [
+        "n terminal signal",
+        "signal context"
+      ],
+      "short_description": "Signal peptide context entry retained for source review visibility.",
+      "organism_or_source_context": "source citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No secretion, localization, or expression outcome is claimed.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "signal peptide",
+        "source note",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-signal-localization-003",
+      "asset_type": "signal_peptide",
+      "display_name": "Localization tag documentation note",
+      "aliases": [
+        "localization tag",
+        "subcellular context note"
+      ],
+      "short_description": "Metadata-only localization tag record for documentation browsing.",
+      "organism_or_source_context": "localization context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed record only; reviewer should verify source context before citation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "localization tag",
+        "metadata",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-signal-localization-004",
+      "asset_type": "signal_peptide",
+      "display_name": "Transit peptide source review note",
+      "aliases": [
+        "transit peptide note",
+        "localization source"
+      ],
+      "short_description": "Transit peptide metadata entry for provenance review and catalog filtering.",
+      "organism_or_source_context": "source naming placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No organelle delivery or function claim is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "transit peptide",
+        "localization",
+        "source note"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-cds-target-001",
+      "asset_type": "cds_target",
+      "display_name": "CDS target documentation placeholder",
+      "aliases": [
+        "cds target",
+        "target gene note"
+      ],
+      "short_description": "Metadata-only CDS or target gene record for local documentation review.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note; no coding sequence included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "cds",
+        "target gene",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-cds-target-002",
+      "asset_type": "cds_target",
+      "display_name": "Enzyme target source note",
+      "aliases": [
+        "enzyme target note",
+        "gene source note"
+      ],
+      "short_description": "Target gene metadata note for provenance and review context.",
+      "organism_or_source_context": "literature or local source placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should add the specific source basis before citation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "cds",
+        "enzyme",
+        "source note"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-cds-target-003",
+      "asset_type": "cds_target",
+      "display_name": "Reporter CDS context note",
+      "aliases": [
+        "reporter gene note",
+        "cds context"
+      ],
+      "short_description": "Metadata-only reporter CDS context record for catalog coverage.",
+      "organism_or_source_context": "reporter context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No expression outcome or assay guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "cds",
+        "reporter",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-cds-target-004",
+      "asset_type": "cds_target",
+      "display_name": "Pathway target gene review note",
+      "aliases": [
+        "pathway gene note",
+        "target review"
+      ],
+      "short_description": "Target gene review entry for linking catalog context to pathway documentation.",
+      "organism_or_source_context": "pathway context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed record supports documentation traceability only.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "target gene",
+        "pathway context",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-cds-target-005",
+      "asset_type": "cds_target",
+      "display_name": "CDS naming provenance checklist",
+      "aliases": [
+        "cds checklist",
+        "gene naming note"
+      ],
+      "short_description": "Checklist-style CDS metadata entry for naming and source review.",
+      "organism_or_source_context": "naming context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should document naming source, organism context, and citation status.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "cds",
+        "naming",
+        "provenance"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-origin-metadata-001",
+      "asset_type": "origin_metadata",
+      "display_name": "Origin metadata placeholder A",
+      "aliases": [
+        "origin note",
+        "ori metadata"
+      ],
+      "short_description": "Metadata-only origin or replication context record for local review.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note for origin metadata.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "origin",
+        "replication metadata",
+        "documentation"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-origin-metadata-002",
+      "asset_type": "origin_metadata",
+      "display_name": "Replication origin source note",
+      "aliases": [
+        "replication origin",
+        "ori source note"
+      ],
+      "short_description": "Origin metadata note retained for source review and traceability.",
+      "organism_or_source_context": "source citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No copy number or host guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "origin",
+        "source note",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-origin-metadata-003",
+      "asset_type": "origin_metadata",
+      "display_name": "Replicon context review note",
+      "aliases": [
+        "replicon note",
+        "replication context"
+      ],
+      "short_description": "Replicon context entry for metadata browsing and provenance review.",
+      "organism_or_source_context": "replicon context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed record contains no replication performance claim.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "replicon",
+        "metadata",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-origin-metadata-004",
+      "asset_type": "origin_metadata",
+      "display_name": "Origin provenance checklist entry",
+      "aliases": [
+        "origin checklist",
+        "ori provenance"
+      ],
+      "short_description": "Checklist-style origin metadata record for human review tracking.",
+      "organism_or_source_context": "review checklist placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should add source and naming context before citation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "origin",
+        "provenance",
+        "checklist"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-marker-metadata-001",
+      "asset_type": "marker_metadata",
+      "display_name": "Selectable marker metadata placeholder",
+      "aliases": [
+        "marker note",
+        "selection marker metadata"
+      ],
+      "short_description": "Metadata-only selectable marker record for local documentation review.",
+      "organism_or_source_context": "source context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note for marker metadata.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "marker",
+        "selection",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-marker-metadata-002",
+      "asset_type": "marker_metadata",
+      "display_name": "Antibiotic marker source note",
+      "aliases": [
+        "antibiotic marker note",
+        "marker source"
+      ],
+      "short_description": "Selectable marker source note retained for provenance review.",
+      "organism_or_source_context": "source citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No concentration, culture condition, or protocol guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "marker",
+        "source note",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-marker-metadata-003",
+      "asset_type": "marker_metadata",
+      "display_name": "Auxotrophic marker context note",
+      "aliases": [
+        "auxotrophic marker",
+        "marker context"
+      ],
+      "short_description": "Metadata-only auxotrophic marker context record for catalog coverage.",
+      "organism_or_source_context": "source naming placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No host selection or media guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "marker",
+        "auxotrophic context",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-marker-metadata-004",
+      "asset_type": "marker_metadata",
+      "display_name": "Marker provenance checklist entry",
+      "aliases": [
+        "marker checklist",
+        "selection marker provenance"
+      ],
+      "short_description": "Checklist-style marker metadata entry for source and naming review.",
+      "organism_or_source_context": "review checklist placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should provide source context before using this in project documentation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "marker",
+        "provenance",
+        "checklist"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-host-chassis-001",
+      "asset_type": "host_chassis_context_note",
+      "display_name": "Host context documentation placeholder",
+      "aliases": [
+        "host context",
+        "chassis note"
+      ],
+      "short_description": "Metadata-only host or chassis context note for project documentation review.",
+      "organism_or_source_context": "host context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder provenance note; no design or culture guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "host",
+        "chassis",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-host-chassis-002",
+      "asset_type": "host_chassis_context_note",
+      "display_name": "Bacterial chassis source note",
+      "aliases": [
+        "bacterial chassis note",
+        "microbial chassis note",
+        "host source"
+      ],
+      "short_description": "Host context source note retained for provenance and human review.",
+      "organism_or_source_context": "bacterial context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer-selected source details are not included in this seed record.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "host",
+        "chassis",
+        "source note"
+      ],
+      "documentation_boundary_note": "Documentation-only metadata record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-host-chassis-005",
+      "asset_type": "host_chassis_context_note",
+      "display_name": "Yeast host context note",
+      "aliases": [
+        "yeast host note",
+        "fungal chassis context"
+      ],
+      "short_description": "Metadata-only yeast host context record for documentation review.",
+      "organism_or_source_context": "yeast context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No strain selection, fermentation, or assay guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r114 chassis-neutral host context model",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "host",
+        "yeast context",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Documentation-only metadata record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-host-chassis-003",
+      "asset_type": "host_chassis_context_note",
+      "display_name": "Plant chassis context note",
+      "aliases": [
+        "plant host note",
+        "plant chassis context"
+      ],
+      "short_description": "Metadata-only plant host context record for documentation browsing.",
+      "organism_or_source_context": "plant context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No transformation, growth, or expression guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "host",
+        "plant context",
+        "review"
+      ],
+      "documentation_boundary_note": "Documentation-only metadata record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-host-chassis-004",
+      "asset_type": "host_chassis_context_note",
+      "display_name": "Mammalian host context note",
+      "aliases": [
+        "mammalian host note",
+        "cell context note"
+      ],
+      "short_description": "Metadata-only mammalian host context record for source review.",
+      "organism_or_source_context": "mammalian context placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No culture, transfection, or assay guidance is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "host",
+        "mammalian context",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Documentation-only metadata record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-literature-source-note-001",
+      "asset_type": "literature_source_note",
+      "display_name": "Literature source placeholder A",
+      "aliases": [
+        "literature note",
+        "source note"
+      ],
+      "short_description": "Metadata-only literature source note for local catalog provenance context.",
+      "organism_or_source_context": "literature reference placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Placeholder citation note for a reviewer-selected source.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "literature",
+        "provenance",
+        "documentation",
+        "documentation note"
+      ],
+      "documentation_boundary_note": "Documentation-only metadata record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-literature-source-note-002",
+      "asset_type": "literature_source_note",
+      "display_name": "Internal notebook source note",
+      "aliases": [
+        "notebook note",
+        "local source note"
+      ],
+      "short_description": "Local source note placeholder for human review and traceability.",
+      "organism_or_source_context": "internal source placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should replace this with a real local record reference when available.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "source note",
+        "local notebook",
+        "review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-literature-source-note-003",
+      "asset_type": "literature_source_note",
+      "display_name": "Dataset citation review note",
+      "aliases": [
+        "dataset note",
+        "citation review"
+      ],
+      "short_description": "Dataset citation metadata entry for source review workflows.",
+      "organism_or_source_context": "dataset citation placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "No external database lookup or link is included.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "dataset",
+        "citation",
+        "source review"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-literature-source-note-004",
+      "asset_type": "literature_source_note",
+      "display_name": "Review article context note",
+      "aliases": [
+        "review article note",
+        "background source"
+      ],
+      "short_description": "Literature context note for documenting source provenance only.",
+      "organism_or_source_context": "background source placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Seed record does not summarize or evaluate source content.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "literature",
+        "background context",
+        "metadata"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    },
+    {
+      "asset_id": "lda-literature-source-note-005",
+      "asset_type": "literature_source_note",
+      "display_name": "Primary source review checklist",
+      "aliases": [
+        "primary source checklist",
+        "source checklist"
+      ],
+      "short_description": "Checklist-style literature source record for human review tracking.",
+      "organism_or_source_context": "primary source placeholder; source review needed",
+      "sequence_available": false,
+      "sequence_hash": "",
+      "sequence_hash_algorithm": "",
+      "source_notes": "Reviewer should add bibliographic details before citation.",
+      "provenance_status": "source review needed",
+      "version_context": "seed v2.6-r3e",
+      "review_status": "human review needed",
+      "human_review_notes": "Metadata-only seed record for local documentation review.",
+      "tags": [
+        "literature",
+        "provenance",
+        "checklist"
+      ],
+      "documentation_boundary_note": "Metadata-only documentation record; human source review required before citation in project notes."
+    }
+  ]
+}

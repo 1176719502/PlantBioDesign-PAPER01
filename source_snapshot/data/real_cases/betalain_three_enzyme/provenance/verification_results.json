@@ -1,0 +1,9 @@
+{
+  "verification_status": "passed",
+  "method": "GenBank feature extraction, strict-DNA checks, standard-code local translation, translation qualifier comparison, and SHA-256 verification.",
+  "records": [
+    {"version": "HQ656023.1", "cds_length": 1494, "protein_length": 497, "start_codon": "ATG", "terminal_stop_codon": "TGA", "translation_matches_record": true, "internal_stop_codon_positions": []},
+    {"version": "HQ656027.1", "cds_length": 828, "protein_length": 275, "start_codon": "ATG", "terminal_stop_codon": "TAG", "translation_matches_record": true, "internal_stop_codon_positions": []},
+    {"version": "AB182643.1", "cds_length": 1503, "protein_length": 500, "start_codon": "ATG", "terminal_stop_codon": "TAA", "translation_matches_record": true, "internal_stop_codon_positions": []}
+  ]
+}

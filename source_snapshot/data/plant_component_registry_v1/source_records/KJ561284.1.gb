@@ -1,0 +1,85 @@
+LOCUS       KJ561284                2203 bp    DNA     linear   PLN 27-MAY-2014
+DEFINITION  Solanum lycopersicum cultivar PT18 ethylene-responsive fruit
+            ripening protein (E8) gene, promoter region and 5' UTR.
+ACCESSION   KJ561284
+VERSION     KJ561284.1
+KEYWORDS    .
+SOURCE      Solanum lycopersicum (Lycopersicon esculentum)
+  ORGANISM  Solanum lycopersicum
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; lamiids; Solanales; Solanaceae;
+            Solanoideae; Solaneae; Solanum; Solanum subgen. Lycopersicon.
+REFERENCE   1  (bases 1 to 2203)
+  AUTHORS   Hong,L.V., Duc,L.H., Son,L.V., Ngoc,P.B. and Ha,C.H.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2014) Applied DNA Technology, Institute of
+            Biotechnology, 18 Hoang Quoc Viet Street, Cau Giay District, Hanoi
+            10000, Viet Nam
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..2203
+                     /organism="Solanum lycopersicum"
+                     /mol_type="genomic DNA"
+                     /cultivar="PT18"
+                     /db_xref="taxon:4081"
+                     /geo_loc_name="Viet Nam"
+     gene            1..>2203
+                     /gene="E8"
+     regulatory      1..2164
+                     /regulatory_class="promoter"
+                     /gene="E8"
+                     /note="tomato fruit specific promoter"
+     regulatory      1702..1705
+                     /regulatory_class="CAAT_signal"
+                     /gene="E8"
+     regulatory      2131..2137
+                     /regulatory_class="TATA_box"
+                     /gene="E8"
+     mRNA            2165..>2203
+                     /gene="E8"
+                     /product="ethylene-responsive fruit ripening protein"
+     5'UTR           2165..>2203
+                     /gene="E8"
+ORIGIN      
+        1 aagctttccc taatgatatt gttcatgtaa ttaagttttg tggaagtgag agagtccaat
+       61 tttgataaga aaagagtcag aaaacgtaat attttaaaag tctaaatctt tctacaaata
+      121 agagcaaatt tatttatttt ttaatccaat aaatattaat ggaggacaaa ttcaattcac
+      181 ttggttgtaa aataaactta aaccaataac caaagaacta ataaatcctg aagtggaatt
+      241 attaaggata aatgtacata gacaatgaag aaataatagg ttcgatgaat taataataat
+      301 taaggatgtt acaatcatca tgtgccaagt atatacacaa tattctatgg gatttataat
+      361 ttcgttactt cacttaactt ttgcgtaaat aaaacgaatt atctgatatt ttataataaa
+      421 acagttaatt aagaaccatc atttttaaca acatagatat attatttcta atagtttaat
+      481 gatactttta aatcttttaa attttatgtt tcttttagaa aataaaaatt caaaaaatta
+      541 aatatattta caaaaactac aatcaaacac aacttcatat attaaaagca aaatatattt
+      601 tgaaaatttc aagtgtccta acaaataaga caagaggaaa atgtacgatg agagacataa
+      661 agagaactaa taattgagga gtcctataat atataataaa gtttattagt aaacttaatt
+      721 attaaggact cctaaaatat atgataggag aaaatgaatg gtgagagata ttggaaaact
+      781 taataattaa ggattttaaa atatatggta aaagataggc aaagtatcca ttatcccctt
+      841 ttaacttgaa gtctactagg cgcatgtgaa agttgatttt ttgtcacgtc atatagctat
+      901 aacgtaaaaa aagaaagtaa aatttttaat tttttttaat atatgacata ttttaaacga
+      961 aatataggac aaaatgtaaa tgaatagtaa aggaaacaaa gattaatact tactttgtaa
+     1021 gaatttaaga taaatttaaa atttaataga tcaactttac gtctagaaag accctatctt
+     1081 agaaggaatt tcagaaatcg gccctttttc aaaaataact tttaaataat gaattttaaa
+     1141 ttttaagaaa taatttccaa tgaataaatg acatgtagca ttttacctaa atatttcaac
+     1201 tattttaatc caatattaat ttgtttattc ccaacaatag aaagtcttgt gcagacattt
+     1261 aatctgactt ttccagtact aaatattaat tttctgaaga ttttcgggtt tagtccacaa
+     1321 gttttagtga gaagttttgc tcaaaatttt aggtgagaag gtttgatatt tatcttttgt
+     1381 taaattaatt tatctaggtg actattattt atttaagtag aaattcatat cattactttt
+     1441 gccaacttgt agtcataata ggagtaggtg tatatgatga aggaataaac aagttcagtg
+     1501 aagtgattaa aataaaatat aatttaggtg tacatcaaat aaaaacctta aagtttagaa
+     1561 aggcaccgaa taattttgca tagaagatat tagtaaattt ataaaaataa aagaaatgta
+     1621 gttgtcaagt tgtcttcttt tttttggata aaaatagcag ttggcttatg tcattctttt
+     1681 acaacctcca tgccacttgt ccaattgttg acacttaact aattagtttg attcatgtat
+     1741 gaatactaaa taatttttta ggactgactc aaatattttt atattatcat agtaatattt
+     1801 atctaatttt taggaccact tattactaaa taataaatta actactacta tattattgtt
+     1861 gtgaaacaac aacgttttgg ttgttatgat gaaacgtaca ctatatcagt atgaaaaatt
+     1921 caaaacgatt agtataaatt atattgaaaa tttgatattt ttctattctt aatcagacgt
+     1981 attgggtttc atattttaaa aagggactaa acttagaaga gaagtttgtt tgaaactact
+     2041 tttgtctctt tcttgttccc atttctctct tagatttcaa aaagtgaact actttatctc
+     2101 tttctttgtt cacattttat tttattctat tataaatatg gcatcctcat attgagattt
+     2161 ttagaaatta ttctaatcat tcacagtgca aaagaaggga tcc
+//
+

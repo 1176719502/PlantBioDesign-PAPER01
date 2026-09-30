@@ -1,0 +1,741 @@
+LOCUS       NM_000477               2285 bp    mRNA    linear   PRI 27-APR-2025
+DEFINITION  Homo sapiens albumin (ALB), mRNA.
+ACCESSION   NM_000477
+VERSION     NM_000477.7
+KEYWORDS    RefSeq; MANE Select.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2285)
+  AUTHORS   Zelenovic,N., Ristic,P., Polovic,N., Todorovic,T., Kojadinovic,M.
+            and Popovic,M.
+  TITLE     A Multi-Spectroscopic and Molecular Docking Analysis of the
+            Biophysical Interaction between Food Polyphenols, Urolithins, and
+            Human Serum Albumin
+  JOURNAL   Molecules 29 (18), 4474 (2024)
+   PUBMED   39339470
+  REMARK    GeneRIF: A Multi-Spectroscopic and Molecular Docking Analysis of
+            the Biophysical Interaction between Food Polyphenols, Urolithins,
+            and Human Serum Albumin.
+            Publication Status: Online-Only
+REFERENCE   2  (bases 1 to 2285)
+  AUTHORS   Cole,J., Guivarch,C., Wu,J., Stallcup,P., Pang,W.W., Zhang,C. and
+            Sacks,D.B.
+  TITLE     Plasma Glycated Albumin in Early Pregnancy and Gestational Diabetes
+            Mellitus: A Prospective and Longitudinal Study
+  JOURNAL   Diabetes Care 47 (9), 1593-1596 (2024)
+   PUBMED   38968411
+  REMARK    GeneRIF: Plasma Glycated Albumin in Early Pregnancy and Gestational
+            Diabetes Mellitus: A Prospective and Longitudinal Study.
+REFERENCE   3  (bases 1 to 2285)
+  AUTHORS   Zirafi,O., Hermann,P.C. and Munch,J.
+  TITLE     Proteolytic processing of human serum albumin generates EPI-X4, an
+            endogenous antagonist of CXCR4
+  JOURNAL   J Leukoc Biol 99 (6), 863-868 (2016)
+   PUBMED   26965637
+  REMARK    Review article
+REFERENCE   4  (bases 1 to 2285)
+  AUTHORS   Ha,C.E. and Bhagavan,N.V.
+  TITLE     Novel insights into the pleiotropic effects of human serum albumin
+            in health and disease
+  JOURNAL   Biochim Biophys Acta 1830 (12), 5486-5493 (2013)
+   PUBMED   23602811
+  REMARK    Review article
+REFERENCE   5  (bases 1 to 2285)
+  AUTHORS   Sugio,S., Kashima,A., Mochizuki,S., Noda,M. and Kobayashi,K.
+  TITLE     Crystal structure of human serum albumin at 2.5 A resolution
+  JOURNAL   Protein Eng 12 (6), 439-446 (1999)
+   PUBMED   10388840
+REFERENCE   6  (bases 1 to 2285)
+  AUTHORS   Urano,Y., Watanabe,K., Sakai,M. and Tamaoki,T.
+  TITLE     The human albumin gene. Characterization of the 5' and 3' flanking
+            regions and the polymorphic gene transcripts
+  JOURNAL   J Biol Chem 261 (7), 3244-3251 (1986)
+   PUBMED   2419329
+REFERENCE   7  (bases 1 to 2285)
+  AUTHORS   Hawkins,J.W. and Dugaiczyk,A.
+  TITLE     The human serum albumin gene: structure of a unique locus
+  JOURNAL   Gene 19 (1), 55-58 (1982)
+   PUBMED   6292049
+REFERENCE   8  (bases 1 to 2285)
+  AUTHORS   Dugaiczyk,A., Law,S.W. and Dennison,O.E.
+  TITLE     Nucleotide sequence and the encoded amino acids of human serum
+            albumin mRNA
+  JOURNAL   Proc Natl Acad Sci U S A 79 (1), 71-75 (1982)
+   PUBMED   6275391
+REFERENCE   9  (bases 1 to 2285)
+  AUTHORS   Heaney-Kieras,J. and King,T.P.
+  TITLE     Limited pepsin digestion of human plasma albumin
+  JOURNAL   J Biol Chem 252 (12), 4326-4329 (1977)
+   PUBMED   325004
+REFERENCE   10 (bases 1 to 2285)
+  AUTHORS   Meloun,B., Moravek,L. and Kostka,V.
+  TITLE     Complete amino acid sequence of human serum albumin
+  JOURNAL   FEBS Lett 58 (1), 134-137 (1975)
+   PUBMED   1225573
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DB186399.1, DA642320.1,
+            DQ986150.1, N53869.1 and AC108157.3.
+            This sequence is a reference standard in the RefSeqGene project.
+            
+            On Nov 22, 2018 this sequence version replaced NM_000477.6.
+            
+            Summary: This gene encodes the most abundant protein in human
+            blood. This protein functions in the regulation of blood plasma
+            colloid osmotic pressure and acts as a carrier protein for a wide
+            range of endogenous molecules including hormones, fatty acids, and
+            metabolites, as well as exogenous drugs. Additionally, this protein
+            exhibits an esterase-like activity with broad substrate
+            specificity. The encoded preproprotein is proteolytically processed
+            to generate the mature protein. A peptide derived from this
+            protein, EPI-X4, is an endogenous inhibitor of the CXCR4 chemokine
+            receptor. [provided by RefSeq, Jul 2016].
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC036003.1, SRR5189664.159361.1
+                                           [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1970526, SAMEA2142680
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            coronavirus related                :: relevant for COVID-19
+                                                  prognosis
+            gene product(s) localized to mito. :: inferred from homology
+            MANE Ensembl match                 :: ENST00000295897.9/
+                                                  ENSP00000295897.4
+            RefSeq Select criteria             :: based on single
+                                                  protein-coding transcript
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: full length.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-10                DB186399.1         49-58
+            11-30               DA642320.1         43-62
+            31-1914             DQ986150.1         1-1884
+            1915-2215           N53869.1           18-318              c
+            2216-2285           AC108157.3         87261-87330
+FEATURES             Location/Qualifiers
+     source          1..2285
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="4"
+                     /map="4q13.3"
+     gene            1..2285
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="albumin"
+                     /db_xref="GeneID:213"
+                     /db_xref="HGNC:HGNC:399"
+                     /db_xref="MIM:103600"
+     exon            1..120
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             42..1871
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="serum albumin"
+                     /codon_start=1
+                     /product="albumin preproprotein"
+                     /protein_id="NP_000468.1"
+                     /db_xref="CCDS:CCDS3555.1"
+                     /db_xref="GeneID:213"
+                     /db_xref="HGNC:HGNC:399"
+                     /db_xref="MIM:103600"
+                     /translation="MKWVTFISLLFLFSSAYSRGVFRRDAHKSEVAHRFKDLGEENFK
+                     ALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVA
+                     TLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLK
+                     KYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSA
+                     KQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLE
+                     CADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFV
+                     ESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHE
+                     CYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQVSTPTLVEV
+                     SRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNR
+                     RPCFSALEVDETYVPKEFNAETFTFHADICTLSEKERQIKKQTALVELVKHKPKATKE
+                     QLKAVMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAALGL"
+     sig_peptide     42..95
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="COORDINATES: ab initio prediction:SignalP:6.0"
+     mat_peptide     114..1868
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /product="Albumin. /id=PRO_0000001068"
+                     /note="propagated from UniProtKB/Swiss-Prot (P02768.2)"
+     misc_feature    123..125
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    126..128
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphoserine, by FAM20C.
+                     /evidence=ECO:0000269|PubMed:26091039; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    147..149
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    171..173
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    234..236
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    264..266
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    285..287
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphoserine, by FAM20C.
+                     /evidence=ECO:0000269|PubMed:26091039,
+                     ECO:0007744|PubMed:18318008, ECO:0007744|PubMed:24275569;
+                     propagated from UniProtKB/Swiss-Prot (P02768.2);
+                     phosphorylation site"
+     misc_feature    303..305
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    306..308
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphoserine, by FAM20C.
+                     /evidence=ECO:0000269|PubMed:26091039,
+                     ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    330..332
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    360..362
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphothreonine, by FAM20C.
+                     /evidence=ECO:0000269|PubMed:26091039; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    390..392
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    429..431
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    519..521
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    522..524
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    588..590
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    597..599
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    633..635
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    654..656
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    681..683
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    696..698
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    708..710
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Aspirin-acetylated lysine; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    708..710
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:3759977,
+                     ECO:0000269|PubMed:6853480; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    726..728
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    747..749
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    786..788
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    810..812
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:15047055,
+                     ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    831..833
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    897..899
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    930..932
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0000250|UniProtKB:P07724; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    933..935
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    939..941
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    954..956
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    969..971
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1050..1052
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1062..1064
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1065..1067
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (GlcNAc...) asparagine, in variant
+                     Redhill. /id=CAR_000226; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1080..1082
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1164..1166
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:15047055,
+                     ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1188..1190
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1227..1229
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1245..1247
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1278..1280
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1317..1319
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     mat_peptide     1335..1382
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /product="EPI-X4"
+                     /experiment="EXISTENCE:mass spectrometry evidence
+                     [ECO:0001096][PMID:15054046]"
+                     /exception="alternative processing"
+     misc_feature    1350..1352
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1353..1355
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1368..1370
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    1371..1373
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    1377..1379
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphothreonine.
+                     /evidence=ECO:0007744|PubMed:19690332; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    1407..1409
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1419..1421
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1428..1430
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1443..1445
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1509..1511
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1536..1538
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1578..1580
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Phosphoserine.
+                     /evidence=ECO:0007744|PubMed:24275569; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); phosphorylation site"
+     misc_feature    1593..1595
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (GlcNAc...) asparagine, in variant
+                     Casebrook. /id=CAR_000069; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1611..1613
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1668..1670
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1683..1685
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1686..1688
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine.
+                     /evidence=ECO:0000269|PubMed:15047055,
+                     ECO:0000269|PubMed:3759977, ECO:0000269|PubMed:6706980,
+                     ECO:0000269|PubMed:6853480; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1713..1715
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, alternate.
+                     /evidence=ECO:0000269|PubMed:3759977; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1713..1715
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N6-methyllysine, alternate.
+                     /evidence=ECO:0007744|PubMed:24129315; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); methylation site"
+     misc_feature    1719..1721
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1725..1727
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1734..1736
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1746..1748
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1782..1784
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1791..1793
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1803..1805
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     misc_feature    1830..1832
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="N-linked (Glc) (glycation) lysine, in vitro.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); glycosylation site"
+     misc_feature    1833..1835
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="Not glycated.
+                     /evidence=ECO:0000269|PubMed:15047055; propagated from
+                     UniProtKB/Swiss-Prot (P02768.2); other site"
+     exon            121..178
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            179..311
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            312..523
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            524..656
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            657..754
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            755..884
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            885..1099
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1100..1232
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1233..1330
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1331..1469
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1470..1693
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1694..1826
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1827..1894
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1895..2285
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /inference="alignment:Splign:2.1.0"
+     regulatory      2037..2042
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="hexamer: AATAAA"
+     polyA_site      2059
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="major polyA site"
+     regulatory      2192..2197
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="hexamer: AATAAA"
+     polyA_site      2215
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+     regulatory      2267..2272
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+                     /note="hexamer: AATAAA"
+     polyA_site      2285
+                     /gene="ALB"
+                     /gene_synonym="FDAHT; HSA; PRO0883; PRO0903; PRO1341"
+ORIGIN      
+        1 ctagcttttc tcttctgtca accccacacg cctttggcac aatgaagtgg gtaaccttta
+       61 tttcccttct ttttctcttt agctcggctt attccagggg tgtgtttcgt cgagatgcac
+      121 acaagagtga ggttgctcat cggtttaaag atttgggaga agaaaatttc aaagccttgg
+      181 tgttgattgc ctttgctcag tatcttcagc agtgtccatt tgaagatcat gtaaaattag
+      241 tgaatgaagt aactgaattt gcaaaaacat gtgttgctga tgagtcagct gaaaattgtg
+      301 acaaatcact tcataccctt tttggagaca aattatgcac agttgcaact cttcgtgaaa
+      361 cctatggtga aatggctgac tgctgtgcaa aacaagaacc tgagagaaat gaatgcttct
+      421 tgcaacacaa agatgacaac ccaaacctcc cccgattggt gagaccagag gttgatgtga
+      481 tgtgcactgc ttttcatgac aatgaagaga catttttgaa aaaatactta tatgaaattg
+      541 ccagaagaca tccttacttt tatgccccgg aactcctttt ctttgctaaa aggtataaag
+      601 ctgcttttac agaatgttgc caagctgctg ataaagctgc ctgcctgttg ccaaagctcg
+      661 atgaacttcg ggatgaaggg aaggcttcgt ctgccaaaca gagactcaag tgtgccagtc
+      721 tccaaaaatt tggagaaaga gctttcaaag catgggcagt agctcgcctg agccagagat
+      781 ttcccaaagc tgagtttgca gaagtttcca agttagtgac agatcttacc aaagtccaca
+      841 cggaatgctg ccatggagat ctgcttgaat gtgctgatga cagggcggac cttgccaagt
+      901 atatctgtga aaatcaagat tcgatctcca gtaaactgaa ggaatgctgt gaaaaacctc
+      961 tgttggaaaa atcccactgc attgccgaag tggaaaatga tgagatgcct gctgacttgc
+     1021 cttcattagc tgctgatttt gttgaaagta aggatgtttg caaaaactat gctgaggcaa
+     1081 aggatgtctt cctgggcatg tttttgtatg aatatgcaag aaggcatcct gattactctg
+     1141 tcgtgctgct gctgagactt gccaagacat atgaaaccac tctagagaag tgctgtgccg
+     1201 ctgcagatcc tcatgaatgc tatgccaaag tgttcgatga atttaaacct cttgtggaag
+     1261 agcctcagaa tttaatcaaa caaaattgtg agctttttga gcagcttgga gagtacaaat
+     1321 tccagaatgc gctattagtt cgttacacca agaaagtacc ccaagtgtca actccaactc
+     1381 ttgtagaggt ctcaagaaac ctaggaaaag tgggcagcaa atgttgtaaa catcctgaag
+     1441 caaaaagaat gccctgtgca gaagactatc tatccgtggt cctgaaccag ttatgtgtgt
+     1501 tgcatgagaa aacgccagta agtgacagag tcaccaaatg ctgcacagaa tccttggtga
+     1561 acaggcgacc atgcttttca gctctggaag tcgatgaaac atacgttccc aaagagttta
+     1621 atgctgaaac attcaccttc catgcagata tatgcacact ttctgagaag gagagacaaa
+     1681 tcaagaaaca aactgcactt gttgagctcg tgaaacacaa gcccaaggca acaaaagagc
+     1741 aactgaaagc tgttatggat gatttcgcag cttttgtaga gaagtgctgc aaggctgacg
+     1801 ataaggagac ctgctttgcc gaggagggta aaaaacttgt tgctgcaagt caagctgcct
+     1861 taggcttata acatcacatt taaaagcatc tcagcctacc atgagaataa gagaaagaaa
+     1921 atgaagatca aaagcttatt catctgtttt tctttttcgt tggtgtaaag ccaacaccct
+     1981 gtctaaaaaa cataaatttc tttaatcatt ttgcctcttt tctctgtgct tcaattaata
+     2041 aaaaatggaa agaatctaat agagtggtac agcactgtta tttttcaaag atgtgttgct
+     2101 atcctgaaaa ttctgtaggt tctgtggaag ttccagtgtt ctctcttatt ccacttcggt
+     2161 agaggatttc tagtttcttg tgggctaatt aaataaatca ttaatactct tctaagttat
+     2221 ggattataaa cattcaaaat aatattttga cattatgata attctgaata aaagaacaaa
+     2281 aacca
+//
+

@@ -1,0 +1,2517 @@
+{
+  "validation_version": "mvp7.single-gene-accuracy.v1",
+  "baseline_commit": "6ac9920efb4fe3d1cac0f82f349dc017bf944205",
+  "coordinate_system": "Runtime DNA uses uppercase text; feature expectations include explicit zero-based half-open parts.",
+  "cases": [
+    {
+      "case_id": "case_01_stable_example",
+      "description": "Current stable example with fixed export and parsed-sequence hashes.",
+      "project_name": "Plant single-gene MVP",
+      "component_names": {
+        "promoter": "PROMOTER_COMPONENT_R229",
+        "cds": "CDS_COMPONENT_R229",
+        "terminator": "TERMINATOR_COMPONENT_R229"
+      },
+      "promoter_sequence": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT",
+      "cds_sequence": "ATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAA",
+      "terminator_sequence": "GTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAA",
+      "backbone_sequence": "AACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTT",
+      "backbone_features": [
+        {
+          "name": "ORI_ALPHA",
+          "feature_type": "rep_origin",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 119,
+              "end": 380,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "ORI_ALPHA"
+            ],
+            "note": [
+              "upstream origin"
+            ]
+          }
+        },
+        {
+          "name": "UPSTREAM_SITE",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 1849,
+              "end": 1940,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "UPSTREAM_SITE"
+            ],
+            "note": [
+              "before insertion"
+            ]
+          }
+        },
+        {
+          "name": "SELECT_MARK",
+          "feature_type": "misc_feature",
+          "strand": -1,
+          "parts_0_based_half_open": [
+            {
+              "start": 2599,
+              "end": 2750,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "SELECT_MARK"
+            ],
+            "gene": [
+              "selA"
+            ],
+            "note": [
+              "downstream marker"
+            ]
+          }
+        },
+        {
+          "name": "TAIL_AUDIT",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 3499,
+              "end": 3660,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "TAIL_AUDIT"
+            ],
+            "note": [
+              "tail audit region"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "repository_fixture_genbank",
+      "backbone_input_path": "examples/plant_single_gene_mvp/r229_backbone.gb",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 2100,
+        "end": 2101
+      },
+      "expected_removed_sequence": "",
+      "stable_baseline_hashes": {
+        "fasta_file_sha256": "bff837583dad749f5b7e84c40750e3d479770ac534bcf4e9a1b0d2149b1577a3",
+        "genbank_file_sha256": "718a9dc01e371d6ee8e92b6f26d3f046d2de67749967a3ed458926014f23723b",
+        "parsed_sequence_sha256": "a65a617e31e54b2a2e91ad00294aa21d8d83fe8ec0e44dd2dc7c6f39cb0c69fb"
+      },
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAA",
+        "plasmid_sequence": "AACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGTTTAAGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTTAACCGGTT",
+        "cassette_length": 1750,
+        "plasmid_length": 5950,
+        "cassette_span_0_based_half_open": {
+          "start": 2100,
+          "end": 3850
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 2101,
+          "end": 3850
+        },
+        "feature_locations": [
+          {
+            "name": "ORI_ALPHA",
+            "feature_type": "rep_origin",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 119,
+            "end_0_based_exclusive": 380,
+            "start_1_based": 120,
+            "end_1_based_inclusive": 380,
+            "parts_0_based_half_open": [
+              {
+                "start": 119,
+                "end": 380,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 120,
+                "end": 380,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "UPSTREAM_SITE",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 1849,
+            "end_0_based_exclusive": 1940,
+            "start_1_based": 1850,
+            "end_1_based_inclusive": 1940,
+            "parts_0_based_half_open": [
+              {
+                "start": 1849,
+                "end": 1940,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 1850,
+                "end": 1940,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_COMPONENT_R229",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 2100,
+            "end_0_based_exclusive": 2740,
+            "start_1_based": 2101,
+            "end_1_based_inclusive": 2740,
+            "parts_0_based_half_open": [
+              {
+                "start": 2100,
+                "end": 2740,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 2101,
+                "end": 2740,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_COMPONENT_R229",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 2740,
+            "end_0_based_exclusive": 3640,
+            "start_1_based": 2741,
+            "end_1_based_inclusive": 3640,
+            "parts_0_based_half_open": [
+              {
+                "start": 2740,
+                "end": 3640,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 2741,
+                "end": 3640,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_COMPONENT_R229",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 3640,
+            "end_0_based_exclusive": 3850,
+            "start_1_based": 3641,
+            "end_1_based_inclusive": 3850,
+            "parts_0_based_half_open": [
+              {
+                "start": 3640,
+                "end": 3850,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 3641,
+                "end": 3850,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "SELECT_MARK",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "",
+            "start_0_based": 4349,
+            "end_0_based_exclusive": 4500,
+            "start_1_based": 4350,
+            "end_1_based_inclusive": 4500,
+            "parts_0_based_half_open": [
+              {
+                "start": 4349,
+                "end": 4500,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 4350,
+                "end": 4500,
+                "strand": -1
+              }
+            ]
+          },
+          {
+            "name": "TAIL_AUDIT",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 5249,
+            "end_0_based_exclusive": 5410,
+            "start_1_based": 5250,
+            "end_1_based_inclusive": 5410,
+            "parts_0_based_half_open": [
+              {
+                "start": 5249,
+                "end": 5410,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 5250,
+                "end": 5410,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "ORI_ALPHA": 1,
+          "UPSTREAM_SITE": 1,
+          "PROMOTER_COMPONENT_R229": 1,
+          "CDS_COMPONENT_R229": 1,
+          "TERMINATOR_COMPONENT_R229": 1,
+          "SELECT_MARK": -1,
+          "TAIL_AUDIT": 1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "2c8740f1901b50dd055baddfed2d5c673213dc4a773e3686b3ce81ba595e30e9",
+        "plasmid_sha256": "a65a617e31e54b2a2e91ad00294aa21d8d83fe8ec0e44dd2dc7c6f39cb0c69fb"
+      }
+    },
+    {
+      "case_id": "case_02_variable_user_components",
+      "description": "Different user promoter, CDS, and terminator lengths at an internal insertion.",
+      "project_name": "MVP7 case 02",
+      "component_names": {
+        "promoter": "USER_PROMOTER_02",
+        "cds": "USER_CDS_02",
+        "terminator": "USER_TERMINATOR_02"
+      },
+      "promoter_sequence": "AACCGGTTAACCGGTTA",
+      "cds_sequence": "ATGGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCTAA",
+      "terminator_sequence": "TTGGAATTCCGGA",
+      "backbone_sequence": "CGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+      "backbone_features": [
+        {
+          "name": "UPSTREAM_02",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 10,
+              "end": 25,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "UPSTREAM_02"
+            ]
+          }
+        },
+        {
+          "name": "DOWNSTREAM_02",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 110,
+              "end": 128,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "DOWNSTREAM_02"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 73,
+        "end": 74
+      },
+      "expected_removed_sequence": "",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "AACCGGTTAACCGGTTAATGGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCTAATTGGAATTCCGGA",
+        "plasmid_sequence": "CGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACAACCGGTTAACCGGTTAATGGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCTAATTGGAATTCCGGAGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+        "cassette_length": 87,
+        "plasmid_length": 267,
+        "cassette_span_0_based_half_open": {
+          "start": 73,
+          "end": 160
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 74,
+          "end": 160
+        },
+        "feature_locations": [
+          {
+            "name": "UPSTREAM_02",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 10,
+            "end_0_based_exclusive": 25,
+            "start_1_based": 11,
+            "end_1_based_inclusive": 25,
+            "parts_0_based_half_open": [
+              {
+                "start": 10,
+                "end": 25,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 11,
+                "end": 25,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "USER_PROMOTER_02",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 73,
+            "end_0_based_exclusive": 90,
+            "start_1_based": 74,
+            "end_1_based_inclusive": 90,
+            "parts_0_based_half_open": [
+              {
+                "start": 73,
+                "end": 90,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 74,
+                "end": 90,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "USER_CDS_02",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 90,
+            "end_0_based_exclusive": 147,
+            "start_1_based": 91,
+            "end_1_based_inclusive": 147,
+            "parts_0_based_half_open": [
+              {
+                "start": 90,
+                "end": 147,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 91,
+                "end": 147,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "USER_TERMINATOR_02",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 147,
+            "end_0_based_exclusive": 160,
+            "start_1_based": 148,
+            "end_1_based_inclusive": 160,
+            "parts_0_based_half_open": [
+              {
+                "start": 147,
+                "end": 160,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 148,
+                "end": 160,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "DOWNSTREAM_02",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 197,
+            "end_0_based_exclusive": 215,
+            "start_1_based": 198,
+            "end_1_based_inclusive": 215,
+            "parts_0_based_half_open": [
+              {
+                "start": 197,
+                "end": 215,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 198,
+                "end": 215,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "UPSTREAM_02": 1,
+          "USER_PROMOTER_02": 1,
+          "USER_CDS_02": 1,
+          "USER_TERMINATOR_02": 1,
+          "DOWNSTREAM_02": 1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "5a3f4cb73361a70a5b6ada4e0ed0a01876e06f443e71eddc80e0a1a944ed68e8",
+        "plasmid_sha256": "9a7d65cee7ab8a8eaa0ad18e8e594d1c949f7dfe37d345d1c90ccb8d705fca0a"
+      }
+    },
+    {
+      "case_id": "case_03_backbone_start_insertion",
+      "description": "Insertion at the first adjacent coordinate pair with all original features downstream.",
+      "project_name": "MVP7 case 03",
+      "component_names": {
+        "promoter": "PROMOTER_03",
+        "cds": "CDS_03",
+        "terminator": "TERMINATOR_03"
+      },
+      "promoter_sequence": "GGAACCTTAACC",
+      "cds_sequence": "ATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAA",
+      "terminator_sequence": "CCAATTGGCCA",
+      "backbone_sequence": "GTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC",
+      "backbone_features": [
+        {
+          "name": "START_A",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 5,
+              "end": 15,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "START_A"
+            ]
+          }
+        },
+        {
+          "name": "START_B",
+          "feature_type": "rep_origin",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 40,
+              "end": 60,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "START_B"
+            ]
+          }
+        },
+        {
+          "name": "START_C",
+          "feature_type": "misc_feature",
+          "strand": -1,
+          "parts_0_based_half_open": [
+            {
+              "start": 100,
+              "end": 120,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "START_C"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 1,
+        "end": 2
+      },
+      "expected_removed_sequence": "",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "GGAACCTTAACCATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAACCAATTGGCCA",
+        "plasmid_sequence": "GGGAACCTTAACCATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAACCAATTGGCCATACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC",
+        "cassette_length": 89,
+        "plasmid_length": 229,
+        "cassette_span_0_based_half_open": {
+          "start": 1,
+          "end": 90
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 2,
+          "end": 90
+        },
+        "feature_locations": [
+          {
+            "name": "PROMOTER_03",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 1,
+            "end_0_based_exclusive": 13,
+            "start_1_based": 2,
+            "end_1_based_inclusive": 13,
+            "parts_0_based_half_open": [
+              {
+                "start": 1,
+                "end": 13,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 2,
+                "end": 13,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_03",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 13,
+            "end_0_based_exclusive": 79,
+            "start_1_based": 14,
+            "end_1_based_inclusive": 79,
+            "parts_0_based_half_open": [
+              {
+                "start": 13,
+                "end": 79,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 14,
+                "end": 79,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_03",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 79,
+            "end_0_based_exclusive": 90,
+            "start_1_based": 80,
+            "end_1_based_inclusive": 90,
+            "parts_0_based_half_open": [
+              {
+                "start": 79,
+                "end": 90,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 80,
+                "end": 90,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "START_A",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 94,
+            "end_0_based_exclusive": 104,
+            "start_1_based": 95,
+            "end_1_based_inclusive": 104,
+            "parts_0_based_half_open": [
+              {
+                "start": 94,
+                "end": 104,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 95,
+                "end": 104,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "START_B",
+            "feature_type": "rep_origin",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 129,
+            "end_0_based_exclusive": 149,
+            "start_1_based": 130,
+            "end_1_based_inclusive": 149,
+            "parts_0_based_half_open": [
+              {
+                "start": 129,
+                "end": 149,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 130,
+                "end": 149,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "START_C",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "",
+            "start_0_based": 189,
+            "end_0_based_exclusive": 209,
+            "start_1_based": 190,
+            "end_1_based_inclusive": 209,
+            "parts_0_based_half_open": [
+              {
+                "start": 189,
+                "end": 209,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 190,
+                "end": 209,
+                "strand": -1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "PROMOTER_03": 1,
+          "CDS_03": 1,
+          "TERMINATOR_03": 1,
+          "START_A": 1,
+          "START_B": 1,
+          "START_C": -1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "783f259ca8ee894cccd5609fae4da66322ea9deb9e82c17699bcb548a65c2ec2",
+        "plasmid_sha256": "6b83f5f5b96dc0e67d0021ffeb771922fae4f86c73e4470c35538d7eae720510"
+      }
+    },
+    {
+      "case_id": "case_04_circular_end_insertion",
+      "description": "Insertion across the circular length-to-one boundary.",
+      "project_name": "MVP7 case 04",
+      "component_names": {
+        "promoter": "PROMOTER_04",
+        "cds": "CDS_04",
+        "terminator": "TERMINATOR_04"
+      },
+      "promoter_sequence": "TTAACCGGTTA",
+      "cds_sequence": "ATGGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCATAA",
+      "terminator_sequence": "GGTTAACCGG",
+      "backbone_sequence": "TACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+      "backbone_features": [
+        {
+          "name": "END_UP",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 5,
+              "end": 20,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "END_UP"
+            ]
+          }
+        },
+        {
+          "name": "END_TAIL",
+          "feature_type": "misc_feature",
+          "strand": -1,
+          "parts_0_based_half_open": [
+            {
+              "start": 100,
+              "end": 130,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "END_TAIL"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 150,
+        "end": 1
+      },
+      "expected_removed_sequence": "",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "TTAACCGGTTAATGGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCATAAGGTTAACCGG",
+        "plasmid_sequence": "TACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTATTAACCGGTTAATGGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCATAAGGTTAACCGG",
+        "cassette_length": 81,
+        "plasmid_length": 231,
+        "cassette_span_0_based_half_open": {
+          "start": 150,
+          "end": 231
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 151,
+          "end": 231
+        },
+        "feature_locations": [
+          {
+            "name": "END_UP",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 5,
+            "end_0_based_exclusive": 20,
+            "start_1_based": 6,
+            "end_1_based_inclusive": 20,
+            "parts_0_based_half_open": [
+              {
+                "start": 5,
+                "end": 20,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 6,
+                "end": 20,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "END_TAIL",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "",
+            "start_0_based": 100,
+            "end_0_based_exclusive": 130,
+            "start_1_based": 101,
+            "end_1_based_inclusive": 130,
+            "parts_0_based_half_open": [
+              {
+                "start": 100,
+                "end": 130,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 101,
+                "end": 130,
+                "strand": -1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_04",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 150,
+            "end_0_based_exclusive": 161,
+            "start_1_based": 151,
+            "end_1_based_inclusive": 161,
+            "parts_0_based_half_open": [
+              {
+                "start": 150,
+                "end": 161,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 151,
+                "end": 161,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_04",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 161,
+            "end_0_based_exclusive": 221,
+            "start_1_based": 162,
+            "end_1_based_inclusive": 221,
+            "parts_0_based_half_open": [
+              {
+                "start": 161,
+                "end": 221,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 162,
+                "end": 221,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_04",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 221,
+            "end_0_based_exclusive": 231,
+            "start_1_based": 222,
+            "end_1_based_inclusive": 231,
+            "parts_0_based_half_open": [
+              {
+                "start": 221,
+                "end": 231,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 222,
+                "end": 231,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "END_UP": 1,
+          "END_TAIL": -1,
+          "PROMOTER_04": 1,
+          "CDS_04": 1,
+          "TERMINATOR_04": 1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "9d23adf751b4beb8d35ba6d3eef271326cbd961e7ec9240897e3c911b5c48c06",
+        "plasmid_sha256": "bdc8d788cca5cbd419d83e347c55904ee6172c48de7698744cd37ae85570529a"
+      }
+    },
+    {
+      "case_id": "case_05_internal_replacement",
+      "description": "Internal backbone interval replacement with exact length delta and no removed-region residue.",
+      "project_name": "MVP7 case 05",
+      "component_names": {
+        "promoter": "PROMOTER_05",
+        "cds": "CDS_05",
+        "terminator": "TERMINATOR_05"
+      },
+      "promoter_sequence": "AACCTTGGAACCTT",
+      "cds_sequence": "ATGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAA",
+      "terminator_sequence": "TTCCAAGGTTCC",
+      "backbone_sequence": "CGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAGGGAAACCCGGGTTTAAACCGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC",
+      "backbone_features": [
+        {
+          "name": "REPLACE_UP",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 10,
+              "end": 25,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "REPLACE_UP"
+            ]
+          }
+        },
+        {
+          "name": "REPLACE_DOWN",
+          "feature_type": "misc_feature",
+          "strand": -1,
+          "parts_0_based_half_open": [
+            {
+              "start": 100,
+              "end": 120,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "REPLACE_DOWN"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "replacement",
+      "insertion_coordinates": {
+        "start": 61,
+        "end": 80
+      },
+      "expected_removed_sequence": "GGGAAACCCGGGTTTAAACC",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "AACCTTGGAACCTTATGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAATTCCAAGGTTCC",
+        "plasmid_sequence": "CGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAAACCTTGGAACCTTATGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAATTCCAAGGTTCCGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC",
+        "cassette_length": 98,
+        "plasmid_length": 258,
+        "cassette_span_0_based_half_open": {
+          "start": 60,
+          "end": 158
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 61,
+          "end": 158
+        },
+        "feature_locations": [
+          {
+            "name": "REPLACE_UP",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 10,
+            "end_0_based_exclusive": 25,
+            "start_1_based": 11,
+            "end_1_based_inclusive": 25,
+            "parts_0_based_half_open": [
+              {
+                "start": 10,
+                "end": 25,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 11,
+                "end": 25,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_05",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 60,
+            "end_0_based_exclusive": 74,
+            "start_1_based": 61,
+            "end_1_based_inclusive": 74,
+            "parts_0_based_half_open": [
+              {
+                "start": 60,
+                "end": 74,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 61,
+                "end": 74,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_05",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 74,
+            "end_0_based_exclusive": 146,
+            "start_1_based": 75,
+            "end_1_based_inclusive": 146,
+            "parts_0_based_half_open": [
+              {
+                "start": 74,
+                "end": 146,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 75,
+                "end": 146,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_05",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 146,
+            "end_0_based_exclusive": 158,
+            "start_1_based": 147,
+            "end_1_based_inclusive": 158,
+            "parts_0_based_half_open": [
+              {
+                "start": 146,
+                "end": 158,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 147,
+                "end": 158,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "REPLACE_DOWN",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "",
+            "start_0_based": 178,
+            "end_0_based_exclusive": 198,
+            "start_1_based": 179,
+            "end_1_based_inclusive": 198,
+            "parts_0_based_half_open": [
+              {
+                "start": 178,
+                "end": 198,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 179,
+                "end": 198,
+                "strand": -1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "REPLACE_UP": 1,
+          "PROMOTER_05": 1,
+          "CDS_05": 1,
+          "TERMINATOR_05": 1,
+          "REPLACE_DOWN": -1
+        },
+        "removed_sequence": "GGGAAACCCGGGTTTAAACC",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "6dd2fb5838d6839154932e90ca23df6ac75f45a1e6f92263e37cafa2f0a59981",
+        "plasmid_sha256": "c6dbd6a4ea4fc97e95ab729b6047f3d635332aff3f58c8b42dbd24eadad6d19a"
+      }
+    },
+    {
+      "case_id": "case_06_boundary_replacement",
+      "description": "Replacement next to the backbone origin with explicit off-by-one guards.",
+      "project_name": "MVP7 case 06",
+      "component_names": {
+        "promoter": "PROMOTER_06",
+        "cds": "CDS_06",
+        "terminator": "TERMINATOR_06"
+      },
+      "promoter_sequence": "CGTTAACCGT",
+      "cds_sequence": "ATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAA",
+      "terminator_sequence": "AACCGGTTAAC",
+      "backbone_sequence": "ACCCGGGAAATTTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACG",
+      "backbone_features": [
+        {
+          "name": "ORIGIN_EDGE",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 0,
+              "end": 1,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "ORIGIN_EDGE"
+            ]
+          }
+        },
+        {
+          "name": "BOUNDARY_DOWN",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 30,
+              "end": 45,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "BOUNDARY_DOWN"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "replacement",
+      "insertion_coordinates": {
+        "start": 2,
+        "end": 12
+      },
+      "expected_removed_sequence": "CCCGGGAAATT",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "CGTTAACCGTATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAAAACCGGTTAAC",
+        "plasmid_sequence": "ACGTTAACCGTATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAAAACCGGTTAACTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACG",
+        "cassette_length": 84,
+        "plasmid_length": 213,
+        "cassette_span_0_based_half_open": {
+          "start": 1,
+          "end": 85
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 2,
+          "end": 85
+        },
+        "feature_locations": [
+          {
+            "name": "ORIGIN_EDGE",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 0,
+            "end_0_based_exclusive": 1,
+            "start_1_based": 1,
+            "end_1_based_inclusive": 1,
+            "parts_0_based_half_open": [
+              {
+                "start": 0,
+                "end": 1,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 1,
+                "end": 1,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_06",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 1,
+            "end_0_based_exclusive": 11,
+            "start_1_based": 2,
+            "end_1_based_inclusive": 11,
+            "parts_0_based_half_open": [
+              {
+                "start": 1,
+                "end": 11,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 2,
+                "end": 11,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_06",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 11,
+            "end_0_based_exclusive": 74,
+            "start_1_based": 12,
+            "end_1_based_inclusive": 74,
+            "parts_0_based_half_open": [
+              {
+                "start": 11,
+                "end": 74,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 12,
+                "end": 74,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_06",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 74,
+            "end_0_based_exclusive": 85,
+            "start_1_based": 75,
+            "end_1_based_inclusive": 85,
+            "parts_0_based_half_open": [
+              {
+                "start": 74,
+                "end": 85,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 75,
+                "end": 85,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "BOUNDARY_DOWN",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 103,
+            "end_0_based_exclusive": 118,
+            "start_1_based": 104,
+            "end_1_based_inclusive": 118,
+            "parts_0_based_half_open": [
+              {
+                "start": 103,
+                "end": 118,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 104,
+                "end": 118,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "ORIGIN_EDGE": 1,
+          "PROMOTER_06": 1,
+          "CDS_06": 1,
+          "TERMINATOR_06": 1,
+          "BOUNDARY_DOWN": 1
+        },
+        "removed_sequence": "CCCGGGAAATT",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "faaa7eb1b6b8d03b39af76a7c97612e30a75232fdb488592731a97b60af85016",
+        "plasmid_sha256": "da8e203f8ba5881394a57f4920c4ed2a7336dfc613bac9c855dfb6d6da0821e9"
+      }
+    },
+    {
+      "case_id": "case_07_multiple_upstream_downstream_features",
+      "description": "Multiple features before and after insertion verify unchanged and shifted coordinates.",
+      "project_name": "MVP7 case 07",
+      "component_names": {
+        "promoter": "PROMOTER_07",
+        "cds": "CDS_07",
+        "terminator": "TERMINATOR_07"
+      },
+      "promoter_sequence": "AAGGTTCCAAGG",
+      "cds_sequence": "ATGGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCTAA",
+      "terminator_sequence": "CCTTAAGGCCTT",
+      "backbone_sequence": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT",
+      "backbone_features": [
+        {
+          "name": "UP_A",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 10,
+              "end": 20,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "UP_A"
+            ]
+          }
+        },
+        {
+          "name": "UP_B",
+          "feature_type": "rep_origin",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 60,
+              "end": 80,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "UP_B"
+            ]
+          }
+        },
+        {
+          "name": "DOWN_A",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 130,
+              "end": 150,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "DOWN_A"
+            ]
+          }
+        },
+        {
+          "name": "DOWN_B",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 180,
+              "end": 205,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "DOWN_B"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 100,
+        "end": 101
+      },
+      "expected_removed_sequence": "",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "AAGGTTCCAAGGATGGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCTAACCTTAAGGCCTT",
+        "plasmid_sequence": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAAGGTTCCAAGGATGGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCGCCTAACCTTAAGGCCTTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT",
+        "cassette_length": 102,
+        "plasmid_length": 322,
+        "cassette_span_0_based_half_open": {
+          "start": 100,
+          "end": 202
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 101,
+          "end": 202
+        },
+        "feature_locations": [
+          {
+            "name": "UP_A",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 10,
+            "end_0_based_exclusive": 20,
+            "start_1_based": 11,
+            "end_1_based_inclusive": 20,
+            "parts_0_based_half_open": [
+              {
+                "start": 10,
+                "end": 20,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 11,
+                "end": 20,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "UP_B",
+            "feature_type": "rep_origin",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 60,
+            "end_0_based_exclusive": 80,
+            "start_1_based": 61,
+            "end_1_based_inclusive": 80,
+            "parts_0_based_half_open": [
+              {
+                "start": 60,
+                "end": 80,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 61,
+                "end": 80,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_07",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 100,
+            "end_0_based_exclusive": 112,
+            "start_1_based": 101,
+            "end_1_based_inclusive": 112,
+            "parts_0_based_half_open": [
+              {
+                "start": 100,
+                "end": 112,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 101,
+                "end": 112,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_07",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 112,
+            "end_0_based_exclusive": 190,
+            "start_1_based": 113,
+            "end_1_based_inclusive": 190,
+            "parts_0_based_half_open": [
+              {
+                "start": 112,
+                "end": 190,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 113,
+                "end": 190,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_07",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 190,
+            "end_0_based_exclusive": 202,
+            "start_1_based": 191,
+            "end_1_based_inclusive": 202,
+            "parts_0_based_half_open": [
+              {
+                "start": 190,
+                "end": 202,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 191,
+                "end": 202,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "DOWN_A",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 232,
+            "end_0_based_exclusive": 252,
+            "start_1_based": 233,
+            "end_1_based_inclusive": 252,
+            "parts_0_based_half_open": [
+              {
+                "start": 232,
+                "end": 252,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 233,
+                "end": 252,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "DOWN_B",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 282,
+            "end_0_based_exclusive": 307,
+            "start_1_based": 283,
+            "end_1_based_inclusive": 307,
+            "parts_0_based_half_open": [
+              {
+                "start": 282,
+                "end": 307,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 283,
+                "end": 307,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "UP_A": 1,
+          "UP_B": 1,
+          "PROMOTER_07": 1,
+          "CDS_07": 1,
+          "TERMINATOR_07": 1,
+          "DOWN_A": 1,
+          "DOWN_B": 1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "6c242678f9a8cca1f7f676a6b79db1ea59ea6ecbeff24db93c194aeeb9a0db36",
+        "plasmid_sha256": "75bcc677cc2fabca2108afebcb8ef1096a5c6bcc5ed8511f7f52b96218da9379"
+      }
+    },
+    {
+      "case_id": "case_08_reverse_strand_feature",
+      "description": "Reverse-strand backbone feature retains strand minus one after coordinate migration.",
+      "project_name": "MVP7 case 08",
+      "component_names": {
+        "promoter": "PROMOTER_08",
+        "cds": "CDS_08",
+        "terminator": "TERMINATOR_08"
+      },
+      "promoter_sequence": "TTCCAAGGTTCC",
+      "cds_sequence": "ATGGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCATAA",
+      "terminator_sequence": "GGCCAATTGGCC",
+      "backbone_sequence": "CGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+      "backbone_features": [
+        {
+          "name": "FORWARD_08",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 20,
+              "end": 40,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "FORWARD_08"
+            ]
+          }
+        },
+        {
+          "name": "REVERSE_08",
+          "feature_type": "CDS",
+          "strand": -1,
+          "parts_0_based_half_open": [
+            {
+              "start": 120,
+              "end": 150,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "REVERSE_08"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 90,
+        "end": 91
+      },
+      "expected_removed_sequence": "",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "TTCCAAGGTTCCATGGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCATAAGGCCAATTGGCC",
+        "plasmid_sequence": "CGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTTCCAAGGTTCCATGGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCAGCATAAGGCCAATTGGCCTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+        "cassette_length": 93,
+        "plasmid_length": 273,
+        "cassette_span_0_based_half_open": {
+          "start": 90,
+          "end": 183
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 91,
+          "end": 183
+        },
+        "feature_locations": [
+          {
+            "name": "FORWARD_08",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 20,
+            "end_0_based_exclusive": 40,
+            "start_1_based": 21,
+            "end_1_based_inclusive": 40,
+            "parts_0_based_half_open": [
+              {
+                "start": 20,
+                "end": 40,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 21,
+                "end": 40,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_08",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 90,
+            "end_0_based_exclusive": 102,
+            "start_1_based": 91,
+            "end_1_based_inclusive": 102,
+            "parts_0_based_half_open": [
+              {
+                "start": 90,
+                "end": 102,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 91,
+                "end": 102,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_08",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 102,
+            "end_0_based_exclusive": 171,
+            "start_1_based": 103,
+            "end_1_based_inclusive": 171,
+            "parts_0_based_half_open": [
+              {
+                "start": 102,
+                "end": 171,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 103,
+                "end": 171,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_08",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 171,
+            "end_0_based_exclusive": 183,
+            "start_1_based": 172,
+            "end_1_based_inclusive": 183,
+            "parts_0_based_half_open": [
+              {
+                "start": 171,
+                "end": 183,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 172,
+                "end": 183,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "REVERSE_08",
+            "feature_type": "CDS",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "",
+            "start_0_based": 213,
+            "end_0_based_exclusive": 243,
+            "start_1_based": 214,
+            "end_1_based_inclusive": 243,
+            "parts_0_based_half_open": [
+              {
+                "start": 213,
+                "end": 243,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 214,
+                "end": 243,
+                "strand": -1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "FORWARD_08": 1,
+          "PROMOTER_08": 1,
+          "CDS_08": 1,
+          "TERMINATOR_08": 1,
+          "REVERSE_08": -1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "990ebf6cfc2b5d40860cb0921494892327a046994eb88f0e01f155e80b182acb",
+        "plasmid_sha256": "e17ece0eec0f4becbeb04a3784fc2e29edf49ee2d38889053dfed2a4205acf09"
+      }
+    },
+    {
+      "case_id": "case_09_cross_origin_feature",
+      "description": "Cross-origin reverse-strand CompoundLocation remains parseable after insertion.",
+      "project_name": "MVP7 case 09",
+      "component_names": {
+        "promoter": "PROMOTER_09",
+        "cds": "CDS_09",
+        "terminator": "TERMINATOR_09"
+      },
+      "promoter_sequence": "AACCGGTTAACC",
+      "cds_sequence": "ATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAA",
+      "terminator_sequence": "TTAACCGGTTA",
+      "backbone_sequence": "GTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC",
+      "backbone_features": [
+        {
+          "name": "INTERNAL_09",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 25,
+              "end": 40,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "INTERNAL_09"
+            ]
+          }
+        },
+        {
+          "name": "CROSS_ORIGIN_09",
+          "feature_type": "CDS",
+          "strand": -1,
+          "location_operator": "join",
+          "parts_0_based_half_open": [
+            {
+              "start": 145,
+              "end": 160,
+              "strand": -1
+            },
+            {
+              "start": 0,
+              "end": 12,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "CROSS_ORIGIN_09"
+            ],
+            "note": [
+              "cross-origin fixture feature"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "insertion",
+      "insertion_coordinates": {
+        "start": 60,
+        "end": 61
+      },
+      "expected_removed_sequence": "",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "AACCGGTTAACCATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAATTAACCGGTTA",
+        "plasmid_sequence": "GTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACAACCGGTTAACCATGGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTGCTTAATTAACCGGTTAGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTAC",
+        "cassette_length": 98,
+        "plasmid_length": 258,
+        "cassette_span_0_based_half_open": {
+          "start": 60,
+          "end": 158
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 61,
+          "end": 158
+        },
+        "feature_locations": [
+          {
+            "name": "CROSS_ORIGIN_09",
+            "feature_type": "CDS",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "join",
+            "start_0_based": 0,
+            "end_0_based_exclusive": 258,
+            "start_1_based": 1,
+            "end_1_based_inclusive": 258,
+            "parts_0_based_half_open": [
+              {
+                "start": 243,
+                "end": 258,
+                "strand": -1
+              },
+              {
+                "start": 0,
+                "end": 12,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 244,
+                "end": 258,
+                "strand": -1
+              },
+              {
+                "start": 1,
+                "end": 12,
+                "strand": -1
+              }
+            ]
+          },
+          {
+            "name": "INTERNAL_09",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 25,
+            "end_0_based_exclusive": 40,
+            "start_1_based": 26,
+            "end_1_based_inclusive": 40,
+            "parts_0_based_half_open": [
+              {
+                "start": 25,
+                "end": 40,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 26,
+                "end": 40,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_09",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 60,
+            "end_0_based_exclusive": 72,
+            "start_1_based": 61,
+            "end_1_based_inclusive": 72,
+            "parts_0_based_half_open": [
+              {
+                "start": 60,
+                "end": 72,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 61,
+                "end": 72,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_09",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 72,
+            "end_0_based_exclusive": 147,
+            "start_1_based": 73,
+            "end_1_based_inclusive": 147,
+            "parts_0_based_half_open": [
+              {
+                "start": 72,
+                "end": 147,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 73,
+                "end": 147,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_09",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 147,
+            "end_0_based_exclusive": 158,
+            "start_1_based": 148,
+            "end_1_based_inclusive": 158,
+            "parts_0_based_half_open": [
+              {
+                "start": 147,
+                "end": 158,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 148,
+                "end": 158,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "CROSS_ORIGIN_09": -1,
+          "INTERNAL_09": 1,
+          "PROMOTER_09": 1,
+          "CDS_09": 1,
+          "TERMINATOR_09": 1
+        },
+        "removed_sequence": "",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "8e22873833ea191ae5b5bb355d26cd9d74567ccef404159526faa86c5df6ce2c",
+        "plasmid_sha256": "a6d728bb0190f37467455a1c1f39b67388c8c91c155d9564c6c2a7ef7690ea0b"
+      }
+    },
+    {
+      "case_id": "case_10_complex_uploaded_genbank",
+      "description": "Complex uploaded-style GenBank with forward, reverse, compound, replacement, save, and reopen coverage.",
+      "project_name": "MVP7 case 10",
+      "component_names": {
+        "promoter": "PROMOTER_10",
+        "cds": "CDS_10",
+        "terminator": "TERMINATOR_10"
+      },
+      "promoter_sequence": "GGTTAACCGGTTAACC",
+      "cds_sequence": "ATGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAA",
+      "terminator_sequence": "CCAAGGTTCCAAGG",
+      "backbone_sequence": "GTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACTTAACCGGTTCCAAGGTTAACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+      "backbone_features": [
+        {
+          "name": "COMPLEX_UP",
+          "feature_type": "rep_origin",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 25,
+              "end": 55,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "COMPLEX_UP"
+            ]
+          }
+        },
+        {
+          "name": "COMPLEX_REVERSE",
+          "feature_type": "CDS",
+          "strand": -1,
+          "parts_0_based_half_open": [
+            {
+              "start": 80,
+              "end": 115,
+              "strand": -1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "COMPLEX_REVERSE"
+            ]
+          }
+        },
+        {
+          "name": "COMPLEX_DOWN",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "parts_0_based_half_open": [
+            {
+              "start": 210,
+              "end": 245,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "COMPLEX_DOWN"
+            ]
+          }
+        },
+        {
+          "name": "COMPLEX_CROSS",
+          "feature_type": "misc_feature",
+          "strand": 1,
+          "location_operator": "join",
+          "parts_0_based_half_open": [
+            {
+              "start": 275,
+              "end": 300,
+              "strand": 1
+            },
+            {
+              "start": 0,
+              "end": 10,
+              "strand": 1
+            }
+          ],
+          "qualifiers": {
+            "label": [
+              "COMPLEX_CROSS"
+            ],
+            "note": [
+              "cross-origin fixture feature"
+            ]
+          }
+        }
+      ],
+      "backbone_input_kind": "generated_fixture_genbank",
+      "topology": "circular",
+      "insertion_mode": "replacement",
+      "insertion_coordinates": {
+        "start": 141,
+        "end": 160
+      },
+      "expected_removed_sequence": "TTAACCGGTTCCAAGGTTAA",
+      "coordinate_conventions": {
+        "input_insertion_coordinates": "1-based inclusive adjacent bases for insertion; 1-based inclusive interval for replacement",
+        "feature_parts": "0-based half-open and 1-based inclusive copies are both stored"
+      },
+      "expected": {
+        "cassette_sequence": "GGTTAACCGGTTAACCATGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAACCAAGGTTCCAAGG",
+        "plasmid_sequence": "GTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGGTTAACCGGTTAACCATGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGGCGTAACCAAGGTTCCAAGGCGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTA",
+        "cassette_length": 120,
+        "plasmid_length": 400,
+        "cassette_span_0_based_half_open": {
+          "start": 140,
+          "end": 260
+        },
+        "cassette_span_1_based_inclusive": {
+          "start": 141,
+          "end": 260
+        },
+        "feature_locations": [
+          {
+            "name": "COMPLEX_CROSS",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "join",
+            "start_0_based": 0,
+            "end_0_based_exclusive": 400,
+            "start_1_based": 1,
+            "end_1_based_inclusive": 400,
+            "parts_0_based_half_open": [
+              {
+                "start": 375,
+                "end": 400,
+                "strand": 1
+              },
+              {
+                "start": 0,
+                "end": 10,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 376,
+                "end": 400,
+                "strand": 1
+              },
+              {
+                "start": 1,
+                "end": 10,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "COMPLEX_UP",
+            "feature_type": "rep_origin",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 25,
+            "end_0_based_exclusive": 55,
+            "start_1_based": 26,
+            "end_1_based_inclusive": 55,
+            "parts_0_based_half_open": [
+              {
+                "start": 25,
+                "end": 55,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 26,
+                "end": 55,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "COMPLEX_REVERSE",
+            "feature_type": "CDS",
+            "source": "backbone",
+            "strand": -1,
+            "location_operator": "",
+            "start_0_based": 80,
+            "end_0_based_exclusive": 115,
+            "start_1_based": 81,
+            "end_1_based_inclusive": 115,
+            "parts_0_based_half_open": [
+              {
+                "start": 80,
+                "end": 115,
+                "strand": -1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 81,
+                "end": 115,
+                "strand": -1
+              }
+            ]
+          },
+          {
+            "name": "PROMOTER_10",
+            "feature_type": "promoter",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 140,
+            "end_0_based_exclusive": 156,
+            "start_1_based": 141,
+            "end_1_based_inclusive": 156,
+            "parts_0_based_half_open": [
+              {
+                "start": 140,
+                "end": 156,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 141,
+                "end": 156,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "CDS_10",
+            "feature_type": "cds",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 156,
+            "end_0_based_exclusive": 246,
+            "start_1_based": 157,
+            "end_1_based_inclusive": 246,
+            "parts_0_based_half_open": [
+              {
+                "start": 156,
+                "end": 246,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 157,
+                "end": 246,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "TERMINATOR_10",
+            "feature_type": "terminator",
+            "source": "transcription_unit",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 246,
+            "end_0_based_exclusive": 260,
+            "start_1_based": 247,
+            "end_1_based_inclusive": 260,
+            "parts_0_based_half_open": [
+              {
+                "start": 246,
+                "end": 260,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 247,
+                "end": 260,
+                "strand": 1
+              }
+            ]
+          },
+          {
+            "name": "COMPLEX_DOWN",
+            "feature_type": "misc_feature",
+            "source": "backbone",
+            "strand": 1,
+            "location_operator": "",
+            "start_0_based": 310,
+            "end_0_based_exclusive": 345,
+            "start_1_based": 311,
+            "end_1_based_inclusive": 345,
+            "parts_0_based_half_open": [
+              {
+                "start": 310,
+                "end": 345,
+                "strand": 1
+              }
+            ],
+            "parts_1_based_inclusive": [
+              {
+                "start": 311,
+                "end": 345,
+                "strand": 1
+              }
+            ]
+          }
+        ],
+        "expected_strands": {
+          "COMPLEX_CROSS": 1,
+          "COMPLEX_UP": 1,
+          "COMPLEX_REVERSE": -1,
+          "PROMOTER_10": 1,
+          "CDS_10": 1,
+          "TERMINATOR_10": 1,
+          "COMPLEX_DOWN": 1
+        },
+        "removed_sequence": "TTAACCGGTTCCAAGGTTAA",
+        "cassette_occurrences": 1,
+        "removed_sequence_occurrences": 0,
+        "cassette_sha256": "31fbeb0a20122d1d89c48721076b78d2130327414f39be1c6848976b468072cb",
+        "plasmid_sha256": "5ec70043138927386076ca3103bd39d5c0717fa8ea598efd534b3addcb1a813b"
+      }
+    }
+  ]
+}

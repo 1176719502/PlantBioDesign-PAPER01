@@ -1,0 +1,67 @@
+{
+  "manifest_version": 1,
+  "target": "windows-x64-cpython312",
+  "formal_code_policy": {
+    "entry_point": "app.py",
+    "collection": "PyInstaller module analysis rooted only at app.py; never Tree-collect source packages",
+    "approved_local_roots": ["components", "core", "locales", "services", "utils", "views"],
+    "closure_evidence": "audit_reports/windows_packaging_p0b2b0/RESOURCE_INVENTORY.csv",
+    "validation": "P0-B2B static import analysis rooted at app.py must be a subset of runtime_python_modules; no excluded historical module may enter staging"
+  },
+  "application_resources": [
+    {"source": "app.py", "destination": "app.py", "kind": "python_entry", "required": true, "read_only": true, "missing_behavior": "fail startup with named path", "validation": "entry exists and formal import analysis is rooted here"},
+    {"source": ".streamlit/config.toml", "destination": ".streamlit/config.toml", "kind": "streamlit_config", "required": true, "read_only": true, "missing_behavior": "fail packaging validation", "validation": "explicit file only; never collect .streamlit by wildcard"},
+    {"source": "data/real_cases/betalain_three_enzyme", "destination": "data/real_cases/betalain_three_enzyme", "kind": "resource_tree", "required": true, "read_only": true, "missing_behavior": "disable the Gate 3 example and report the missing path", "validation": "source records, extracted FASTA, and provenance JSON exist"},
+    {"source": "data/real_assets/pbi121", "destination": "data/real_assets/pbi121", "kind": "resource_tree", "required": true, "read_only": true, "missing_behavior": "disable the pBI121 path and report the missing path", "validation": "GenBank, provenance, feature audit, and verification JSON exist"},
+    {"source": "case_inputs/rice_hsa/raw", "destination": "case_inputs/rice_hsa/raw", "kind": "resource_tree", "required": true, "read_only": true, "missing_behavior": "disable the rice HSA case and report the missing path", "validation": "paired FASTA and GenBank records exist"},
+    {"source": "data/local_design_asset_seed.json", "destination": "data/local_design_asset_seed.json", "kind": "json_seed", "required": true, "read_only": true, "missing_behavior": "fail local design catalog initialization with named path", "validation": "UTF-8 JSON parses"},
+    {"source": "data/vector_asset_contracts_v1/contracts.json", "destination": "data/vector_asset_contracts_v1/contracts.json", "kind": "vector_asset_contract", "required": true, "read_only": true, "missing_behavior": "disable vector-asset admission with named path", "validation": "JSON parses and vector-asset contract regressions pass"},
+    {"source": "data/vector_asset_contracts_v1/contracts.schema.json", "destination": "data/vector_asset_contracts_v1/contracts.schema.json", "kind": "vector_asset_contract_schema", "required": true, "read_only": true, "missing_behavior": "fail vector-asset contract validation", "validation": "JSON parses"},
+    {"source": "data/plant_component_registry_v1", "destination": "data/plant_component_registry_v1", "kind": "resource_tree", "required": true, "read_only": true, "missing_behavior": "disable registry-backed component library with named path", "validation": "Registry JSON/schema/FASTA and source-record byte hashes validate"},
+    {"source": "data/component_library_v2_qualified_core_r2", "destination": "data/component_library_v2_qualified_core_r2", "kind": "component_library_v2_resource_tree", "required": true, "read_only": true, "missing_behavior": "disable Agent component governance with named path", "validation": "reviewed V2 canonical, direct-use, assisted, migration, and blocked JSON records parse"},
+    {"source": "data/knowledge_base_v0/kb_v0.sqlite3", "destination": "data/knowledge_base_v0/kb_v0.sqlite3", "kind": "versioned_read_only_knowledge_database", "required": true, "read_only": true, "missing_behavior": "disable only knowledge-backed retrieval with the named resource path", "validation": "manifest SHA-256, size, application_id, user_version, human-approved release, integrity_check, and foreign_key_check validate"},
+    {"source": "data/knowledge_base_v0/manifest.json", "destination": "data/knowledge_base_v0/manifest.json", "kind": "knowledge_database_release_manifest", "required": true, "read_only": true, "missing_behavior": "disable only knowledge-backed retrieval with the named manifest path", "validation": "UTF-8 JSON parses and names the exact packaged database resource"},
+    {"source": "packaging/application_version.json", "destination": "application_version.json", "kind": "version_metadata", "required": true, "read_only": true, "missing_behavior": "fail packaging validation", "validation": "UTF-8 JSON parses and target matches manifest"},
+    {"source": "LICENSE", "destination": "LICENSE", "kind": "project_license", "required": true, "read_only": true, "missing_behavior": "fail release inventory", "validation": "explicit file exists"},
+    {"source": "THIRD_PARTY_NOTICES.md", "destination": "THIRD_PARTY_NOTICES.md", "kind": "third_party_notices", "required": true, "read_only": true, "missing_behavior": "fail license gate", "validation": "all direct dependencies are listed"},
+    {"source": "packaging/license_inventory.csv", "destination": "license_inventory.csv", "kind": "license_inventory", "required": true, "read_only": true, "missing_behavior": "fail license gate", "validation": "every locked distribution is covered"}
+  ],
+  "runtime_python_modules": [
+    "core/__init__.py", "core/assembly_utils.py", "core/config.py", "core/database.py", "core/database_lifecycle.py", "core/database_migrations/__init__.py", "core/database_migrations/V10000__adopt_versioned_database.py", "core/database_migrations/fingerprints.py", "core/database_migrations/registry.py", "core/database_migrations/runner.py", "core/database_seed/__init__.py", "core/database_seed/v10000.py", "core/design_session.py", "core/expression_frame_builder.py", "core/i18n.py", "core/page_routing.py", "core/part_library.py", "core/pbi121_replacement_contract.py", "core/pcambia1300_exact_insertion_contract.py", "core/seed_database.py", "core/session_keys.py", "core/unified_database.py", "core/vector_asset_contracts_v1.py",
+    "components/__init__.py", "components/design_modules/bio_utils.py", "components/design_modules/static_data.py", "components/export_manager.py",
+    "locales/__init__.py", "locales/en.py",
+    "services/__init__.py", "services/agent_candidate_store.py", "services/agent_contracts.py", "services/agent_product_adapter.py", "services/agent_provider.py", "services/agent_service.py", "services/assembly_plan_summary_service.py", "services/betalain_pbi121_canonical_construct.py", "services/betalain_three_enzyme_gate3_case.py", "services/canonical_construct_runtime.py", "services/catalog_asset_snapshot_builder.py", "services/company_delivery_package.py", "services/component_library_v2_adoption.py", "services/database_backup_service.py", "services/dna_sequence_analysis.py", "services/export_recommendation_service.py", "services/expression_construct_repository.py", "services/formal_cds_workflow.py", "services/formal_expression_cassette.py", "services/formal_project_definition_lifecycle.py", "services/formal_project_persistence.py", "services/formal_single_gene_runtime.py", "services/formal_t_dna_review.py", "services/gate3_pathway_mapping.py", "services/generated_output_boundary.py", "services/host_chassis_context_presenter.py", "services/knowledge_base/__init__.py", "services/knowledge_base/constants.py", "services/knowledge_base/errors.py", "services/knowledge_base/reader.py", "services/knowledge_base/snapshot.py", "services/local_design_asset_catalog_service.py", "services/mt01_formal_runtime.py", "services/mt02_formal_runtime.py", "services/mvp_cds_input.py", "services/mvp_company_review_package.py", "services/mvp_multi_tu_persistence.py", "services/mvp_multi_tu_runtime.py", "services/mvp_sequence_input.py", "services/mvp_single_gene_persistence.py", "services/parts_registry_repository.py", "services/parts_service.py", "services/pathway_repository.py", "services/pbi121_replacement_strategy.py", "services/placeholder_review_value.py", "services/plant_component_workflow_registry.py", "services/plant_project_draft_repository.py", "services/plant_project_draft_schema.py", "services/project_asset_linkage_service.py", "services/project_catalog_asset_link_repository.py", "services/real_genbank_asset_import.py", "services/report_identity_presenter.py", "services/report_service.py", "services/rice_hsa_ncbi_mvp10_case.py", "services/sequence_inspector.py", "services/sequence_service.py", "services/validation_summary_service.py", "services/vector_asset_admission.py", "services/wizard_state_service.py",
+    "utils/__init__.py", "utils/logger.py", "views/CrisprWorkspace.py", "views/SequenceToolbox.py", "views/formal_construct_findings.py", "views/wizard_steps/__init__.py", "views/wizard_steps/_shared.py"
+  ],
+  "python_package_data": [
+    {"source": "streamlit:static/**", "destination": "streamlit/static", "kind": "package_data", "required": true, "read_only": true, "missing_behavior": "fail packaged UI startup", "validation": "audited hook inventory and five-page smoke"},
+    {"source": "matplotlib:mpl-data/**", "destination": "matplotlib/mpl-data", "kind": "package_data", "required": true, "read_only": true, "missing_behavior": "fail render smoke", "validation": "Matplotlib data-path and font smoke"},
+    {"source": "certifi:cacert.pem", "destination": "certifi/cacert.pem", "kind": "package_data", "required": true, "read_only": true, "missing_behavior": "fail HTTPS certificate setup", "validation": "certifi.where points to bundled file"},
+    {"source": "pytz:zoneinfo/**", "destination": "pytz/zoneinfo", "kind": "package_data", "required": true, "read_only": true, "missing_behavior": "fail timezone smoke", "validation": "pandas timezone case"},
+    {"source": "tzdata:zoneinfo/**", "destination": "tzdata/zoneinfo", "kind": "package_data", "required": true, "read_only": true, "missing_behavior": "fail Windows timezone smoke", "validation": "zoneinfo lookup"},
+    {"source": "numpy:native-and-data", "destination": "numpy", "kind": "package_binaries_and_data", "required": true, "read_only": true, "missing_behavior": "fail NumPy import", "validation": "audited hook and DLL inventory"},
+    {"source": "pandas:native-and-data", "destination": "pandas", "kind": "package_binaries_and_data", "required": true, "read_only": true, "missing_behavior": "fail pandas import", "validation": "audited hook and dataframe smoke"},
+    {"source": "pyarrow:native-and-data", "destination": "pyarrow", "kind": "package_binaries_and_data", "required": true, "read_only": true, "missing_behavior": "fail Streamlit dataframe path", "validation": "audited hook and import smoke"},
+    {"source": "biopython:Bio/Data-and-native", "destination": "Bio", "kind": "package_binaries_and_data", "required": true, "read_only": true, "missing_behavior": "fail sequence or GenBank path", "validation": "FASTA and GenBank round trip"}
+  ],
+  "excluded_patterns": [
+    ".streamlit/secrets.toml",
+    "data/*.db",
+    "data/*.sqlite",
+    "data/biodesign_unified.*",
+    "data/plant_expression_candidates.*",
+    "plant_expression_knowledge/**",
+    ".plant_expression_knowledge/**",
+    "**/*-wal",
+    "**/*-shm",
+    "**/*.backup",
+    "**/*.bak",
+    "**/*.tmp",
+    "plant_design_project_drafts/**",
+    ".runtime/**",
+    "logs/**",
+    "cache/**",
+    "temp/**",
+    "backups/**"
+  ]
+}

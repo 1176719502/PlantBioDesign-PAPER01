@@ -1,0 +1,47 @@
+# BioDesign Studio runtime dependencies
+# Encoding: UTF-8 (no BOM)
+# Baseline verified for Windows local development.
+# Supported Python: >=3.10,<3.13
+# Recommended Python: 3.12.x
+# Recommended project venv path: .venv312
+# Install with:
+#   py -3.12 -m venv .venv312
+#   .\.venv312\Scripts\python.exe -m pip install --upgrade pip
+#   .\.venv312\Scripts\python.exe -m pip install -r requirements.txt
+
+# Core app runtime
+streamlit==1.55.0
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.8.4
+plotly==5.22.0
+seaborn==0.13.2
+
+# Bioinformatics and sequence design
+biopython==1.87
+primer3-py==2.0.3
+dna_features_viewer==3.1.5
+pydna==5.5.0
+
+# Export and reporting
+reportlab==4.2.2
+openpyxl==3.1.5
+
+# API and async primer loop support
+fastapi==0.115.0
+uvicorn==0.30.6
+requests==2.32.3
+rq==1.16.2
+redis==5.0.8
+
+# Shared utilities used by current codebase
+scikit-learn==1.5.1
+
+# Test and acceptance support used by the repository pytest surface
+pytest==8.4.2
+httpx==0.28.1
+playwright==1.61.0
+
+# Optional advanced dependencies are intentionally excluded from the default
+# reproducible install path for the current MVP reset phase.
+# Examples kept out on purpose: torch, transformers, rdkit, cobra, casoffinder

@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://biodesign-studio.local/schemas/real-case-contracts-v1/mt01.json",
+  "title": "MT-01 real-case data contracts",
+  "oneOf": [
+    {"$ref": "#/$defs/case_manifest"},
+    {"$ref": "#/$defs/source_contract"},
+    {"$ref": "#/$defs/extraction_contract"},
+    {"$ref": "#/$defs/component_contract"},
+    {"$ref": "#/$defs/feature_contract"},
+    {"$ref": "#/$defs/expected_hashes"},
+    {"$ref": "#/$defs/redistribution_contract"}
+  ],
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "interval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["external_1_based_inclusive", "internal_0_based_half_open", "length_bp"],
+      "properties": {
+        "external_1_based_inclusive": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {"start": {"type": "integer", "minimum": 1}, "end": {"type": "integer", "minimum": 1}}
+        },
+        "internal_0_based_half_open": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["start", "end"],
+          "properties": {"start": {"type": "integer", "minimum": 0}, "end": {"type": "integer", "minimum": 1}}
+        },
+        "length_bp": {"type": "integer", "minimum": 1}
+      }
+    },
+    "header": {
+      "type": "object",
+      "required": ["$schema", "schema_version", "contract_version", "contract_type", "case_id"],
+      "properties": {
+        "$schema": {"const": "contracts.schema.json"},
+        "schema_version": {"const": "real-case-contracts-v1"},
+        "contract_version": {"const": "1.0.0"},
+        "contract_type": {"type": "string"},
+        "case_id": {"const": "MT-01"}
+      }
+    },
+    "case_manifest": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["route", "result_kind", "construct_name", "paper", "source", "product_result", "classification", "facts", "deterministic_derivations", "inferences", "unknowns", "formal_limitations", "status"],
+          "properties": {
+            "contract_type": {"const": "case_manifest"},
+            "route": {"const": "generic_multi_tu"},
+            "result_kind": {"const": "MULTI_TU_EXPRESSION_ASSEMBLY"},
+            "construct_name": {"const": "pGrDL_SP"},
+            "paper": {"type": "object", "required": ["doi", "pmid"], "properties": {"doi": {"const": "10.3389/fpls.2017.01631"}, "pmid": {"const": "28979287"}}, "additionalProperties": false},
+            "source": {"type": "object"},
+            "product_result": {"type": "object"},
+            "classification": {"const": "QUALIFIED_DETERMINISTIC_REGION_STANDARD"},
+            "facts": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+            "deterministic_derivations": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+            "inferences": {"type": "array", "items": {"type": "string"}},
+            "unknowns": {"type": "array", "items": {"type": "string"}},
+            "formal_limitations": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+            "status": {"const": "DATA_CONTRACT_READY_FOR_RUNTIME_INTEGRATION"}
+          }
+        }
+      ]
+    },
+    "source_contract": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["source_provider", "accession_version", "record_id", "retrieval", "expected_response", "parsed_record", "failure_behavior"],
+          "properties": {
+            "contract_type": {"const": "source_contract"},
+            "source_provider": {"const": "NCBI Nucleotide"},
+            "accession_version": {"const": "KX758647.1"},
+            "record_id": {"const": "KX758647.1"},
+            "retrieval": {"type": "object"},
+            "expected_response": {"type": "object"},
+            "parsed_record": {"type": "object"},
+            "failure_behavior": {"type": "object"}
+          }
+        }
+      ]
+    },
+    "extraction_contract": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["coordinate_systems", "extraction", "transcription_units", "reconstruction_proofs", "runtime_model_assessment"],
+          "properties": {
+            "contract_type": {"const": "extraction_contract"},
+            "coordinate_systems": {"type": "object"},
+            "extraction": {"type": "object"},
+            "transcription_units": {"type": "array", "minItems": 2, "maxItems": 2},
+            "reconstruction_proofs": {"type": "array", "minItems": 4},
+            "runtime_model_assessment": {"type": "object"}
+          }
+        }
+      ]
+    },
+    "component_contract": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["case_evidence_class", "components", "unannotated_intervals", "atomic_partition"],
+          "properties": {
+            "contract_type": {"const": "component_contract"},
+            "case_evidence_class": {"const": "DETERMINISTIC_ACCESSION_DERIVATION"},
+            "components": {"type": "array", "minItems": 6, "maxItems": 6},
+            "unannotated_intervals": {"type": "array", "minItems": 5, "maxItems": 5},
+            "atomic_partition": {"type": "array", "minItems": 11, "maxItems": 11}
+          }
+        }
+      ]
+    },
+    "feature_contract": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["feature_policy", "source_feature_assertions", "expected_features", "forbidden_feature_classes"],
+          "properties": {
+            "contract_type": {"const": "feature_contract"},
+            "feature_policy": {"type": "object"},
+            "source_feature_assertions": {"type": "array", "minItems": 6},
+            "expected_features": {"type": "array", "minItems": 13},
+            "forbidden_feature_classes": {"type": "array", "minItems": 4}
+          }
+        }
+      ]
+    },
+    "expected_hashes": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["raw_source_file_sha256", "source_sequence_sha256", "extracted_sequence_sha256", "transcription_units", "components", "unannotated_intervals", "source_features", "protected_resource_tree_hashes"],
+          "properties": {
+            "contract_type": {"const": "expected_hashes"},
+            "raw_source_file_sha256": {"$ref": "#/$defs/sha256"},
+            "source_sequence_sha256": {"$ref": "#/$defs/sha256"},
+            "extracted_sequence_sha256": {"$ref": "#/$defs/sha256"},
+            "transcription_units": {"type": "object"},
+            "components": {"type": "object"},
+            "unannotated_intervals": {"type": "object"},
+            "source_features": {"type": "object"},
+            "protected_resource_tree_hashes": {"type": "object"}
+          }
+        }
+      ]
+    },
+    "redistribution_contract": {
+      "allOf": [
+        {"$ref": "#/$defs/header"},
+        {
+          "type": "object",
+          "required": ["redistribution_status", "repository_policy", "runtime_distribution", "legal_limitations", "reproduction"],
+          "properties": {
+            "contract_type": {"const": "redistribution_contract"},
+            "redistribution_status": {"const": "ACCESSION_AND_REPRODUCIBLE_EXTRACTION_ONLY"},
+            "repository_policy": {"type": "object"},
+            "runtime_distribution": {"type": "object"},
+            "legal_limitations": {"type": "array", "minItems": 1},
+            "reproduction": {"type": "object"}
+          }
+        }
+      ]
+    }
+  }
+}

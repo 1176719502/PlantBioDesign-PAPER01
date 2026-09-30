@@ -1,0 +1,78 @@
+LOCUS       AB182643                1663 bp    mRNA    linear   PLN 29-APR-2005
+DEFINITION  Mirabilis jalapa cDOPA5GT mRNA for cyclo-DOPA
+            5-O-glucosyltransferase, complete cds.
+ACCESSION   AB182643
+VERSION     AB182643.1
+KEYWORDS    .
+SOURCE      Mirabilis jalapa (garden four-o'clock)
+  ORGANISM  Mirabilis jalapa
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; Caryophyllales; Nyctaginaceae; Mirabilis.
+REFERENCE   1
+  AUTHORS   Sasaki,N., Wada,K., Koda,T., Kasahara,K., Adachi,T. and Ozeki,Y.
+  TITLE     Isolation and characterization of cDNAs encoding an enzyme with
+            glucosyltransferase activity for cyclo-DOPA from four o'clocks and
+            feather cockscombs
+  JOURNAL   Plant Cell Physiol. 46 (4), 666-670 (2005)
+   PUBMED   15695438
+REFERENCE   2  (bases 1 to 1663)
+  AUTHORS   Sasaki,N. and Ozeki,Y.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (25-JUN-2004) Nobuhiro Sasaki, Tokyo University of
+            Agriculture and Technology, Department of Biotechnology, Faculty of
+            Technology; 2-24-16 Naka-cho, Koganei, Tokyo 184-8588, Japan
+            (E-mail:nove@cc.tuat.ac.jp, URL:http://www.tuat.ac.jp/~ozeky,
+            Tel:81-042-388-7239(ex.7239), Fax:81-042-388-7239)
+FEATURES             Location/Qualifiers
+     source          1..1663
+                     /organism="Mirabilis jalapa"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:3538"
+     gene            1..1663
+                     /gene="cDOPA5GT"
+     CDS             22..1524
+                     /gene="cDOPA5GT"
+                     /codon_start=1
+                     /product="cyclo-DOPA 5-O-glucosyltransferase"
+                     /protein_id="BAD91803.1"
+                     /translation="MTAIKMNTNGEGETQHILMIPFMAQGHLRPFLELAMFLYKRSHV
+                     IITLLTTPLNAGFLRHLLHHHSYSSSGIRIVELPFNSTNHGLPPGIENTDKLTLPLVV
+                     SLFHSTISLDPHLRDYISRHFSPARPPLCVIHDVFLGWVDQVAKDVGSTGVVFTTGGA
+                     YGTSAYVSIWNDLPHQNYSDDQEFPLPGFPENHKFRRSQLHRFLRYADGSDDWSKYFQ
+                     PQLRQSMKSFGWLCNSVEEIETLGFSILRNYTKLPIWGIGPLIASPVQHSSSDNNSTG
+                     AEFVQWLSLKEPDSVLYISFGSQNTISPTQMMELAAGLESSEKPFLWVIRAPFGFDIN
+                     EEMRPEWLPEGFEERMKVKKQGKLVYKLGPQLEILNHESIGGFLTHCGWNSILESLRE
+                     GVPMLGWPLAAEQAYNLKYLEDEMGVAVELARGLEGEISKEKVKRIVEMILERNEGSK
+                     GWEMKNRAVEMGKKLKDAVNEEKELKGSSVKAIDDFLDAVMQAKLEPSLQ"
+ORIGIN      
+        1 cctcacctcc ataacaaaga aatgaccgcc attaaaatga acaccaatgg tgaaggtgaa
+       61 acacaacata tactaatgat acctttcatg gcgcaagggc atttacgtcc tttccttgag
+      121 cttgctatgt ttctatataa acgaagtcat gttatcatta ctcttcttac taccccgctc
+      181 aatgcgggtt tcctacgaca tctccttcac caccatagct attctagctc ggggatcaga
+      241 attgtcgagt tacctttcaa ctcaaccaat catggtcttc cacctggcat tgaaaacact
+      301 gataaactta cactcccact tgtagtatca ctttttcatt caaccatttc tcttgaccct
+      361 caccttagag attatatttc ccgccatttc tcccctgcgc gccctcctct gtgtgtcata
+      421 catgatgtgt tccttggttg ggttgatcaa gttgctaaag acgtgggctc aactggtgtt
+      481 gtttttacta cgggtggcgc gtatggtaca agcgcatatg tgtccatttg gaatgatctg
+      541 cctcaccaga attactctga tgatcaagag tttccgcttc ctggtttccc ggagaatcat
+      601 aaattccgac gttctcaact tcatcggttt ctgaggtatg ccgatggatc agatgattgg
+      661 tcgaaatatt tccaaccgca attgaggcaa tcaatgaaga gttttggatg gctatgtaat
+      721 tcagttgagg aaatcgaaac acttgggttt agtatcctca ggaactacac taaactaccc
+      781 atttggggta ttggaccgtt gatagcttca cctgtacaac attcatcatc tgataataac
+      841 agtactggtg ccgagtttgt tcaatggttg agcttgaaag aaccagattc tgtattatac
+      901 atctcatttg gatcacagaa cacaatttca ccaacccaga tgatggaact agcagccggt
+      961 ttggagtcaa gtgagaagcc gtttttgtgg gtgattcgag caccatttgg gttcgatatc
+     1021 aatgaggaaa tgagaccaga atggctacca gagggattcg aggagcgaat gaaggtgaaa
+     1081 aaacaaggaa agttggtgta taagttggga ccacagttgg agatacttaa ccatgagtca
+     1141 atcggagggt tcttaactca ttgtgggtgg aattcgatcc ttgagtcact tcgagaaggt
+     1201 gtgcctatgt tagggtggcc attggcagcc gaacaagctt ataatttgaa gtatttggag
+     1261 gacgaaatgg gggttgcagt cgagttagcg aggggattgg aaggagagat aagtaaagag
+     1321 aaagtgaaga gaattgtgga gatgatttta gagagaaatg aaggaagtaa aggatgggaa
+     1381 atgaaaaata gagcagtaga aatggggaag aaacttaaag acgctgtcaa tgaggagaag
+     1441 gaactgaagg gttcttctgt taaggcaata gatgatttct tagatgcggt catgcaagct
+     1501 aagttggaac cttctcttca ataataagat cgatagttta tctcgtctca gagactcaaa
+     1561 caattgacta ctaggatgat cagaaagaga gttatgttca gtgttctgtt attatgcaag
+     1621 acttcaataa taacagaaaa attcgtgatt agattcataa ctt
+//
+

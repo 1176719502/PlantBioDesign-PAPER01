@@ -1,0 +1,26 @@
+{
+  "accession": "AF485783.1",
+  "record_name": "pBI121",
+  "topology": "circular",
+  "length": 14758,
+  "source_record_sha256": "7301abcf3146e14cd4826a8c8b7f44d65a0b03b0f642695f6d8277ea56d733d7",
+  "feature_count": 21,
+  "feature_types": [
+    "CDS",
+    "gene",
+    "misc_feature",
+    "regulatory",
+    "rep_origin",
+    "source"
+  ],
+  "registered_component_count": 7,
+  "complete_binary_vector": {
+    "asset_type": "complete_binary_vector",
+    "topology": "circular",
+    "length": 14758,
+    "provenance_status": "verified_source",
+    "verification_status": "needs_replacement_strategy",
+    "non_empty_t_dna": true,
+    "eligible_for_construct_use": false
+  }
+}

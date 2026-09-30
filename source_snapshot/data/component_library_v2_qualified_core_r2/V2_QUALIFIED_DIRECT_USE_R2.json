@@ -1,0 +1,560 @@
+{
+  "schema_version": "component-library-v2-qualified-direct-use-r2",
+  "review_date": "2026-09-13",
+  "asset_count": 17,
+  "independent_review_status": "17_OF_17_DIRECT_USE_CONFIRMED",
+  "qualification_boundary": "This package preserves exact independently qualified sequence bytes, lengths, SHA-256 values, boundaries, source artifacts, source-artifact SHA-256 values, rights evidence, and attribution requirements. It does not redo scientific qualification or adopt data into Product.",
+  "records": [
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-002",
+      "canonical_name": "Arabidopsis RPS5A promoter fragment (pJOG603)",
+      "sequence": "CTCAACTTTTGATTCGCTATTTGCAGTGCACCTGTGGCGTTCATCACATCTTTTGTGACACTGTTTGCACTGGTCATTGCTATTACAAAGGACCTTCCTGATGTTGAAGGAGATCGAAAGTAAGTAACTGCACGCATAACCATTTTCTTTCCGCTCTTTGGCTCAATCCATTTGACAGTCAAAGACAATGTTTAACCAGCTCCGTTTGATATATTGTCTTTATGTGTTTGTTCAAGCATGTTTAGTTAATCATGCCTTTGATTGATCTTGAATAGGTTCCAAATATCAACCCTGGCAACAAAACTTGGAGTGAGAAACATTGCATTCCTCGGTTCTGGACTTCTGCTAGTAAATTATGTTTCAGCCATATCACTAGCTTTCTACATGCCTCAGGTGAATTCATCTATTTCCGTCTTAACTATTTCGGTTAATTAAAGCACGAACACCATTACTGCATGTAGAAGCTTGATAAACTATCGCCACCAATTTATTTTTGTTGCGATATTGTTACTTTCCTCAGTATGCAGCTTTGAAAAGACCAACCCTCTTATCCTTTAACAATGAACAGGTTTTTAGAGGTAGCTTGATGATTCCTGCACATGTGATCTTGGCTTCAGGCTTAATTTTCCAGGTAAAGCATTATGAGATACTCTTATATCTCTTACATACTTTTGAGATAATGCACAAGAACTTCATAACTATATGCTTTAGTTTCTGCATTTGACACTGCCAAATTCATTAATCTCTAATATCTTTGTTGTTGATCTTTGGTAGACATGGGTACTAGAAAAAGCAAACTACACCAAGGTAAAATACTTTTGTACAAACATAAACTCGTTATCACGGAACATCAATGGAGTGTATATCTAACGGAGTGTAGAAACATTTGATTATTGCAGGAAGCTATCTCAGGATATTATCGGTTTATATGGAATCTCTTCTACGCAGAGTATCTGTTATTCCCCTTCCTCTAGCTTTCAATTTCATGGTGAGGATATGCAGTTTTCTTTGTATATCATTCTTCTTCTTCTTTGTAGCTTGGAGTCAAAATCGGTTCCTTCATGTACATACATCAAGGATATGTCCTTCTGAATTTTTATATCTTGCAATAAAAATGCTTGTACCAATTGAAACACCAGCTTTTTGAGTTCTATGATCACTGACTTGGTTCTAACCAAAAAAAAAAAAATGTTTAATTTACATATCTAAAAGTAGGTTTAGGGAAACCTAAACAGTAAAATATTTGTATATTATTCGAATTTCACTCATCATAAAAACTTAAATTGCACCATAAAATTTTGTTTTACTATTAATGATGTAATTTGTGTAACTTAAGATAAAAATAATATTCCGTAAGTTAACCGGCTAAAACCACGTATAAACCAGGGAACCTGTTAAACCGGTTCTTTACTGGATAAAGAAATGAAAGCCCATGTAGACAGCTCCATTAGAGCCCAAACCCTAAATTTCTCATCTATATAAAAGGAGTGACATTAGGGTTTTTGTTCGTCCTCTTAAAGCTTCTCGTTTTCTCTGCCGTCTCTCTCATTCGCGCGACGCAAACGATCTTCAGGTGATCTTCTTTCTCCAAATCCTCTCTCATAACTCTGATTTCGTACTTGTGTATTTGAGCTCACGCTCTGTTTCTCTCACCACAGC",
+      "length": 1659,
+      "sequence_sha256": "d9df1bcccc837686f108be223966350aa2d85e945b5a4460860878ae760db5e1",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; B9_pJOG603_[Pro+5U] RPS5a AT3G11940.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_FEATURE [538:2197](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "pRPS5A",
+        "At3g11940 promoter"
+      ],
+      "role": "promoter",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B9_pJOG603_[Pro+5U] RPS5a AT3G11940.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-012",
+      "canonical_name": "GR-LhG4 transactivator Level 0 CDS module (pGGC018 boundary in pTT135)",
+      "sequence": "CCATGGCTAGTGAAGCTCGAAAAACAAAGAAAAAAATCAAAGGGATTCAGCAAGCCACTGCAGGAGTCTCACAAGACACTTCGGAAAATCCTAACAAAACAATAGTTCCTGCAGCATTACCACAGCTCACCCCTACCTTGGTGTCACTGCTGGAGGTGATTGAACCCGAGGTGTTGTATGCAGGATATGATAGCTCTGTTCCAGATTCAGCATGGAGAATTATGACCACACTCAACATGTTAGGTGGGCGTCAAGTGATTGCAGCAGTGAAATGGGCAAAGGCGATACCAGGCTTCAGAAACTTACACCTGGATGACCAAATGACCCTGCTACAGTACTCATGGATGTTTCTCATGGCATTTGCCCTGGGTTGGAGATCATACAGACAATCAAGTGGAAACCTGCTCTGCTTTGCTCCTGATCTGATTATTAATGAGCAGAGAATGTCTCTACCCTGCATGTATGACCAATGTAAACACATGCTGTTTGTCTCCTCTGAATTACAAAGATTGCAGGTATCCTATGAAGAGTATCTCTGTATGAAAACCTTACTGCTTCTCTCCTCAGTTCCTAAGGAAGGTCTGAAGAGCCAAGAGTTATTTGATGAGATTCGAATGACTTATATCAAAGAGCTAGGAAAAGCCATCGTCAAAAGGGAAGGGAACTCCAGTCAGAACTGGCAACGGTTTTACCAACTGACAAAGCTTCTGGACTCCATGCATGAGGTGGTTGAGAATCTCCTTACCTACTGCTTCCAGACATTTTTGGATAAGACCATGAGTATTGAATTCCCAGAGATGTTAGCTGAAATCATCACTAATCAGATACCAAAATATTCAAATGGAAATATCAAAAAGCTTCTGTTTCATCAAAAATCTACTAGCAAACCGGTAACGTTATACGACGTCGCTGAATACGCCGGCGTTTCTCATCAAACCGTTTCTAGAGTGGTTAACCAGGCTTCACATGTTAGCGCTAAAACCCGGGAAAAAGTTGAAGCTGCCATGGCTGAGCTCAACTACATCCCGAACCGTGTTGCGCAGCAGCTGGCTGGTAAACAAAGCTTGCTGATCGGTGTCGCGACCTCGAGCTTGGCCCTGCACGCGCCGTCGCAAATTGTCGCGGCGATTAAATCTCGCGCCGATCAACTGGGTGCCAGCGTGGTGGTGTCGATGGTAGAACGAAGCGGCGTCGAAGCCTGTAAAGCGGCGGTGCACAATCTTCTCGCGCAACGCGTCAGTGGGCTGATCATTAACTATCCGCTGGATGACCAGGATGCCATTGCTGTGGAAGCTGCCTGCACTAATGTTCCGGCGTTATTTCTTGATGTCTCTGACCAGACACCCATCAACAGTATTATTTTCTCCCATGAAGACGGTACGCGACTGGGCGTGGAGCATCTGGTCGCATTGGGTCACCAGCAAATCGCGCTGTTAGCGGGCCCATTAAGTTCTGTCTCGGCGCGTCTGCGTCTGGCTGGCTGGCATAAATATCTCACTCGCAATCAAATTCAGCCGATAGCGGAACGGGAAGGCGACTGGAGTGCCATGTCCGGTTTTCAACAAACCATGCAAATGCTGAATGAGGGCATCGTTCCCACTGCGATGCTGGTTGCCAACGATCAGATGGCGCTGGGCGCAATGCGCGCCATTACCGAGTCCGGGCTGCGCGTTGGTGCGGATATCTCGGTAGTGGGATACGACGATACCGAAGACAGCTCATGTTATATCCCGCCGTTAACCACCATCAAACAGGATTTTCGCCTGCTGGGGCAAACCAGCGTGGACCGCTTGCTGCAACTCTCTCAGGGCCAGGCGGTGAAGGGCAATCAGCTGTTGCCCGTCTCACTGGTGAAAAGAAAAACCACTAGTGGATCGGAATTCGCCAATTTTAATCAAAGTGGGAATATTGCTGATAGCTCATTGTCCTTCACTTTCACTAACAGTAGCAACGGTCCGAACCTCATAACAACTCAAACAAATTCTCAAGCGCTTTCACAACCAATTGCCTCCTCTAACGTTCATGATAACTTCATGAATAATGAAATCACGGCTAGTAAAATTGATGATGGTAATAATTCAAAACCACTGTCACCTGGTTGGACGGACCAAACTGCGTATAACGCGTTTGGAATCACTACAGGGATGTTTAATACCACTACAATGGATGATGTATATAACTATCTATTCGATGATGAAGATACCCCACCAAACCCAAAAAAAGAG",
+      "length": 2225,
+      "sequence_sha256": "91d8ee9df4cace9dc1dbfa81fab2b9943a1d1224e71e3410bd9ff3fe5eea06dc",
+      "source_artifact": "pone.0290097.s006.zip; pTT135 - ID 00338.gb; DOI 10.1371/journal.pone.0290097; S1 Dataset; pTT135 - ID 00338.gb; definition pUBQ10::GR-LhG4::tHSP18.2M",
+      "source_artifact_sha256": "9039523f0913d362b6b992a8a4a15db54b44c52b4f5c134376870803342c957d",
+      "exact_boundary": "EXACT_SOURCE_BOUNDARY_REPRODUCED_BETWEEN_D_AND_C_OVERHANGS",
+      "orientation": "reverse-complemented to module coding orientation",
+      "attribution_requirement": "Cite the named source article and supplementary artifact; retain the CC BY 4.0 link, attribution, and change notice.",
+      "license_rights_source": "Piepers et al. GreenGate 2.0 article-linked S1 Dataset ZIP",
+      "rights_state": "SOURCE_CLEARED_FOR_CONTROLLED_DIRECT_USE_REVIEW under CC BY 4.0 with attribution, license link, and change notice, subject to candidate-specific third-party checkpoint.",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+      "aliases": [
+        "GR-LhG4",
+        "pGGC018 transactivator module"
+      ],
+      "role": "cds_enzyme_functional",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0290097; S1 Dataset; pTT135 - ID 00338.gb; definition pUBQ10::GR-LhG4::tHSP18.2M",
+        "primary_citation": "Piepers et al. GreenGate 2.0: Backwards compatible addons for assembly of complex transcriptional units and their stacking with GreenGate. PLOS ONE 18:e0290097 (2023).",
+        "doi": "10.1371/journal.pone.0290097",
+        "pmid": "37682951"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-007",
+      "canonical_name": "Agrobacterium agropine synthase 3-prime regulatory region (T_ags published string)",
+      "sequence": "GAATTAACAGAGGTGGATGGACAGACCCGTTCTTACACCGGACTGGGCGCGGGATAGGATATTCAGATTGGGATGGGATTGAGCTTAAAGCCGGCGCTGAGACCATGCTCAAGGTAGGCAATGTCCTCAGCGTCGAGCCCGGCATCTATGTCGAGGGCATTGGTGGAGCGCGCTTCGGGGATACCGTGCTTGTAACTGAGACCGGATATGAGGCCCTCACTCCGCTTGATCTTGGCAAAGATATTTGACGCATTTATTAGTATGTGTTAATTTTCATTTGCAGTGCAGTATTTTCTATTCGATCTTTATGTAATTCGTTACAATTAATAAATATTCAAATCAGATTATTGACTGTCATTTGTATCAAATCGTGTTTAATGGATATTTTTATTATAATATTGATGAT",
+      "length": 406,
+      "sequence_sha256": "bd0c2ad2d6e718c71da078e161676d7b412d1269c64feebce6f2fb81e15508ca",
+      "source_artifact": "9834989.f1.pdf, 2935727 bytes, 44 pages; Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_ags",
+      "source_artifact_sha256": "96c57f1c89dab4a08bf2af71adadcc7eb42a579f62861f03d456e72eb57ad9c7",
+      "exact_boundary": "EXACT_PUBLISHED_STRING_BOUNDARY",
+      "orientation": "+",
+      "attribution_requirement": "Cite the named source article and supplementary artifact; retain the CC BY 4.0 link, attribution, and change notice.",
+      "license_rights_source": "Tian et al. article-linked Supplementary materials PDF",
+      "rights_state": "SOURCE_CLEARED_FOR_CONTROLLED_DIRECT_USE_REVIEW under CC BY 4.0 with attribution, license link, and change notice, subject to candidate-specific third-party checkpoint.",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+      "aliases": [
+        "T_ags",
+        "ags 3' regulatory region"
+      ],
+      "role": "terminator_3prime_regulatory_region",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_ags",
+        "primary_citation": "Tian et al. Plant Phenomics (2022); row cites Farhi et al., Nature Biotechnology 29:1072-1074 (2011).",
+        "doi": "10.34133/2022/9834989",
+        "pmid": "37850139"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R2-001",
+      "canonical_name": "Arabidopsis UBQ10 3-prime regulatory region (T_AtUbq10 published string)",
+      "sequence": "ATCTCGTCTCTGTTATGCTTAAGAAGTTCAATGTTTCGTTTCATGTAAAACTTTGGTGGTTTGTGTTTTGGGGCCTTGTATAATCCCTGATGAATAAGTGTTCTACTATGTTTCCGTTCCTGTTATCTCTTTCTTTCTAATGACAAGTCGAACTTCTTCTTTATCATCGCTTCGTTTTTATTATCTGTGCTTCTTTTGTTTAATACGCCTGCAAAGTGACTCGACTCTGTTTAGTGCAGTTCTGCGAAACTTGTAAATAGTCCAATTGTTGGCCTCTAGTAATAGATGTAGCGAAAGTGTTGAGCTGTTGGGTTCTAAGGATGGCTTGAACATGTTAATCTTTTAGGTTCTGAGTATGATGAACATTCGTTGTTGCTAAGAAATGCCTGTAATGTCCCACAAATGTAGAAAATGGTTCGTACCTTTGTCCAAGCATTGATATGTCTGATGAGAGGAAACTGCAAGATACTGAGCTTGGTTTAACGAAGGAGAGGCAGTTTCTTCCTTCCAAAGCATTTCATTTGACAATGCCTTGATCATCTTAAGTAGAGTTTCTGTTGTGGAAAGTTTGAAACTTTGAAGAAACGACTCTCAAGTAAATTGATGATCACAAGTGAAAGTGTATGTTACATAAGT",
+      "length": 636,
+      "sequence_sha256": "12720e02e56c3a2306bb5db3c8b7c6b178c65d52c79d6f9913dbe8b7e9ef9e79",
+      "source_artifact": "9834989.f1.pdf, 2935727 bytes, 44 pages; Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_AtUbq10",
+      "source_artifact_sha256": "96c57f1c89dab4a08bf2af71adadcc7eb42a579f62861f03d456e72eb57ad9c7",
+      "exact_boundary": "EXACT_PUBLISHED_STRING_BOUNDARY",
+      "orientation": "+",
+      "attribution_requirement": "Cite the named source article and supplementary artifact; retain the CC BY 4.0 link, attribution, and change notice.",
+      "license_rights_source": "Tian et al. article-linked Supplementary materials PDF",
+      "rights_state": "SOURCE_CLEARED_FOR_CONTROLLED_DIRECT_USE_REVIEW under CC BY 4.0 with attribution, license link, and change notice, subject to candidate-specific third-party checkpoint.",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r2_independent_review/V2_ACQUISITION_R2_INDEPENDENT_MATRIX.json",
+      "aliases": [
+        "T_AtUbq10",
+        "AtUBQ10 3' regulatory region"
+      ],
+      "role": "terminator_3prime_regulatory_region",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R2_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "Europe PMC PMCID PMC10521690; supplementary file 9834989.f1.pdf; Table 2 row T_AtUbq10",
+        "primary_citation": "Tian et al. Benchmarking Intrinsic Promoters and Terminators for Plant Synthetic Biology Research. Plant Phenomics (2022).",
+        "doi": "10.34133/2022/9834989",
+        "pmid": "37850139"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-036",
+      "canonical_name": "C-terminal 6xHA/Twin-Strep composite tag module (pJOG331)",
+      "sequence": "TACCCATACGATGTTCCTGACTATGCGGGCTATCCCTATGACGTCCCGGACTATGCAGGATTGTATCCATATGACGTTCCAGATTACGCCACTAGAGCTGCTTACCCATACGATGTTCCTGACTATGCGGGCTATCCCTATGACGTCCCGGACTATGCAGGATTGTATCCATATGACGTTCCAGATTACGCCGCTTCTGCTTGGTCACACCCACAGTTCGAGAAGGGAGGTGGATCTGGTGGAGGTTCAGGAGGATCAGCTTGGTCACATCCTCAATTTGAAAAATA",
+      "length": 287,
+      "sequence_sha256": "6c7c8e57323b581aeb41f807a0773009ca18321c327728bba2d211f244bdede3",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; G1_pJOG331_[CT] 6XHA-TwinStrep.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_COMPOSITE_TAG_BOUNDARY [354:641](+); 6xHA and Twin-Strep subfeatures annotated; zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "6xHA-TwinStrep",
+        "pJOG331"
+      ],
+      "role": "cds_enzyme_functional",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; G1_pJOG331_[CT] 6XHA-TwinStrep.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-031",
+      "canonical_name": "NTF INTACT nuclear-tagging fusion CDS1 module (pJOG536)",
+      "sequence": "ATGGATCATTCAGCGAAAACCACACAGAACCGTGTTTTGTCAGTGAAGATGTGGCCACCGAGTAAGAGTACCCGTCTCATGCTTGTTGAGCGGATGACCAAGAACATTACCACCCCTTCCATCTTCTCCAGGAAGTACGGTCTTTTGTCTGTTGAAGAGGCTGAGCAAGACGCCAAGCGCATCGAAGATTTGGCCTTTGCTACTGCCAACAAACACTTCCAGAACGAGCCTGATGGTGATGGCACTTCTGCTGTTCACGTCTATGCTAAAGAATCCAGCAAGCTCATGCTTGATGTCATCAAACGTGGTCCACAGGAAGAATCCGAGGTTGAGGCGGCCGCTGTGAGCAAGGGCGAGGAGCTGTTCACCGGGGTGGTGCCCATCCTGGTCGAGCTGGACGGCGACGTAAACGGCCACAAGTTCAGCGTGTCCGGCGAGGGCGAGGGCGATGCCACCTACGGCAAGCTGACCCTGAAGTTCATCTGCACCACCGGCAAGCTGCCCGTGCCCTGGCCCACCCTCGTGACCACCCTGACCTACGGCGTGCAGTGCTTCAGCCGCTACCCCGACCACATGAAGCAGCACGACTTCTTCAAGTCCGCCATGCCCGAAGGCTACGTCCAGGAGCGCACCATCTTCTTCAAGGACGACGGCAACTACAAGACCCGCGCCGAGGTGAAGTTCGAGGGCGACACCCTGGTGAACCGCATCGAGCTGAAGGGCATCGACTTCAAGGAGGACGGCAACATCCTGGGGCACAAGCTGGAGTACAACTACAACAGCCACAACGTCTATATCATGGCCGACAAGCAGAAGAACGGCATCAAGGTGAACTTCAAGATCCGCCACAACATCGAGGACGGCAGCGTGCAGCTCGCCGACCACTACCAGCAGAACACCCCCATCGGCGACGGCCCCGTGCTGCTGCCCGACAACCACTACCTGAGCACCCAGTCCGCCCTGAGCAAAGACCCCAACGAGAAGCGCGATCACATGGTCCTGCTGGAGTTCGTGACCGCCGCCGGGATCACTCTCGGCATGGACGAGCTGTACAAGTCCGGAGCTGCGGCCGCTGCCATGGCTGGTGGACTTAACGATATCTTCGAAGCTCAGAAGATTGAATGGCATGAGGATACTGGTGGATCTTA",
+      "length": 1148,
+      "sequence_sha256": "70a26856835b599e7000a64c50f68e86478fcbc33c908fdd9c4478ae616a895d",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; H4_pJOG536_[CDS1] NTF-INTACT.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_LEVEL0_COMPOSITE_INSERT [324:1472](+); RanGAP1, mEGFP, and BLRP subfeatures annotated; zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "NTF-INTACT",
+        "pJOG536"
+      ],
+      "role": "cds_enzyme_functional",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H4_pJOG536_[CDS1] NTF-INTACT.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-029",
+      "canonical_name": "GVG glucocorticoid-responsive transactivator CDS1 module (pJOG641)",
+      "sequence": "ATGGCAGATCCAATGAAGCTACTATCTTCTATCGAACAAGCATGCGATATTTGCCGACTTAAAAAGCTCAAGTGCTCCAAAGAAAAACCGAAGTGCGCCAAGTGTCTGAAGAACAACTGGGAGTGTCGCTACTCTCCCAAAACCAAAAGGTCCCCGCTGACTAGGGCACATCTGACAGAAGTGGAATCAAGGCTAGAAAGACTGGAACAGCTATTTCTACTGATTTTTCCTAGGTCGAGCGCCCCCCCGACCGATGTCAGCCTGGGGGACGAGCTCCACTTAGACGGCGAGGACGTGGCGATGGCGCATGCCGACGCGCTAGACGATTTCGATCTGGACATGTTGGGGGACGGGGATTCCCCGGGTCCGGGATTTACCCCCCACGACTCCGCCCCCTACGGCGCTCTGGATATGGCCGACTTCGAGTTTGAGCAGATGTTTACCGATGCCCTTGGAATTGACGAGTACGGTGGGGATCCAATTCAGCAAGCCACTGCAGGAGTCTCACAAGACACTTCGGAAAATCCTAACAAAACAATAGTTCCTGCTGCATTACCACAGCTCACCCCTACCTTGGTGTCACTGCTGGAGGTGATTGAACCCGAGGTGTTGTATGCAGGATATGATAGCTCTGTTCCAGATTCAGCATGGAGAATTATGACCACACTCAACATGTTAGGTGGGCGTCAAGTGATTGCAGCAGTGAAATGGGCAAAGGCGATACCAGGCTTCAGAAACTTACACCTGGATGACCAAATGACCCTGCTACAGTACTCATGGATGTTTCTCATGGCATTTGCCCTGGGTTGGAGATCATACAGACAATCAAGTGGAAACCTGCTCTGCTTTGCTCCTGATCTGATTATTAATGAGCAGAGAATGTCTCTACCCTGCATGTATGACCAATGTAAACACATGCTGTTTGTCTCCTCTGAATTACAAAGATTGCAGGTATCCTATGAAGAGTATCTCTGTATGAAAACCTTACTGCTTCTCTCCTCAGTTCCTAAGGAAGGTCTGAAGAGCCAAGAGTTATTTGATGAGATTCGAATGACTTATATCAAAGAGCTAGGAAAAGCCATCGTCAAAAGGGAAGGGAACTCCAGTCAGAACTGGCAACGGTTTTACCAACTGACAAAGCTTCTGGACTCCATGCATGAGGTGGTTGAGAATCTCCTTACCTACTGCTTCCAGACATTTTTGGATAAGACCATGAGTATTGAATTCCCAGAGATGTTAGCTGAAATCATCACTAATCAGATACCAAAATATTCAAATGGAAATATCAAAAAGCTTCTGTTTCATCAAAAATGA",
+      "length": 1314,
+      "sequence_sha256": "10b8665c07092c1aedaf6b4430a374ddca2cde134ea8a0d4eb8130a52f90f45a",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; H8_pJOG641_[CDS1] GVG (DEX).gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_CDS [324:1638](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "GVG",
+        "pJOG641"
+      ],
+      "role": "cds_enzyme_functional",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H8_pJOG641_[CDS1] GVG (DEX).gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-030",
+      "canonical_name": "XVE estrogen-responsive transactivator CDS1 module (pTEI039)",
+      "sequence": "ATGAAAGCGTTAACGGCCAGGCAACAAGAGGTGTTTGATCTCATCCGTGATCACATCAGCCAGACAGGTATGCCGCCGACGCGTGCGGAAATCGCGCAGCGTTTGGGGTTCCGTTCCCCAAACGCGGCTGAAGAACATCTGAAGGCGCTGGCACGCAAAGGCGTTATTGAAATTGTTTCCGGCGCATCACGCGGGATTCGTCTGTTGCAGGAAGAGGAAGAAGGGTTGCCGCTGGTAGGTCGTGTGGCTGCCGGTGAACCGTCGAGCGCCCCCCCGACCGATGTCAGCCTGGGGGACGAGCTCCACTTAGACGGCGAGGACGTGGCGATGGCGCATGCCGACGCGCTAGACGATTTCGATCTGGACATGTTGGGGGACGGGGATTCCCCGGGTCCGGGATTTACCCCCCACGACTCCGCCCCCTACGGCGCTCTGGATATGGCCGACTTCGAGTTTGAGCAGATGTTTACCGATGCCCTTGGAATTGACGAGTACGGTGGGGATCCGTCTGCTGGAGACATGAGAGCTGCCAACCTTTGGCCAAGCCCGCTCATGATCAAACGCTCTAAGAAGAACAGCCTGGCCTTGTCCCTGACGGCCGACCAGATGGTCAGTGCCTTGTTGGATGCTGAGCCCCCCATACTCTATTCCGAGTATGATCCTACCAGACCCTTCAGTGAAGCTTCGATGATGGGCTTACTGACCAACCTGGCAGACAGGGAGCTGGTTCACATGATCAACTGGGCGAAGAGGGTGCCAGGCTTTGTGGATTTGACCCTCCATGATCAGGTCCACCTTCTAGAATGTGCCTGGCTAGAGATCCTGATGATTGGTCCCGTCTGGCGCTCCATGGAGCACCCAGGGAAGCTACTGTTTGCTCCTAACTTGCTCTTGGACAGGAACCAGGGAAAATGTGTAGAGGGCATGGTGGAGATCTTCGACATGCTGCTGGCTACATCATCTCGGTTCCGCATGATGAATCTGCAGGGAGAGGAGTTTGTGTGCCTCAAATCTATTATTTTGCTTAATTCTGGAGTGTACACATTTCTGTCCAGCACCCTGAAGTCTCTGGAAGAGAAGGACCATATCCACCGAGTCCTGGACAAGATCACAGACACTTTGATCCACCTGATGGCCAAGGCAGGCCTGACCCTGCAGCAGCAGCACCAGCGGCTGGCCCAGCTCCTCCTCATCCTCTCCCACATCAGGCACATGAGTAACAAAGGCATGGAGCATCTGTACAGCATGAAGTGCAAGAACGTGGTGCCCCTCTATGACCTGCTGCTGGAGATGCTGGACGCCCACCGCCTACATGCGCCCACTAGCCGTGGAGGGGCATCCGTGGAGGAGACGGACCAAAGCCACTTGGCCACTGCGGGCTCTACTTCATCGCATTCCTTGCAAAAGTATTACATCACGGGGGAGGCAGAGGGTTTCCCTGCCACAGTCTGA",
+      "length": 1452,
+      "sequence_sha256": "b3adaf07bcaebce7735adf4bd24431c151abdcf9be98a4f3cb1a709f7a78da57",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; H9_pTEI039_[CDS1]_XVE (Estradiol).gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_XVE_CDS [324:1776](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "XVE",
+        "pTEI039"
+      ],
+      "role": "cds_enzyme_functional",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; H9_pTEI039_[CDS1]_XVE (Estradiol).gbk",
+        "primary_citation": "Zuo, Niu and Chua. Plant J. 24:265-273 (2000); exact module archived by Gantner et al. (2018).",
+        "doi": "10.1046/j.1365-313x.2000.00868.x",
+        "pmid": "11069700"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-144",
+      "canonical_name": "Arabidopsis HSP18.2 terminator (250 bp feature)",
+      "sequence": "ATATGAAGATGAAGATGAAATATTTGGTGTGTCAAATAAAAAGGTTGTGTGCTTAAGTTTGTGTTTTTTTCTTGGCTTGTTGTGTTATGAATTTGTGGCTTTTTCTAATATTAAATGAATGTAACATCTCATTATAATGAATAAACAAATGTTTCTATAATCCATTGTGAATGTTTTGTTGGATCTCTTCTCCAGCATATAACTACTGTATGTGCTATGGTATGGACTATGGAATATGATTAAAGATAAG",
+      "length": 250,
+      "sequence_sha256": "f64cc0a9ffd000d281dc8d75163b072d42ec8184ad216470461941a4e61dfd1d",
+      "source_artifact": "data/plant_component_registry_v1/source_records/PP558908.1.gb",
+      "source_artifact_sha256": "521467bde8978a3e02115b2e5ef6e205700e016b7ee31c44da92ffb39d00dfc9",
+      "exact_boundary": {
+        "method": "GenBank regulatory terminator feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "HSP18.2 terminator",
+        "strand": "+",
+        "start_one_based": 852,
+        "end_one_based_inclusive": 1101,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "orientation": "+",
+      "attribution_requirement": "Sequence provenance: NCBI GenBank / INSDC, accession and version shown above. INSDC database policy supports access and redistribution of database records. NCBI does not receive submitter rights and cannot grant unrestricted third-party permission. This attribution is not a legal clearance, freedom-to-operate conclusion, biological performance conclusion, or formal product-admission record.",
+      "license_rights_source": "docs/qa/component_library_v1_full_evidence_completion/phase_b2b/COMPONENT_LIBRARY_V1_B2B_ATTRIBUTION_CONTRACT.md; https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "rights_state": "RIGHTS_CLEAR_FOR_CURRENT_USE",
+      "evidence_path": "data/plant_component_registry_v1/registry.batch1.json",
+      "aliases": [
+        "HSP18.2 terminator",
+        "tHSP18.2"
+      ],
+      "role": "terminator_3prime_regulatory_region",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_component_ids": [
+        "PCLV1-TER-HSP18-2-250"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/PP558908.1.gb",
+        "primary_citation": "NCBI GenBank PP558908.1; Nagaya et al., Plant Cell Physiol. 51, 328-332 (2010), PMID:20040586, DOI:10.1093/pcp/pcp188",
+        "doi": "10.1093/pcp/pcp188",
+        "pmid": "20040586"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-023",
+      "canonical_name": "6xGAL4 UAS/35S minimal promoter response module (pTEI042)",
+      "sequence": "CCGGGTGACAGCCCTCCGACGGGTGACAGCCCTCCGACGGGTGACAGCCCTCCGAATTCTAGAGGATCCGGGTGACAGCCCTCCGACGGGTGACAGCCCTCCGACGGGTGACAGCCCTCCGAATTCGAGCTCGGTACCCGGGGATCTGTCGACCTCGATCGAGATCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGGACACGCTGAAGCTAGTCGACTCTAG",
+      "length": 240,
+      "sequence_sha256": "6a548052c19c71008506ddf48a728494173663cc5ad55cb09dac1aeeb3924b9a",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; B4_pTEI042_[Pro+5U]_pGal4UAS-35Smin_(GVG-inducible).gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_COMPOSITE_BOUNDARY [565:805](+); six UAS features and minimal promoter annotated; zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "6xUASgal4-35Smin",
+        "GVG response module"
+      ],
+      "role": "enhancer_regulatory_element",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B4_pTEI042_[Pro+5U]_pGal4UAS-35Smin_(GVG-inducible).gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-022",
+      "canonical_name": "LexA operator/35S minimal promoter response module (pTEI036)",
+      "sequence": "AGCTTGGGCTGCAGGTCGAGGCTAAAAAACTAATCGCATTATCATCCCCTCGACGTACTGTACATATAACCACTGGTTTTATATACAGCAGTACTGTACATATAACCACTGGTTTTATATACAGCAGTCGACGTACTGTACATATAACCACTGGTTTTATATACAGCAGTACTGTACATATAACCACTGGTTTTATATACAGCAGTCGAGGTAAGATTAGATATGGATATGTATATGGATATGTATATGGTGGTAATGCCATGTAATATGCTCGACTCTAGGATCTTCGCAAGACCCTTCCTCTATATAAGGAAGTTCATTTCATTTGGAGAGGACACGCTGAAGCTAGTC",
+      "length": 351,
+      "sequence_sha256": "f752a242c811e3dd9b611c5ec5f3bf284ba451f89e5ccfc2d2d18ace609adca6",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; B3_pTEI036_[Pro+5U]_LexA-35min (XVE-inducible).gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_COMPOSITE_BOUNDARY [538:889](+); LexA operator and -46/+12 35S regulatory features annotated; zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "LexA-35Smin",
+        "XVE response module"
+      ],
+      "role": "enhancer_regulatory_element",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B3_pTEI036_[Pro+5U]_LexA-35min (XVE-inducible).gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-006",
+      "canonical_name": "Arabidopsis PR1 promoter fragment (pJOG010)",
+      "sequence": "TTCATGCTAAACTATTTCTCGTAACTATTAACCAATAGTAATTCATCAAATTTTAAAATTCTCAATTAATTGATTCTTGAAATTCATAACCTTTTAATATTGATTGATAAAAATATACATAAACTCAATCTTTTTAATACAAAAAAACTTTAAAAAATCAATTTTTCTGATTCGGAGGGAGTATATGTTATTGCTTAGAATCACAGATTCATATCAGGATTGGAAAATTTTAAAGCCAGTGCATATCAGTAGTCAAAATTGGTAAATGATATACGAAGGCGGTACAAAATTAGGTATACTGAAGATAGAAGAACACAAAAGTAGATCGGTCACCTAGAGTTTTTCAATTTAAACTGCGTATTAGTGTTTGGAAAAAAAAAACAAAGTGCATACAATGTCAATCGGTGATCTTTTTTTTTTTTTTTTTTTTTTTTTTTCTTTTTGGATAAATCTCAATGGGTGATCTATTGACTGTTTCTCTACGTCACTATTTTACTTACGTCATAGATGTGGCGGCATATATTCCTCAGGACTTTTCAGCCATAGGCAAGAGTGATAGAGATACTCATATGCATGAAACACTAAGAAACAAATAATTCTTGACTTTTTTTCTTTTATTTGAAAATTGACTGTAGATATAAACTTTTATTTTTTCTGACTGTAAATATAATCTTAATTGCCAAACTGTCCGATACGATTTTTCTGTATTATTTACAGGAAGATATCTTCAAAACATTTTGAATGAAGTAATATATGAAATTCAAATTTGAATAGATGACTTAAATTAGAATCATGAAGAAAAAAAAAACACAAAACAACTGAATGACATGAAACAACTATATACAATGTTTCTTAATAAACTTCATTTAGGGTATACTTACATATATACTAAAAAAATATATCAACAATGGCAAAGCTACCGATACGAAACAATATTAGGAAAAATGTGTGTAAGGACAAGATTGACAAAAAAATAGTTACGAAAACAACTTCTATTCATTTGGACAATTGCAATGAATATTACTAAAATACTCACACATGGACCATGTATTTACAAAAACGTGAGATCTATAGTTAACAAAAAAAAAAAGAAAAAAATAGTTTTCAAATCTCTATATAAGCGATGTTTACGAACCCCAAAATCATAACACAACAATAACCATTATCAACTTAGAAA",
+      "length": 1177,
+      "sequence_sha256": "262f650c2117b73eb04f5dc6669ae50ab34a9eafb6ee7c1a86bc153187e3de29",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; C11_pJOG010_[Pro+5U] AtPR1 At2g14610.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_FEATURE [2235:3412](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "pAtPR1",
+        "At2g14610 promoter"
+      ],
+      "role": "promoter",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; C11_pJOG010_[Pro+5U] AtPR1 At2g14610.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-005",
+      "canonical_name": "Arabidopsis AP1 promoter fragment (pJOG299)",
+      "sequence": "AAAACACCAAATAAGAGAAGAAATGGAAAAAACAGAAAGAAATTTTTTAACAAGAAAAATCAATTAGTCCTCAAACCTGAGATATTTAAAGTAATCAACTAAAACAGGAACACTTGACTAACAAAGAAATTTGAAACGTGGTCCAACTTTCACTTAATTATATTGTTTTCTCTAAGGCTTATGCAATATATGCCTTAAGCAAATGCCGAATCTGTTTTTTTTTTTTTTGTTATTGGATATTGACTGAAAATAAGGGGTTTTTTCACACTTGAAGATCTCAAAAGAGAAAACTATTACAACGGAAATTCATTGTAAAAGAAGTGATTAAGCAAATTGAGCAAAGGTTTTTATGTGGTTTATTTCATTATATGATTGACATCAAATTGTATATATATGGTTGTTTTATTTAACAATATATATGGATATAACGTACAAACTAAATATGTTTGATTGACGAAAAAAAATATATGTATGTTTGATTAACAACATAGCACATATTCAACTGATTTTTGTCCTGATCATCTACAACTTAATAAGAACACACAACATTGAACAAATCTTTGACAAAATACTATTTTTGGGTTTGAAATTTTGAATACTTACAATTATTCTTCTCGATCTTCCTCTCTTTCCTTAAATCCTGCGTACAAATCCGTCGACGCAATACATTACACAGTTGTCAATTGGTTCTCAGCTCTACCAAAAACATCTATTGCCAAAAGAAAGGTCTATTTGTACTTCACTGTTACAGCTGAGAACATTAAATATAATAAGCAAATTTGATAAAACAAAGGGTTCTCACCTTATTCCAAAAGAATAGTGTAAAATAGGGTAATAGAGAAATGTTAATAAAAGGAAATTAAAAATAGATATTTTGGTTGGTTCAGATTTTGTTTCGTAGATCTACAGGGAAATCTCCGCCGTCAATGCAAAGCGAAGGTGACACTTGGGGAAGGACCAGTGGTCCGTACAATGTTACTTACCCATTTCTCTTCACGAGACGTCGATAATCAAATTGTTTATTTTCATATTTTTAAGTCCGCAGTTTTATTAAAAAATCATGGACCCGACATTAGTACGAGATATACCAATGAGAAGTCGACACGCAAATCCTAAAGAAACCACTGTGGTTTTTGCAAACAAGAGAAACCAGCTTTAGCTTTTCCCTAAAACCACTCTTACCCAAATCTCTCCATAAATAAAGATCCCGAGACTCAAACACAAGTCTTTTTATAAAGGAAAGAAAGAAAAACTTTCCTAATTGGTTCATACCAAAGTCTGAGCTCTTCTTTATATCTCTCTTGTAGTTTCTTATTGGGGGTCTTTGTTTTGTTTGGTTCTTTTAGAGTAAGAAGTTTCTTAAAAAAGGATCAAA",
+      "length": 1375,
+      "sequence_sha256": "f2147dacc7123beba505c78658751519e60ff5c22cb174d9462a14f7596cb073",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; C1_pJOG299_[Pro+5U] AP1 At1g69120.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_FEATURE [2235:3610](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "pAP1",
+        "At1g69120 promoter"
+      ],
+      "role": "promoter",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; C1_pJOG299_[Pro+5U] AP1 At1g69120.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-004",
+      "canonical_name": "EC1.1/EC1.2 egg-cell promoter fusion module (pAGM28521)",
+      "sequence": "GGAGCATTTGCGTTTGGTTTATCATTGCGTTTATACAAGGACAGAGATCCACTGAGCTGGAATAGCTTAAAACCATTATCAGAACAAAATAAACCATTTTTTGTTAAGAATCAGAGCATAGTAAACAACAGAAACAACCTAAGAGAGGTAACTTGTCCAAGAAGATAGCTAATTATATCTATTTTATAAAAGTTATCATAGTTTGTAAGTCACAAAAGATGCAAATAACAGAGAAACTAGGAGACTTGAGAATATACATTCTTGTATATTTGTATTCGAGATTGTGAAAATTTGACCATAAGTTTAAATTCTTAAAAAGATATATCTGATCTAGATGATGGTTATAGACTGTAATTTTACCACATGTTTAATGATGGATAGTGACACACATGACACATCGACAACACTATAGCATCTTATTTAGATTACAACATGAAATTTTTCTGTAATACATGTCTTTGTACATAATTTAAAAGTAATTCCTAAGAAATATATTTATACAAGGAGTTTAAAGAAAACATAGCATAAAGTTCAATGAGTAGTAAAAACCATATACAGTATATAGCATAAAGTTCAATGAGTTTATTACAAAAGCATTGGTTCACTTTCTGTAACACGACGTTAAACCTTCGTGTCCAATAGGAGCGCTACTGATTCAACATGCCAATATATACTAAATACGTTTCTACAGTCAAATGCTTTAACGTTTCATGATTAAGTGACTATTTACCGTCAATCCTTTCCCATTCCTCCCACTAATCCAACTTTTTAATTACTCTTAAATCACCACTAAGCTAGTAACGCCTATCATGAATTAGCTCTACTAAATCTAGCAACCTTTCAAATTTGCAGTATTGCAGGTGTCTCTGTGTCTTTAAAATAGTTGCCTTATGATTTCTTCGGTTTCAAGATGATCAAATAGTTATAGATTTCATGCTCACACATGCTCATTAGATGTGTACATACTTTACTTACCCAAATCTATTTTCTCGCAAAGATTTTGATGGTAAAGCTGATTTGGTTCTATTGAACTAAATCAAACGAGTTTCAGACTGAGTGATTCTAATCCGGCCCATTAGCCCCTAAACAGACCCACTAATTACGCAGCTTTTAATAGAGTAATTACACCTAGTTTACCCACTAAACCACTAAGCACTAATTATCTCACAATCTAATGAGCTTCCCTCGTAATTACTTGGGCTTTCACTCTACCATTTATTTGTAACAGTCAAGTCTCTACTGTCTCTATATAAACTCTCTAAAGTTAACACACAATTCTCATCACAAACAAATCAACCAAAGCAACTTCTACTCTTTCTTCTTTCGACCTTATCAATCTGTTGAGAAATG",
+      "length": 1350,
+      "sequence_sha256": "b6d85864742b9d5f42a2508a075201834b6e3aea27b5c330b4a26f0ac4418b0c",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; B12_pAGM28521_[Pro+5U]_egg cell fusion promoter.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_FEATURE [2137:3487](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "EC1.1.2",
+        "egg cell fusion promoter"
+      ],
+      "role": "promoter",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B12_pAGM28521_[Pro+5U]_egg cell fusion promoter.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-003",
+      "canonical_name": "Arabidopsis DD45 promoter fragment (pJOG301)",
+      "sequence": "AATGGTTATAATATATAGCTTTCTATGAATGTATGGTGAGAAAATGTCTGTTCACTGATTTTGAGTTTGGAATAAAAGCATTTGCGTTTGGTTTATCATTGCGTTTATACAAGGACAGAGATCCACTGAGCTGGAATAGCTTAAAACCATTATCAGAACAAAATAAACCATTTTTTGTTAAGAATCAGAGCATAGTAAACAACAGAAACAACCTAAGAGAGGTAACTTGTCCAAGAAGATAGCTAATTATATCTATTTTATAAAAGTTATCATAGTTTGTAAGTCACAAAAGATGCAAATAACAGAGAAACTAGGAGACTTGAGAATATACATTCTTGTATATTTGTATTCGAGATTGTGAAAATTTGACCATAAGTTTAAATTCTTAAAAAGATATATCTGATCTAGATGATGGTTATAGACTGTAATTTTACCACATGTTTAATGATGGATAGTGACACACATGACACATCGACAACACTATAGCATCTTATTTAGATTACAACATGAAATTTTTCTGTAATACATGTCTTTGTACATAATTTAAAAGTAATTCCTAAGAAATATATTTATACAAGGAGTTTAAAGAAAACATAGCATAAAGTTCAATGAGTAGTAAAAACCATATACAGTATATAGCATAAAGTTCAATGAGTTTATTACAAAAGCATTGGTTCACTTTCTGTAACACGACGTTAAACCTTCGTCTCCAATAGGAGCGCTACTGATTCAACATGCCAATATATACTAAATACGTTTCTACAGTCAAATGCTTTAACGTTTCATGATTAAGTGACTATTTACCGTCAATCCTTTCCCATTCCTCCCACTAATCCAACTTTTTAATTACTCTTAAATCACCACTAAGCTTCGAATCCATCCAAAACCACAATATAAAAACAGAACTCTCGTAACTCAATCATCGCAAAACAAAACAAAACAAAACAAAAACCCCAAAAAGAAAGAATA",
+      "length": 969,
+      "sequence_sha256": "525b62aa18a877ca684ad6b58c4dd7fd33ba5d0605600df56f24a6fdd89023fc",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; B11_pJOG301_[Pro+5U] DD45 AT2G21740.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_FEATURE [2235:3204](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "pDD45",
+        "At2g21740 promoter"
+      ],
+      "role": "promoter",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; B11_pJOG301_[Pro+5U] DD45 AT2G21740.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-EXT-R1-025",
+      "canonical_name": "Capsicum annuum Bs3 response promoter module (pJOG535)",
+      "sequence": "CAGCATTAAGGCACATCAGAGATTTTTTGGGTGTTAAGTTTGTCATGAAACCTGATGCCTCCACAGGAACTGTCAATCTCATGTGTCTTGGCTCTGGTTTTCAGAATTTATCCAGAAAAGTATCATGATAAATTAATGGTGTCTGTGTTTGGTGGCTTAGAGTGACGGCTAGATCAACATCTTTGGGATGCCTTGTGGAGTGAAATCAAGCATACTTTATCATAGGCGAAATTTTTTGTTGTGGTTTGCTGCTTGTAATGAGAGAGTGATATAGGAAGCAAATGTGGAGATCACATTTGCTCATCTCCTTGTTGCGTTGAAACTTTTGGTGTCAAGAGTTCTAATTCACATGTATTTGAAGATTCCTCATATGCTGCTTTTGTTTCTAATTATTTTTTCTAGTAAGAAAACATTTGTTCCTGAGTTTCCAACTAGAAAAAAATATCAAGTAAAATAGAATTCAATCATTTCCCTTACCAACGCTTGGTACTGCCAACCGCAACAAAGAATTAATGCAAAACAACAGTCTATTAATATCAACCTAGACTAAACTCCTTAGTTTTACTTTGAAATGCGAATGATACATGACACATTAGATTGTACTTGCTTTTTACCACAGATACAACGATACATTTGTATATCTTTTCCCTTATAGCAAACTCTAATATATCATAGTCAAGCTAACGAAACTTATGCAAGGGAAATATGAAATTAGTATGCAAGTAAACTCAAAGAACTAATCATTGAACTGAAAGATCAATATATCAAAAAAAAAAAAAAACAATAAAACCGTTTAACCGATAGATTAACCATTTCTGGTTCAGTTTATGGGTTAAACCACAATTTGCACACCCTGGTTAAACAATGAACACGTTTGCCTGACCAATTTTATTATATAAACCTAACCATCCTCACAACTTCAAGTTATCATCCCCTTTCTCTTTTCTCCTCTTGTTCTTGTCACCCGCTAAATCTATCAAAACACAAGTAGTCCTAGTTGCACATATATTTA",
+      "length": 1012,
+      "sequence_sha256": "b96f141836336bd18f9533c43f3be4188967cd4896ecb5a6f9454597ce8c7c15",
+      "source_artifact": "PLOS ONE S1 File ZIP, article supplementary record https://doi.org/10.1371/journal.pone.0197185.s005; E4_pJOG535_[Pro+5U]_CaBs3.gbk",
+      "source_artifact_sha256": "157723f8f9a7be37a95511272cf2d50be936de75d76d2b8588f8b97a50533918",
+      "exact_boundary": "EXACT_ANNOTATED_PROMOTER_FEATURE [538:1550](+); zero ambiguous bases",
+      "orientation": "+",
+      "attribution_requirement": "Credit Gantner et al.; cite PLOS ONE DOI 10.1371/journal.pone.0197185; retain the exact S1 filename and feature record; link CC BY 4.0; identify modifications.",
+      "license_rights_source": "PLOS article/S1 CC BY 4.0; DOI 10.1371/journal.pone.0197185",
+      "rights_state": "SUPPORTED_WITH_ATTRIBUTION_AND_THIRD_PARTY_EXCEPTION_CHECK",
+      "evidence_path": "docs/qa/component_library_v2_acquisition_r1_independent_review/V2_DIRECT_USE_RIGHTS_AUDIT_R1.json",
+      "aliases": [
+        "pBs3",
+        "CaBs3 promoter"
+      ],
+      "role": "enhancer_regulatory_element",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "ACQUISITION_R1_NEW",
+      "legacy_component_ids": [],
+      "source_citation": {
+        "source_record": "DOI 10.1371/journal.pone.0197185; S1 File; E4_pJOG535_[Pro+5U]_CaBs3.gbk",
+        "primary_citation": "Gantner et al. PLOS ONE 13:e0197185 (2018).",
+        "doi": "10.1371/journal.pone.0197185",
+        "pmid": "29847550"
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    },
+    {
+      "canonical_v2_component_id": "V2-CMP-138",
+      "canonical_name": "Tomato E8 promoter (2164 bp feature)",
+      "sequence": "AAGCTTTCCCTAATGATATTGTTCATGTAATTAAGTTTTGTGGAAGTGAGAGAGTCCAATTTTGATAAGAAAAGAGTCAGAAAACGTAATATTTTAAAAGTCTAAATCTTTCTACAAATAAGAGCAAATTTATTTATTTTTTAATCCAATAAATATTAATGGAGGACAAATTCAATTCACTTGGTTGTAAAATAAACTTAAACCAATAACCAAAGAACTAATAAATCCTGAAGTGGAATTATTAAGGATAAATGTACATAGACAATGAAGAAATAATAGGTTCGATGAATTAATAATAATTAAGGATGTTACAATCATCATGTGCCAAGTATATACACAATATTCTATGGGATTTATAATTTCGTTACTTCACTTAACTTTTGCGTAAATAAAACGAATTATCTGATATTTTATAATAAAACAGTTAATTAAGAACCATCATTTTTAACAACATAGATATATTATTTCTAATAGTTTAATGATACTTTTAAATCTTTTAAATTTTATGTTTCTTTTAGAAAATAAAAATTCAAAAAATTAAATATATTTACAAAAACTACAATCAAACACAACTTCATATATTAAAAGCAAAATATATTTTGAAAATTTCAAGTGTCCTAACAAATAAGACAAGAGGAAAATGTACGATGAGAGACATAAAGAGAACTAATAATTGAGGAGTCCTATAATATATAATAAAGTTTATTAGTAAACTTAATTATTAAGGACTCCTAAAATATATGATAGGAGAAAATGAATGGTGAGAGATATTGGAAAACTTAATAATTAAGGATTTTAAAATATATGGTAAAAGATAGGCAAAGTATCCATTATCCCCTTTTAACTTGAAGTCTACTAGGCGCATGTGAAAGTTGATTTTTTGTCACGTCATATAGCTATAACGTAAAAAAAGAAAGTAAAATTTTTAATTTTTTTTAATATATGACATATTTTAAACGAAATATAGGACAAAATGTAAATGAATAGTAAAGGAAACAAAGATTAATACTTACTTTGTAAGAATTTAAGATAAATTTAAAATTTAATAGATCAACTTTACGTCTAGAAAGACCCTATCTTAGAAGGAATTTCAGAAATCGGCCCTTTTTCAAAAATAACTTTTAAATAATGAATTTTAAATTTTAAGAAATAATTTCCAATGAATAAATGACATGTAGCATTTTACCTAAATATTTCAACTATTTTAATCCAATATTAATTTGTTTATTCCCAACAATAGAAAGTCTTGTGCAGACATTTAATCTGACTTTTCCAGTACTAAATATTAATTTTCTGAAGATTTTCGGGTTTAGTCCACAAGTTTTAGTGAGAAGTTTTGCTCAAAATTTTAGGTGAGAAGGTTTGATATTTATCTTTTGTTAAATTAATTTATCTAGGTGACTATTATTTATTTAAGTAGAAATTCATATCATTACTTTTGCCAACTTGTAGTCATAATAGGAGTAGGTGTATATGATGAAGGAATAAACAAGTTCAGTGAAGTGATTAAAATAAAATATAATTTAGGTGTACATCAAATAAAAACCTTAAAGTTTAGAAAGGCACCGAATAATTTTGCATAGAAGATATTAGTAAATTTATAAAAATAAAAGAAATGTAGTTGTCAAGTTGTCTTCTTTTTTTTGGATAAAAATAGCAGTTGGCTTATGTCATTCTTTTACAACCTCCATGCCACTTGTCCAATTGTTGACACTTAACTAATTAGTTTGATTCATGTATGAATACTAAATAATTTTTTAGGACTGACTCAAATATTTTTATATTATCATAGTAATATTTATCTAATTTTTAGGACCACTTATTACTAAATAATAAATTAACTACTACTATATTATTGTTGTGAAACAACAACGTTTTGGTTGTTATGATGAAACGTACACTATATCAGTATGAAAAATTCAAAACGATTAGTATAAATTATATTGAAAATTTGATATTTTTCTATTCTTAATCAGACGTATTGGGTTTCATATTTTAAAAAGGGACTAAACTTAGAAGAGAAGTTTGTTTGAAACTACTTTTGTCTCTTTCTTGTTCCCATTTCTCTCTTAGATTTCAAAAAGTGAACTACTTTATCTCTTTCTTTGTTCACATTTTATTTTATTCTATTATAAATATGGCATCCTCATATTGAGATTTTTAG",
+      "length": 2164,
+      "sequence_sha256": "ee18d306f8a4cddfe4cb0f7822500127641a188b4b475e3890a4a62e72add427",
+      "source_artifact": "data/plant_component_registry_v1/source_records/KJ561284.1.gb",
+      "source_artifact_sha256": "010afc851758dfbde711ac156102cfd22993bb4a47df870d4040c1cce50e5089",
+      "exact_boundary": {
+        "method": "GenBank regulatory feature coordinates",
+        "feature_type": "regulatory",
+        "feature_label": "E8 tomato fruit specific promoter",
+        "strand": "+",
+        "start_one_based": 1,
+        "end_one_based_inclusive": 2164,
+        "crosses_origin": false,
+        "reverse_complemented": false,
+        "extraction": "zero-based half-open slice from parsed GenBank record"
+      },
+      "orientation": "+",
+      "attribution_requirement": "Sequence provenance: NCBI GenBank / INSDC, accession and version shown above. INSDC database policy supports access and redistribution of database records. NCBI does not receive submitter rights and cannot grant unrestricted third-party permission. This attribution is not a legal clearance, freedom-to-operate conclusion, biological performance conclusion, or formal product-admission record.",
+      "license_rights_source": "docs/qa/component_library_v1_full_evidence_completion/phase_b2b/COMPONENT_LIBRARY_V1_B2B_ATTRIBUTION_CONTRACT.md; https://www.ncbi.nlm.nih.gov/home/about/policies/",
+      "rights_state": "RIGHTS_CLEAR_FOR_CURRENT_USE",
+      "evidence_path": "data/plant_component_registry_v1/registry.batch1.json",
+      "aliases": [
+        "E8",
+        "SlE8"
+      ],
+      "role": "promoter",
+      "admission_mode": "DIRECT_USE",
+      "evidence_origin": "LEGACY_V1",
+      "legacy_component_ids": [
+        "PCLV1-PRO-E8-2164"
+      ],
+      "source_citation": {
+        "source_record": "data/plant_component_registry_v1/source_records/KJ561284.1.gb",
+        "primary_citation": "NCBI GenBank KJ561284.1; Hong et al. direct submission (2014); Deikman and Fischer, EMBO J. 7, 3315-3320 (1988)",
+        "doi": null,
+        "pmid": null
+      },
+      "independent_review_status": "DIRECT_USE_CONFIRMED",
+      "asset_integrity_reference_complete": true
+    }
+  ]
+}

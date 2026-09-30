@@ -1,0 +1,42 @@
+{
+  "components": {
+    "TU1": {
+      "unit_name": "DUAL_UNIT_ALPHA",
+      "promoter": {"display_name": "PROMOTER_ALPHA", "sequence": "AACCGGTT"},
+      "cds": {"display_name": "CDS_ALPHA", "sequence": "ATGGCTGCTTAA"},
+      "terminator": {"display_name": "TERMINATOR_ALPHA", "sequence": "TTGCAACC"}
+    },
+    "TU2": {
+      "unit_name": "DUAL_UNIT_BETA",
+      "promoter": {"display_name": "PROMOTER_BETA", "sequence": "GGTTAACC"},
+      "cds": {"display_name": "CDS_BETA", "sequence": "ATGAAACCCGGGTAG"},
+      "terminator": {"display_name": "TERMINATOR_BETA", "sequence": "CCGGTTAA"}
+    }
+  },
+  "backbone": {
+    "sequence": "ACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGTACGT",
+    "features": [
+      {"label": "ORI_LEFT", "type": "rep_origin", "start": 2, "end": 10, "strand": 1},
+      {"label": "NEG_MARKER", "type": "misc_feature", "start": 70, "end": 82, "strand": -1},
+      {
+        "label": "CROSS_ORIGIN",
+        "type": "misc_feature",
+        "strand": -1,
+        "parts": [
+          {"start": 1, "end": 5},
+          {"start": 111, "end": 120}
+        ]
+      }
+    ]
+  },
+  "cases": [
+    {"case_id": "case_01_forward_forward", "orientations": {"TU1": "forward", "TU2": "forward"}, "unit_order": ["TU1", "TU2"], "mode": "insertion", "start": 40, "end": 41},
+    {"case_id": "case_02_forward_reverse", "orientations": {"TU1": "forward", "TU2": "reverse"}, "unit_order": ["TU1", "TU2"], "mode": "insertion", "start": 40, "end": 41},
+    {"case_id": "case_03_reverse_forward", "orientations": {"TU1": "reverse", "TU2": "forward"}, "unit_order": ["TU1", "TU2"], "mode": "insertion", "start": 40, "end": 41},
+    {"case_id": "case_04_reverse_reverse", "orientations": {"TU1": "reverse", "TU2": "reverse"}, "unit_order": ["TU1", "TU2"], "mode": "insertion", "start": 40, "end": 41},
+    {"case_id": "case_05_tu1_then_tu2", "orientations": {"TU1": "forward", "TU2": "forward"}, "unit_order": ["TU1", "TU2"], "mode": "insertion", "start": 64, "end": 65},
+    {"case_id": "case_06_tu2_then_tu1", "orientations": {"TU1": "forward", "TU2": "forward"}, "unit_order": ["TU2", "TU1"], "mode": "insertion", "start": 64, "end": 65},
+    {"case_id": "case_07_circular_boundary_insertion", "orientations": {"TU1": "forward", "TU2": "reverse"}, "unit_order": ["TU1", "TU2"], "mode": "insertion", "start": 120, "end": 1},
+    {"case_id": "case_08_replacement_compound_location", "orientations": {"TU1": "reverse", "TU2": "forward"}, "unit_order": ["TU2", "TU1"], "mode": "replacement", "start": 45, "end": 50}
+  ]
+}

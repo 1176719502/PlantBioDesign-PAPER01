@@ -1,0 +1,25 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://biodesign-studio.local/schemas/real-case-contracts-v1/mt02.json",
+  "title":"MT-02 real-case data contracts",
+  "oneOf":[
+    {"$ref":"#/$defs/case_manifest"},
+    {"$ref":"#/$defs/source_contract"},
+    {"$ref":"#/$defs/extraction_contract"},
+    {"$ref":"#/$defs/component_contract"},
+    {"$ref":"#/$defs/feature_contract"},
+    {"$ref":"#/$defs/expected_hashes"},
+    {"$ref":"#/$defs/redistribution_contract"}
+  ],
+  "$defs":{
+    "sha256":{"type":"string","pattern":"^[0-9a-f]{64}$"},
+    "header":{"type":"object","required":["$schema","schema_version","contract_version","contract_type","case_id"],"properties":{"$schema":{"const":"contracts.schema.json"},"schema_version":{"const":"real-case-contracts-v1"},"contract_version":{"const":"1.0.0"},"contract_type":{"type":"string"},"case_id":{"const":"MT-02"}}},
+    "case_manifest":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["route","result_kind","construct_name","paper","source","product_result","qualification_classification","classification","facts","deterministic_derivations","inferences","unknowns","formal_limitations","next_stage_status","status"],"properties":{"contract_type":{"const":"case_manifest"},"route":{"const":"generic_multi_tu"},"result_kind":{"const":"MULTI_TU_EXPRESSION_ASSEMBLY"},"construct_name":{"const":"pDOE-13"},"qualification_classification":{"const":"CONFIRMED_3_TU"},"classification":{"const":"QUALIFIED_DETERMINISTIC_REGION_STANDARD"},"status":{"const":"MT02_DATA_CONTRACT_PENDING_FULL_PYTEST_GATE"}}}]},
+    "source_contract":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["source_provider","accession_version","record_id","retrieval","expected_response","parsed_record","version_evidence","failure_behavior"],"properties":{"contract_type":{"const":"source_contract"},"accession_version":{"const":"KM507054.1"},"record_id":{"const":"KM507054.1"}}}]},
+    "extraction_contract":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["coordinate_systems","extraction","transcription_units","junctions","reconstruction_proofs","runtime_model_assessment"],"properties":{"contract_type":{"const":"extraction_contract"},"transcription_units":{"type":"array","minItems":3,"maxItems":3},"junctions":{"type":"array","minItems":8,"maxItems":8}}}]},
+    "component_contract":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["case_evidence_class","components","unannotated_intervals","atomic_partition_algorithm","atomic_partition"],"properties":{"contract_type":{"const":"component_contract"},"components":{"type":"array","minItems":9,"maxItems":9},"unannotated_intervals":{"type":"array","minItems":4,"maxItems":4},"atomic_partition":{"type":"array","minItems":40,"maxItems":40}}}]},
+    "feature_contract":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["feature_policy","source_feature_assertions","derived_expected_features","expected_feature_count","expected_feature_membership_rule","expected_pairwise_source_feature_overlap_count","overlap_derivation_rule","forbidden_feature_classes"],"properties":{"contract_type":{"const":"feature_contract"},"source_feature_assertions":{"type":"array","minItems":33,"maxItems":33},"derived_expected_features":{"type":"array","minItems":17,"maxItems":17},"expected_feature_count":{"const":50},"expected_pairwise_source_feature_overlap_count":{"const":30}}}]},
+    "expected_hashes":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["raw_source_file_sha256","source_sequence_sha256","canonical_sequence_sha256","transcription_units","components","unannotated_intervals","drift_detection","protected_resource_tree_hashes"],"properties":{"contract_type":{"const":"expected_hashes"},"raw_source_file_sha256":{"$ref":"#/$defs/sha256"},"source_sequence_sha256":{"$ref":"#/$defs/sha256"},"canonical_sequence_sha256":{"$ref":"#/$defs/sha256"}}}]},
+    "redistribution_contract":{"allOf":[{"$ref":"#/$defs/header"},{"type":"object","required":["redistribution_status","repository_policy","runtime_distribution","legal_limitations","reproduction"],"properties":{"contract_type":{"const":"redistribution_contract"},"redistribution_status":{"const":"ACCESSION_AND_REPRODUCIBLE_EXTRACTION_ONLY"}}}]}
+  }
+}

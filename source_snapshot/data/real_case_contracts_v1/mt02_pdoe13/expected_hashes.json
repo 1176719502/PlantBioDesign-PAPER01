@@ -1,0 +1,56 @@
+{
+  "$schema": "contracts.schema.json",
+  "schema_version": "real-case-contracts-v1",
+  "contract_version": "1.0.0",
+  "contract_type": "expected_hashes",
+  "case_id": "MT-02",
+  "raw_source_file_sha256": "703b7b2646f3ef5e507c926bf2e0a3c6a7422c9917affc3335c84496b75f74ac",
+  "source_sequence_sha256": "92e57f49a0986ad749dd2ccdca3051f6101be1bf917bff6e8492135e3ea2d6cc",
+  "canonical_sequence_sha256": "ec86af6644082317a79dd938d6e70a0011b5d0f784f21da61fac55df4f43f8d2",
+  "transcription_units": {
+    "TU1_physical": "91edf29458ac19efe37c681a9bd2bc05d9ef7cf4fbfc2c1cfd2663affcc13f47",
+    "TU1_runtime_input": "cfb18ff482d20b536ed2acbdb5966cad0d25f48f38f1c55993db9ee0db45fcdb",
+    "TU2_physical": "9b2c89640bacc02aed021a5c69a923e4a7982cebbf74c4154808657abdadff97",
+    "TU2_runtime_input": "9b2c89640bacc02aed021a5c69a923e4a7982cebbf74c4154808657abdadff97",
+    "TU3_physical": "85c98cdf4a0def6853506b7f869ba0d99d6ec797bdcca72519f367b28a1bfa0d",
+    "TU3_runtime_input": "85c98cdf4a0def6853506b7f869ba0d99d6ec797bdcca72519f367b28a1bfa0d"
+  },
+  "components": {
+    "MT-02-TU1-THREE-PRIME": {"physical":"274baac516b09c5cd0c92b31a4ea4759a4e885efb39af4bd0d5ec3a9332adc68","ui_input":"7b3936450325cefdcaa655231628e1882395b6925dcb927f01efbe5f8c1c611c"},
+    "MT-02-TU1-CDS": {"physical":"21c2389e8b7b62662f44a6b84a39d5943c943d8f9cdb0a02bc21e4b886b54f48","ui_input":"4f62ee7cb1d47ac766db25f8ede0c6c3c8b504f90f3f1be4460cbf9601667274"},
+    "MT-02-TU1-PROMOTER-SIDE": {"physical":"8cf39d097ba14c92c8a7909c4ced341221e2df307e41113af4580aaeff07d7f4","ui_input":"f985daf85c2dbd019f175637388bbb18f08cc5480f5de0204638b4db96e41602"},
+    "MT-02-TU2-PROMOTER-SIDE": {"physical":"3c526086d027c936588670540f88f135aac3888b4c31699b1939e22a93846db6","ui_input":"3c526086d027c936588670540f88f135aac3888b4c31699b1939e22a93846db6"},
+    "MT-02-TU2-CDS": {"physical":"b257658ebdcc56ca5aa673b54e9db2da171ee0bbc45efbe2626fdca2cc2c962f","ui_input":"b257658ebdcc56ca5aa673b54e9db2da171ee0bbc45efbe2626fdca2cc2c962f"},
+    "MT-02-TU2-THREE-PRIME": {"physical":"0980b5b88cf7e9b5bf833bfce2b80a7ecc7a06159a6ae53f81001d6bb71900ad","ui_input":"0980b5b88cf7e9b5bf833bfce2b80a7ecc7a06159a6ae53f81001d6bb71900ad"},
+    "MT-02-TU3-PROMOTER-SIDE": {"physical":"09ad576a4e5a16dee90c7fb932f05958b25a3dd870dabde328ac29d06109376c","ui_input":"09ad576a4e5a16dee90c7fb932f05958b25a3dd870dabde328ac29d06109376c"},
+    "MT-02-TU3-CDS": {"physical":"fb93ab62ca36d26a1ca3cea5262cab63099b8a64816ce20b5827788e1e578796","ui_input":"fb93ab62ca36d26a1ca3cea5262cab63099b8a64816ce20b5827788e1e578796"},
+    "MT-02-TU3-THREE-PRIME": {"physical":"644dbfa00e4ed419e16112c6ddfcd6931b831b66e88562c55bd0cef6cfa39406","ui_input":"644dbfa00e4ed419e16112c6ddfcd6931b831b66e88562c55bd0cef6cfa39406"}
+  },
+  "unannotated_intervals": {
+    "MT-02-U01":"317c850e18195ee387d146b71528ee3cc990b38b6eee7f35c4f8ccfc6f6e5f4e",
+    "MT-02-U02":"75dfc0d7b38717b3d685e46f24d21e2502a4d6ba90c7f06a26e8cad6a778e2f3",
+    "MT-02-U03":"333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3",
+    "MT-02-U04":"333e0a1e27815d0ceee55c473fe3dc93d56c63e3bee2b3b4aee8eed6d70191a3"
+  },
+  "drift_detection": {
+    "exact_accession_version":"KM507054.1",
+    "source_length_bp":13268,
+    "source_topology":"circular",
+    "source_feature_count":43,
+    "selected_source_feature_count":33,
+    "expected_feature_count":50,
+    "pairwise_source_feature_overlap_count":30,
+    "atomic_interval_count":40,
+    "junction_count":8,
+    "canonical_length_bp":6609,
+    "canonical_topology":"linear",
+    "contains_vector":false,
+    "tu_count":3,
+    "orientations":["reverse","forward","forward"]
+  },
+  "protected_resource_tree_hashes": {
+    "data/plant_component_registry_v1":"e05de0d1d49553b71ef8c0634b2c681068a560d8b4b6fa2c94871c7dda06e6a3",
+    "data/vector_asset_contracts_v1":"c8515fb4319878b9b8632b15980147bf5c31c811b62d147c4c3dafec2c894ea3",
+    "data/real_case_contracts_v1/mt01_pgrdl_sp":"85537c32e8d41b7d7ac0f2f2debd14a6c38b8a3b016a65003b74339c3d24ec04"
+  }
+}
