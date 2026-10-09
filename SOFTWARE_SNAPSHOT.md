@@ -29,9 +29,14 @@ This publication bundle distinguishes three separate Git identities. They are no
    - tree: `ee02bffe24c213aa3a9210a66bdd45249ef283c6`
    - tag: `paper-01-submission-package-r2.1-20260930`
 
-3. **Future GitHub publication repository commit**
+3. **Public repository snapshot reviewed on 2026-10-09**
+
+   - repository: `1176719502/PlantBioDesign-PAPER01`
+   - distribution commit: `b2696fd618c087fb0fd6b92bc6b78e8e71785dc7`
 
 > The Git commit created in the dedicated public `PlantBioDesign-PAPER01` distribution repository is a publication/distribution commit only. It is not the original frozen software-authority commit and is not the adopted submission-package commit.
 
 The dedicated public `PlantBioDesign-PAPER01` distribution repository contains an audited distribution-safe snapshot derived from the frozen software authority and the adopted submission-package authority identified above. Its publication/distribution commit records assembly of that snapshot for public distribution only; it does not reproduce, replace, or claim Git-history continuity or equivalence with either authority commit.
 <!-- END PAPER01 R2.1 AUTHORITY CLARIFICATION -->
+
+Documentation note (2026-10-09): the public repository contains a publication distribution snapshot. The distribution commit above identifies the snapshot read for this documentation revision. Original software/package provenance and historical source-audit records are retained; this revision changes documentation only.
